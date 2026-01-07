@@ -1,29 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git -C /Users/wonny/Documents/woo/animals log --oneline --all)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals show fe12adc --name-status)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals show 79349f4 --name-status)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals ls-tree:*)",
-      "Bash(cat:*)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals remote:*)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals status)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals branch -a)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals show HEAD:README.md)",
-      "Bash(pip install:*)",
-      "Bash(python -c:*)",
+      "Bash(git:*)",
+      "Bash(python:*)",
       "Bash(python3:*)",
-      "Bash(pip3 install:*)",
+      "Bash(pip:*)",
+      "Bash(pip3:*)",
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
       "Bash(source:*)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals diff --stat)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals log --oneline -3)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals add -A)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals commit -m \"$\\(cat <<''EOF''\nfeat: Add Animal Shorts Agent System for Sora2 prompt generation\n\nComplete multi-agent system for creating emotional animal-related short videos:\n\n- Core agents: Input, Story, Scene, Prompt, Translation, Title, Confirm, Output\n- Pydantic data models for type-safe workflow\n- CLI interface with Rich library for interactive confirmation\n- Character consistency management across video prompts\n- Platform-specific title generation \\(YouTube, Instagram, TikTok\\)\n- YAML configuration for styles, templates, and validation rules\n- Mock test system for development without API key\n- Sample prompt generation \\(hedgehog family story with handheld POV style\\)\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git -C /Users/wonny/Documents/woo/animals push)",
-      "Bash(gh auth:*)",
-      "Bash(python -m pytest:*)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals commit -m \"$\\(cat <<''EOF''\nfeat: Complete Phase 1 & 2 - Core + Quality Enhancement\n\nPhase 1 \\(MVP\\):\n- Add utils/helpers.py with YAML loader, logging, file utilities\n- Add core/orchestrator.py for workflow control\n- Add core/state_manager.py for session/project persistence\n- Add system prompts \\(story, scene, sora2, translation, title\\)\n- Add test structure with 64 unit tests\n- Fix InputAgent normalization and OutputAgent methods\n\nPhase 2 \\(Quality Enhancement\\):\n- Add validation_agent.py: quality scoring, consistency checks\n- Add version_agent.py: A/B variations, version comparison\n- Add regen_agent.py: partial regeneration, element modification\n- Add library_manager.py: character CRUD, templates, best practices\n- Add style_manager.py: style presets, custom styles\n- Update ROADMAP.md with completion status\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
-      "Bash(git -C /Users/wonny/Documents/woo/animals commit -m \"$\\(cat <<''EOF''\nfeat: Complete Phase 3 - Advanced Features\n\nPhase 3 \\(Advanced Features\\):\n- Add compare_agent.py: side-by-side comparison, diff highlighting, merge\n- Add history_manager.py: change tracking, rollback, timeline viewer\n- Add exporter.py: JSON/Markdown/HTML\\(PDF\\)/Sora2/clipboard export\n- Update module exports and ROADMAP.md\n\nAll 3 phases now complete!\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(gh:*)",
+      "Edit",
+      "Write"
     ]
   }
 }

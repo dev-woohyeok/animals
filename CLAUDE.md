@@ -1,60 +1,73 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code when working with this repository.
 
 ## Project Overview
 
-**Animal Shorts Agent System** - 동물 관련 감동 쇼츠 영상 제작을 위한 AI 에이전트 시스템.
-사용자가 동물 키워드와 줄거리를 제공하면 Sora2에 최적화된 일관성 있는 영상 프롬프트를 자동 생성한다.
+**Animal Shorts Agent System** - 동물 관련 감동 쇼츠 영상 제작을 위한 Sora2 프롬프트 생성 시스템.
+Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 
-## Repository
+## 사용법
 
-- GitHub: https://github.com/dev-woohyeok/animals.git
-- Main branch: `main`
+```
+/animal-shorts [동물] / [상황] / [감정] / [결말]
+```
 
-## Tech Stack
-
-- **Language**: Python 3.11+
-- **AI**: Claude API (Anthropic)
-- **CLI**: Rich / Textual
-- **Data**: YAML / JSON
+### 예시
+```
+/animal-shorts 골든 리트리버 / 버려진 후 노인을 만남 / 감동, 따뜻함
+/animal-shorts 아기 고슴도치 / 골든리트리버가 입에 물고 옴 / 귀여움 / 가족이 됨
+```
 
 ## Project Structure
 
 ```
 animals/
-├── agents/           # 에이전트 모듈 (Input, Story, Scene, Prompt, etc.)
-├── core/             # 핵심 기능 (Orchestrator, State, History)
-├── library/          # 라이브러리 (캐릭터, 템플릿, 모범사례)
-├── config/           # 설정 (스타일 프리셋, 검증 규칙)
-├── prompts/          # 시스템 프롬프트
-├── projects/         # 생성된 프로젝트들
-├── docs/             # 문서 (PRD 등)
-└── main.py           # 메인 실행 파일
+├── .claude/commands/     # Claude Code 스킬
+│   ├── animal-shorts.md        # 메인 워크플로우
+│   ├── animal-shorts-story.md  # 스토리 생성
+│   ├── animal-shorts-scene.md  # 장면 분할
+│   ├── animal-shorts-prompt.md # Sora2 프롬프트
+│   ├── animal-shorts-title.md  # 제목 생성
+│   └── animal-shorts-export.md # 파일 출력
+│
+├── prompts/              # 시스템 프롬프트 (스킬에서 참조)
+│   ├── story_system.md
+│   ├── scene_system.md
+│   ├── sora2_system.md
+│   ├── translation_system.md
+│   └── title_system.md
+│
+├── library/              # 라이브러리
+│   ├── best_practices/   # Sora2 모범 사례
+│   └── templates/        # 스토리 템플릿
+│
+├── config/styles/        # 스타일 프리셋
+├── output/               # 출력 예시
+└── projects/             # 생성된 프로젝트 저장
 ```
 
-## Commands
+## 워크플로우
 
-```bash
-# 설치
-pip install -r requirements.txt
-
-# 실행
-python main.py
-
-# 테스트
-pytest tests/
+```
+/animal-shorts 입력
+    ↓
+Step 1: 입력 분석 → 확인
+    ↓
+Step 2: 스토리 생성 (5막) → 확인
+    ↓
+Step 3: 장면 분할 (6개+) → 확인
+    ↓
+Step 4: Sora2 프롬프트 생성 → 확인
+    ↓
+Step 5: 제목 생성 → 확인
+    ↓
+Step 6: 파일 저장 (projects/{slug}/prompts.md)
 ```
 
 ## Key Concepts
 
-1. **에이전트 체인**: Input → Story → Scene → Prompt → Translation → Output
-2. **일관성 관리**: 캐릭터/배경/스타일 정보가 모든 프롬프트에 포함
+1. **스킬 기반**: Claude Code 스킬로 워크플로우 실행
+2. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명 유지
 3. **단계별 확인**: 각 단계에서 사용자 확인 후 진행
-4. **라이브러리**: 재사용 가능한 캐릭터/템플릿 저장소
-
-## Development Notes
-
-- 모든 에이전트는 `agents/base.py`의 `BaseAgent` 클래스를 상속
-- 설정 파일은 YAML 형식 사용
-- 프로젝트 데이터는 `projects/{slug}/` 디렉토리에 저장
+4. **Home Video 스타일**: 1인칭 POV 핸드헬드 촬영 기본
