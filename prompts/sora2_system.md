@@ -57,6 +57,10 @@ Always end prompts with appropriate markers:
 - `Home video aesthetic, slightly grainy`
 - `Professional documentary style`
 
+## Audio Settings (Default)
+Always include at the end of each prompt:
+- `No background music, natural ambient sound only.`
+
 ## Style Variations
 
 ### Cinematic Realistic
