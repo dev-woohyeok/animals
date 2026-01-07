@@ -54,10 +54,17 @@ Always respond in JSON format only."""
             Structured InputData object
         """
         if isinstance(input_data, InputData):
-            return input_data
+            return self._normalize(input_data)
 
         if isinstance(input_data, dict):
-            return InputData(**input_data)
+            # Normalize string values
+            normalized = {}
+            for key, value in input_data.items():
+                if isinstance(value, str):
+                    normalized[key] = value.strip()
+                else:
+                    normalized[key] = value
+            return InputData(**normalized)
 
         # Parse string input
         raw_input = str(input_data)
@@ -109,6 +116,17 @@ Always respond in JSON format only."""
                 situation="감동적인 이야기",
                 emotions=["감동"],
             )
+
+    def _normalize(self, input_data: InputData) -> InputData:
+        """Normalize input data by stripping whitespace."""
+        return InputData(
+            animal=input_data.animal.strip() if input_data.animal else "",
+            situation=input_data.situation.strip() if input_data.situation else "",
+            emotions=[e.strip() for e in input_data.emotions],
+            ending=input_data.ending.strip() if input_data.ending else None,
+            template_id=input_data.template_id,
+            character_id=input_data.character_id,
+        )
 
     def validate(self, input_data: InputData) -> tuple[bool, list[str]]:
         """

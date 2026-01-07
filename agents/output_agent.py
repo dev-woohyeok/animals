@@ -132,8 +132,6 @@ class OutputAgent(BaseAgent[str]):
                 f"- **호기심형:** {project.titles.hooks.curiosity}",
                 f"- **결과형:** {project.titles.hooks.outcome}",
                 "",
-                f"**해시태그:** {' '.join(project.titles.hashtags)}",
-                "",
             ])
 
         # Prompts section

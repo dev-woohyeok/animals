@@ -17,7 +17,11 @@
       "Bash(source:*)",
       "Bash(git -C /Users/wonny/Documents/woo/animals diff --stat)",
       "Bash(git -C /Users/wonny/Documents/woo/animals log --oneline -3)",
-      "Bash(git -C /Users/wonny/Documents/woo/animals add -A)"
+      "Bash(git -C /Users/wonny/Documents/woo/animals add -A)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals commit -m \"$\\(cat <<''EOF''\nfeat: Add Animal Shorts Agent System for Sora2 prompt generation\n\nComplete multi-agent system for creating emotional animal-related short videos:\n\n- Core agents: Input, Story, Scene, Prompt, Translation, Title, Confirm, Output\n- Pydantic data models for type-safe workflow\n- CLI interface with Rich library for interactive confirmation\n- Character consistency management across video prompts\n- Platform-specific title generation \\(YouTube, Instagram, TikTok\\)\n- YAML configuration for styles, templates, and validation rules\n- Mock test system for development without API key\n- Sample prompt generation \\(hedgehog family story with handheld POV style\\)\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git -C /Users/wonny/Documents/woo/animals push)",
+      "Bash(gh auth:*)",
+      "Bash(python -m pytest:*)"
     ]
   }
 }
