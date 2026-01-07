@@ -17,6 +17,7 @@ from .state_manager import StateManager
 from .orchestrator import Orchestrator, WorkflowStep
 from .library_manager import LibraryManager
 from .style_manager import StyleManager, StylePreset
+from .history_manager import HistoryManager, HistoryEntry, ChangeType
 
 __all__ = [
     # Models
@@ -38,4 +39,8 @@ __all__ = [
     "LibraryManager",
     "StyleManager",
     "StylePreset",
+    # Phase 3
+    "HistoryManager",
+    "HistoryEntry",
+    "ChangeType",
 ]

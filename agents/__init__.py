@@ -15,6 +15,9 @@ from .validation_agent import ValidationAgent
 from .version_agent import VersionAgent, PromptVersion
 from .regen_agent import RegenAgent
 
+# Phase 3 agents
+from .compare_agent import CompareAgent, DiffType, DiffResult
+
 __all__ = [
     # Core agents
     "BaseAgent",
@@ -31,4 +34,8 @@ __all__ = [
     "VersionAgent",
     "PromptVersion",
     "RegenAgent",
+    # Phase 3 agents
+    "CompareAgent",
+    "DiffType",
+    "DiffResult",
 ]

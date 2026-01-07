@@ -89,24 +89,28 @@
 
 ---
 
-## Phase 3: 고급 기능 (Advanced Features)
+## Phase 3: 고급 기능 (Advanced Features) ✅ COMPLETED
 
-### 3.1 비교 기능
-- [ ] `agents/compare_agent.py` - 비교 뷰어
-- [ ] 나란히 비교 출력
-- [ ] 차이점 하이라이트
-- [ ] 병합 기능
+### 3.1 비교 기능 ✅
+- [x] `agents/compare_agent.py` - 비교 뷰어
+- [x] 나란히 비교 출력 (`format_side_by_side()`)
+- [x] 차이점 하이라이트 (`DiffResult`, `DiffType`)
+- [x] 병합 기능 (`merge_prompts()`, `suggest_merge()`)
 
-### 3.2 히스토리 관리
-- [ ] `core/history_manager.py`
-- [ ] 수정 이력 추적
-- [ ] 롤백 기능
-- [ ] 히스토리 뷰어
+### 3.2 히스토리 관리 ✅
+- [x] `core/history_manager.py`
+- [x] 수정 이력 추적 (`record_change()`, 편의 메서드들)
+- [x] 롤백 기능 (`rollback()`, `can_rollback()`)
+- [x] 히스토리 뷰어 (`format_timeline()`, `format_entry_detail()`)
 
-### 3.3 추가 출력 형식
-- [ ] JSON 내보내기
-- [ ] PDF 생성 (스토리보드 형식)
-- [ ] 클립보드 최적화 형식
+### 3.3 추가 출력 형식 ✅
+- [x] `utils/exporter.py` - 통합 내보내기 모듈
+- [x] JSON 내보내기 (`export_json()`, `export_prompts_json()`)
+- [x] PDF/HTML 생성 (`export_pdf_html()` - 스토리보드 형식)
+- [x] 클립보드 최적화 형식 (`get_clipboard_text()`)
+- [x] Markdown 내보내기 (`export_markdown()`)
+- [x] Sora2 전용 형식 (`export_sora2_ready()`)
+- [x] 스토리보드 형식 (`export_storyboard()`)
 
 ### 3.4 고급 TUI
 - [ ] Textual 기반 풀 TUI
@@ -135,17 +139,21 @@
    └── LibraryManager: 캐릭터/템플릿 CRUD, 검색
    └── StyleManager: 스타일 프리셋, 커스텀 스타일
 
-⏳ Phase 3: 고급 기능 - 대기 중
-   └── 비교 뷰어, 히스토리, PDF 출력 등
+✅ Phase 3: 고급 기능 - 완료!
+   └── CompareAgent: 나란히 비교, 차이점 하이라이트, 병합
+   └── HistoryManager: 수정 이력 추적, 롤백, 타임라인 뷰어
+   └── Exporter: JSON/Markdown/HTML(PDF)/Sora2/클립보드 출력
+
+⏳ 추가 기능 (Optional)
+   └── Textual 기반 풀 TUI
+   └── 프롬프트 캐싱 및 성능 최적화
 ```
 
 ---
 
 ## 다음 단계
 
-Phase 3 구현을 시작하려면:
-1. 비교 에이전트 (`compare_agent.py`)
-2. 히스토리 관리 (`history_manager.py`)
-3. PDF/추가 출력 형식
-
-순서대로 진행하시겠습니까?
+핵심 기능 구현 완료! 추가 가능한 기능:
+1. Textual 기반 풀 TUI (인터랙티브 편집)
+2. 프롬프트 캐싱 시스템
+3. API 호출 최적화 (병렬 처리)
