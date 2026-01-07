@@ -6,7 +6,7 @@
 
 > 겨울밤 개구멍으로 들어온 아기 늑대 두 마리가 허스키의 개집을 빼앗고, 점점 가족이 되어간다. 부모 늑대가 데려가며 허스키는 슬픔에 잠기지만, 1년 후 마당에서 하울링 소리가 울려 퍼진다.
 
-**Total Duration:** 100초 (7개 장면)
+**Total Duration:** 112초 (8개 장면)
 **Style:** First Person POV Handheld Home Video
 
 ---
@@ -153,9 +153,37 @@ First person POV handheld home video footage filmed by the owner. Time passage. 
 
 ---
 
-## Scene 5: Parents at the Window
+## Scene 5: Sleeping Together
 
-## 장면 5: 창밖의 부모
+## 장면 5: 함께 잠들다
+
+- **Duration:** 12s
+- **Phase:** 전환
+- **Emotion:** 평화, 따뜻함, 완전한 가족애
+- **Camera:** Slow push in → static hold
+- **Lighting:** Soft evening lamp light, warm amber tones
+
+### Caption / 자막
+> **EN:** "Now they slept together... as a real family."
+> **KO:** "이제 그들은 함께 잠들었다... 진짜 가족처럼."
+
+### Sora2 Prompt
+
+```
+First person POV handheld home video footage filmed by the owner. Evening, cozy living room with soft lamp lighting. Inside the large indoor dog house, a medium-sized Siberian Husky with thick gray and white fur, striking ice-blue eyes lies curled up peacefully. Two small white Arctic wolf pups with fluffy pure white fur, bright blue-gray eyes, small pointed ears, black button noses are snuggled tightly against the husky's belly and chest, all three sleeping soundly together. The wolf pups' tiny paws rest on the husky's fur. Gentle breathing movements visible. Camera slowly pushes in on the heartwarming cuddle pile, then holds static on the peaceful scene. Soft amber lamp light casting warm shadows. Serene peaceful family atmosphere. Home video aesthetic, intimate quiet moment. No background music, natural ambient sound only.
+```
+
+### 장면 설명
+
+```
+1인칭 POV 핸드헬드 홈비디오 (주인이 촬영). 저녁, 따뜻한 조명이 켜진 아늑한 거실. 큰 실내 개집 안에서 허스키가 편안하게 웅크리고 누워있다. 아기 늑대 두 마리가 허스키의 배와 가슴에 바짝 붙어 껴안고 있다. 셋이 함께 깊이 잠들어있다. 아기 늑대들의 작은 앞발이 허스키 털 위에 올려져 있다. 부드러운 숨소리와 함께 호흡하는 움직임이 보인다. 카메라가 따뜻한 포옹 장면을 천천히 클로즈업하다가 평화로운 장면에 멈춘다. 따뜻한 호박색 램프 조명. 평화롭고 고요한 가족 분위기.
+```
+
+---
+
+## Scene 6: Parents at the Window
+
+## 장면 6: 창밖의 부모
 
 - **Duration:** 15s
 - **Phase:** 해결
@@ -181,9 +209,9 @@ First person POV handheld home video footage filmed by the owner. Dusk, living r
 
 ---
 
-## Scene 6: Farewell
+## Scene 7: Farewell
 
-## 장면 6: 이별
+## 장면 7: 이별
 
 - **Duration:** 12s
 - **Phase:** 해결
@@ -209,9 +237,9 @@ First person POV handheld home video footage filmed by the owner. Overcast winte
 
 ---
 
-## Scene 7: The Return
+## Scene 8: The Return
 
-## 장면 7: 다시 찾아온 겨울
+## 장면 8: 다시 찾아온 겨울
 
 - **Duration:** 18s
 - **Phase:** 결말
@@ -285,7 +313,7 @@ First person POV handheld home video footage filmed by the owner. One year later
 ### Emotional Arc
 
 ```
-긴장/경계 (40) → 유머/황당 (60) → 따뜻함/우정 (80) → 슬픔/이별 (30) → 감동/재회 (100)
+긴장/경계 (40) → 유머/황당 (60) → 따뜻함/우정 (80) → 평화/가족 (90) → 슬픔/이별 (30) → 감동/재회 (100)
 ```
 
 ### Key Visual Themes
