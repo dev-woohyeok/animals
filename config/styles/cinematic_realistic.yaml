@@ -1,0 +1,39 @@
+# Style Preset: Cinematic Realistic
+
+id: cinematic_realistic
+name: "시네마틱 실사"
+description: "영화 같은 고퀄리티 실사 스타일"
+
+base_prompt:
+  style: "photorealistic, cinematic 4K quality"
+  rendering: "high detail, subtle film grain"
+  aspect_ratio: "16:9"
+
+camera_defaults:
+  movement: "smooth cinematic camera movement"
+  focus: "shallow depth of field with subtle bokeh"
+  stabilization: "steady, professional"
+
+lighting_defaults:
+  primary: "natural lighting with soft diffusion"
+  mood: "dramatic shadows with soft highlights"
+  quality: "golden hour warmth when appropriate"
+
+color_grading:
+  warm:
+    description: "따뜻한 감정 장면용"
+    values: "golden hour warmth, amber tones, soft contrast"
+  cold:
+    description: "슬프거나 외로운 장면용"
+    values: "blue-grey undertones, desaturated, high contrast"
+  neutral:
+    description: "일반 장면용"
+    values: "balanced color temperature, natural saturation"
+
+prompt_fragments:
+  quality: "photorealistic 4K cinematic quality, film grain"
+  atmosphere:
+    sad: "melancholic atmosphere, muted tones"
+    happy: "warm, vibrant atmosphere"
+    tense: "dramatic lighting, high contrast"
+    peaceful: "soft diffused light, gentle tones"

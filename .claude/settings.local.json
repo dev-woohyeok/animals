@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/wonny/Documents/woo/animals log --oneline --all)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals show fe12adc --name-status)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals show 79349f4 --name-status)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals ls-tree:*)",
+      "Bash(cat:*)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals remote:*)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals status)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals branch -a)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals show HEAD:README.md)",
+      "Bash(pip install:*)",
+      "Bash(python -c:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(source:*)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals diff --stat)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals log --oneline -3)",
+      "Bash(git -C /Users/wonny/Documents/woo/animals add -A)"
+    ]
+  }
+}
