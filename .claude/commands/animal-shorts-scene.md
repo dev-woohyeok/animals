@@ -21,11 +21,12 @@
 
 ### 장면 구성 요소
 1. **제목**: 한글 + 영문
-2. **설명**: 무엇이 일어나는지
-3. **동작**: 구체적인 움직임
-4. **감정**: 이 장면의 감정 톤
-5. **카메라**: 움직임, 앵글, 전환
-6. **조명**: 조명 설정 및 분위기
+2. **자막**: 쇼츠용 짧은 캡션 (영문 + 한글)
+3. **설명**: 무엇이 일어나는지
+4. **동작**: 구체적인 움직임
+5. **감정**: 이 장면의 감정 톤
+6. **카메라**: 움직임, 앵글, 전환
+7. **조명**: 조명 설정 및 분위기
 
 ---
 
@@ -36,6 +37,9 @@ scenes:
   - id: 1
     title: "특별한 발견"
     title_en: "A Special Discovery"
+    caption:
+      en: "One day, he brought home something unexpected..."
+      ko: "어느 날, 그가 예상치 못한 것을 데려왔다..."
     duration: 15
     description: "골든 리트리버가 아기 고슴도치를 조심스럽게 입에 물고 집으로 들어온다"
     action: "개가 천천히 걸어오며 입에 작은 고슴도치를 물고 있다"
@@ -53,6 +57,9 @@ scenes:
   - id: 2
     title: "첫 만남"
     title_en: "First Meeting"
+    caption:
+      en: "At first, she was so scared..."
+      ko: "처음엔, 너무 무서워했다..."
     duration: 12
     description: "..."
     action: "..."

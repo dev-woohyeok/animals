@@ -51,6 +51,10 @@ Two adult white wolves with sleek pure white fur, bright blue-gray eyes (same as
 - **Camera:** Handheld POV, shaky startled movement
 - **Lighting:** Warm indoor vs cold blue outside
 
+### Caption / 자막
+> **EN:** "One winter night, unexpected visitors arrived..."
+> **KO:** "어느 겨울밤, 예상치 못한 손님이 찾아왔다..."
+
 ### Sora2 Prompt
 
 ```
@@ -74,6 +78,10 @@ First person POV handheld home video footage filmed by the owner. A snowy winter
 - **Emotion:** 유머, 황당함, 코믹
 - **Camera:** Handheld tracking → static split composition
 - **Lighting:** Soft daylight from windows
+
+### Caption / 자막
+> **EN:** "They took over his bed."
+> **KO:** "그들은 그의 집을 빼앗았다."
 
 ### Sora2 Prompt
 
@@ -99,6 +107,10 @@ First person POV handheld home video footage filmed by the owner. Daytime, cozy 
 - **Camera:** Handheld following
 - **Lighting:** Soft indoor light
 
+### Caption / 자막
+> **EN:** "He tried to ignore them... but they wouldn't give up."
+> **KO:** "무시하려 했지만... 그들은 포기하지 않았다."
+
 ### Sora2 Prompt
 
 ```
@@ -122,6 +134,10 @@ First person POV handheld home video footage filmed by the owner. Indoor living 
 - **Emotion:** 따뜻함, 우정, 가족애
 - **Camera:** Handheld → slow dolly out
 - **Lighting:** Golden hour warm light
+
+### Caption / 자막
+> **EN:** "Slowly, they became family."
+> **KO:** "어느새, 그들은 가족이 되어있었다."
 
 ### Sora2 Prompt
 
@@ -147,6 +163,10 @@ First person POV handheld home video footage filmed by the owner. Time passage. 
 - **Camera:** Slow dolly in
 - **Lighting:** Backlit, blue hour
 
+### Caption / 자막
+> **EN:** "Until one day... their real family came."
+> **KO:** "그러던 어느 날... 진짜 가족이 찾아왔다."
+
 ### Sora2 Prompt
 
 ```
@@ -171,6 +191,10 @@ First person POV handheld home video footage filmed by the owner. Dusk, living r
 - **Camera:** Static → slow dolly out
 - **Lighting:** Overcast, muted colors
 
+### Caption / 자막
+> **EN:** "He watched them leave... alone again."
+> **KO:** "그는 떠나는 그들을 바라봤다... 다시 혼자가 되어."
+
 ### Sora2 Prompt
 
 ```
@@ -194,6 +218,10 @@ First person POV handheld home video footage filmed by the owner. Overcast winte
 - **Emotion:** 감동, 재회, 행복, 완전함
 - **Camera:** Crane up → handheld joyful tracking
 - **Lighting:** Bright winter sunlight, snow reflection
+
+### Caption / 자막
+> **EN:** "One year later... they came back for him."
+> **KO:** "1년 후... 그들은 그를 찾아왔다."
 
 ### Sora2 Prompt
 

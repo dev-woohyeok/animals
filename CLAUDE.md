@@ -71,3 +71,20 @@ Step 6: 파일 저장 (projects/{slug}/prompts.md)
 2. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명 유지
 3. **단계별 확인**: 각 단계에서 사용자 확인 후 진행
 4. **Home Video 스타일**: 1인칭 POV 핸드헬드 촬영 기본
+5. **배경음악 없음**: 모든 프롬프트에 "No background music, natural ambient sound only" 포함
+6. **자막 포함**: 각 장면마다 쇼츠용 캡션 (영문 + 한글) 생성
+
+## Git 규칙
+
+**코드 변동사항 발생 시 자동으로 git commit & push 실행**
+
+```bash
+# 변경사항 발생 시 자동 실행
+git add -A
+git commit -m "feat/fix/docs: 변경 내용 요약"
+git push
+```
+
+- 프로젝트 파일 생성/수정 시 즉시 push
+- 스킬/프롬프트 수정 시 즉시 push
+- 설정 파일 변경 시 즉시 push
