@@ -5,7 +5,7 @@
 
 > 죽어가는 캥거루가 마지막 힘을 다해 인간 여성에게 아기를 맡긴다. 여주인은 조이를 자신의 아기처럼 키운다. 조이가 자라 야생으로 떠날 때, 영원한 이별이라 생각했다. 하지만 2년 후, 조이가 돌아왔다—주머니에 자신의 아기를 담고. 엄마가 그랬던 것처럼.
 
-**Total Duration:** 115초 (7개 장면)
+**Total Duration:** 128초 (8개 장면)
 **Style:** First Person POV Handheld Home Video
 
 ---
@@ -46,33 +46,58 @@ A tiny baby joey peeking out from the adult joey's pouch, with small grey furry 
 
 ---
 
-## Scene 1: A Mother's Last Gift
-## 장면 1: 엄마의 마지막 선물
+## Scene 1: The Visitor at the Door
+## 장면 1: 문 앞의 손님
 
-- **Duration:** 20s
+- **Duration:** 15s
 - **Phase:** 도입
-- **Emotion:** 충격, 간절함, 슬픔, 신뢰
-- **Camera:** Handheld POV, startled shake to slow dolly
-- **Lighting:** Early morning soft light with backlight
+- **Emotion:** 충격, 걱정, 긴장
+- **Camera:** Handheld POV, startled shake
+- **Lighting:** Early morning soft light
 
 ### Caption / 자막
-> **EN:** "One morning, she came to my door... looked into my eyes... and handed me her baby."
-> **KO:** "어느 아침, 그녀가 문 앞에 왔다... 내 눈을 바라보며... 아기를 건넸다."
+> **EN:** "One morning, she was waiting at my door..."
+> **KO:** "어느 아침, 그녀가 문 앞에 서있었다..."
 
 ### Sora2 Prompt
 ```
-First person POV handheld home video footage filmed by the owner. Early morning, Australian rural farmhouse. The front door opens to reveal an adult female Eastern Grey Kangaroo with soft grey-brown fur, a cream-colored chest, large dark eyes filled with emotion, long pointed ears, and a visible wound on her side. The kangaroo stands unsteadily, clearly injured and exhausted. Camera shakes with shock. The kangaroo reaches into her pouch with effort, pulls out a tiny newborn joey, roughly palm-sized, with pink hairless skin, closed eyes, tiny limbs. She gently pushes the baby toward the camera, into the filmer's hands. Close-up of the kangaroo's large dark eyes looking directly into camera with desperate pleading expression. The kangaroo slowly turns and limps away toward the distant bush, not looking back. Camera holds on her retreating figure until she disappears. Soft morning backlight creating silhouette. Emotional heartbreaking atmosphere. Home video aesthetic, intimate trembling camera. No background music, natural ambient sound only.
+First person POV handheld home video footage filmed by the owner. Early morning, Australian rural farmhouse. The front door opens to reveal an adult female Eastern Grey Kangaroo with soft grey-brown fur, a cream-colored chest, large dark eyes filled with emotion, long pointed ears, and a visible wound on her side. The kangaroo stands unsteadily, clearly injured and exhausted. The camera shakes with the filmer's shocked reaction. Soft early morning light, misty rural backdrop. Tense worried atmosphere. Home video aesthetic, startled camera movement, authentic amateur feel. No background music, natural ambient sound only.
 ```
 
 ### 장면 설명
 ```
-1인칭 POV 핸드헬드 홈비디오 (주인이 촬영). 이른 아침, 호주 시골 농가. 현관문을 열자 다친 엄마 캥거루가 서있다. 부드러운 회갈색 털, 크림색 가슴, 감정이 담긴 큰 눈, 옆구리에 상처. 비틀거리며 힘겹게 서있다. 카메라가 놀라 흔들린다. 엄마 캥거루가 힘겹게 주머니에서 손바닥만 한 아기를 꺼낸다. 분홍빛 피부, 감긴 눈, 작은 사지. 카메라를 향해 아기를 밀어 넣는다. 간절한 눈빛으로 카메라를 똑바로 바라본다. 천천히 돌아서 숲을 향해 절뚝거리며 걸어간다. 돌아보지 않는다. 사라질 때까지 카메라가 지켜본다. 아침 역광의 실루엣. 가슴 아픈 분위기.
+1인칭 POV 핸드헬드 홈비디오 (주인이 촬영). 이른 아침, 호주 시골 농가. 현관문을 열자 다친 엄마 캥거루가 서있다. 부드러운 회갈색 털, 크림색 가슴, 감정이 담긴 큰 눈, 옆구리에 상처가 보인다. 비틀거리며 힘겹게 서있다. 촬영자의 놀란 반응으로 카메라가 흔들린다. 부드러운 아침 빛, 안개 낀 시골 배경.
 ```
 
 ---
 
-## Scene 2: Learning to Be a Mother
-## 장면 2: 서툰 엄마
+## Scene 2: A Mother's Last Request
+## 장면 2: 마지막 부탁
+
+- **Duration:** 18s
+- **Phase:** 도입
+- **Emotion:** 간절함, 슬픔, 무게감, 신뢰
+- **Camera:** Handheld, slow dolly in on eyes
+- **Lighting:** Soft morning backlight
+
+### Caption / 자막
+> **EN:** "She looked into my eyes... and handed me her baby."
+> **KO:** "그녀는 내 눈을 바라보며... 아기를 건넸다."
+
+### Sora2 Prompt
+```
+First person POV handheld home video footage filmed by the owner. Continuing from previous scene. An adult female Eastern Grey Kangaroo with soft grey-brown fur, visible wound on her side, reaches into her pouch with effort. She pulls out a tiny newborn joey, roughly palm-sized, with pink hairless skin, closed eyes, tiny limbs. The kangaroo gently pushes the baby toward the camera, into the filmer's hands. Close-up of the kangaroo's large dark eyes looking directly into camera with desperate pleading expression. The kangaroo slowly turns and limps away toward the distant bush, not looking back. Camera holds on her retreating figure. Soft morning backlight creating silhouette. Emotional heartbreaking atmosphere. Home video aesthetic, intimate trembling camera. No background music, natural ambient sound only.
+```
+
+### 장면 설명
+```
+1인칭 POV 핸드헬드 홈비디오. 이전 장면에서 이어짐. 다친 엄마 캥거루가 힘겹게 주머니에서 손바닥만 한 아기를 꺼낸다. 분홍빛 피부, 감긴 눈, 작은 사지. 카메라를 향해 아기를 밀어 넣는다. 간절한 눈빛으로 카메라를 똑바로 바라본다. 천천히 돌아서 숲을 향해 절뚝거리며 걸어간다. 돌아보지 않는다. 석양 역광의 실루엣. 가슴 아픈 분위기.
+```
+
+---
+
+## Scene 3: Learning to Be a Mother
+## 장면 3: 서툰 엄마
 
 - **Duration:** 18s
 - **Phase:** 전개
@@ -96,8 +121,8 @@ First person POV handheld home video footage filmed by the owner. Montage sequen
 
 ---
 
-## Scene 3: First Hop
-## 장면 3: 첫 점프
+## Scene 4: First Hop
+## 장면 4: 첫 점프
 
 - **Duration:** 12s
 - **Phase:** 성장
@@ -121,8 +146,8 @@ First person POV handheld home video footage filmed by the owner. Daytime, brigh
 
 ---
 
-## Scene 4: Our Family
-## 장면 4: 우리 가족
+## Scene 5: Our Family
+## 장면 5: 우리 가족
 
 - **Duration:** 18s
 - **Phase:** 성장
@@ -146,8 +171,8 @@ First person POV handheld home video footage filmed by the owner. Montage sequen
 
 ---
 
-## Scene 5: The Call of the Wild
-## 장면 5: 야생의 부름
+## Scene 6: The Call of the Wild
+## 장면 6: 야생의 부름
 
 - **Duration:** 15s
 - **Phase:** 해결
@@ -171,8 +196,8 @@ First person POV handheld home video footage filmed by the owner. Golden sunset,
 
 ---
 
-## Scene 6: Empty Home
-## 장면 6: 텅 빈 집
+## Scene 7: Empty Home
+## 장면 7: 텅 빈 집
 
 - **Duration:** 12s
 - **Phase:** 해결
@@ -196,8 +221,8 @@ First person POV handheld home video footage filmed by the owner. The fully grow
 
 ---
 
-## Scene 7: Just Like Her Mother Did
-## 장면 7: 엄마가 그랬던 것처럼
+## Scene 8: Just Like Her Mother Did
+## 장면 8: 엄마가 그랬던 것처럼
 
 - **Duration:** 20s
 - **Phase:** 결말
