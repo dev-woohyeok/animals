@@ -17,8 +17,8 @@
       "HttpFetch(*)",
       "Glob(*)",
       "Grep(*)",
-      "WebFetch(*)",
-      "WebSearch(*)"
+      "WebFetch(domain:*)",
+      "WebSearch"
     ]
   }
 }
