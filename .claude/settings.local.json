@@ -11,7 +11,14 @@
       "Bash(source:*)",
       "Bash(gh:*)",
       "Edit",
-      "Write"
+      "Write",
+      "Read",
+      "FileSystem(*)",
+      "HttpFetch(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "WebFetch(*)",
+      "WebSearch(*)"
     ]
   }
 }
