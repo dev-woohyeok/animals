@@ -6,7 +6,7 @@
 
 > 한밤중 캠핑 텐트에 울며 찾아온 아기 여우가 남자를 엄마에게 이끌지만, 이미 엄마는 늑대에게 당한 뒤였다. 늑대 무리로부터 아기 여우를 구해 함께 집으로 떠나는 이야기.
 
-**Total Duration:** 111초 (8개 장면)
+**Total Duration:** 123초 (9개 장면)
 **Style:** First Person POV Handheld Footage
 
 ---
@@ -182,23 +182,44 @@ First person POV handheld phone footage inside orange tent, small lamp making wa
 
 ---
 
-## Scene 8: 함께 가자
+## Scene 8: 따라오는 아이
 
-## Let's Go Home
+## Following Behind
 
-- **Duration:** 15s
-- **Phase:** 결말 (제2절정)
-- **Emotion:** 이별 위기, 결심, 사랑, 희망
+- **Duration:** 12s
+- **Phase:** 결말
+- **Emotion:** 이별 위기, 애처로움
 
 ### Caption / 자막
 
-> **EN:** "I couldn't leave her behind... 'Let's go home together.'"
-> **KO:** "두고 갈 수 없었다... '같이 집에 가자.'"
+> **EN:** "I started walking away... but she kept following me, crying."
+> **KO:** "걸어가기 시작했는데... 계속 울면서 따라왔다."
 
 ### Sora2 Prompt
 
 ```
-First person POV handheld phone footage in morning. Bright daylight, sun coming through trees. Man packing up camp, backpack on ground. Man picks up phone and starts walking down forest trail. Crying sound from behind. Man stops, turns around with phone. The 2-month-old red fox kit with fluffy orange-red fur sitting there looking at him, crying loud. Man starts walking again. More crying behind. Turns around again, fox following him, keeps crying. Man sighs, puts phone down pointing at the fox. Hands reach down and pick up the fox, hold against chest. Phone picks back up, now showing fox held in one arm, man walking down trail. Fox looks tired but calm now, small sounds. Shaky walking footage, bright morning light, birds in background. Amateur phone footage, casual filming, real moment feel. No background music, only footsteps, birds, fox sounds.
+First person POV handheld phone footage in morning. Bright daylight, sun coming through trees. Man walking down forest trail with backpack on. Crying sound from behind. Man stops, turns around with phone. The 2-month-old red fox kit with fluffy orange-red fur standing on the trail behind him, crying loud, looking at him. Man turns back and keeps walking. More crying behind, getting closer. Man turns around again, fox running after him, still crying. Man walks faster. Fox keeps following, won't give up, crying nonstop. Shaky walking footage, morning sunlight, amateur phone footage. No background music, only footsteps, birds chirping, fox crying loud behind.
+```
+
+---
+
+## Scene 9: 새 가족
+
+## New Family
+
+- **Duration:** 15s
+- **Phase:** 결말 (제2절정)
+- **Emotion:** 결심, 사랑, 희망
+
+### Caption / 자막
+
+> **EN:** "She grabbed onto my leg and wouldn't let go... I couldn't leave her."
+> **KO:** "다리에 매달려서 놓지 않았다... 두고 갈 수 없었다."
+
+### Sora2 Prompt
+
+```
+First person POV handheld phone footage in morning. Man stops walking, looks down with phone. The 2-month-old red fox kit with fluffy orange-red fur clinging to his leg, looking up at him with big wet eyes, crying softly, won't let go. Long pause. Man sighs. Phone points down as hands reach to pick up the fox gently. Fox held against chest, tiny paws grabbing shirt, finally stops crying. Phone shows fox in arm, fox looking up at man's face, calm now, small happy sounds. Man starts walking down sunny trail, fox safe in his arms. Morning light, birds singing, peaceful walk home. Shaky footage, amateur phone video, real emotional moment. No background music, only footsteps on trail, birds, soft fox sounds.
 ```
 
 ---
@@ -234,7 +255,7 @@ First person POV handheld phone footage in morning. Bright daylight, sun coming 
 ### Emotional Arc
 
 ```
-불안 (60) → 연민 (70) → 긴장 (65) → 충격 (95) → 비통 (100) → 공포 (90) → 안도 (55) → 사랑 (95)
+불안 (60) → 연민 (70) → 긴장 (65) → 충격 (95) → 비통 (100) → 공포 (90) → 안도 (55) → 애처로움 (85) → 사랑 (95)
 ```
 
 ### Key Visual Themes
