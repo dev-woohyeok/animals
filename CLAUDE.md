@@ -86,6 +86,18 @@ Step 6: 파일 저장 (projects/{slug}/prompts.md)
 - 단순하고 직접적인 문장
 - 실제 사람이 촬영한 것처럼 자연스럽게
 
+### 사운드 규칙 (중요!)
+- ❌ 배경음악(BGM)만 없앰: `No background music`
+- ✅ 자연스러운 소리는 반드시 포함:
+  - 동물 소리: fox crying, wolf growling 등
+  - 사람 소리: heavy breathing, footsteps, yelling
+  - 환경음: forest sounds, leaves crunching, tent fabric sounds
+
+```
+❌ "No background music, no sounds"
+✅ "No background music, only fox crying, footsteps, heavy breathing"
+```
+
 ### 금지 표현 (영화적/비현실적)
 - ❌ `devastating scene`, `horrifying`, `terrifying`
 - ❌ `piercing`, `anguished`, `frantically`
