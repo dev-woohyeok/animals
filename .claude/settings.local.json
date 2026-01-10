@@ -18,7 +18,8 @@
       "Glob(*)",
       "Grep(*)",
       "WebFetch(domain:*)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(mv:*)"
     ]
   }
 }
