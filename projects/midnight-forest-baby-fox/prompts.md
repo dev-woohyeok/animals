@@ -78,13 +78,13 @@ First person POV handheld footage filmed at night inside an orange camping tent.
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night inside a tent, in complete darkness without flashlight. A hand reaches into frame and slowly unzips a small gap. Through the narrow zipper opening, the shape of a 2-month-old red fox kit with fluffy orange-red fur, large pointed ears, small black nose, white chest patch becomes visible in the faint moonlight outside. The moment the fox sees the man through the gap, it starts crying desperately, pleading for help with urgent high-pitched whimpers begging to be saved. The kit's small face framed by the zipper gap, looking up with tearful amber eyes. Heartbreaking intimate moment. Natural darkness, no direct light shining on the fox. Home video aesthetic, slow deliberate movement. No background music, natural ambient sound only.
+First person POV handheld footage filmed at night.  A hand reaches into frame and slowly unzips a small gap. Through the narrow opening, a 2-month-old red fox kit with fluffy orange-red fur, large pointed ears, bright amber eyes glistening with tears, small black nose, white chest patch peers inside. The fox kit's eyes are wet with tears, reflecting the flashlight beam. The kit looks up at the camera with desperate, pleading eyes, crying softly but urgently. The camera slowly pushes in on the fox's emotional face framed by the zipper gap. Heartbreaking intimate moment. Home video aesthetic, slow deliberate movement. No background music, natural ambient sound only.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤, 텐트 안, 플래시 없이 완전한 어둠. 손이 프레임에 들어와 지퍼를 조금 연다. 열린 지퍼 틈 사이로 희미한 달빛 아래 아기 여우의 모습이 보인다 - 푹신한 주황빛 털, 큰 뾰족한 귀. 남자를 보자마자 도와달라는 듯 처절하게 울기 시작한다. 지퍼 틈에 프레임된 작은 여우 얼굴, 눈물 젖은 호박색 눈으로 올려다본다.
+1인칭 POV 핸드헬드 푸티지. 밤. 카메라가 텐트 문 지퍼에 천천히 다가간다. 손이 프레임에 들어와 지퍼를 조금 연다. 좁은 틈 사이로 아기 여우가 보인다 - 푹신한 주황빛 털, 큰 뾰족한 귀, 눈물로 반짝이는 호박색 눈. 플래시 불빛에 반사되는 젖은 눈. 간절하고 애원하는 눈빛으로 카메라를 올려다보며 운다. 지퍼 틈에 프레임된 여우 얼굴로 천천히 줌인.
 ```
 
 ---
@@ -132,13 +132,13 @@ First person POV handheld footage filmed at night in a dark forest. The camera f
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night in a dark forest. The flashlight beam suddenly reveals a horrifying scene just 3 meters ahead. In a small clearing, a grey wolf with thick dark grey fur, piercing yellow eyes is actively feeding on an adult female red fox with sleek orange-red fur lying motionless, blood visible on the wolf's muzzle. The 2-month-old fox kit with fluffy orange-red fur instantly lets out a devastating, gut-wrenching wail and sprints desperately toward its dead mother. The man bursts into action, charging forward while screaming and waving the flashlight aggressively. Heavy running footsteps pound the ground. The wolf looks up startled, blood on its face, then bolts into the darkness. The baby fox reaches its mother's body, crying hysterically, nuzzling the lifeless fur. Chaotic, intense atmosphere. Harsh flashlight beam swinging wildly during the charge. Home video aesthetic, sudden violent action, raw desperate energy. No background music, natural sounds of running, screaming, wolf snarling, and heartbreaking fox cries only.
+First person POV handheld footage filmed at night in a forest clearing. The flashlight beam suddenly illuminates a devastating scene - a grey wolf with thick dark grey fur crouched low over something on the forest floor, its head lowered, body tense with feeding posture. The light startles it - the wolf's head snaps up, piercing yellow eyes reflecting the beam, muzzle glistening dark and wet in the harsh light. It backs away slowly, revealing an adult female red fox with sleek orange-red fur lying motionless beneath, her white belly fur now matted and dark. The 2-month-old red fox kit beside the camera lets out a piercing, anguished scream and bolts forward, tiny legs scrambling desperately across the clearing toward its mother. The man shouts aggressively. The wolf turns and vanishes into the darkness. The baby fox reaches its mother, frantically nuzzling her face, pushing her with tiny paws, crying inconsolably. Devastating discovery moment. Harsh flashlight creating dramatic shadows. Home video aesthetic, violent shaky camera, raw shocked reaction. No background music, natural sounds of shouting and heartbreaking fox cries only.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤, 어두운 숲. 플래시 불빛이 3미터 앞 충격적인 장면을 비춘다. 작은 빈터에서 회색 늑대가 쓰러진 엄마 여우를 뜯어먹고 있다. 늑대 주둥이에 피가 묻어있다. 아기 여우가 처절한 울부짖음을 터뜨리며 엄마에게 필사적으로 달려간다. 남자도 즉시 뛰어가며 소리지르고 플래시를 휘두른다. 묵직한 발소리가 땅을 울린다. 늑대가 놀라 피 묻은 얼굴로 올려다보다 어둠 속으로 도망친다. 아기 여우가 엄마 시체에 도착해 미친 듯이 울며 털에 코를 비빈다.
+1인칭 POV 핸드헬드 푸티지. 밤, 숲속 빈터. 플래시 불빛이 갑자기 끔찍한 장면을 비춘다 - 숲바닥에 웅크려 먹이를 먹고 있던 회색 늑대. 불빛에 놀라 고개를 번쩍 든다, 젖어서 반짝이는 어두운 주둥이. 천천히 물러나며 그 아래 쓰러진 엄마 여우가 드러난다. 아기 여우가 처절한 비명을 지르며 엄마에게 달려간다, 작은 다리로 필사적으로 뛰어간다. 남자가 공격적으로 소리친다. 늑대가 어둠 속으로 사라진다. 엄마에게 도착한 아기 여우가 얼굴에 코를 대고, 작은 발로 밀며, 울부짖는다.
 ```
 
 ---
@@ -213,13 +213,13 @@ First person POV handheld footage filmed at night. Multiple pairs of glowing yel
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed inside the orange tent at dawn. Soft early morning light filters through the tent fabric, mixing with warm lamp light creating peaceful amber glow. The tent zipper closes, safe at last. A hand offers a small piece of meat to the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes. The exhausted kit eats hungrily. Time dissolve. The fox kit now curled up peacefully on the filmer's lap, eyes closed, tiny body rising and falling with gentle breathing. A hand softly strokes the kit's fur. The kit sleeps deeply, finally safe. Warm, tender atmosphere. Home video aesthetic, gentle intimate framing, peaceful moment. No background music, natural ambient sound only.
+First person POV handheld footage filmed inside the orange tent, warm lamp light creating cozy amber glow. The tent zipper closes, safe at last. A hand offers a small piece of meat to the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes. The exhausted kit eats hungrily. Time dissolve. The fox kit now curled up peacefully on the filmer's lap, eyes closed, tiny body rising and falling with gentle breathing. A hand softly strokes the kit's fur. The kit sleeps deeply, finally safe. Warm, tender atmosphere. Home video aesthetic, gentle intimate framing, peaceful moment. No background music, natural ambient sound only.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 영상. 새벽녘, 주황색 텐트 안. 텐트 천을 투과하는 부드러운 새벽빛과 따스한 램프 불빛이 어우러진다. 텐트 지퍼가 닫히고, 마침내 안전한 공간. 손이 작은 고기 조각을 내밀자 지친 아기 여우가 허겁지겁 받아먹는다. 장면 전환. 촬영자의 무릎 위에 동그랗게 웅크린 채 깊이 잠든 아기 여우. 눈을 감고, 작은 몸통이 고른 숨결에 맞춰 오르내린다. 손이 여우의 부드러운 털을 천천히 쓰다듬는다.
+1인칭 POV 핸드헬드 푸티지. 주황색 텐트 안, 따뜻한 램프 빛. 텐트 지퍼가 닫힌다, 드디어 안전. 손이 작은 고기 조각을 아기 여우에게 준다. 지친 여우가 허겁지겁 먹는다. 시간 경과. 촬영자의 무릎 위에 웅크려 잠든 아기 여우. 눈 감고, 작은 몸이 숨결에 오르내린다. 손이 부드럽게 털을 쓰다듬는다.
 ```
 
 ---
@@ -240,13 +240,13 @@ First person POV handheld footage filmed inside the orange tent at dawn. Soft ea
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at dawn. Soft early morning light filters through forest trees, peaceful blue hour glow transitioning to golden. The camera shows a packed backpack being lifted. The filmer starts walking down a forest trail, leaving. Behind, desperate crying. The camera turns to reveal the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes filled with tears, running after the man, crying pleadingly. The man stops. Long pause. Hands reach down and gently lift the fox kit, cradling it against his chest. The camera angle shifts to show the man's silhouette from behind, fox kit in arms, walking down the dawn-lit mountain trail toward home. Hopeful, emotional atmosphere. Home video aesthetic, meaningful slow movement, triumphant ending. No background music, natural ambient sound only. Slow fade to black.
+First person POV handheld footage filmed in morning light. Bright sunlight filters through forest trees, golden hour glow. The camera shows a packed backpack being lifted. The filmer starts walking down a forest trail, leaving. Behind, desperate crying. The camera turns to reveal the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes filled with tears, running after the man, crying pleadingly. The man stops. Long pause. Hands reach down and gently lift the fox kit, cradling it against his chest. The camera angle shifts to show the man's silhouette from behind, fox kit in arms, walking down the sunlit mountain trail toward home. Hopeful, emotional atmosphere. Home video aesthetic, meaningful slow movement, triumphant ending. No background music, natural ambient sound only. Slow fade to black.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 영상. 동이 트는 새벽. 숲 나무 사이로 부드러운 여명이 스며들고, 푸른빛에서 황금빛으로 서서히 물들어간다. 배낭을 메고 산길을 내려가기 시작한다. 뒤에서 처절한 울음소리가 들려온다. 카메라가 뒤를 돌아보면 아기 여우가 눈물 젖은 눈으로 울부짖으며 쫓아온다. 남자가 멈춘다. 긴 정적. 손이 내려가 여우를 부드럽게 안아 올려 가슴에 품는다. 카메라 앵글이 바뀌어 새벽빛 어린 산길을 걸어 내려가는 남자의 뒷모습, 품에 안긴 작은 여우. 천천히 페이드 아웃.
+1인칭 POV 핸드헬드 푸티지. 아침 햇살. 숲 사이로 황금빛이 스며든다. 배낭을 메고 산길을 내려가기 시작. 뒤에서 처절한 울음소리. 카메라가 돌아보면 아기 여우가 울면서 쫓아온다. 멈추는 남자. 긴 정적. 손이 내려가 여우를 부드럽게 안아 올린다. 카메라 앵글이 바뀌어 햇빛 비치는 산길을 내려가는 남자의 뒷모습, 품에 안긴 여우. 페이드 아웃.
 ```
 
 ---
