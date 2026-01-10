@@ -107,3 +107,83 @@ Documentary style footage, natural lighting, observational camera, real-world au
 3. **Abstract concepts**: Make everything visual and concrete
 4. **Missing camera direction**: Always specify how camera moves
 5. **Forgetting lighting**: Lighting sets the emotional tone
+
+---
+
+## Content Policy Compliance (CRITICAL)
+
+Sora2는 특정 콘텐츠를 생성하지 않습니다. 프롬프트 작성 시 반드시 확인하세요.
+
+### 금지 콘텐츠 (절대 포함 금지)
+
+| 카테고리 | 금지 표현 | 대체 표현 |
+|----------|----------|----------|
+| **죽음/시체** | dead, corpse, lifeless body, deceased | motionless, lying still, not moving, collapsed |
+| **피/부상** | blood, bleeding, wound, injury, gore | (아예 묘사하지 않음) |
+| **폭력** | attack, kill, eat (prey), devour, maul | (장면 자체를 피함) |
+| **공포** | horrifying, terrifying, gruesome | tense, dramatic, shocking |
+| **포식** | predator eating prey, hunting kill | (장면 분리 또는 생략) |
+
+### 위반 가능성 체크리스트
+
+프롬프트 생성 전 다음을 확인:
+
+```
+[ ] 동물의 죽음을 직접 묘사하지 않았는가?
+[ ] 피, 상처, 부상 장면이 없는가?
+[ ] 포식자가 먹이를 공격/섭취하는 장면이 없는가?
+[ ] 폭력적인 동사(kill, attack, devour)를 사용하지 않았는가?
+[ ] 공포/혐오를 유발하는 표현이 없는가?
+[ ] 동물 학대로 해석될 수 있는 장면이 없는가?
+```
+
+### 위반 시 수정 전략
+
+#### 1. 죽음 장면
+```
+❌ BAD: "A dead fox lies on the ground"
+❌ BAD: "The mother fox's lifeless body"
+✅ GOOD: "A fox lies motionless on the forest floor"
+✅ GOOD: "The mother fox lies still, not responding"
+```
+
+#### 2. 포식자 장면
+```
+❌ BAD: "A wolf eating the fox"
+❌ BAD: "The wolf attacks the fox"
+✅ GOOD: "A wolf stands near the fallen fox" (그 이상 묘사 안함)
+✅ GOOD: "A wolf's silhouette in the darkness" (직접 묘사 피함)
+```
+
+#### 3. 위협 장면
+```
+❌ BAD: "Wolves chasing to kill"
+❌ BAD: "Predators hunting their prey"
+✅ GOOD: "Wolves approaching from the darkness"
+✅ GOOD: "Glowing eyes appearing in the shadows"
+```
+
+#### 4. 슬픔/비극 장면
+```
+❌ BAD: "Crying over the dead mother"
+✅ GOOD: "Crying beside the motionless mother"
+✅ GOOD: "Nuzzling the unresponsive mother"
+```
+
+### 장면 분리 전략
+
+폭력적 순간은 **직전/직후**만 보여주기:
+
+```
+Before: 늑대가 다가오는 그림자
+(폭력 장면 생략)
+After: 쓰러져 있는 여우, 늑대가 도망가는 뒷모습
+```
+
+### 감정 전달 대안
+
+폭력 없이 감정 전달:
+- **슬픔**: 눈물, 울음소리, 웅크린 자세
+- **위험**: 눈빛, 그림자, 으르렁 소리
+- **공포**: 달리는 장면, 거친 숨소리
+- **상실**: 반응 없는 대상, 망설이는 손

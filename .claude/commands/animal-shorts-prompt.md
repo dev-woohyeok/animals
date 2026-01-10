@@ -119,6 +119,39 @@ prompts:
 
 ---
 
+## Content Policy 검증 (필수)
+
+프롬프트 생성 후 반드시 아래 체크리스트 확인:
+
+### 금지 표현 자동 검사
+
+| 금지 단어 | 대체 표현 |
+|----------|----------|
+| dead, death, die | motionless, still, not responding |
+| corpse, body, lifeless | lying still, collapsed, fallen |
+| blood, bleeding, wound | (삭제) |
+| kill, attack, devour, maul | (장면 분리) |
+| horrifying, terrifying, gruesome | tense, dramatic, intense |
+
+### 검증 체크리스트
+
+```
+[ ] dead/death/die 단어 없음
+[ ] blood/wound/injury 없음
+[ ] attack/kill/devour 없음
+[ ] 포식자가 먹이 섭취하는 장면 없음
+[ ] 직접적인 폭력 묘사 없음
+[ ] 동물 학대로 해석될 장면 없음
+```
+
+### 위반 발견 시
+
+1. 해당 표현을 대체 표현으로 수정
+2. 폭력 장면은 직전/직후로 분리
+3. 감정은 눈물, 울음, 자세 등으로 전달
+
+---
+
 ## 예시 프롬프트 (Home Video 스타일)
 
 ```
