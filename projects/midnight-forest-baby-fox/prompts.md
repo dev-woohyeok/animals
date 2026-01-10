@@ -186,13 +186,13 @@ First person POV handheld phone footage at night, low angle close shot. A 2-mont
 ### Sora2 Prompt
 
 ```
-First person POV handheld phone footage at night. Several pairs of glowing yellow eyes show up in the dark past the flashlight. Wolf growling sounds from different directions. Camera swings around fast, wolves coming closer. Hands quickly grab the 2-month-old red fox kit with fluffy orange-red fur, hold it tight against chest. Running through dark forest, flashlight bouncing everywhere, trees going past fast. Heavy breathing, loud footsteps. Baby fox held tight, visible from chest level. Very shaky running footage, phone almost drops, blurry from movement, gasping for air. No background music, only running sounds, breathing, wolf sounds in distance.
+First person POV handheld phone footage at night. Camera pointing at the 2-month-old red fox kit with fluffy orange-red fur sitting sadly next to its mother who lies completely still on the ground, eyes closed, not moving. Baby fox stays close to mother, looking lost and small. Then behind them in the darkness, several pairs of glowing yellow eyes start appearing one by one past the flashlight beam. Wolf growling sounds from different directions. Camera swings around fast, more wolves coming closer from the trees. Hands quickly grab the baby fox, hold it tight against chest. Running through dark forest, flashlight bouncing everywhere, trees going past fast. Heavy breathing, loud footsteps. Baby fox held tight, visible from chest level. Very shaky running footage, phone almost drops, blurry from movement, gasping for air. No background music, only fox crying, wolf growls, running sounds, heavy breathing.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드폰 푸티지. 밤. 플래시 너머 어둠에서 여러 쌍의 노란 눈이 나타남. 여러 방향에서 늑대 으르렁 소리. 카메라 빠르게 돌아감, 늑대들 다가옴. 손이 빠르게 아기 여우 잡아서 가슴에 꽉 안음. 어두운 숲 뚫고 달림, 플래시 여기저기 튐, 나무들 빠르게 지나감. 거친 숨, 큰 발소리. 가슴 높이에서 꽉 안긴 아기 여우 보임. 매우 흔들리는 달리기 푸티지, 폰 거의 떨어질 뻔, 움직임에 흐릿함, 헐떡임.
+1인칭 POV 핸드폰 푸티지. 밤. 카메라가 바닥에 완전히 미동 없이 누워있는 엄마 여우 옆에 슬프게 앉아있는 아기 여우를 비춤. 눈 감고 움직이지 않는 엄마. 아기 여우가 엄마 곁에 붙어있음, 작고 길 잃은 모습. 그때 뒤쪽 어둠에서 노란 눈들이 하나씩 나타나기 시작함. 플래시 너머로 빛나는 여러 쌍의 눈. 여러 방향에서 늑대 으르렁 소리. 카메라 빠르게 돌아감, 나무 사이로 늑대들 더 다가옴. 손이 빠르게 아기 여우 잡아서 가슴에 꽉 안음. 어두운 숲 뚫고 달림, 플래시 여기저기 튐, 나무들 빠르게 지나감. 거친 숨, 큰 발소리. 가슴 높이에서 꽉 안긴 아기 여우 보임. 매우 흔들리는 달리기 푸티지, 폰 거의 떨어질 뻔, 움직임에 흐릿함, 헐떡임.
 ```
 
 ---
