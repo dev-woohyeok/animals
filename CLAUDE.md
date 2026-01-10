@@ -70,9 +70,44 @@ Step 6: 파일 저장 (projects/{slug}/prompts.md)
 1. **스킬 기반**: Claude Code 스킬로 워크플로우 실행
 2. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명 유지
 3. **단계별 확인**: 각 단계에서 사용자 확인 후 진행
-4. **Home Video 스타일**: 1인칭 POV 핸드헬드 촬영 기본
-5. **배경음악 없음**: 모든 프롬프트에 "No background music, natural ambient sound only" 포함
-6. **자막 포함**: 각 장면마다 쇼츠용 캡션 (영문 + 한글) 생성
+4. **배경음악 없음**: 모든 프롬프트에 "No background music, natural ambient sound only" 포함
+5. **자막 포함**: 각 장면마다 쇼츠용 캡션 (영문 + 한글) 생성
+
+## 🔒 프롬프트 스타일 (영구 고정 - 절대 변경 금지)
+
+**반드시 아마추어 핸드폰 푸티지 스타일로 작성**
+
+### 필수 요소
+- `First person POV handheld phone footage`
+- `Shaky`, `unsteady`, `amateur footage`
+- `Phone flashlight only` (야간)
+- `Out of focus moments`
+- `Heavy breathing audible`
+- 단순하고 직접적인 문장
+- 실제 사람이 촬영한 것처럼 자연스럽게
+
+### 금지 표현 (영화적/비현실적)
+- ❌ `devastating scene`, `horrifying`, `terrifying`
+- ❌ `piercing`, `anguished`, `frantically`
+- ❌ `violently`, `dramatically`, `cinematic`
+- ❌ `dramatic shadows`, `dramatic lighting`
+- ❌ `devastating discovery moment`
+- ❌ 과장된 형용사, 문학적 표현
+
+### 올바른 예시
+```
+❌ "The flashlight beam cuts through the darkness and reveals a devastating scene"
+✅ "Shaky flashlight beam sweeps across dark forest floor"
+
+❌ "lets out a piercing, anguished scream"
+✅ "starts crying loud"
+
+❌ "Camera shakes violently as the man starts running"
+✅ "Camera shakes badly as the man runs forward"
+
+❌ "Devastating discovery moment. Harsh flashlight creating dramatic shadows."
+✅ "Unsteady amateur footage, phone flashlight only, out of focus moments."
+```
 
 ## Git 규칙
 

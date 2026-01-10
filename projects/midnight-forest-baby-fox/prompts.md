@@ -78,7 +78,7 @@ First person POV handheld footage filmed at night inside an orange camping tent.
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night.  A hand reaches into frame and slowly unzips a small gap. Through the narrow opening, a 2-month-old red fox kit with fluffy orange-red fur, large pointed ears, bright amber eyes glistening with tears, small black nose, white chest patch peers inside. The fox kit's eyes are wet with tears, reflecting the flashlight beam. The kit looks up at the camera with desperate, pleading eyes, crying softly but urgently. The camera slowly pushes in on the fox's emotional face framed by the zipper gap. Heartbreaking intimate moment. Home video aesthetic, slow deliberate movement. No background music, natural ambient sound only.
+First person POV handheld footage filmed at night.  A hand reaches into frame and slowly unzips a small gap. Through the narrow opening, a 2-month-old red fox kit with fluffy orange-red fur, large pointed ears, bright amber eyes glistening with tears, small black nose, white chest patch peers inside. The fox kit's eyes are wet with tears, reflecting the flashlight beam. The kit looks up at the camera with desperate, pleading eyes, crying softly but urgently. The camera slowly pushes in on the fox's emotional face framed by the zipper ga씬2p. Heartbreaking intimate moment. Home video aesthetic, slow deliberate movement. No background music, natural ambient sound only.
 ```
 
 ### 장면 설명
@@ -132,13 +132,13 @@ First person POV handheld footage filmed at night in a dark forest. The camera f
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night in a forest clearing. The flashlight beam cuts through the darkness and reveals a distant devastating scene - a grey wolf with thick dark grey fur, its head buried low into something on the forest floor, body hunched in feeding posture. Beside it lies an adult female red fox, eyes closed, body completely limp and motionless. The 2-month-old red fox kit beside the camera lets out a piercing, anguished scream and bolts forward toward its mother. The camera shakes violently as the man starts running toward the wolf, shouting aggressively, feet pounding the ground. The wolf looks up startled, muzzle glistening dark and wet, then turns and flees into the dark forest. The man keeps charging until the wolf disappears completely. The baby fox reaches its mother, frantically nuzzling her unresponsive face, pushing her with tiny paws, crying inconsolably. Devastating discovery moment. Harsh flashlight creating dramatic shadows. Home video aesthetic, violent running camera shake, raw desperate action. No background music, natural sounds of running, shouting and heartbreaking fox cries only.
+First person POV handheld phone footage at night. Shaky flashlight beam sweeps across dark forest floor. In the distance, a grey wolf with dark fur, head lowered into something on the ground. Next to it, an adult red fox lying on its side, eyes closed, not moving at all. The baby fox next to camera starts crying loud and runs toward the fox on the ground. Camera shakes badly as the man runs forward yelling "HEY! HEY!" at the wolf. The wolf lifts head, wet dark muzzle visible for a moment, then turns and runs into the trees. Man keeps running and yelling until wolf is gone. Baby fox reaches its mother, sniffing her face, pushing with small paws, crying nonstop. Unsteady amateur footage, phone flashlight only, out of focus moments, heavy breathing audible. No background music, only natural sounds of yelling, footsteps, and fox crying.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤, 숲속 빈터. 플래시 불빛이 어둠을 가르며 멀리 끔찍한 장면을 비춘다 - 숲바닥에 머리를 박고 먹이를 먹고 있는 회색 늑대. 그 옆에 눈 감고 축 늘어져 미동도 없는 엄마 여우. 아기 여우가 처절한 비명을 지르며 엄마에게 달려간다. 카메라가 격하게 흔들리며 남자가 늑대를 향해 달려가기 시작한다, 공격적으로 소리치며 발을 구른다. 늑대가 놀라 고개를 든다, 젖어서 반짝이는 어두운 주둥이. 돌아서서 어두운 숲으로 도망친다. 남자가 늑대가 완전히 사라질 때까지 계속 쫓아간다. 엄마에게 도착한 아기 여우가 반응 없는 얼굴에 코를 대고, 작은 발로 밀며, 울부짖는다.
+1인칭 POV 핸드폰 푸티지. 밤. 흔들리는 플래시가 숲바닥을 비춘다. 멀리 회색 늑대가 바닥에 뭔가에 머리를 박고 있다. 그 옆에 엄마 여우가 옆으로 누워있다, 눈 감고, 전혀 움직이지 않는다. 카메라 옆 아기 여우가 크게 울기 시작하고 바닥의 여우를 향해 뛰어간다. 남자가 "야! 야!" 소리치며 앞으로 뛰어가면서 카메라가 심하게 흔들린다. 늑대가 고개를 들고, 젖은 어두운 주둥이가 잠깐 보이고, 나무 사이로 도망간다. 남자가 늑대가 사라질 때까지 계속 뛰며 소리친다. 아기 여우가 엄마에게 도착해 얼굴 냄새 맡고, 작은 발로 밀고, 계속 운다. 불안정한 아마추어 푸티지, 폰 플래시만, 초점 나간 순간들, 거친 숨소리.
 ```
 
 ---
