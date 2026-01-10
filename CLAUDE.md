@@ -94,6 +94,21 @@ Step 6: 파일 저장 (projects/{slug}/prompts.md)
 - ❌ `devastating discovery moment`
 - ❌ 과장된 형용사, 문학적 표현
 
+### 대사 규칙 (영구 적용)
+- ❌ 구체적인 대사 금지: `"HEY!"`, `"Come here!"`, `"Oh my god!"` 등
+- ✅ 대사 가이드만 제공: Sora2가 자연스럽게 생성하도록
+
+```
+❌ "yelling 'HEY! HEY!' at the wolf"
+✅ "yelling aggressively at the wolf to scare it away"
+
+❌ "saying 'It's okay, I'm here'"
+✅ "speaking softly to calm the fox down"
+
+❌ "shouting 'Get away!'"
+✅ "shouting to chase the wolves away"
+```
+
 ### 올바른 예시
 ```
 ❌ "The flashlight beam cuts through the darkness and reveals a devastating scene"
