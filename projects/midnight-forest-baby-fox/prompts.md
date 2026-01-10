@@ -186,13 +186,13 @@ First person POV handheld phone footage at night, low angle close shot. A 2-mont
 ### Sora2 Prompt
 
 ```
-First person POV handheld phone footage at night. Camera pointing at the 2-month-old red fox kit with fluffy orange-red fur sitting sadly next to its mother who lies completely still on the ground, eyes closed, not moving. Baby fox stays close to mother, looking lost and small. Then behind them in the darkness, several pairs of glowing yellow eyes start appearing one by one past the flashlight beam. Wolf growling sounds from different directions. Camera swings around fast, more wolves coming closer from the trees. Hands quickly grab the baby fox, hold it tight against chest. Running through dark forest, flashlight bouncing everywhere, trees going past fast. Heavy breathing, loud footsteps. Baby fox held tight, visible from chest level. Very shaky running footage, phone almost drops, blurry from movement, gasping for air. No background music, only fox crying, wolf growls, running sounds, heavy breathing.
+First person POV handheld phone footage at night. Camera pointing at the 2-month-old red fox kit with fluffy orange-red fur sitting sadly next to its mother who lies completely still on the ground, eyes closed, not moving. Baby fox stays close to mother, looking lost and small. Then behind them in the darkness, several pairs of glowing yellow eyes appear past the flashlight beam, wolves slowly walking closer from that direction. Wolf growling getting louder. Hands quickly grab the baby fox, hold it tight against chest. Man turns and runs the opposite direction away from the wolves. Running through dark forest, flashlight bouncing, trees going past fast. Wolf sounds getting farther behind. Heavy breathing, loud footsteps. Baby fox held tight, visible from chest level. Very shaky running footage, phone almost drops, blurry from movement, gasping for air. No background music, only fox crying, wolf growls fading behind, running sounds, heavy breathing.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드폰 푸티지. 밤. 카메라가 바닥에 완전히 미동 없이 누워있는 엄마 여우 옆에 슬프게 앉아있는 아기 여우를 비춤. 눈 감고 움직이지 않는 엄마. 아기 여우가 엄마 곁에 붙어있음, 작고 길 잃은 모습. 그때 뒤쪽 어둠에서 노란 눈들이 하나씩 나타나기 시작함. 플래시 너머로 빛나는 여러 쌍의 눈. 여러 방향에서 늑대 으르렁 소리. 카메라 빠르게 돌아감, 나무 사이로 늑대들 더 다가옴. 손이 빠르게 아기 여우 잡아서 가슴에 꽉 안음. 어두운 숲 뚫고 달림, 플래시 여기저기 튐, 나무들 빠르게 지나감. 거친 숨, 큰 발소리. 가슴 높이에서 꽉 안긴 아기 여우 보임. 매우 흔들리는 달리기 푸티지, 폰 거의 떨어질 뻔, 움직임에 흐릿함, 헐떡임.
+1인칭 POV 핸드폰 푸티지. 밤. 카메라가 바닥에 완전히 미동 없이 누워있는 엄마 여우 옆에 슬프게 앉아있는 아기 여우를 비춤. 눈 감고 움직이지 않는 엄마. 아기 여우가 엄마 곁에 붙어있음, 작고 길 잃은 모습. 그때 그들 뒤쪽 어둠에서 여러 쌍의 노란 눈이 나타남, 늑대들이 그 방향에서 천천히 다가옴. 늑대 으르렁 소리 점점 커짐. 손이 빠르게 아기 여우 잡아서 가슴에 꽉 안음. 남자가 돌아서서 늑대 반대 방향으로 달림. 어두운 숲 뚫고 달림, 플래시 튐, 나무들 빠르게 지나감. 늑대 소리가 뒤에서 점점 멀어짐. 거친 숨, 큰 발소리. 가슴 높이에서 꽉 안긴 아기 여우 보임. 매우 흔들리는 달리기 푸티지, 폰 거의 떨어질 뻔, 움직임에 흐릿함, 헐떡임.
 ```
 
 ---
@@ -240,13 +240,13 @@ First person POV handheld phone footage inside orange tent, small lamp making wa
 ### Sora2 Prompt
 
 ```
-First person POV handheld phone footage in morning. Sunlight coming through trees, early morning light. Camera shows backpack being picked up. Man starts walking down forest trail, leaving. Crying sound from behind. Camera turns around to show the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes with tears, running after the man, crying loud. Man stops walking. Long pause. Hands reach down and pick up the fox gently, hold it against chest. Camera angle changes to show man from behind, fox in arms, walking down the sunny trail heading home. Morning light, birds singing, peaceful feeling. Phone footage, natural shaky movement, real moment captured. No background music, only footsteps, bird sounds, fox making small sounds. Slow fade to black.
+First person POV handheld phone footage in morning. Bright daylight, sun coming through trees. Man packing up camp, backpack on ground. Man picks up phone and starts walking down forest trail. Crying sound from behind. Man stops, turns around with phone. The 2-month-old red fox kit with fluffy orange-red fur sitting there looking at him, crying loud. Man starts walking again. More crying behind. Turns around again, fox following him, keeps crying. Man sighs, puts phone down pointing at the fox. Hands reach down and pick up the fox, hold against chest. Phone picks back up, now showing fox held in one arm, man walking down trail. Fox looks tired but calm now, small sounds. Shaky walking footage, bright morning light, birds in background. Amateur phone footage, casual filming, real moment feel. No background music, only footsteps, birds, fox sounds.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드폰 푸티지. 아침. 나무 사이로 햇빛 들어옴, 이른 아침 빛. 카메라에 배낭 집어드는 거 보임. 남자가 숲길 내려가기 시작, 떠나는 중. 뒤에서 울음소리. 카메라 돌아보면 아기 여우가 눈물 흘리며 쫓아옴, 크게 울음. 남자 걸음 멈춤. 긴 정적. 손이 내려가서 여우 부드럽게 들어올림, 가슴에 안음. 카메라 앵글 바뀌어 남자 뒷모습, 품에 여우, 햇빛 비치는 길 내려감. 아침 빛, 새소리, 평화로운 느낌. 폰 푸티지, 자연스러운 흔들림, 진짜 순간 담김. 천천히 페이드 아웃.
+1인칭 POV 핸드폰 푸티지. 아침. 밝은 낮, 나무 사이로 햇빛. 남자 캠프 정리 중, 바닥에 배낭. 남자가 폰 들고 숲길 내려가기 시작. 뒤에서 울음소리. 남자 멈추고 폰 들고 뒤 돌아봄. 아기 여우가 거기 앉아서 쳐다보며 크게 울음. 남자 다시 걷기 시작. 뒤에서 또 울음. 다시 돌아보면 여우가 따라오며 계속 울음. 남자 한숨, 폰을 여우 향해 내려놓음. 손이 내려가서 여우 들어올림, 가슴에 안음. 폰 다시 들고, 이제 한 팔에 안긴 여우 보이며 남자 길 걸어감. 여우 지쳐보이지만 이제 차분함, 작은 소리. 흔들리는 걷기 푸티지, 밝은 아침빛, 배경에 새소리. 아마추어 폰 푸티지, 캐주얼한 촬영, 진짜 순간 느낌.
 ```
 
 ---
