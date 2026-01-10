@@ -156,17 +156,17 @@ First person POV handheld home video footage filmed by the owner. Montage sequen
 - **Lighting:** Sunset golden hour
 
 ### Caption / 자막
-> **EN:** "One day, they came... and she couldn't look away."
-> **KO:** "어느 날, 그들이 왔다... 그녀는 눈을 뗄 수 없었다."
+> **EN:** "On our walk that day... she saw them. And I knew."
+> **KO:** "그날 산책 중... 그녀가 그들을 봤다. 그리고 알았다."
 
 ### Sora2 Prompt
 ```
-First person POV handheld home video footage filmed by the owner. Golden sunset, view through large window. In the distance, a mob of wild kangaroos grazing in the field beyond the yard. Inside, a fully grown adult Eastern Grey Kangaroo with sleek grey-brown fur, large gentle dark eyes stands at the window, staring out intently, not moving. Long pause. The filmer approaches, stands beside the joey. Hand reaches to open the back door. The door opens. The adult joey slowly walks toward the opening, stops, looks back at camera with emotional eyes, then continues walking out. She looks back again. And again. Sunset backlighting creating silhouette. Bittersweet letting-go atmosphere. Home video aesthetic, slow emotional pacing. No background music, natural ambient sound only.
+First person POV handheld home video footage filmed by the owner. Golden sunset, walking trail through Australian bushland. The filmer walks alongside a fully grown adult Eastern Grey Kangaroo with sleek grey-brown fur, large gentle dark eyes, hopping beside her like always. Suddenly the joey stops. In the distance, a mob of wild kangaroos grazing in a clearing. The joey's ears perk up, body frozen, staring intently. Long pause. The joey takes a few hesitant hops toward the wild group, then stops and looks back at camera with conflicted eyes. She takes another hop toward them. Stops. Looks back again at the filmer. The filmer's hand reaches out but doesn't stop her. The joey slowly hops further away, pausing one more time to look back with emotional eyes. Then she continues toward the wild mob, joining them. Sunset backlighting creating silhouette. Bittersweet unexpected goodbye atmosphere. Home video aesthetic, slow emotional pacing. No background music, natural ambient sound only.
 ```
 
 ### 장면 설명
 ```
-1인칭 POV 핸드헬드 홈비디오. 황금빛 석양, 큰 창문 너머로 마당 저편에 야생 캥거루 무리가 풀을 뜯고 있다. 실내에서 성체 조이가 창가에 서서 바깥을 뚫어지게 바라본다. 움직이지 않는다. 긴 정적. 촬영자가 다가와 옆에 선다. 손이 뒷문을 연다. 성체 조이가 천천히 문을 향해 걸어간다. 멈추고, 감정이 담긴 눈으로 카메라를 돌아본다. 다시 걸어간다. 또 돌아본다. 석양 역광 실루엣. 쓸쓸한 놓아줌의 분위기.
+1인칭 POV 핸드헬드 홈비디오. 황금빛 석양, 호주 덤불지대의 산책로. 촬영자가 늘 그렇듯 성체 조이와 함께 걷고 있다. 갑자기 조이가 멈춘다. 멀리 빈터에서 야생 캥거루 무리가 풀을 뜯고 있다. 조이의 귀가 쫑긋 서고, 몸이 얼어붙어 뚫어지게 바라본다. 긴 정적. 조이가 조심스럽게 몇 발짝 뛰어간다. 멈추고 갈등하는 눈으로 카메라를 돌아본다. 또 한 발짝. 멈춤. 다시 돌아봄. 촬영자의 손이 뻗지만 막지 않는다. 조이가 천천히 멀어지며 감정 담긴 눈으로 한 번 더 돌아본다. 그리고 야생 무리에게 다가가 합류한다. 석양 역광 실루엣. 예상치 못한 쓸쓸한 이별의 분위기.
 ```
 
 ---
