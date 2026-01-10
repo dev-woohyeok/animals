@@ -132,13 +132,13 @@ First person POV handheld footage filmed at night in a dark forest. The camera f
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night in a forest clearing. The flashlight beam suddenly illuminates a devastating scene - a grey wolf with thick dark grey fur crouched low over something on the forest floor, its head lowered, body tense with feeding posture. The light startles it - the wolf's head snaps up, piercing yellow eyes reflecting the beam, muzzle glistening dark and wet in the harsh light. It backs away slowly, revealing an adult female red fox with sleek orange-red fur lying motionless beneath, her white belly fur now matted and dark. The 2-month-old red fox kit beside the camera lets out a piercing, anguished scream and bolts forward, tiny legs scrambling desperately across the clearing toward its mother. The man shouts aggressively. The wolf turns and vanishes into the darkness. The baby fox reaches its mother, frantically nuzzling her face, pushing her with tiny paws, crying inconsolably. Devastating discovery moment. Harsh flashlight creating dramatic shadows. Home video aesthetic, violent shaky camera, raw shocked reaction. No background music, natural sounds of shouting and heartbreaking fox cries only.
+First person POV handheld footage filmed at night in a forest clearing. The flashlight beam cuts through the darkness and reveals a distant devastating scene - a grey wolf with thick dark grey fur, its head buried low into something on the forest floor, body hunched in feeding posture. Beside it lies an adult female red fox, eyes closed, body completely limp and motionless. The 2-month-old red fox kit beside the camera lets out a piercing, anguished scream and bolts forward toward its mother. The camera shakes violently as the man starts running toward the wolf, shouting aggressively, feet pounding the ground. The wolf looks up startled, muzzle glistening dark and wet, then turns and flees into the dark forest. The man keeps charging until the wolf disappears completely. The baby fox reaches its mother, frantically nuzzling her unresponsive face, pushing her with tiny paws, crying inconsolably. Devastating discovery moment. Harsh flashlight creating dramatic shadows. Home video aesthetic, violent running camera shake, raw desperate action. No background music, natural sounds of running, shouting and heartbreaking fox cries only.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤, 숲속 빈터. 플래시 불빛이 갑자기 끔찍한 장면을 비춘다 - 숲바닥에 웅크려 먹이를 먹고 있던 회색 늑대. 불빛에 놀라 고개를 번쩍 든다, 젖어서 반짝이는 어두운 주둥이. 천천히 물러나며 그 아래 쓰러진 엄마 여우가 드러난다. 아기 여우가 처절한 비명을 지르며 엄마에게 달려간다, 작은 다리로 필사적으로 뛰어간다. 남자가 공격적으로 소리친다. 늑대가 어둠 속으로 사라진다. 엄마에게 도착한 아기 여우가 얼굴에 코를 대고, 작은 발로 밀며, 울부짖는다.
+1인칭 POV 핸드헬드 푸티지. 밤, 숲속 빈터. 플래시 불빛이 어둠을 가르며 멀리 끔찍한 장면을 비춘다 - 숲바닥에 머리를 박고 먹이를 먹고 있는 회색 늑대. 그 옆에 눈 감고 축 늘어져 미동도 없는 엄마 여우. 아기 여우가 처절한 비명을 지르며 엄마에게 달려간다. 카메라가 격하게 흔들리며 남자가 늑대를 향해 달려가기 시작한다, 공격적으로 소리치며 발을 구른다. 늑대가 놀라 고개를 든다, 젖어서 반짝이는 어두운 주둥이. 돌아서서 어두운 숲으로 도망친다. 남자가 늑대가 완전히 사라질 때까지 계속 쫓아간다. 엄마에게 도착한 아기 여우가 반응 없는 얼굴에 코를 대고, 작은 발로 밀며, 울부짖는다.
 ```
 
 ---
