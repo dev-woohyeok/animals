@@ -51,13 +51,13 @@ A grey wolf with thick dark grey fur, piercing yellow eyes, pointed ears, and mu
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night inside an orange camping tent. The camera holder is lying in a sleeping bag, phone flashlight dimly illuminating the tent interior. Suddenly, a small animal shadow appears on the tent fabric wall, silhouette of pointed ears visible. Scratching sounds on the tent. A desperate, high-pitched crying sound pierces the night. The camera shakes with the filmer's startled reaction, quickly pointing toward the tent wall where the shadow moves frantically. The crying grows more urgent and pleading. Tense, eerie atmosphere. Dark forest night outside. Home video aesthetic, shaky nervous camera movement, authentic amateur feel. No background music, natural ambient sound only.
+First person POV handheld phone footage at night inside an orange camping tent. Man lying in sleeping bag, phone flashlight on, dim light inside tent. A small animal shadow shows up on tent wall, pointy ears visible. Scratching sound on tent fabric. High pitched crying sound from outside, sounds like a small animal. Camera shakes as man sits up surprised, points phone at tent wall. Shadow keeps moving, crying gets louder. Dark night outside tent. Shaky amateur phone footage, nervous hand movement, slightly out of focus. No background music, only scratching sounds and animal crying.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤, 주황색 캠핑 텐트 안. 침낭에 누워있던 촬영자. 갑자기 텐트 천에 작은 동물 그림자가 나타난다. 뾰족한 귀 실루엣. 텐트를 긁는 소리. 처절하고 높은 울음소리가 밤을 가른다. 놀란 촬영자의 반응으로 카메라가 흔들리며 텐트 벽을 향한다. 울음소리가 점점 다급해진다. 긴장되고 으스스한 분위기.
+1인칭 POV 핸드폰 푸티지. 밤, 주황색 캠핑 텐트 안. 침낭에 누워있던 남자, 폰 플래시 켜져있음. 텐트 천에 작은 동물 그림자가 나타난다. 뾰족한 귀. 텐트 긁는 소리. 밖에서 높은 울음소리, 작은 동물 소리 같다. 놀라서 일어나며 카메라 흔들림, 폰을 텐트 벽으로 향함. 그림자 계속 움직이고 울음 커짐. 텐트 밖 어두운 밤. 흔들리는 아마추어 폰 푸티지, 초점 약간 나감.
 ```
 
 ---
@@ -78,13 +78,13 @@ First person POV handheld footage filmed at night inside an orange camping tent.
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night.  A hand reaches into frame and slowly unzips a small gap. Through the narrow opening, a 2-month-old red fox kit with fluffy orange-red fur, large pointed ears, bright amber eyes glistening with tears, small black nose, white chest patch peers inside. The fox kit's eyes are wet with tears, reflecting the flashlight beam. The kit looks up at the camera with desperate, pleading eyes, crying softly but urgently. The camera slowly pushes in on the fox's emotional face framed by the zipper ga씬2p. Heartbreaking intimate moment. Home video aesthetic, slow deliberate movement. No background music, natural ambient sound only.
+First person POV handheld phone footage at night, complete darkness outside. Hand reaches in and unzips tent door a little bit. Phone flashlight shines through the gap. A 2-month-old red fox kit with fluffy orange-red fur, large pointed ears, bright amber eyes wet with tears, small black nose, white chest patch looking in through the opening. The fox looks up at the camera, eyes reflecting flashlight, crying softly. Camera gets closer to the fox face in the zipper gap, slightly shaky. Pitch black night behind the fox, only flashlight lighting its face. Amateur phone footage, unsteady hand, phone flashlight harsh on fox face. No background music, only soft fox crying sounds.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤. 카메라가 텐트 문 지퍼에 천천히 다가간다. 손이 프레임에 들어와 지퍼를 조금 연다. 좁은 틈 사이로 아기 여우가 보인다 - 푹신한 주황빛 털, 큰 뾰족한 귀, 눈물로 반짝이는 호박색 눈. 플래시 불빛에 반사되는 젖은 눈. 간절하고 애원하는 눈빛으로 카메라를 올려다보며 운다. 지퍼 틈에 프레임된 여우 얼굴로 천천히 줌인.
+1인칭 POV 핸드폰 푸티지. 밤, 텐트 밖은 완전한 어둠. 손이 텐트 문 지퍼를 조금 연다. 폰 플래시가 틈으로 비친다. 아기 여우가 틈으로 안을 들여다본다 - 푹신한 주황빛 털, 큰 뾰족한 귀, 눈물로 젖은 호박색 눈. 여우가 카메라를 올려다보고, 플래시에 눈이 반사되고, 조용히 운다. 카메라가 지퍼 틈 속 여우 얼굴에 가까이, 약간 흔들림. 여우 뒤로 칠흑같은 밤, 플래시만 여우 얼굴 비춤. 아마추어 폰 푸티지, 불안정한 손.
 ```
 
 ---
@@ -105,13 +105,13 @@ First person POV handheld footage filmed at night.  A hand reaches into frame an
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night in a dark forest. The camera follows a 2-month-old red fox kit with fluffy orange-red fur, large pointed ears, bright amber eyes walking ahead on a dark forest path, illuminated only by flashlight beam. The fox kit keeps stopping, turning back to look at the camera with urgent eyes, crying, then walking forward again. The kit looks back repeatedly as if saying "follow me." Dense dark trees on both sides, limited visibility beyond the flashlight. The fox moves with purpose, leading somewhere specific. Tense but trusting atmosphere. Home video aesthetic, following movement, shaky breathing audible. No background music, natural forest sounds and fox cries only.
+First person POV handheld phone footage at night in dark forest. Phone flashlight following a 2-month-old red fox kit with fluffy orange-red fur, large pointed ears walking ahead on forest path. Fox keeps stopping, looking back at camera, crying, then walking again. Keeps looking back like it wants man to follow. Dark trees on both sides, can only see where flashlight points. Fox walking with purpose, going somewhere. Shaky footage from walking, heavy breathing from man, crunching leaves underfoot. Amateur phone footage, flashlight beam bouncing, out of focus when fox moves fast. No background music, only footsteps, breathing, fox crying.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤, 어두운 숲. 플래시 불빛만으로 비춰지는 숲길을 앞장서 걷는 아기 여우를 따라간다. 여우가 자꾸 멈추고, 뒤를 돌아보며 울고, 다시 앞으로 걷는다. "따라와"라고 말하는 듯. 양옆으로 빽빽한 어두운 나무들, 플래시 밖은 보이지 않는다. 목적지가 있는 듯 앞으로 나아가는 여우.
+1인칭 POV 핸드폰 푸티지. 밤, 어두운 숲. 폰 플래시로 앞장서 걷는 아기 여우 따라감. 여우가 자꾸 멈추고, 뒤 돌아보고, 울고, 다시 걷는다. 따라오라는 듯 계속 뒤를 본다. 양옆 어두운 나무들, 플래시 비추는 곳만 보인다. 목적지 있는 듯 걷는 여우. 걸으면서 흔들리는 푸티지, 남자 거친 숨소리, 낙엽 밟는 소리. 아마추어 폰 푸티지, 플래시 빔 튀고, 여우 빨리 움직이면 초점 나감.
 ```
 
 ---
@@ -159,13 +159,13 @@ First person POV handheld phone footage at night. Shaky flashlight beam sweeps a
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night, low angle close-up. A 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes filled with tears crouches next to its motionless mother. The kit nuzzles the mother's face, licks her fur, pushes her with tiny paws, trying to wake her. No response. The kit's crying becomes more desperate, heartbreaking wails echoing in the dark forest. The camera slowly moves closer, a human hand hesitantly enters the frame from below, reaching toward the grieving kit. Devastating emotional moment. Dim flashlight, somber atmosphere. Home video aesthetic, slow sorrowful movement, holding on the scene. No background music, natural ambient sound only.
+First person POV handheld phone footage at night, low angle close shot. A 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes wet with tears sits next to its mother who is not moving. Fox sniffs mother's face, licks her fur, pushes her with small paws, trying to wake her up. Mother does not respond. Fox crying gets louder and louder. Camera slowly gets closer, man's hand comes into frame from below, reaching slowly toward the baby fox. Phone flashlight on fox and mother, dark forest around. Shaky hand, unsteady footage, out of focus at times, heavy breathing. No background music, only fox crying and forest sounds.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤, 로우앵글 클로즈업. 아기 여우가 움직이지 않는 엄마 옆에 웅크리고 있다. 엄마 얼굴에 코를 대고, 털을 핥고, 작은 발로 밀어본다. 반응 없음. 울음이 점점 처절해진다. 카메라가 천천히 가까이, 사람 손이 망설이며 프레임에 들어온다.
+1인칭 POV 핸드폰 푸티지. 밤, 로우앵글 클로즈샷. 아기 여우가 움직이지 않는 엄마 옆에 앉아있다. 엄마 얼굴 냄새 맡고, 털 핥고, 작은 발로 밀며 깨우려 한다. 엄마 반응 없음. 여우 울음이 점점 커진다. 카메라 천천히 가까이, 남자 손이 아래에서 프레임에 들어와 아기 여우에게 천천히 뻗는다. 폰 플래시가 여우와 엄마 비추고, 주변은 어두운 숲. 흔들리는 손, 불안정한 푸티지, 가끔 초점 나감, 거친 숨소리.
 ```
 
 ---
@@ -186,13 +186,13 @@ First person POV handheld footage filmed at night, low angle close-up. A 2-month
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed at night. Multiple pairs of glowing yellow eyes appear in the darkness beyond the flashlight beam. Wolf growls echo from different directions. The camera pans frantically, revealing a pack of wolves slowly approaching. Sudden movement as hands grab the 2-month-old red fox kit with fluffy orange-red fur, clutching it protectively against chest. Running through dark forest, flashlight beam bouncing wildly, trees rushing past. Heavy breathing, pounding footsteps. The fox kit held tightly in arms, visible from chest-level angle. Terrifying chase atmosphere. Home video aesthetic, violent running shake, desperate escape feel. No background music, natural sounds of running, breathing, distant wolf howls only.
+First person POV handheld phone footage at night. Several pairs of glowing yellow eyes show up in the dark past the flashlight. Wolf growling sounds from different directions. Camera swings around fast, wolves coming closer. Hands quickly grab the 2-month-old red fox kit with fluffy orange-red fur, hold it tight against chest. Running through dark forest, flashlight bouncing everywhere, trees going past fast. Heavy breathing, loud footsteps. Baby fox held tight, visible from chest level. Very shaky running footage, phone almost drops, blurry from movement, gasping for air. No background music, only running sounds, breathing, wolf sounds in distance.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 밤. 플래시 불빛 너머 어둠 속에서 여러 쌍의 노란 눈이 빛난다. 여러 방향에서 늑대 으르렁 소리. 카메라가 급히 돌며 다가오는 늑대 무리. 손이 아기 여우를 낚아채 가슴에 꼭 안는다. 어두운 숲을 뚫고 달린다. 거친 숨소리, 발소리. 가슴 높이에서 보이는 품에 안긴 여우.
+1인칭 POV 핸드폰 푸티지. 밤. 플래시 너머 어둠에서 여러 쌍의 노란 눈이 나타남. 여러 방향에서 늑대 으르렁 소리. 카메라 빠르게 돌아감, 늑대들 다가옴. 손이 빠르게 아기 여우 잡아서 가슴에 꽉 안음. 어두운 숲 뚫고 달림, 플래시 여기저기 튐, 나무들 빠르게 지나감. 거친 숨, 큰 발소리. 가슴 높이에서 꽉 안긴 아기 여우 보임. 매우 흔들리는 달리기 푸티지, 폰 거의 떨어질 뻔, 움직임에 흐릿함, 헐떡임.
 ```
 
 ---
@@ -213,13 +213,13 @@ First person POV handheld footage filmed at night. Multiple pairs of glowing yel
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed inside the orange tent, warm lamp light creating cozy amber glow. The tent zipper closes, safe at last. A hand offers a small piece of meat to the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes. The exhausted kit eats hungrily. Time dissolve. The fox kit now curled up peacefully on the filmer's lap, eyes closed, tiny body rising and falling with gentle breathing. A hand softly strokes the kit's fur. The kit sleeps deeply, finally safe. Warm, tender atmosphere. Home video aesthetic, gentle intimate framing, peaceful moment. No background music, natural ambient sound only.
+First person POV handheld phone footage inside orange tent, small lamp making warm light. Tent zipper closes, finally safe. Hand holds out small piece of meat to the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes. Tired fox eats fast, really hungry. Time skip. Fox now curled up on man's lap, eyes closed, small body going up and down with breathing. Hand pets the fox fur gently. Fox sleeping deep, safe now. Phone propped up or held low, slightly shaky still, warm lamp light, casual home video look. No background music, only soft breathing and tent fabric sounds.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 주황색 텐트 안, 따뜻한 램프 빛. 텐트 지퍼가 닫힌다, 드디어 안전. 손이 작은 고기 조각을 아기 여우에게 준다. 지친 여우가 허겁지겁 먹는다. 시간 경과. 촬영자의 무릎 위에 웅크려 잠든 아기 여우. 눈 감고, 작은 몸이 숨결에 오르내린다. 손이 부드럽게 털을 쓰다듬는다.
+1인칭 POV 핸드폰 푸티지. 주황색 텐트 안, 작은 램프가 따뜻한 빛. 텐트 지퍼 닫힘, 드디어 안전. 손이 작은 고기 조각을 아기 여우에게 내밈. 지친 여우가 빨리 먹음, 진짜 배고픔. 시간 경과. 여우가 이제 남자 무릎에 웅크림, 눈 감음, 작은 몸이 숨쉬며 오르내림. 손이 여우 털 부드럽게 쓰다듬음. 여우 깊이 잠듦, 이제 안전. 폰 세워두거나 낮게 들고, 여전히 약간 흔들림, 따뜻한 램프빛, 캐주얼한 홈비디오 느낌.
 ```
 
 ---
@@ -240,13 +240,13 @@ First person POV handheld footage filmed inside the orange tent, warm lamp light
 ### Sora2 Prompt
 
 ```
-First person POV handheld footage filmed in morning light. Bright sunlight filters through forest trees, golden hour glow. The camera shows a packed backpack being lifted. The filmer starts walking down a forest trail, leaving. Behind, desperate crying. The camera turns to reveal the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes filled with tears, running after the man, crying pleadingly. The man stops. Long pause. Hands reach down and gently lift the fox kit, cradling it against his chest. The camera angle shifts to show the man's silhouette from behind, fox kit in arms, walking down the sunlit mountain trail toward home. Hopeful, emotional atmosphere. Home video aesthetic, meaningful slow movement, triumphant ending. No background music, natural ambient sound only. Slow fade to black.
+First person POV handheld phone footage in morning. Sunlight coming through trees, early morning light. Camera shows backpack being picked up. Man starts walking down forest trail, leaving. Crying sound from behind. Camera turns around to show the 2-month-old red fox kit with fluffy orange-red fur, bright amber eyes with tears, running after the man, crying loud. Man stops walking. Long pause. Hands reach down and pick up the fox gently, hold it against chest. Camera angle changes to show man from behind, fox in arms, walking down the sunny trail heading home. Morning light, birds singing, peaceful feeling. Phone footage, natural shaky movement, real moment captured. No background music, only footsteps, bird sounds, fox making small sounds. Slow fade to black.
 ```
 
 ### 장면 설명
 
 ```
-1인칭 POV 핸드헬드 푸티지. 아침 햇살. 숲 사이로 황금빛이 스며든다. 배낭을 메고 산길을 내려가기 시작. 뒤에서 처절한 울음소리. 카메라가 돌아보면 아기 여우가 울면서 쫓아온다. 멈추는 남자. 긴 정적. 손이 내려가 여우를 부드럽게 안아 올린다. 카메라 앵글이 바뀌어 햇빛 비치는 산길을 내려가는 남자의 뒷모습, 품에 안긴 여우. 페이드 아웃.
+1인칭 POV 핸드폰 푸티지. 아침. 나무 사이로 햇빛 들어옴, 이른 아침 빛. 카메라에 배낭 집어드는 거 보임. 남자가 숲길 내려가기 시작, 떠나는 중. 뒤에서 울음소리. 카메라 돌아보면 아기 여우가 눈물 흘리며 쫓아옴, 크게 울음. 남자 걸음 멈춤. 긴 정적. 손이 내려가서 여우 부드럽게 들어올림, 가슴에 안음. 카메라 앵글 바뀌어 남자 뒷모습, 품에 여우, 햇빛 비치는 길 내려감. 아침 빛, 새소리, 평화로운 느낌. 폰 푸티지, 자연스러운 흔들림, 진짜 순간 담김. 천천히 페이드 아웃.
 ```
 
 ---
@@ -294,11 +294,13 @@ First person POV handheld footage filmed in morning light. Bright sunlight filte
 
 ### Style Consistency
 
-- All scenes: First person POV handheld footage
-- Night scenes: Flashlight as main light source
-- Final scene: Morning golden hour
+- All scenes: First person POV handheld phone footage (amateur style)
+- Night scenes: Phone flashlight only, out of focus moments, shaky
+- Final scene: Morning natural light
 - Camera holder never visible, only hands
 - No background music, natural ambient sound only
+- Simple direct sentences, no cinematic/dramatic expressions
+- Heavy breathing, footsteps, natural sounds audible
 
 ---
 
