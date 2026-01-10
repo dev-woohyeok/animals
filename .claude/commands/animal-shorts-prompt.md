@@ -1,6 +1,6 @@
 # /animal-shorts-prompt - Sora2 프롬프트 생성
 
-각 장면에 대한 Sora2 최적화 영어 프롬프트 + 한국어 번역 동시 생성
+각 장면에 대한 Sora2 최적화 영어 프롬프트 생성 (한국어 번역 없음)
 
 ## 사용법
 
@@ -71,29 +71,15 @@ character_reference: |
 
 prompts:
   - scene_id: 1
-    english: |
+    prompt: |
       First person POV handheld home video footage. The owner films their golden retriever
       walking toward them, carefully carrying a tiny African pygmy hedgehog with brown and
       cream quills in its mouth. The dog approaches slowly with extreme gentleness.
       Natural indoor lighting, slight motion blur. Low quality home camera aesthetic,
       amateur footage feel, authentic and raw.
-    korean: |
-      1인칭 POV 핸드헬드 홈비디오. 주인이 골든 리트리버가 다가오는 모습을 촬영한다.
-      개는 갈색과 크림색 가시가 있는 작은 아프리카 피그미 고슴도치를 조심스럽게
-      입에 물고 천천히 다가온다. 자연 실내조명, 약간의 모션 블러.
-      저화질 홈카메라 느낌, 아마추어 영상 분위기, 진짜 같은 느낌.
-    structure:
-      character: "golden retriever + African pygmy hedgehog"
-      setting: "indoor, living room"
-      action: "dog walking, carrying hedgehog"
-      camera: "handheld POV"
-      lighting: "natural indoor"
-      atmosphere: "curious, gentle, warm"
 
   - scene_id: 2
-    english: |
-      ...
-    korean: |
+    prompt: |
       ...
 ```
 
@@ -163,13 +149,3 @@ Warm lamp lighting, grainy home video quality, slight video compression artifact
 Authentic amateur footage aesthetic.
 ```
 
----
-
-## 번역 가이드
-
-`prompts/translation_system.md` 참조:
-
-- 기술 용어는 그대로 유지 (POV, handheld 등)
-- 자연스러운 한국어로 의역
-- 영상 제작 용어는 업계 표준 사용
-- 감정 전달 우선

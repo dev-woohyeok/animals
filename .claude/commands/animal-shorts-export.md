@@ -52,10 +52,6 @@ projects/{slug}/prompts.md
 {english_prompt}
 \`\`\`
 
-### 장면 설명
-
-{korean_translation}
-
 ---
 
 ## Scene 2: {title} ({title_en})

@@ -80,7 +80,7 @@ scenes:
 
 ### Step 4: Sora2 프롬프트 생성
 
-`prompts/sora2_system.md` 규칙에 따라 각 장면의 **영어 프롬프트 + 한국어 번역** 동시 생성:
+`prompts/sora2_system.md` 규칙에 따라 각 장면의 **영어 프롬프트** 생성 (한국어 번역 없음):
 
 **핵심 규칙**:
 1. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명 사용
@@ -99,12 +99,9 @@ character_reference: "A small African pygmy hedgehog with brown and cream quills
 
 prompts:
   - scene_id: 1
-    english: |
+    prompt: |
       First person POV handheld home video footage. [Character description].
       [Setting]. [Action]. [Camera]. [Lighting]. [Atmosphere]. [Quality markers].
-    korean: |
-      1인칭 POV 핸드헬드 홈비디오. [캐릭터 설명].
-      [배경]. [동작]. [카메라]. [조명]. [분위기].
 ```
 
 **[사용자 확인]**: 프롬프트가 적절한가요? (개별 수정 가능)
@@ -152,9 +149,6 @@ hooks:
 {english_prompt}
 \`\`\`
 
-### 장면 설명
-{korean_translation}
-
 ---
 ...
 
@@ -171,7 +165,6 @@ hooks:
 - `prompts/story_system.md` - 스토리 구조 가이드
 - `prompts/scene_system.md` - 장면 분할 가이드
 - `prompts/sora2_system.md` - Sora2 프롬프트 규칙
-- `prompts/translation_system.md` - 번역 가이드
 - `prompts/title_system.md` - 제목 생성 전략
 - `output/hedgehog_family.md` - 출력 형식 예시
 
