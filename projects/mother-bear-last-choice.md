@@ -130,7 +130,18 @@ First person POV handheld phone footage. Cabin living room, sunny day. A young b
 
 ---
 
-### Scene 10: 자연을 그리워하는 곰 (12초)
+### Scene 10: 우리 가족이 되다 (12초)
+
+```
+First person POV handheld phone footage montage with quick transitions. Scene 1: Young bear lies on deck chair in backyard, cucumber slices on eyes, sunbathing with belly up, looking relaxed and silly. Quick cut. Scene 2: Bear wearing cute bee costume with antenna headband, wobbling around living room, bumping into furniture playfully. Quick cut. Scene 3: Family dinner table, bear sits in large chair next to little girl, both wearing matching bibs, bear trying to eat with paws. Quick cut. Scene 4: Bear and girl sleeping together on couch, girl hugging bear like teddy bear, both peaceful. Shaky amateur footage throughout, warm happy lighting. No background music, only happy family sounds, bear grunts, girl laughing, birds outside.
+```
+
+**Caption EN**: She wasn't just a bear anymore... She was family.
+**Caption KR**: 그녀는 더 이상 그냥 곰이 아니었다... 그녀는 가족이었다.
+
+---
+
+### Scene 11: 자연을 그리워하는 곰 (12초)
 
 ```
 First person POV handheld phone footage. Inside cabin living room. A young healthy brown bear with thick dark brown fur sits by the window, staring out at the forest. Bear's breath fogs the glass slightly. Bear puts one paw on the window, watching birds fly past. Ears perk up at distant sounds from outside. Bear sighs deeply, keeps staring with longing eyes. Camera slowly moves closer to bear from behind, showing both bear and the forest view through window. Shaky handheld footage, soft indoor lighting mixed with natural light from window. No background music, only bear soft breathing, clock ticking, muffled forest sounds from outside.
@@ -141,7 +152,7 @@ First person POV handheld phone footage. Inside cabin living room. A young healt
 
 ---
 
-### Scene 11: 슬픈 작별 (15초)
+### Scene 12: 슬픈 작별 (15초)
 
 ```
 First person POV handheld phone footage. Forest cabin backyard, golden hour sunlight. Human walks with young healthy brown bear toward forest edge. Human kneels down, hugs bear around the neck, face buried in fur. Bear nuzzles human's shoulder. Human pulls back, wipes eyes, gently pushes bear toward forest. Bear hesitates, looks back one more time. Human waves with trembling hand, nodding as if saying go. Bear turns and walks into forest, disappearing between trees. Shaky handheld footage, out of focus moments from tears. Golden warm light. No background music, only footsteps, soft crying, forest sounds.
@@ -152,7 +163,7 @@ First person POV handheld phone footage. Forest cabin backyard, golden hour sunl
 
 ---
 
-### Scene 12: 감사의 선물 (18초)
+### Scene 13: 감사의 선물 (18초)
 
 ```
 First person POV handheld phone footage. Years later. Morning light. Front door of forest cabin opens, camera looks out. A large healthy adult brown bear with thick dark brown fur sits on the porch, a large salmon placed in front of her. Two small cubs sit beside her. Camera shakes badly as person recognizes the bear, steps forward onto porch. Human hand reaches out trembling, touches bear's face. Bear closes eyes and leans into the touch, remembering. Human drops to knees, hugging bear's neck, camera angle tilts as phone almost drops. Bear nuzzles human's head gently. Human pulls back, laughing and crying at the same time, looking at the cubs then back at the bear. Bear pushes salmon forward with nose. Human nods, unable to speak. Bear stands, looks back one last time with knowing eyes, then walks toward forest with her cubs. Shaky handheld footage, very out of focus from tears. Golden morning light. No background music, only happy crying, bear soft sounds, cubs small sounds, birds singing.
@@ -176,8 +187,9 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 | 7 | 성장 | 10초 | 성장, 유대 |
 | 8 | 작은 친구 | 12초 | 우정, 교감, 행복 |
 | 9 | 핑크 배 자랑 | 10초 | 장난, 사랑, 유머 |
-| 10 | 자연을 그리워하는 곰 | 12초 | 그리움, 갈등 |
-| 11 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
-| 12 | 감사의 선물 | 18초 | 감격, 재회, 사랑 |
+| 10 | 우리 가족이 되다 | 12초 | 행복, 유머, 가족애 |
+| 11 | 자연을 그리워하는 곰 | 12초 | 그리움, 갈등 |
+| 12 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
+| 13 | 감사의 선물 | 18초 | 감격, 재회, 사랑 |
 
-**총 12개 장면 / 154초**
+**총 13개 장면 / 166초**
