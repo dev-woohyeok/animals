@@ -130,14 +130,14 @@ First person POV handheld phone footage. Forest cabin backyard, golden hour sunl
 
 ---
 
-### Scene 10: 감사의 선물 (15초)
+### Scene 10: 감사의 선물 (18초)
 
 ```
-First person POV handheld phone footage. Years later. Morning light. Front door of forest cabin opens, camera looks out. A large healthy adult brown bear with thick dark brown fur sits on the porch, a large salmon placed in front of her. Two small cubs sit beside her, looking up at camera curiously. Mother bear looks up at camera with calm, knowing eyes. She pushes the salmon slightly forward with her nose, as if presenting a gift. Brief moment of eye contact. Bear stands, turns with her cubs, and they walk together toward the forest. Shaky handheld footage, out of focus moments. Soft morning light. No background music, only bear soft sounds, cubs small sounds, birds singing, door creaking.
+First person POV handheld phone footage. Years later. Morning light. Front door of forest cabin opens, camera looks out. A large healthy adult brown bear with thick dark brown fur sits on the porch, a large salmon placed in front of her. Two small cubs sit beside her. Camera shakes badly as person recognizes the bear, steps forward onto porch. Human hand reaches out trembling, touches bear's face. Bear closes eyes and leans into the touch, remembering. Human drops to knees, hugging bear's neck, camera angle tilts as phone almost drops. Bear nuzzles human's head gently. Human pulls back, laughing and crying at the same time, looking at the cubs then back at the bear. Bear pushes salmon forward with nose. Human nods, unable to speak. Bear stands, looks back one last time with knowing eyes, then walks toward forest with her cubs. Shaky handheld footage, very out of focus from tears. Golden morning light. No background music, only happy crying, bear soft sounds, cubs small sounds, birds singing.
 ```
 
-**Caption EN**: I opened the door... and she was waiting. With her family. And a gift.
-**Caption KR**: 문을 열었더니... 그녀가 기다리고 있었다. 가족과 함께. 그리고 선물을 들고.
+**Caption EN**: She came back... My little baby came back. Now a mother herself.
+**Caption KR**: 돌아왔어... 내 작은 아기가 돌아왔어. 이제는 엄마가 되어서.
 
 ---
 
@@ -154,6 +154,6 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 | 7 | 성장 | 10초 | 성장, 유대 |
 | 8 | 자연을 그리워하는 곰 | 12초 | 그리움, 갈등 |
 | 9 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
-| 10 | 감사의 선물 | 15초 | 감사, 보답, 재회 |
+| 10 | 감사의 선물 | 18초 | 감격, 재회, 사랑 |
 
-**총 10개 장면 / 123초**
+**총 10개 장면 / 126초**
