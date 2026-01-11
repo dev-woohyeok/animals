@@ -108,7 +108,29 @@ First person POV handheld phone footage montage. Quick cuts showing time passing
 
 ---
 
-### Scene 8: 자연을 그리워하는 곰 (12초)
+### Scene 8: 작은 친구 (12초)
+
+```
+First person POV handheld phone footage. Cabin living room floor, warm afternoon light. A young bear cub with soft dark brown fur lies on carpet. A little girl around 5 years old sits next to the cub, gently petting its head. Cub rolls over playfully. Girl giggles and hugs the cub carefully. Cub licks girl's cheek, girl laughs and wipes face. Both look up at camera together, girl waving, cub's tongue out. Shaky handheld footage, soft natural lighting. No background music, only girl giggling, cub playful sounds, soft footsteps.
+```
+
+**Caption EN**: My daughter found her best friend... They grew up together.
+**Caption KR**: 딸아이가 가장 친한 친구를 찾았다... 둘은 함께 자랐다.
+
+---
+
+### Scene 9: 핑크 배 자랑 (10초)
+
+```
+First person POV handheld phone footage. Cabin living room, sunny day. A young bear with thick dark brown fur lies on its back on the floor, four legs in the air, showing pink belly and pink paw pads. Human hand reaches in and rubs the pink belly. Bear wiggles happily, paws paddling in the air. Bear playfully grabs human's arm with front paws, gentle and silly. Human laughs from behind camera. Bear sneezes, rolls back over, looks at camera with goofy expression. Shaky amateur footage, warm indoor lighting. No background music, only bear happy grunts, human laughing, playful sounds.
+```
+
+**Caption EN**: That pink belly... Those pink paws... She loved belly rubs.
+**Caption KR**: 그 핑크색 배... 핑크색 발바닥... 그녀는 배 문지르기를 좋아했다.
+
+---
+
+### Scene 10: 자연을 그리워하는 곰 (12초)
 
 ```
 First person POV handheld phone footage. Inside cabin living room. A young healthy brown bear with thick dark brown fur sits by the window, staring out at the forest. Bear's breath fogs the glass slightly. Bear puts one paw on the window, watching birds fly past. Ears perk up at distant sounds from outside. Bear sighs deeply, keeps staring with longing eyes. Camera slowly moves closer to bear from behind, showing both bear and the forest view through window. Shaky handheld footage, soft indoor lighting mixed with natural light from window. No background music, only bear soft breathing, clock ticking, muffled forest sounds from outside.
@@ -119,7 +141,7 @@ First person POV handheld phone footage. Inside cabin living room. A young healt
 
 ---
 
-### Scene 9: 슬픈 작별 (15초)
+### Scene 11: 슬픈 작별 (15초)
 
 ```
 First person POV handheld phone footage. Forest cabin backyard, golden hour sunlight. Human walks with young healthy brown bear toward forest edge. Human kneels down, hugs bear around the neck, face buried in fur. Bear nuzzles human's shoulder. Human pulls back, wipes eyes, gently pushes bear toward forest. Bear hesitates, looks back one more time. Human waves with trembling hand, nodding as if saying go. Bear turns and walks into forest, disappearing between trees. Shaky handheld footage, out of focus moments from tears. Golden warm light. No background music, only footsteps, soft crying, forest sounds.
@@ -130,7 +152,7 @@ First person POV handheld phone footage. Forest cabin backyard, golden hour sunl
 
 ---
 
-### Scene 10: 감사의 선물 (18초)
+### Scene 12: 감사의 선물 (18초)
 
 ```
 First person POV handheld phone footage. Years later. Morning light. Front door of forest cabin opens, camera looks out. A large healthy adult brown bear with thick dark brown fur sits on the porch, a large salmon placed in front of her. Two small cubs sit beside her. Camera shakes badly as person recognizes the bear, steps forward onto porch. Human hand reaches out trembling, touches bear's face. Bear closes eyes and leans into the touch, remembering. Human drops to knees, hugging bear's neck, camera angle tilts as phone almost drops. Bear nuzzles human's head gently. Human pulls back, laughing and crying at the same time, looking at the cubs then back at the bear. Bear pushes salmon forward with nose. Human nods, unable to speak. Bear stands, looks back one last time with knowing eyes, then walks toward forest with her cubs. Shaky handheld footage, very out of focus from tears. Golden morning light. No background music, only happy crying, bear soft sounds, cubs small sounds, birds singing.
@@ -152,8 +174,10 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 | 5 | 품 안의 온기 | 10초 | 따뜻함 |
 | 6 | 생사의 기로 | 12초 | 긴장 → 희망 |
 | 7 | 성장 | 10초 | 성장, 유대 |
-| 8 | 자연을 그리워하는 곰 | 12초 | 그리움, 갈등 |
-| 9 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
-| 10 | 감사의 선물 | 18초 | 감격, 재회, 사랑 |
+| 8 | 작은 친구 | 12초 | 우정, 교감, 행복 |
+| 9 | 핑크 배 자랑 | 10초 | 장난, 사랑, 유머 |
+| 10 | 자연을 그리워하는 곰 | 12초 | 그리움, 갈등 |
+| 11 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
+| 12 | 감사의 선물 | 18초 | 감격, 재회, 사랑 |
 
-**총 10개 장면 / 126초**
+**총 12개 장면 / 148초**
