@@ -111,22 +111,22 @@ First person POV handheld phone footage montage. Quick cuts showing time passing
 ### Scene 8: 숲으로의 귀환 (15초)
 
 ```
-First person POV handheld phone footage. Forest edge, golden hour sunlight. A young healthy brown bear stands at open gate of enclosure. Bear hesitates, looks back toward camera. Brief eye contact. Bear turns and runs into the forest, disappearing between trees. Camera follows until bear is gone. Shaky handheld footage, out of focus moments as bear runs. Golden hour warm light through trees. No background music, only forest sounds, bear running through leaves, birds singing.
+First person POV handheld phone footage. Forest cabin backyard, golden hour sunlight. A young healthy brown bear with thick dark brown fur stands at forest edge, looking back at camera. Human hand reaches out and gently touches bear's head one last time. Bear nuzzles the hand briefly, then turns and walks calmly into the forest. Bear pauses once, looks back, then continues into the trees and disappears. Shaky handheld footage, out of focus moments. Golden warm light through trees. No background music, only forest sounds, gentle footsteps, birds singing.
 ```
 
-**Caption EN**: Go home, little one... Your mother's forest is waiting.
-**Caption KR**: 집으로 가렴... 네 엄마의 숲이 기다리고 있어.
+**Caption EN**: It was time to say goodbye... Go live your life, little one.
+**Caption KR**: 이별의 시간이었다... 가서 네 삶을 살아, 꼬마야.
 
 ---
 
 ### Scene 9: 감사의 선물 (15초)
 
 ```
-First person POV handheld phone footage. Years later. Forest cabin porch, golden hour. A large healthy adult brown bear with thick dark brown fur emerges from treeline with two small cubs following behind her. Bear walks toward cabin, carrying a large salmon in her mouth. Cubs stay back near trees, watching. Bear approaches porch, gently places fish on ground, looks up toward camera. Brief eye contact, calm and knowing. Bear turns and walks back to her cubs, all three disappear into forest together. Shaky handheld footage, out of focus moments. Golden warm light through trees. No background music, only forest sounds, bear footsteps on leaves, cubs small sounds, birds singing.
+First person POV handheld phone footage. Years later. Morning light. Front door of forest cabin opens, camera looks out. A large healthy adult brown bear with thick dark brown fur sits on the porch, a large salmon placed in front of her. Two small cubs sit beside her, looking up at camera curiously. Mother bear looks up at camera with calm, knowing eyes. She pushes the salmon slightly forward with her nose, as if presenting a gift. Brief moment of eye contact. Bear stands, turns with her cubs, and they walk together toward the forest. Shaky handheld footage, out of focus moments. Soft morning light. No background music, only bear soft sounds, cubs small sounds, birds singing, door creaking.
 ```
 
-**Caption EN**: Years later... She came back. With her family. And a thank you.
-**Caption KR**: 몇 년 후... 그녀가 돌아왔다. 가족과 함께. 그리고 감사의 인사를 전했다.
+**Caption EN**: I opened the door... and she was waiting. With her family. And a gift.
+**Caption KR**: 문을 열었더니... 그녀가 기다리고 있었다. 가족과 함께. 그리고 선물을 들고.
 
 ---
 
