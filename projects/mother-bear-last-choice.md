@@ -53,10 +53,10 @@ First person POV handheld phone footage. Dark forest, distant tent light visible
 
 ---
 
-### Scene 3: 마지막 인사 (15초)
+### Scene 3: 마지막 인사 (18초)
 
 ```
-Trail camera night vision footage. Fixed angle wildlife camera mounted on tree, filming forest campsite area. Grainy infrared footage, green-grey tint, timestamp visible in corner. A camping tent visible in the background with faint light inside. A large adult brown bear with thick dark brown fur limps into frame, carrying tiny newborn cub in mouth. Bear approaches tent area, gently places cub on ground near tent entrance. Bear licks cub one last time, looks down at it, then slowly turns and limps away into the dark forest. Static camera, low resolution, slight video noise. No background music, only faint forest night sounds.
+Trail camera night vision footage. Fixed angle wildlife camera mounted on tree, filming forest campsite area. Grainy infrared footage, green-grey tint, timestamp visible in corner. A camping tent visible in the background with faint light inside. A large adult brown bear with thick dark brown fur limps badly into frame, dragging injured leg, deep wounds visible on side. She carries tiny newborn cub in mouth. Bear stops, looks at tent, then at cub. She hesitates, takes a step back, then forward again. Finally places cub carefully right at tent entrance. Bear licks cub many times, nuzzles it with nose. She takes few steps away, stops, looks back at cub. Takes more steps, looks back again. She does this three times, each time harder to leave. Finally she limps away into darkness, looking back one last time before disappearing. Static camera, low resolution. No background music, only faint forest night sounds, cub tiny cries.
 ```
 
 **Caption EN**: A trail camera captured this moment... A mother's final goodbye.
@@ -169,7 +169,7 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 |---|------|------|------|
 | 1 | 엄마의 마지막 여정 | 15초 | 슬픔, 절박, 위기 |
 | 2 | 불빛을 향해 | 10초 | 결심 |
-| 3 | 마지막 인사 | 15초 | 이별, 모성애 |
+| 3 | 마지막 인사 | 18초 | 이별, 모성애, 망설임 |
 | 4 | 새벽의 발견 | 12초 | 놀람, 연민 |
 | 5 | 품 안의 온기 | 10초 | 따뜻함 |
 | 6 | 생사의 기로 | 12초 | 긴장 → 희망 |
@@ -180,4 +180,4 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 | 11 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
 | 12 | 감사의 선물 | 18초 | 감격, 재회, 사랑 |
 
-**총 12개 장면 / 151초**
+**총 12개 장면 / 154초**
