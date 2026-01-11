@@ -31,10 +31,10 @@ Baby Cub: A tiny newborn bear cub, eyes still closed, small enough to fit in a h
 
 ## Sora2 프롬프트
 
-### Scene 1: 엄마의 마지막 여정 (12초)
+### Scene 1: 엄마의 마지막 여정 (15초)
 
 ```
-First person POV handheld phone footage. Dark forest at night. A large adult brown bear with thick dark brown fur, tired gentle eyes, limping on injured hind leg. She carries a tiny newborn bear cub in her mouth, eyes still closed, small enough to fit in a human palm. Mother bear walks slowly through trees, limping badly. Shaky handheld camera following from distance. Moonlight through branches, low light, dark shadows. Unsteady amateur footage, out of focus moments. No background music, only forest sounds, leaves crunching under bear paws, mother bear heavy breathing.
+First person POV handheld phone footage. Dark forest at night, snow falling. A large adult brown bear with thick dark brown fur stumbles through trees, dragging injured hind leg that bends wrong. Deep claw marks visible on her side. She carries a tiny newborn bear cub in her mouth carefully. Mother bear trips, almost falls, catches herself. She breathes hard, visible breath in cold air. She looks back fearfully, then keeps moving forward desperately. Bear stumbles again, pauses to rest against tree trunk, exhausted. She looks down at cub in her mouth, then forces herself to keep walking. Shaky handheld camera from distance. Moonlight on snow, low light. No background music, only wind, snow crunching, mother bear labored breathing, distant wolf howls.
 ```
 
 **Caption EN**: She had no choice... She had to find someone.
@@ -167,7 +167,7 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 
 | # | 장면 | 시간 | 감정 |
 |---|------|------|------|
-| 1 | 엄마의 마지막 여정 | 12초 | 슬픔, 절박 |
+| 1 | 엄마의 마지막 여정 | 15초 | 슬픔, 절박, 위기 |
 | 2 | 불빛을 향해 | 10초 | 결심 |
 | 3 | 마지막 인사 | 15초 | 이별, 모성애 |
 | 4 | 새벽의 발견 | 12초 | 놀람, 연민 |
@@ -180,4 +180,4 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 | 11 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
 | 12 | 감사의 선물 | 18초 | 감격, 재회, 사랑 |
 
-**총 12개 장면 / 148초**
+**총 12개 장면 / 151초**
