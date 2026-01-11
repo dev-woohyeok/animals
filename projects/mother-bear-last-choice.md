@@ -56,11 +56,11 @@ First person POV handheld phone footage. Dark forest, distant tent light visible
 ### Scene 3: 마지막 인사 (15초)
 
 ```
-First person POV handheld phone footage. Outside a camping tent at night. A large adult brown bear with thick dark brown fur gently places a tiny newborn bear cub on the ground near tent entrance. Mother bear licks the cub softly, nuzzles it one last time. She looks down at her baby, then slowly turns and limps away into the darkness. Shaky handheld camera, out of focus moments. Tent light illuminating the scene. Unsteady amateur footage. No background music, only mother bear soft sounds, cub tiny whimpers, forest night sounds.
+Night vision security camera footage. Fixed angle CCTV view of cabin porch area. Grainy infrared footage, green-grey tint, timestamp visible in corner. A large adult brown bear with thick dark brown fur limps into frame from the right, carrying tiny newborn cub in mouth. Bear gently places cub on porch, licks it softly one last time. Bear looks down at cub for a moment, then slowly turns and limps away, disappearing into darkness on the left side of frame. Static camera, low resolution, slight video noise. No background music, only faint ambient sound from security camera mic.
 ```
 
-**Caption EN**: One last lick... One last look... Goodbye, my baby.
-**Caption KR**: 마지막 핥아줌... 마지막 눈 맞춤... 안녕, 내 아기야.
+**Caption EN**: Security camera captured this moment... A mother's goodbye.
+**Caption KR**: 보안 카메라에 찍힌 순간... 엄마의 마지막 작별.
 
 ---
 
