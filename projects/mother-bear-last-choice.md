@@ -108,18 +108,29 @@ First person POV handheld phone footage montage. Quick cuts showing time passing
 
 ---
 
-### Scene 8: 숲으로의 귀환 (15초)
+### Scene 8: 자연을 그리워하는 곰 (12초)
 
 ```
-First person POV handheld phone footage. Forest cabin backyard, golden hour sunlight. A young healthy brown bear with thick dark brown fur stands at forest edge, looking back at camera. Human hand reaches out and gently touches bear's head one last time. Bear nuzzles the hand briefly, then turns and walks calmly into the forest. Bear pauses once, looks back, then continues into the trees and disappears. Shaky handheld footage, out of focus moments. Golden warm light through trees. No background music, only forest sounds, gentle footsteps, birds singing.
+First person POV handheld phone footage. Forest cabin window view. A young healthy brown bear with thick dark brown fur sits outside, staring at the distant forest. Bear sniffs the air, ears perked up, longing in her eyes. Wind blows through trees in the distance. Bear stands up, takes a few steps toward forest, then looks back at cabin, conflicted. Shaky handheld footage through window glass. Golden hour light. No background music, only wind sounds, distant bird calls, bear soft breathing.
 ```
 
-**Caption EN**: It was time to say goodbye... Go live your life, little one.
-**Caption KR**: 이별의 시간이었다... 가서 네 삶을 살아, 꼬마야.
+**Caption EN**: She kept staring at the forest... I knew what she wanted.
+**Caption KR**: 그녀는 계속 숲을 바라봤다... 나는 그녀가 원하는 걸 알았다.
 
 ---
 
-### Scene 9: 감사의 선물 (15초)
+### Scene 9: 슬픈 작별 (15초)
+
+```
+First person POV handheld phone footage. Forest cabin backyard, golden hour sunlight. Human walks with young healthy brown bear toward forest edge. Human kneels down, hugs bear around the neck, face buried in fur. Bear nuzzles human's shoulder. Human pulls back, wipes eyes, gently pushes bear toward forest. Bear hesitates, looks back one more time. Human waves with trembling hand, nodding as if saying go. Bear turns and walks into forest, disappearing between trees. Shaky handheld footage, out of focus moments from tears. Golden warm light. No background music, only footsteps, soft crying, forest sounds.
+```
+
+**Caption EN**: I didn't want to let go... But she deserved to be free.
+**Caption KR**: 보내고 싶지 않았다... 하지만 그녀는 자유로워질 자격이 있었다.
+
+---
+
+### Scene 10: 감사의 선물 (15초)
 
 ```
 First person POV handheld phone footage. Years later. Morning light. Front door of forest cabin opens, camera looks out. A large healthy adult brown bear with thick dark brown fur sits on the porch, a large salmon placed in front of her. Two small cubs sit beside her, looking up at camera curiously. Mother bear looks up at camera with calm, knowing eyes. She pushes the salmon slightly forward with her nose, as if presenting a gift. Brief moment of eye contact. Bear stands, turns with her cubs, and they walk together toward the forest. Shaky handheld footage, out of focus moments. Soft morning light. No background music, only bear soft sounds, cubs small sounds, birds singing, door creaking.
@@ -141,7 +152,8 @@ First person POV handheld phone footage. Years later. Morning light. Front door 
 | 5 | 품 안의 온기 | 10초 | 따뜻함 |
 | 6 | 생사의 기로 | 12초 | 긴장 → 희망 |
 | 7 | 성장 | 10초 | 성장, 유대 |
-| 8 | 숲으로의 귀환 | 15초 | 감동, 완성 |
-| 9 | 감사의 선물 | 15초 | 감사, 보답, 재회 |
+| 8 | 자연을 그리워하는 곰 | 12초 | 그리움, 갈등 |
+| 9 | 슬픈 작별 | 15초 | 슬픔, 이별, 사랑 |
+| 10 | 감사의 선물 | 15초 | 감사, 보답, 재회 |
 
-**총 9개 장면 / 111초**
+**총 10개 장면 / 123초**
