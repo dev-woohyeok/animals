@@ -111,11 +111,11 @@ First person POV handheld phone footage montage. Quick cuts showing time passing
 ### Scene 8: 자연을 그리워하는 곰 (12초)
 
 ```
-First person POV handheld phone footage. Forest cabin window view. A young healthy brown bear with thick dark brown fur sits outside, staring at the distant forest. Bear sniffs the air, ears perked up, longing in her eyes. Wind blows through trees in the distance. Bear stands up, takes a few steps toward forest, then looks back at cabin, conflicted. Shaky handheld footage through window glass. Golden hour light. No background music, only wind sounds, distant bird calls, bear soft breathing.
+First person POV handheld phone footage. Inside cabin living room. A young healthy brown bear with thick dark brown fur sits by the window, staring out at the forest. Bear's breath fogs the glass slightly. Bear puts one paw on the window, watching birds fly past. Ears perk up at distant sounds from outside. Bear sighs deeply, keeps staring with longing eyes. Camera slowly moves closer to bear from behind, showing both bear and the forest view through window. Shaky handheld footage, soft indoor lighting mixed with natural light from window. No background music, only bear soft breathing, clock ticking, muffled forest sounds from outside.
 ```
 
-**Caption EN**: She kept staring at the forest... I knew what she wanted.
-**Caption KR**: 그녀는 계속 숲을 바라봤다... 나는 그녀가 원하는 걸 알았다.
+**Caption EN**: Every day she sat by the window... staring at the forest. I knew what she wanted.
+**Caption KR**: 매일 그녀는 창가에 앉아... 숲을 바라봤다. 나는 그녀가 원하는 걸 알았다.
 
 ---
 
