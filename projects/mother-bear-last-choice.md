@@ -119,6 +119,17 @@ First person POV handheld phone footage. Forest edge, golden hour sunlight. A yo
 
 ---
 
+### Scene 9: 감사의 선물 (15초)
+
+```
+First person POV handheld phone footage. Years later. Forest cabin porch, golden hour. A large healthy adult brown bear with thick dark brown fur emerges from treeline with two small cubs following behind her. Bear walks toward cabin, carrying a large salmon in her mouth. Cubs stay back near trees, watching. Bear approaches porch, gently places fish on ground, looks up toward camera. Brief eye contact, calm and knowing. Bear turns and walks back to her cubs, all three disappear into forest together. Shaky handheld footage, out of focus moments. Golden warm light through trees. No background music, only forest sounds, bear footsteps on leaves, cubs small sounds, birds singing.
+```
+
+**Caption EN**: Years later... She came back. With her family. And a thank you.
+**Caption KR**: 몇 년 후... 그녀가 돌아왔다. 가족과 함께. 그리고 감사의 인사를 전했다.
+
+---
+
 ## 장면 요약
 
 | # | 장면 | 시간 | 감정 |
@@ -131,5 +142,6 @@ First person POV handheld phone footage. Forest edge, golden hour sunlight. A yo
 | 6 | 생사의 기로 | 12초 | 긴장 → 희망 |
 | 7 | 성장 | 10초 | 성장, 유대 |
 | 8 | 숲으로의 귀환 | 15초 | 감동, 완성 |
+| 9 | 감사의 선물 | 15초 | 감사, 보답, 재회 |
 
-**총 8개 장면 / 96초**
+**총 9개 장면 / 111초**
