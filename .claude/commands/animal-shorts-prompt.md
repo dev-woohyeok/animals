@@ -1,6 +1,6 @@
 # /animal-shorts-prompt - Sora2 프롬프트 생성
 
-각 장면에 대한 Sora2 최적화 영어 프롬프트 생성 (한국어 번역 없음)
+각 장면에 대한 Sora2 최적화 **한국어 프롬프트** 생성
 
 ## 사용법
 
@@ -19,46 +19,63 @@
 **모든 프롬프트에 동일한 캐릭터 설명 사용!**
 
 ```
-A [size] [species] with [fur/feather color and texture], [eye color and expression], [distinctive features]
+[크기] [종] [털/깃털 색상과 질감], [눈 색상과 표현], [특징적인 특성]
 ```
 
 **예시**:
 ```
-A small African pygmy hedgehog with brown and cream quills, tiny black bead eyes, and a pink nose
+주황색과 흰색 털을 가진 작은 펨브로크 웰시 코기 강아지, 짧고 뭉툭한 다리, 크고 쫑긋한 귀, 동그란 짙은 갈색 눈, 검은 코, 복슬복슬한 흰색 가슴 패치
 ```
 
-```
-A golden retriever with fluffy cream-colored fur, large expressive brown eyes, slightly floppy ears, and a white patch on its chest
+### 2. 배경 일관성 (CRITICAL)
+
+**스토리 전체에서 배경/환경 설정 일관성 유지!**
+
+스토리 시작 시 배경 레퍼런스 정의:
+
+```yaml
+setting_reference:
+  location: "도시 골목길 / 주택가"
+  time_progression: "낮 → 저녁 → 밤 → 다음날"
+  weather: "흐림 → 비 → 맑음"
+  season: "가을"
 ```
 
-### 2. 프롬프트 구조 (순서대로)
+각 장면에서 이 설정을 일관되게 반영:
+- 같은 도시라면 비슷한 거리 스타일 유지
+- 시간 흐름에 따른 조명 변화 자연스럽게
+- 날씨 변화가 스토리와 연결되도록
 
-1. **Camera/Style**: 카메라 스타일 (예: First person POV handheld home video)
+### 3. 자막/캡션 필수 (CRITICAL)
+
+**모든 장면에 영문 + 한글 자막 포함!**
+
+```yaml
+caption:
+  EN: "He kicked his own dog... I had to film this"
+  KR: "자기 개를 발로 찼어... 이건 찍어야 했다"
+```
+
+자막 작성 규칙:
+- 1인칭 내레이션 스타일 (촬영자/구조자 시점)
+- 짧고 임팩트 있게 (15자 내외)
+- 감정을 자극하는 표현 사용
+- 스토리 진행 상황 전달
+
+### 4. 프롬프트 구조 (순서대로)
+
+1. **Camera/Style**: 카메라 스타일 (1인칭 시점 핸드폰 촬영)
 2. **Character**: 캐릭터 설명 (일관되게 복사)
-3. **Setting**: 환경/배경
+3. **Setting**: 환경/배경 (배경 레퍼런스 참조)
 4. **Action**: 동작/움직임
 5. **Camera Movement**: 카메라 움직임
 6. **Lighting**: 조명
-7. **Atmosphere**: 분위기
-8. **Technical Specs**: 품질 마커
+7. **Sound**: 자연스러운 소리 (배경음악 없음)
 
-### 3. 품질 마커
+### 5. 품질 마커 (아마추어 스타일 고정)
 
-스타일에 따라 선택:
-
-**Home Video (추천)**:
 ```
-First person POV handheld footage, home video aesthetic, slightly grainy, natural imperfections, authentic amateur feel
-```
-
-**Cinematic Realistic**:
-```
-Photorealistic 4K cinematic quality, shallow depth of field, cinematic color grading, subtle film grain
-```
-
-**Documentary**:
-```
-Documentary style footage, natural lighting, observational camera, real-world authenticity
+1인칭 시점 손으로 들고 찍는 핸드폰 영상. 흔들리는 아마추어 촬영. 불안정한 카메라, 가끔 초점 나감. 배경음악 없음.
 ```
 
 ---
@@ -67,18 +84,28 @@ Documentary style footage, natural lighting, observational camera, real-world au
 
 ```yaml
 character_reference: |
-  A small African pygmy hedgehog with brown and cream quills, tiny black bead eyes, and a pink nose
+  주황색과 흰색 털을 가진 작은 펨브로크 웰시 코기 강아지, 짧고 뭉툭한 다리,
+  크고 쫑긋한 귀, 동그란 짙은 갈색 눈, 검은 코, 복슬복슬한 흰색 가슴 패치
+
+setting_reference:
+  location: "도시 주택가 거리"
+  time_progression: "낮 → 저녁(비) → 밤 → 며칠 후(맑음)"
+  weather: "흐림 → 비 → 맑음"
 
 prompts:
   - scene_id: 1
+    caption:
+      EN: "He kicked his own dog... I had to film this"
+      KR: "자기 개를 발로 찼어... 이건 찍어야 했다"
     prompt: |
-      First person POV handheld home video footage. The owner films their golden retriever
-      walking toward them, carefully carrying a tiny African pygmy hedgehog with brown and
-      cream quills in its mouth. The dog approaches slowly with extreme gentleness.
-      Natural indoor lighting, slight motion blur. Low quality home camera aesthetic,
-      amateur footage feel, authentic and raw.
+      1인칭 시점 손으로 들고 찍는 핸드폰 영상. 흔들리는 아마추어 촬영.
+      [캐릭터 설명]. [배경]. [동작]. [카메라]. [조명].
+      배경음악 없음, [자연스러운 소리]만.
 
   - scene_id: 2
+    caption:
+      EN: "..."
+      KR: "..."
     prompt: |
       ...
 ```
@@ -88,64 +115,45 @@ prompts:
 ## DO / DON'T
 
 ### DO
-- 구체적이고 시각적인 설명 사용
+- **한국어로 프롬프트 작성**
 - 캐릭터 설명 **정확히 동일하게** 유지
-- 카메라 움직임 방향 포함
-- 조명 조건 명시
-- 감정적 분위기 키워드 추가
-- 품질 마커로 마무리
+- 배경 설정 **일관성 있게** 유지
+- **모든 장면에 자막 포함**
+- 구체적이고 시각적인 설명 사용
+- 자연스러운 소리 포함 (동물 소리, 숨소리, 환경음)
 
 ### DON'T
-- "beautiful", "nice" 같은 모호한 표현
+- 영어로 프롬프트 작성
 - 장면마다 캐릭터 설명 변경
-- 오디오/사운드 설명 포함
-- 부정 프롬프트 사용
-- 너무 많은 요소로 복잡하게 만들기
+- 배경 설정 불일치 (갑자기 다른 장소로)
+- 자막 누락
+- "beautiful", "nice" 같은 모호한 표현
+- 배경음악 포함
 - 200단어 초과
 
 ---
 
 ## Content Policy 검증 (필수)
 
-프롬프트 생성 후 반드시 아래 체크리스트 확인:
+### 금지 표현
 
-### 금지 표현 자동 검사
-
-| 금지 단어 | 대체 표현 |
-|----------|----------|
-| dead, death, die | motionless, still, not responding |
-| corpse, body, lifeless | lying still, collapsed, fallen |
-| blood, bleeding, wound | (삭제) |
-| kill, attack, devour, maul | (장면 분리) |
-| horrifying, terrifying, gruesome | tense, dramatic, intense |
-
-### 검증 체크리스트
-
-```
-[ ] dead/death/die 단어 없음
-[ ] blood/wound/injury 없음
-[ ] attack/kill/devour 없음
-[ ] 포식자가 먹이 섭취하는 장면 없음
-[ ] 직접적인 폭력 묘사 없음
-[ ] 동물 학대로 해석될 장면 없음
-```
-
-### 위반 발견 시
-
-1. 해당 표현을 대체 표현으로 수정
-2. 폭력 장면은 직전/직후로 분리
-3. 감정은 눈물, 울음, 자세 등으로 전달
+| 금지 | 대체 |
+|-----|-----|
+| 죽음, 시체 | 움직이지 않는, 쓰러진 |
+| 피, 상처 | (삭제) |
+| 공격, 죽이다 | (장면 분리) |
+| 끔찍한, 무서운 | 긴장되는 |
 
 ---
 
-## 예시 프롬프트 (Home Video 스타일)
+## 사운드 규칙 (중요!)
 
 ```
-First person POV handheld home video. Owner crouches down filming as their golden retriever
-carefully places the tiny African pygmy hedgehog with brown and cream quills onto a soft blanket.
-The camera gets close, slightly shaky and out of focus momentarily as the owner adjusts.
-The dog's wet nose nudges the baby hedgehog, who uncurls to reveal tiny black bead eyes.
-Warm lamp lighting, grainy home video quality, slight video compression artifacts.
-Authentic amateur footage aesthetic.
+❌ "배경음악 없음, 소리 없음"
+✅ "배경음악 없음, 코기 낑낑거리는 소리, 빗소리, 발소리만"
 ```
 
+자연스러운 소리는 반드시 포함:
+- 동물 소리: 낑낑거림, 으르렁, 짖는 소리
+- 사람 소리: 숨소리, 발소리, 부드러운 말소리
+- 환경음: 빗소리, 도시 소음, 새소리
