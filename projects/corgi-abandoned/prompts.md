@@ -2,7 +2,7 @@
 
 > 주인에게 버림받은 코기가 비 오는 거리를 헤매다 한 남자를 만나, 천천히 마음을 열고 진짜 가족이 되는 이야기
 
-**총 길이:** 120초 (8개 장면)
+**총 길이:** 105초 (7개 장면)
 
 ---
 
@@ -27,7 +27,7 @@ setting_reference:
   street_details: "wide asphalt road, sidewalks, front yards with green grass, white picket fences, silver mailboxes on posts"
   vehicles: "American cars - white SUV, gray pickup truck, black sedan parked on driveways"
   objects: "red fire hydrants, black metal street lamps, green plastic garbage bins, garden hoses"
-  time_progression: "afternoon (overcast) → 3 days later evening (rain) → night → 1 year later (sunny)"
+  time_progression: "afternoon (overcast) → evening (wandering) → night (heavy rain) → 1 year later (sunny)"
   weather: "overcast gray sky → heavy rain with puddles → clear blue sky"
   season: "fall - orange and brown leaves on ground, oak trees partially bare"
   indoor: "American suburban home - beige walls, hardwood floors, gray fabric sofa, warm yellow lamps"
@@ -77,49 +77,28 @@ setting_reference:
 
 ---
 
-## Scene 3: 비를 피해
+## Scene 3: 발견과 경계
 
 - **Duration:** 15s
-- **Emotion:** 절망, 외로움, 추위
-- **Camera:** handheld, 멀리서 발견 후 다가감
-- **Context:** 3일 전 유기 현장을 목격했던 남자가 그 코기를 다시 찾아 헤매다 발견한 상황. 코기는 며칠간 거리를 헤매며 더 지치고 더러워진 상태
+- **Emotion:** 절망, 긴장, 경계, 불신
+- **Camera:** handheld, 멀리서 발견 → 다가감 → 으르렁
+- **Context:** 밤에 비가 세게 내리기 시작해서 걱정된 남자가 코기를 찾으러 나선 상황. 차 밑에 웅크린 코기를 발견하고 다가가지만, 버림받은 트라우마로 코기가 사람을 경계함
 
 ### Caption
 
-| EN  | Found her 3 days later... under a car, shaking |
-| --- | ---------------------------------------------- |
-| KR  | 3일 후에 찾았어... 차 밑에서 떨고 있었다       |
+| EN  | Found her in the rain... she growled at me |
+| --- | ------------------------------------------ |
+| KR  | 비 맞고 있는 걸 찾았어... 나한테 으르렁거렸다 |
 
 ### Sora2 Prompt
 
 ```
-1인칭 시점 손으로 들고 찍는 핸드폰 영상. 흔들리는 아마추어 촬영. 미국 교외 주택가 거리. 3일 전 버림받는 걸 목격한 코기를 찾아 헤매던 남자가 드디어 발견한 상황. 비가 세게 내린다. 남자가 멀리서 차 밑에 뭔가 있는 걸 발견하고 다가간다. 줌인하자 주황색과 흰색 털을 가진 작은 펨브로크 웰시 코기 강아지가 보인다. 며칠간 거리를 헤맨 코기가 검은색 세단 밑에 웅크리고 있다. 온몸이 젖어서 심하게 떨고 있다. 털이 엉키고 더럽다. 미국식 교외 주택가, 드라이브웨이에 주차된 검은 세단, 빨간 소화전, 젖은 아스팔트에 물웅덩이들, 비에 젖은 잔디 앞마당. 어두운 비오는 저녁, 검은 금속 가로등 불빛이 젖은 도로에 반사. 멀리서 발견하고 천천히 다가가는 카메라. 불안정한 핸드헬드 촬영. 배경음악 없음, 빗소리, 물웅덩이에 떨어지는 빗방울, 멀리서 들리는 코기가 떨며 쉬는 숨소리만.
+1인칭 시점 손으로 들고 찍는 핸드폰 영상. 흔들리는 아마추어 촬영. 미국 교외 주택가 거리. 밤에 비가 세게 내리기 시작해서 걱정된 남자가 코기를 찾으러 나선 상황. 비가 억수같이 쏟아진다. 핸드폰 플래시로 어두운 거리를 비추며 코기를 찾아다닌다. 장면 전환. 멀리 검은색 세단 밑에 뭔가 웅크린 게 보인다. 줌인하자 주황색과 흰색 털을 가진 작은 펨브로크 웰시 코기 강아지가 보인다. 털이 엉키고 더럽고 비에 흠뻑 젖어서 온몸이 떨린다. 짧고 뭉툭한 다리, 크고 쫑긋한 귀, 동그란 짙은 갈색 눈, 검은 코, 복슬복슬한 흰색 가슴 패치가 더럽게 얼룩져 있다. 장면 전환. 남자가 천천히 다가가서 쪼그려 앉아 손을 내민다. 버림받은 트라우마로 사람을 경계하는 코기가 으르렁거리며 뒤로 물러난다. 겁먹고 방어적으로 이빨을 보인다. 미국식 교외 주택가, 드라이브웨이에 주차된 검은 세단, 빨간 소화전, 젖은 아스팔트에 물웅덩이들, 가로등 불빛이 젖은 도로에 반사. 어두운 비오는 밤. 불안정한 핸드헬드 촬영, 가끔 초점 나감. 배경음악 없음, 세찬 빗소리, 물웅덩이에 떨어지는 빗방울, 코기 으르렁거리는 소리, 남자가 코기를 진정시키려 부드럽게 말하는 소리만.
 ```
 
 ---
 
-## Scene 4: 발견
-
-- **Duration:** 15s
-- **Emotion:** 긴장, 경계, 불신
-- **Camera:** handheld, 남자 POV
-- **Context:** 차 밑에서 떨고 있는 버림받은 코기에게 다가가는 상황. 코기는 주인에게 버림받은 트라우마로 사람을 경계하는 상태
-
-### Caption
-
-| EN  | She growled at me... she didn't trust humans anymore |
-| --- | ---------------------------------------------------- |
-| KR  | 나한테 으르렁거렸어... 사람을 못 믿게 된 거야        |
-
-### Sora2 Prompt
-
-```
-1인칭 시점 손으로 들고 찍는 핸드폰 영상. 흔들리는 아마추어 촬영. 미국 교외 주택가 거리. 버림받은 트라우마로 사람을 경계하는 유기견에게 다가가는 상황. 비가 여전히 내린다. 백인 남자가 우산을 들고 쪼그려 앉아 검은 세단 밑을 들여다본다. 주황색과 흰색 털을 가진 작은 펨브로크 웰시 코기 강아지, 짧고 뭉툭한 다리, 크고 쫑긋한 귀, 동그란 짙은 갈색 눈, 검은 코, 복슬복슬한 흰색 가슴 패치. 사람에게 상처받은 젖은 코기가 남자가 손을 내밀자 으르렁거리며 뒤로 물러난다. 코기가 겁먹고 방어적으로 이빨을 보인다. 미국식 교외, 비에 젖은 드라이브웨이, 물웅덩이에 반사되는 가로등 불빛, 빨간 소화전. 비오는 저녁, 검은 금속 가로등 불빛. 불안정한 카메라, 가끔 초점 나감. 배경음악 없음, 빗소리, 코기 으르렁거리는 소리, 남자 부드럽게 쉬는 숨소리만.
-```
-
----
-
-## Scene 5: 간식으로 다가감
+## Scene 4: 간식으로 다가감
 
 - **Duration:** 15s
 - **Emotion:** 희망, 신뢰의 시작
@@ -140,7 +119,7 @@ setting_reference:
 
 ---
 
-## Scene 6: 품에 안겨
+## Scene 5: 품에 안겨
 
 - **Duration:** 15s
 - **Emotion:** 따뜻함, 안도, 보호
@@ -161,7 +140,7 @@ setting_reference:
 
 ---
 
-## Scene 7: 목욕과 경계
+## Scene 6: 목욕과 경계
 
 - **Duration:** 15s
 - **Emotion:** 조심스러움, 아직 남은 경계심
@@ -182,7 +161,7 @@ setting_reference:
 
 ---
 
-## Scene 8: 진짜 가족
+## Scene 7: 진짜 가족
 
 - **Duration:** 15s
 - **Emotion:** 행복, 사랑, 가족, 감동
