@@ -31,20 +31,32 @@
 
 **스토리 전체에서 배경/환경 설정 일관성 유지!**
 
+#### 영어권 배경 필수
+모든 영상은 **미국/영어권 국가 배경**으로 설정:
+- 미국식 주택가 (American suburban neighborhood)
+- 영어 간판, 미국식 차량 (SUV, pickup truck)
+- 미국식 소방전, 우편함, 가로등
+- 서양인 등장인물
+
 스토리 시작 시 배경 레퍼런스 정의:
 
 ```yaml
 setting_reference:
-  location: "도시 골목길 / 주택가"
-  time_progression: "낮 → 저녁 → 밤 → 다음날"
-  weather: "흐림 → 비 → 맑음"
-  season: "가을"
+  country: "United States"
+  location: "American suburban neighborhood with single-family houses"
+  street_details: "wide asphalt road, sidewalks, front yards with grass, white picket fences, mailboxes"
+  vehicles: "American cars - SUVs, pickup trucks, sedans parked on driveways"
+  objects: "fire hydrants, street lamps, garbage bins, garden hoses"
+  time_progression: "afternoon → evening (rain) → night → months later (sunny)"
+  weather: "overcast → heavy rain → clear sunny"
+  season: "fall - some leaves on ground, trees partially bare"
 ```
 
-각 장면에서 이 설정을 일관되게 반영:
-- 같은 도시라면 비슷한 거리 스타일 유지
-- 시간 흐름에 따른 조명 변화 자연스럽게
-- 날씨 변화가 스토리와 연결되도록
+#### 구체적 오브젝트 명시
+각 장면에 주변 사물을 구체적으로 포함:
+- **야외**: 가로등, 소화전, 우편함, 쓰레기통, 주차된 차량 종류
+- **실내**: 가구, 조명, 바닥재, 벽 색상
+- **날씨**: 비의 강도, 물웅덩이, 젖은 표면 반사
 
 ### 3. 자막/캡션 필수 (CRITICAL)
 
