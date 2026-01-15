@@ -19,7 +19,8 @@
       "Grep(*)",
       "WebFetch(domain:*)",
       "WebSearch",
-      "Bash(mv:*)"
+      "Bash(mv:*)",
+      "Skill(animal-shorts)"
     ]
   }
 }
