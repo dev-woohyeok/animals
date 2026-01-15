@@ -86,9 +86,9 @@ setting_reference:
 
 ### Caption
 
-| EN  | Found her in the rain... she growled at me    |
+| EN  | It started raining... I had to go find her    |
 | --- | --------------------------------------------- |
-| KR  | 비 맞고 있는 걸 찾았어... 나한테 으르렁거렸다 |
+| KR  | 비가 쏟아지기 시작했어... 찾으러 나갈 수밖에 없었다 |
 
 ### Sora2 Prompt
 
