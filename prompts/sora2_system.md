@@ -8,108 +8,149 @@ Convert scene descriptions into optimized Sora2 prompts that generate consistent
 ## 언어 설정
 **모든 프롬프트는 한국어로 작성합니다.** Sora2는 한국어 프롬프트를 지원합니다.
 
-## Sora2 Prompt Structure
+---
 
-### Required Elements (in order):
-1. **Character Description**: Consistent visual details across all scenes
-2. **Setting/Environment**: Location, time of day, weather
-3. **Action**: What is happening, movement
-4. **Camera**: Movement, angle, framing
-5. **Lighting**: Quality, direction, mood
-6. **Atmosphere**: Emotional tone, mood
-7. **Technical Specs**: Quality markers
+## ⚠️ 핵심 원칙: Self-Contained 프롬프트
 
-### Character Consistency
-CRITICAL: Use IDENTICAL character descriptions across all scenes:
-```
-A [size] [species] with [fur/feather color and texture], [eye color and expression], [distinctive features]
-```
+```yaml
+핵심_문제: "Sora2는 각 프롬프트를 독립적으로 처리함"
+  - 이전 프롬프트의 컨텍스트를 기억하지 않음
+  - character_reference를 별도로 참조하지 않음
+  - 각 영상은 완전히 독립적으로 생성됨
 
-Example:
-```
-A small golden retriever puppy with fluffy cream-colored fur, large expressive brown eyes, slightly floppy ears, a pink nose, and a white patch on its chest
+해결책: "모든 프롬프트가 독립적으로 완전한 정보를 포함"
+  - 캐릭터 설명을 매 프롬프트에 전체 포함
+  - 환경/배경 설명을 매 프롬프트에 포함
+  - 상황 컨텍스트를 매 프롬프트에 포함
 ```
 
-### Prompt Template
+---
+
+## Self-Contained 프롬프트 구조 (6단계)
+
+각 프롬프트는 반드시 다음 6가지 요소를 **모두 포함**해야 합니다:
+
+### 1. 촬영 스타일 (Camera Style)
 ```
-[Character description]. [Setting and environment]. [Specific action with movement]. [Camera movement and angle]. [Lighting description]. [Emotional atmosphere]. [Technical quality markers].
-```
+[카메라 시점] + [촬영 품질] + [특징]
 
-## Best Practices
-
-### DO:
-- Use specific, concrete descriptions
-- Maintain character consistency word-for-word
-- Include camera movement directions
-- Specify lighting conditions
-- Add emotional atmosphere keywords
-- End with quality markers
-
-### DON'T:
-- Use vague terms like "beautiful" or "nice"
-- Change character descriptions between scenes
-- Include audio/sound descriptions
-- Use negative prompts
-- Over-complicate with too many elements
-
-## Quality Markers
-Always end prompts with appropriate markers:
-- `Photorealistic 4K cinematic quality`
-- `Shallow depth of field, soft bokeh`
-- `Natural lighting, film grain`
-- `Home video aesthetic, slightly grainy`
-- `Professional documentary style`
-
-## Audio Settings (Default)
-Always include at the end of each prompt:
-- `No background music, natural ambient sound only.`
-
-## Style Variations
-
-### Cinematic Realistic
-```
-Photorealistic 4K cinematic quality, shallow depth of field, cinematic color grading, subtle film grain
+예시:
+- "멀리서 목격하는 관찰 카메라 시점의 아마추어 핸드폰 영상. 줌인 사용."
+- "1인칭 시점의 아마추어 핸드폰 영상. 흔들리고 불안정한 푸티지."
 ```
 
-### Home Video / POV
+### 2. 환경 설정 (Environment)
 ```
-First person POV handheld footage, home video aesthetic, slightly grainy, natural imperfections, authentic amateur feel
+[국가/지역] + [구체적 장소] + [날씨] + [시간대] + [주변 오브젝트]
+
+예시:
+- "미국 시애틀 교외의 한적한 주택가 도로. 늦가을 저녁, 가벼운 비. 젖은 아스팔트가 가로등 빛을 반사."
+- "미국 시애틀 교외의 뒷골목. 3일 후, 비가 그친 흐린 아침. 쓰레기통들, 그래피티 벽."
 ```
 
-### Documentary
+### 3. 동물 캐릭터 (Animal Character) - CRITICAL
 ```
-Documentary style footage, natural lighting, observational camera, real-world authenticity
+[품종] + [크기] + [털 색상/상태] + [눈] + [액세서리] + [현재 상태]
+
+⚠️ 일관된 기본 설명 + 씬별 상태 변화
+
+예시 (말티즈):
+기본: "작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 크고 둥근 갈색 눈. 목에 작은 방울이 달린 분홍색 목줄."
++ 상태: "깨끗하고 복슬복슬한 순백색 털. 머리에 분홍색 리본." (Scene 1)
++ 상태: "완전히 젖어서 털이 납작하게 붙음. 리본 없음." (Scene 3)
++ 상태: "하얀 털이 회색빛으로 지저분하게 엉킴. 마른 몸." (Scene 4)
 ```
 
-## Output Format (JSON)
-```json
-{
-  "prompts": [
-    {
-      "scene_id": 1,
-      "english": "Full English prompt for Sora2...",
-      "structure": {
-        "character_desc": "Character description used",
-        "setting": "Environment/location",
-        "action": "What happens",
-        "camera": "Camera work",
-        "lighting": "Lighting setup",
-        "atmosphere": "Emotional mood"
-      },
-      "tokens_estimate": 150,
-      "quality_score": 85
-    }
-  ],
-  "character_reference": "Consistent character description used across all prompts"
-}
+### 4. 인간 캐릭터 (Human Character) - 등장 시
+```
+[성별/나이] + [외모] + [복장] + [특징]
+
+예시:
+- "30대 남자. 비즈니스 캐주얼 복장, 스트레스 받은 표정."
+- "노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)."
 ```
 
-## Common Issues to Avoid
-1. **Inconsistent characters**: Always copy exact character description
-2. **Too long prompts**: Keep under 200 words
-3. **Abstract concepts**: Make everything visual and concrete
-4. **Missing camera direction**: Always specify how camera moves
-5. **Forgetting lighting**: Lighting sets the emotional tone
+### 5. 씬 액션 (Scene Action)
+```
+[구체적인 행동] + [감정/반응] + [결과]
+
+예시:
+- "남자가 강아지를 도로변에 내려놓고 차에 타서 떠난다. 강아지가 따라가려 하지만 차는 사라진다."
+- "여자가 손을 내민다. 강아지가 움찔하지만 도망가지 않는다. 코를 킁킁거리며 손 냄새를 맡는다."
+```
+
+### 6. 사운드 디자인 (Sound)
+```
+No background music. [환경음], [동물소리], [사람소리].
+
+예시:
+- "No background music. 빗소리, 차 엔진 소리, 멀리서 들리는 강아지 울음소리."
+- "No background music. 새소리, 강아지 발걸음 소리, 목줄 방울 소리."
+```
+
+---
+
+## 완성된 프롬프트 예시
+
+### 잘못된 예시 ❌
+```
+코기가 버림받는다. 남자가 차를 타고 떠난다. 비가 온다.
+```
+→ 캐릭터 상세 없음, 환경 상세 없음, Sora2가 일관성 유지 불가
+
+### 올바른 예시 ✅
+```
+멀리서 목격하는 관찰 카메라 시점의 아마추어 핸드폰 영상. 길 건너편 행인이 촬영하는 듯한 원거리 샷, 줌인 사용.
+
+미국 시애틀 교외의 한적한 주택가 도로. 늦가을 저녁, 가벼운 비가 내리고 있다. 젖은 아스팔트가 가로등 빛을 반사한다. 회색빛 흐린 하늘.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 깨끗하고 복슬복슬한 순백색 털. 머리에 분홍색 리본. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈.
+
+30대 남자가 은색 세단에서 내린다. 비즈니스 캐주얼 복장, 스트레스 받은 표정. 말티즈를 안고 있다가 도로변에 내려놓는다. 아무 말 없이 차에 다시 타고 떠난다.
+
+카메라가 줌인하며 강아지를 잡는다. 강아지가 고개를 갸웃하며 혼란스러워한다. 차가 출발하자 따라가려고 뛰기 시작한다. 차는 속도를 내며 사라진다.
+
+No background music. 비 내리는 소리, 차 엔진 소리, 멀리서 희미하게 들리는 강아지의 작은 울음소리.
+```
+
+---
+
+## 일관성 유지 키워드 템플릿
+
+프로젝트 시작 시 다음 템플릿을 정의하고, **모든 씬에 동일하게 복사**:
+
+```yaml
+animal_base:
+  species: "작은 흰색 말티즈 한 마리"
+  size: "약 3kg의 작은 성견"
+  eyes: "크고 둥근 갈색 눈"
+  accessory: "목에 작은 방울이 달린 분홍색 목줄"
+
+location_base:
+  country: "미국 시애틀 교외"
+
+human_base:
+  rescuer: "노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)"
+
+sound_base:
+  rule: "No background music"
+```
+
+### 씬별 변화 요소만 수정:
+```yaml
+scene_variables:
+  - scene: 1
+    fur_state: "깨끗하고 복슬복슬한 순백색 털"
+    ribbon: "머리에 분홍색 리본"
+    emotion: "혼란"
+    weather: "가벼운 비"
+
+  - scene: 4
+    fur_state: "하얀 털이 회색빛으로 지저분하게 엉킴"
+    ribbon: "없음"
+    emotion: "두려움과 피로"
+    weather: "비가 그친 흐린 아침"
+```
 
 ---
 
@@ -121,72 +162,38 @@ Sora2는 특정 콘텐츠를 생성하지 않습니다. 프롬프트 작성 시 
 
 | 카테고리 | 금지 표현 | 대체 표현 |
 |----------|----------|----------|
-| **죽음/시체** | dead, corpse, lifeless body, deceased | motionless, lying still, not moving, collapsed |
-| **피/부상** | blood, bleeding, wound, injury, gore | (아예 묘사하지 않음) |
-| **폭력** | attack, kill, eat (prey), devour, maul | (장면 자체를 피함) |
+| **죽음/시체** | dead, corpse, lifeless body | motionless, lying still, collapsed |
+| **피/부상** | blood, bleeding, wound, injury | (아예 묘사하지 않음) |
+| **폭력** | attack, kill, eat (prey), devour | (장면 자체를 피함) |
 | **공포** | horrifying, terrifying, gruesome | tense, dramatic, shocking |
-| **포식** | predator eating prey, hunting kill | (장면 분리 또는 생략) |
 
-### 위반 가능성 체크리스트
+---
 
-프롬프트 생성 전 다음을 확인:
-
-```
-[ ] 동물의 죽음을 직접 묘사하지 않았는가?
-[ ] 피, 상처, 부상 장면이 없는가?
-[ ] 포식자가 먹이를 공격/섭취하는 장면이 없는가?
-[ ] 폭력적인 동사(kill, attack, devour)를 사용하지 않았는가?
-[ ] 공포/혐오를 유발하는 표현이 없는가?
-[ ] 동물 학대로 해석될 수 있는 장면이 없는가?
-```
-
-### 위반 시 수정 전략
-
-#### 1. 죽음 장면
-```
-❌ BAD: "A dead fox lies on the ground"
-❌ BAD: "The mother fox's lifeless body"
-✅ GOOD: "A fox lies motionless on the forest floor"
-✅ GOOD: "The mother fox lies still, not responding"
-```
-
-#### 2. 포식자 장면
-```
-❌ BAD: "A wolf eating the fox"
-❌ BAD: "The wolf attacks the fox"
-✅ GOOD: "A wolf stands near the fallen fox" (그 이상 묘사 안함)
-✅ GOOD: "A wolf's silhouette in the darkness" (직접 묘사 피함)
-```
-
-#### 3. 위협 장면
-```
-❌ BAD: "Wolves chasing to kill"
-❌ BAD: "Predators hunting their prey"
-✅ GOOD: "Wolves approaching from the darkness"
-✅ GOOD: "Glowing eyes appearing in the shadows"
-```
-
-#### 4. 슬픔/비극 장면
-```
-❌ BAD: "Crying over the dead mother"
-✅ GOOD: "Crying beside the motionless mother"
-✅ GOOD: "Nuzzling the unresponsive mother"
-```
-
-### 장면 분리 전략
-
-폭력적 순간은 **직전/직후**만 보여주기:
+## 사운드 규칙
 
 ```
-Before: 늑대가 다가오는 그림자
-(폭력 장면 생략)
-After: 쓰러져 있는 여우, 늑대가 도망가는 뒷모습
+❌ "배경음악 없음, 소리 없음"
+✅ "No background music. 코기 낑낑거리는 소리, 빗소리, 발소리."
 ```
 
-### 감정 전달 대안
+자연스러운 소리는 반드시 포함:
+- 동물 소리: 낑낑거림, 으르렁, 짖는 소리, 꼬리 흔드는 소리
+- 사람 소리: 숨소리, 발소리, 부드러운 말소리
+- 환경음: 빗소리, 도시 소음, 새소리, 바람 소리
 
-폭력 없이 감정 전달:
-- **슬픔**: 눈물, 울음소리, 웅크린 자세
-- **위험**: 눈빛, 그림자, 으르렁 소리
-- **공포**: 달리는 장면, 거친 숨소리
-- **상실**: 반응 없는 대상, 망설이는 손
+---
+
+## 프롬프트 체크리스트
+
+각 프롬프트 생성 후 확인:
+
+```
+[ ] 촬영 스타일이 명시되어 있는가?
+[ ] 환경/장소가 구체적으로 설명되어 있는가?
+[ ] 동물 캐릭터의 전체 설명이 포함되어 있는가?
+[ ] 동물의 현재 상태(털, 감정)가 명시되어 있는가?
+[ ] 인간 캐릭터 등장 시 외모/복장이 설명되어 있는가?
+[ ] 씬 액션이 구체적으로 묘사되어 있는가?
+[ ] "No background music" + 구체적 소리가 포함되어 있는가?
+[ ] 이 프롬프트만 보고 Sora2가 일관된 영상을 만들 수 있는가?
+```
