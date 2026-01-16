@@ -8,104 +8,45 @@
 
 ---
 
-## Common Settings (일관성을 위한 공통 설정)
+## 프롬프트 설계 원칙
 
-### Environment (환경)
-```
-Location: Urban neighborhood in Pacific Northwest, USA (Seattle area)
-Season: Late autumn, cold and rainy
-Time progression: Day 1 evening → Day 3 morning → Day 5 → Day 7 → Day 10
-Weather: Persistent light rain, overcast, occasional heavy downpour
-Streets: Wet asphalt reflecting streetlights, puddles everywhere
-Urban elements: Parked cars, trash cans, bus stops, convenience stores, alleys
-```
+```yaml
+핵심_원칙: "각 프롬프트는 Sora2가 독립적으로 이해할 수 있어야 함"
 
-### Animal - Maltese (말티즈)
-```
-Breed: Maltese, small adult (about 3kg)
-Fur: White, becomes increasingly dirty/matted as days pass
-- Scene 1-2: Clean, fluffy white fur with pink bow
-- Scene 3-5: Dirty, wet, matted fur, bow gone
-- Scene 6-8: Very dirty, thin, exhausted looking
-- Scene 9-10: Clean again, healthy, happy
+self_contained_구조:
+  1_촬영_스타일: "카메라 시점, 촬영 품질"
+  2_환경_설정: "장소, 날씨, 시간대, 조명"
+  3_동물_묘사: "품종, 크기, 털 색상/상태, 눈, 액세서리"
+  4_캐릭터_묘사: "등장인물 외모, 복장, 행동"
+  5_씬_액션: "현재 장면에서 일어나는 일"
+  6_사운드: "환경음, 동물소리, 사람소리 (BGM 없음)"
 
-Eyes: Large, dark brown, expressive
-- Scene 1-2: Confused, searching
-- Scene 3-5: Sad, fearful
-- Scene 6-7: Wary, distrustful
-- Scene 8-10: Hopeful, trusting
-
-Accessories:
-- Pink bow on head (Scene 1-2 only, falls off in rain)
-- Pink collar with small bell (throughout, identifies as abandoned pet)
-```
-
-### Characters
-
-#### Previous Owner (이전 주인) - Scene 1 only
-```
-Gender: Male, 30s
-Appearance: Business casual, looks stressed/annoyed
-Vehicle: Silver sedan
-Action: Drives away without looking back
-```
-
-#### Observer/Rescuer (관찰자/구조자) - Scene 5-10
-```
-Gender: Female, late 20s
-Appearance: Casual clothes, kind face, patient demeanor
-- Wearing: Rain jacket (yellow), jeans, sneakers
-Hair: Dark brown, shoulder length, often in ponytail
-Personality: Patient, gentle, persistent
-Home: Small but warm apartment
-```
-
-### Audio Style (모든 씬 공통)
-```
-No background music
-Natural ambient sounds only:
-- Rain sounds (light drizzle to heavy downpour)
-- Urban sounds (distant traffic, occasional car passing)
-- Dog sounds (whimpering, barking, crying)
-- Human sounds (footsteps on wet pavement, soft speaking voice)
-```
-
-### Visual Style (모든 씬 공통)
-```
-First person POV handheld phone footage
-Shaky, unsteady, amateur footage
-Out of focus moments
-Phone flashlight for night scenes
-Realistic lighting (streetlights, store lights, car headlights)
-Visible breath in cold air
-Rain droplets on camera lens occasionally
+일관성_유지:
+  - 말티즈: 항상 "작은 흰색 말티즈, 약 3kg, 큰 갈색 눈, 분홍 목줄에 방울"
+  - 장소: 항상 "미국 시애틀 교외 주택가"
+  - 날씨: 씬별로 변화하되 일관된 표현 사용
 ```
 
 ---
 
-## Scene Breakdown (10 Scenes)
+## Self-Contained 프롬프트 (10 Scenes)
 
 ### Scene 1: Abandonment (유기) - 15초
-**Hook Type**: A1 - Shocking Opening (충격적 첫 장면)
 
-**Start Frame**:
-```
-Silver sedan parked on quiet residential street
-Man opening car door, holding small white Maltese
-Light rain falling, evening light
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지 스타일. 비 오는 저녁, 한적한 주택가 도로. 은색 세단이 멈춰 서고, 30대 남자가 차에서 내린다. 작은 흰색 말티즈를 안고 있다. 말티즈는 분홍색 리본을 달고 있고, 귀여운 핑크색 목줄을 하고 있다. 남자가 강아지를 땅에 내려놓고, 아무 말 없이 차에 다시 탄다. 강아지가 고개를 갸웃하며 혼란스러워한다. 차가 출발하고, 강아지가 따라가려고 뛰기 시작한다. 차는 속도를 내며 사라진다. 강아지가 멈춰서서 차가 사라진 방향을 바라본다. 흔들리는 핸드폰 촬영, 비 오는 소리, 강아지의 작은 울음소리.
-```
+멀리서 목격하는 관찰 카메라 시점의 아마추어 핸드폰 영상. 길 건너편 행인이 촬영하는 듯한 원거리 샷, 줌인 사용.
 
-**End Frame**:
-```
-Small white Maltese standing alone on wet street
-Looking at direction where car disappeared
-Pink bow on head, collar with bell visible
-Light rain falling, confused expression
+미국 시애틀 교외의 한적한 주택가 도로. 늦가을 저녁, 가벼운 비가 내리고 있다. 젖은 아스팔트가 가로등 빛을 반사한다. 회색빛 흐린 하늘.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 깨끗하고 복슬복슬한 순백색 털. 머리에 분홍색 리본. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈.
+
+30대 남자가 은색 세단에서 내린다. 비즈니스 캐주얼 복장, 스트레스 받은 표정. 말티즈를 안고 있다가 도로변에 내려놓는다. 아무 말 없이 차에 다시 타고 떠난다.
+
+카메라가 줌인하며 강아지를 잡는다. 강아지가 고개를 갸웃하며 혼란스러워한다. 차가 출발하자 따라가려고 뛰기 시작한다. 차는 속도를 내며 사라진다. 강아지가 멈춰서서 차가 사라진 방향을 바라본다.
+
+No background music. 비 내리는 소리, 차 엔진 소리, 멀리서 희미하게 들리는 강아지의 작은 울음소리.
 ```
 
 **Caption (자막)**:
@@ -115,27 +56,19 @@ Light rain falling, confused expression
 ---
 
 ### Scene 2: Searching (찾아 헤매기) - 15초
-**Hook Type**: B3 - Animal Response (동물의 반응)
 
-**Start Frame**:
-```
-Same Maltese, same street, 30 minutes later
-Starting to walk around, sniffing
-Looking for owner, still hopeful
-Rain getting slightly heavier
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지. 30분 후, 같은 장소. 작은 말티즈가 주변을 맴돌며 킁킁거린다. 주인의 냄새를 찾는 것처럼 여기저기 코를 대본다. 가끔 멈춰서 귀를 쫑긋 세우고 차 소리가 나는 쪽을 본다. 희망에 찬 표정으로 다가가지만, 다른 차다. 실망한 표정. 계속 같은 자리를 빙빙 돈다. 비가 조금 더 세지고, 털이 젖기 시작한다. 리본이 축 처진다. 흔들리는 촬영, 빗소리, 강아지의 낑낑거리는 소리, 지나가는 차 소리.
-```
+멀리서 지켜보는 관찰 카메라 시점의 아마추어 핸드폰 영상. 건물 창문에서 내려다보는 듯한 높은 각도, 줌인 사용.
 
-**End Frame**:
-```
-Maltese sitting on wet sidewalk
-Fur getting wet, pink bow drooping
-Looking around hopefully but confused
-Slight shiver beginning
+미국 시애틀 교외의 한적한 주택가 도로. 같은 장소, 30분 후. 비가 조금 더 세졌다. 젖은 아스팔트, 웅덩이들. 가로등이 켜져 있다.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 털이 젖기 시작해서 축축하다. 머리의 분홍색 리본이 축 처졌다. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈에 혼란과 희망이 섞여 있다.
+
+강아지가 같은 자리를 빙빙 돌며 킁킁거린다. 주인의 냄새를 찾는 것처럼 여기저기 코를 대본다. 가끔 멈춰서 귀를 쫑긋 세우고 차 소리가 나는 쪽을 본다. 희망에 찬 표정으로 다가가지만, 다른 차다. 실망한 표정으로 다시 자리로 돌아온다. 몸이 살짝 떨리기 시작한다.
+
+No background music. 빗소리, 멀리서 희미하게 들리는 강아지의 낑낑거리는 소리, 지나가는 차 소리.
 ```
 
 **Caption (자막)**:
@@ -145,27 +78,19 @@ Slight shiver beginning
 ---
 
 ### Scene 3: First Night Alone (첫 번째 밤) - 15초
-**Hook Type**: B4 - Situation Worsens (상황 악화)
 
-**Start Frame**:
-```
-Night time, same neighborhood
-Heavy rain now
-Maltese seeking shelter under a parked car
-Completely soaked, shivering badly
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지, 휴대폰 플래시로 촬영. 밤, 폭우. 작은 말티즈가 주차된 차 밑에 웅크리고 있다. 완전히 젖어서 털이 납작하게 붙었다. 분홍 리본이 사라졌다. 심하게 떨고 있다. 눈이 크게 떠져 있고, 무서워하는 표정. 번개가 치고, 강아지가 움찔한다. 더 깊이 차 밑으로 들어간다. 작은 몸을 최대한 웅크린다. 춥고 무섭고 배고픈 첫 번째 밤. 흔들리는 촬영, 폭우 소리, 천둥 소리, 강아지의 떨리는 울음소리.
-```
+멀리서 목격하는 관찰 카메라 시점의 아마추어 핸드폰 영상. 길가에서 촬영하는 행인 시점, 가로등 불빛에 의존한 촬영.
 
-**End Frame**:
-```
-Maltese curled up tight under car
-Completely soaked, matted fur
-Eyes wide with fear, shivering
-Flash of lightning illuminating the scene
+미국 시애틀 교외의 주택가 도로. 밤, 폭우가 쏟아지고 있다. 가로등 불빛이 빗줄기를 비춘다. 주차된 차들 사이로 물이 흐른다.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 완전히 젖어서 털이 납작하게 몸에 붙었다. 분홍색 리본이 없어졌다. 목에 작은 방울이 달린 분홍색 목줄만 남아있다. 크고 둥근 갈색 눈이 공포에 크게 떠져 있다.
+
+카메라가 줌인. 주차된 차 밑에 작은 흰 덩어리가 웅크리고 있다. 심하게 떨고 있다. 번개가 치고, 순간적으로 강아지의 모습이 선명하게 보인다. 강아지가 움찔하며 더 깊이 차 밑으로 들어간다. 작은 몸을 최대한 웅크린 채 떨고 있다.
+
+No background music. 폭우 소리, 천둥 소리, 멀리서 희미하게 들리는 강아지의 떨리는 울음소리.
 ```
 
 **Caption (자막)**:
@@ -175,27 +100,19 @@ Flash of lightning illuminating the scene
 ---
 
 ### Scene 4: Days of Wandering (며칠간의 방황) - 15초
-**Hook Type**: C2 - Emotional Peak (감정 폭발)
 
-**Start Frame**:
-```
-Day 3, morning after rain stopped
-Maltese walking slowly down urban alley
-Fur dirty and matted, visibly thinner
-Searching trash cans for food
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지. 3일 후, 비가 그친 아침. 더러워진 말티즈가 골목길을 느리게 걷는다. 하얀 털이 회색빛으로 지저분해졌다. 눈에 띄게 마른 몸. 쓰레기통 근처를 어슬렁거리며 음식을 찾는다. 버려진 음식물을 발견하고 먹으려 하지만, 큰 떠돌이 개가 나타나 으르렁거린다. 말티즈가 겁에 질려 뒷걸음질 치다가 도망간다. 골목 끝에서 멈춰서 힘없이 주저앉는다. 흔들리는 촬영, 쓰레기통 뒤지는 소리, 큰 개 으르렁거리는 소리, 작은 강아지 비명.
-```
+멀리서 목격하는 관찰 카메라 시점의 아마추어 핸드폰 영상. 골목길 입구에서 촬영하는 행인 시점, 줌인 사용.
 
-**End Frame**:
-```
-Maltese collapsed at end of alley
-Very dirty, thin, exhausted
-Head down, no energy left
-Looking defeated
+미국 시애틀 교외의 뒷골목. 3일 후, 비가 그친 흐린 아침. 젖은 아스팔트, 쓰레기통들, 그래피티가 있는 벽.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 하얀 털이 회색빛으로 지저분하게 엉켜있다. 눈에 띄게 마른 몸, 갈비뼈가 살짝 보인다. 분홍색 리본이 없다. 목에 작은 방울이 달린 분홍색 목줄, 더러워졌다. 크고 둥근 갈색 눈에 두려움과 피로가 가득하다.
+
+강아지가 골목길을 느리게 걷는다. 쓰레기통 근처를 어슬렁거리며 음식을 찾는다. 버려진 음식물을 발견하고 먹으려 하지만, 큰 떠돌이 개가 갑자기 나타나 으르렁거린다. 말티즈가 겁에 질려 뒷걸음질 치다가 도망간다. 골목 끝에서 멈춰서 힘없이 주저앉는다.
+
+No background music. 쓰레기통 뒤지는 소리, 큰 개 으르렁거리는 소리, 멀리서 들리는 작은 강아지 비명.
 ```
 
 **Caption (자막)**:
@@ -205,27 +122,19 @@ Looking defeated
 ---
 
 ### Scene 5: Observer First Sees (관찰자가 처음 발견) - 15초
-**Hook Type**: B6 - Decision Point (선택의 순간)
 
-**Start Frame**:
-```
-Day 5, rainy afternoon
-POV of woman (rescuer) walking down street
-Spots dirty white dog near convenience store
-Dog is trying to stay dry under store awning
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지, 1인칭 시점. 5일 후, 비 오는 오후. 노란색 우비를 입은 여자(20대 후반)가 길을 걷다가 멈춘다. 편의점 처마 밑에 작고 더러운 흰색 강아지가 웅크리고 있다. 카메라가 강아지 쪽으로 줌인. 목에 분홍색 목줄이 보인다 - 버려진 반려견이다. 여자가 조심스럽게 다가간다. 강아지가 눈치채고 고개를 든다. 눈이 마주친다. 강아지의 눈에 두려움과 경계심. 여자가 멈춘다. 어떻게 해야 할지 고민하는 듯. 흔들리는 촬영, 빗소리, 여자의 걱정스러운 숨소리.
-```
+1인칭 시점의 아마추어 핸드폰 영상. 20대 후반 여자가 직접 촬영. 흔들리고 불안정한 핸드폰 푸티지.
 
-**End Frame**:
-```
-Close-up of dirty Maltese under store awning
-Pink collar visible - clearly an abandoned pet
-Eyes showing fear and wariness
-Woman's shadow visible, stopped at distance
+미국 시애틀 교외의 상가 거리. 5일 후, 비 오는 오후. 젖은 도로, 편의점 불빛, 처마 밑으로 떨어지는 빗물.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 매우 더럽고 엉킨 털, 원래 흰색이었음을 알아보기 어려울 정도. 마르고 지쳐 보인다. 목에 작은 방울이 달린 분홍색 목줄 - 버려진 반려견임을 보여준다. 크고 둥근 갈색 눈에 두려움과 경계심.
+
+노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)가 길을 걷다가 편의점 처마 밑에 웅크린 강아지를 발견한다. 카메라가 강아지 쪽으로 줌인. 여자가 조심스럽게 다가간다. 강아지가 눈치채고 고개를 든다. 눈이 마주친다. 여자가 멈춘다. 어떻게 해야 할지 고민하는 듯.
+
+No background music. 빗소리, 여자의 걱정스러운 숨소리, 강아지의 작은 낑낑 소리.
 ```
 
 **Caption (자막)**:
@@ -235,27 +144,19 @@ Woman's shadow visible, stopped at distance
 ---
 
 ### Scene 6: First Attempt - Rejection (첫 번째 시도 - 거부) - 15초
-**Hook Type**: D5 - Trust Test (신뢰 테스트)
 
-**Start Frame**:
-```
-Same location, continuous from Scene 5
-Woman crouching down, extending hand
-Dog backing away, very scared
-Rain continuing
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지. 여자가 천천히 쪼그려 앉는다. 손을 내밀며 부드러운 목소리로 말한다. 말티즈가 뒷걸음질 친다. 매우 겁먹은 표정. 여자가 더 가까이 가려 하자, 강아지가 갑자기 달아난다. 골목길로 도망가는 작은 흰 뒷모습. 여자가 일어서서 따라가려 하지만, 강아지는 이미 사라졌다. 여자가 실망한 듯 한숨 쉰다. 하지만 포기하지 않겠다는 표정. 주머니에서 뭔가를 꺼내 그 자리에 놓고 간다 - 비닐봉지에 담긴 간식. 흔들리는 촬영, 빗소리, 강아지 도망가는 발소리, 여자의 안타까운 한숨.
-```
+1인칭 시점의 아마추어 핸드폰 영상. 20대 후반 여자가 직접 촬영. 흔들리고 불안정한 핸드폰 푸티지, 가끔 손이 화면에 보임.
 
-**End Frame**:
-```
-Empty alley where dog disappeared
-Small bag of treats left on ground
-Woman's back as she walks away
-But looking back with determined expression
+미국 시애틀 교외의 상가 거리. 비 오는 오후, 편의점 처마 밑. 젖은 도로, 웅덩이.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 매우 더럽고 엉킨 털. 마르고 지쳐 보인다. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈에 공포와 불신.
+
+노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)가 천천히 쪼그려 앉는다. 손을 내밀며 부드러운 목소리로 말한다. 말티즈가 뒷걸음질 친다. 매우 겁먹은 표정. 여자가 더 가까이 가려 하자, 강아지가 갑자기 달아난다. 골목길로 도망가는 작은 흰 뒷모습. 여자가 일어서서 따라가려 하지만, 강아지는 이미 사라졌다. 여자가 한숨 쉬고, 주머니에서 비닐봉지에 담긴 간식을 꺼내 그 자리에 놓고 간다.
+
+No background music. 빗소리, 강아지 도망가는 발소리, 여자의 안타까운 한숨.
 ```
 
 **Caption (자막)**:
@@ -265,27 +166,19 @@ But looking back with determined expression
 ---
 
 ### Scene 7: Repeated Attempts (반복되는 시도) - 15초
-**Hook Type**: D3 - Waiting Tension (기다림의 긴장)
 
-**Start Frame**:
-```
-Day 7, same area, morning
-Woman returning to check
-Finding the treats eaten
-Leaving more food and water
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지. 7일째, 아침. 여자가 다시 그 장소로 돌아온다. 어제 놓고 간 간식 봉지가 비어있다! 작은 발자국이 젖은 땅에 남아있다. 여자가 미소 짓는다. 새 음식과 물그릇을 조심스럽게 놓는다. 그리고 조금 떨어져서 기다린다. 5분... 10분... 모퉁이에서 작은 흰 머리가 살짝 보인다. 말티즈가 조심스럽게 지켜보고 있다. 여자가 움직이지 않고 기다린다. 강아지가 조금씩 다가온다. 아직 경계하지만, 배고픔이 이긴다. 흔들리는 촬영, 새소리, 강아지의 조심스러운 발걸음 소리.
-```
+1인칭 시점의 아마추어 핸드폰 영상. 20대 후반 여자가 직접 촬영. 흔들리고 불안정한 핸드폰 푸티지.
 
-**End Frame**:
-```
-Maltese approaching food bowl cautiously
-Still 3 meters away from woman
-Eyes switching between food and person
-First sign of slight trust
+미국 시애틀 교외의 골목길. 7일 후, 비가 그친 맑은 아침. 젖은 땅에 작은 발자국이 남아있다.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 여전히 더럽지만 조금 덜 마른 모습. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈에 경계심이 있지만 살짝 호기심도 보인다.
+
+노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)가 다시 그 장소로 돌아온다. 어제 놓고 간 간식 봉지가 비어있다! 여자가 미소 짓는다. 새 음식과 물그릇을 조심스럽게 놓는다. 그리고 조금 떨어져서 기다린다. 5분... 10분... 모퉁이에서 작은 흰 머리가 살짝 보인다. 말티즈가 조심스럽게 지켜보고 있다. 여자가 움직이지 않고 기다린다. 강아지가 조금씩 다가온다.
+
+No background music. 새소리, 강아지의 조심스러운 발걸음 소리, 목줄 방울 소리.
 ```
 
 **Caption (자막)**:
@@ -295,27 +188,19 @@ First sign of slight trust
 ---
 
 ### Scene 8: Breaking Through (마음이 열리기 시작) - 15초
-**Hook Type**: D7 - Transformation Moment (변화의 순간)
 
-**Start Frame**:
-```
-Day 10, same spot, late afternoon
-Woman sitting quietly on ground
-Dog eating from bowl, closer than before
-Only 1 meter apart now
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지. 10일째, 오후. 여자가 땅에 조용히 앉아있다. 말티즈가 1미터 거리에서 밥을 먹고 있다. 예전보다 훨씬 가까워졌다. 강아지가 밥을 다 먹고 고개를 든다. 여자를 바라본다. 오랜 침묵. 여자가 천천히 손을 내민다. 강아지가 움찔하지만... 도망가지 않는다. 조심스럽게 코를 킁킁거리며 손 냄새를 맡는다. 첫 번째 접촉의 순간. 손끝에 차갑고 젖은 코가 닿는다. 강아지가 살짝 꼬리를 흔든다. 처음 보는 꼬리 흔들림. 흔들리는 촬영, 감동의 숨소리, 강아지의 작은 낑낑 소리.
-```
+1인칭 시점의 아마추어 핸드폰 영상. 20대 후반 여자가 직접 촬영. 흔들리고 불안정한 핸드폰 푸티지, 감동적인 순간 포착.
 
-**End Frame**:
-```
-Close-up of dog's nose touching woman's hand
-First physical contact
-Dog's tail beginning to wag slightly
-Emotional moment captured
+미국 시애틀 교외의 골목길. 10일 후, 오후. 맑은 날씨, 부드러운 햇살.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 아직 더럽지만 조금 건강해 보인다. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈에 처음으로 희망이 보인다.
+
+노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)가 땅에 조용히 앉아있다. 말티즈가 1미터 거리에서 밥을 먹고 있다. 예전보다 훨씬 가까워졌다. 강아지가 밥을 다 먹고 고개를 든다. 여자를 바라본다. 오랜 침묵. 여자가 천천히 손을 내민다. 강아지가 움찔하지만... 도망가지 않는다. 조심스럽게 코를 킁킁거리며 손 냄새를 맡는다. 첫 번째 접촉의 순간. 손끝에 차갑고 젖은 코가 닿는다. 강아지가 살짝 꼬리를 흔든다.
+
+No background music. 감동의 숨소리, 강아지의 작은 낑낑 소리, 꼬리 흔드는 소리.
 ```
 
 **Caption (자막)**:
@@ -325,27 +210,19 @@ Emotional moment captured
 ---
 
 ### Scene 9: Coming Home (집으로) - 15초
-**Hook Type**: E4 - New Family (새 가족)
 
-**Start Frame**:
-```
-Same day, evening
-Woman carefully picking up the dog
-Dog allowing it, still nervous but trusting
-Walking toward apartment
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지. 같은 날 저녁. 여자가 조심스럽게 강아지를 안아 올린다. 말티즈가 긴장하지만 도망가지 않는다. 품에 안긴 채로 여자를 올려다본다. 여자가 부드럽게 말한다. 강아지의 꼬리가 천천히 흔들린다. 함께 길을 걷는다. 여자의 아파트 앞에 도착. 문을 열고 들어간다. 따뜻한 실내. 강아지가 처음으로 안전한 곳에 들어왔다. 주변을 두리번거리다가, 여자의 품에 더 깊이 파고든다. 흔들리는 촬영, 발걸음 소리, 문 여는 소리, 강아지의 만족스러운 한숨.
-```
+1인칭 시점의 아마추어 핸드폰 영상. 20대 후반 여자가 직접 촬영. 흔들리고 불안정한 핸드폰 푸티지, 걸으면서 촬영.
 
-**End Frame**:
-```
-Inside warm apartment
-Dog nestled in woman's arms
-Looking around new home
-Tail wagging, feeling safe
+미국 시애틀 교외의 주택가 거리에서 아파트 내부로 이동. 같은 날 저녁. 부드러운 저녁 빛.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 더럽지만 눈빛이 달라졌다. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈에 신뢰와 안도감.
+
+노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)가 조심스럽게 강아지를 안아 올린다. 말티즈가 긴장하지만 도망가지 않는다. 품에 안긴 채로 여자를 올려다본다. 여자가 부드럽게 말한다. 강아지의 꼬리가 천천히 흔들린다. 함께 길을 걷는다. 여자의 아파트 앞에 도착. 문을 열고 들어간다. 따뜻한 실내. 강아지가 처음으로 안전한 곳에 들어왔다. 주변을 두리번거리다가, 여자의 품에 더 깊이 파고든다.
+
+No background music. 발걸음 소리, 문 여는 소리, 강아지의 만족스러운 한숨.
 ```
 
 **Caption (자막)**:
@@ -355,28 +232,21 @@ Tail wagging, feeling safe
 ---
 
 ### Scene 10: New Beginning - Time Skip (새로운 시작) - 15초
-**Hook Type**: E2 - Time Skip (시간 점프)
 
-**Start Frame**:
-```
-Text overlay: "3 months later"
-Same apartment, sunny day
-Clean, fluffy white Maltese on couch
-New pink bow on head
-```
+**Sora2 프롬프트 (한국어)**:
 
-**Korean Prompt**:
 ```
-아마추어 핸드폰 푸티지. 텍스트: "3개월 후". 같은 아파트, 화창한 낮. 깨끗하고 복슬복슬한 하얀 말티즈가 소파에서 낮잠을 자고 있다. 새 분홍색 리본을 달고 있다. 건강하고 통통해졌다. 현관문 여는 소리가 나자, 강아지가 벌떡 일어난다. 꼬리를 미친 듯이 흔들며 현관으로 달려간다. 여자가 들어오고, 강아지가 뛰어올라 반긴다. 여자가 웃으며 안아 올린다. 강아지가 여자의 얼굴을 핥는다. 행복한 일상. 더 이상 버려진 강아지가 아니다. 사랑받는 가족이다. 흔들리는 촬영, 강아지 흥분한 짖음 소리, 여자의 웃음소리.
-```
+1인칭 시점의 아마추어 핸드폰 영상. 여자가 직접 촬영. 흔들리고 불안정한 핸드폰 푸티지, 행복한 일상 기록.
 
-**End Frame**:
-```
-Woman holding happy, clean Maltese
-Dog licking woman's face
-Both smiling/happy
-Warm sunlight through window
-True family moment
+화면에 텍스트 오버레이: "3 months later" / "3개월 후"
+
+미국 시애틀 교외의 따뜻한 아파트 내부. 화창한 낮. 햇살이 창문으로 들어온다. 아늑한 거실, 소파.
+
+작은 흰색 말티즈 한 마리. 약 3kg의 작은 성견. 깨끗하고 복슬복슬한 순백색 털로 돌아왔다. 새 분홍색 리본을 머리에 달고 있다. 건강하고 통통해졌다. 목에 작은 방울이 달린 분홍색 목줄. 크고 둥근 갈색 눈이 행복하게 빛난다.
+
+말티즈가 소파에서 낮잠을 자고 있다. 현관문 여는 소리가 나자, 강아지가 벌떡 일어난다. 꼬리를 미친 듯이 흔들며 현관으로 달려간다. 여자(20대 후반, 갈색 포니테일, 이번엔 캐주얼한 실내복)가 들어오고, 강아지가 뛰어올라 반긴다. 여자가 웃으며 안아 올린다. 강아지가 여자의 얼굴을 핥는다. 행복한 일상.
+
+No background music. 강아지 흥분한 짖음 소리, 여자의 웃음소리, 목줄 방울이 딸랑거리는 소리.
 ```
 
 **Caption (자막)**:
@@ -395,24 +265,33 @@ True family moment
 
 ---
 
-## Clip Groupings for Sora2 (클립 조합 가이드)
+## 프롬프트 일관성 체크리스트
 
-Since Sora2 only makes 10s/15s clips:
+### 모든 씬에 포함된 필수 요소:
 
-| Clip | Duration | Scenes | Transitions |
-|------|----------|--------|-------------|
-| Clip 1 | 15s | Scene 1 | Abandonment |
-| Clip 2 | 15s | Scene 2 | Searching |
-| Clip 3 | 15s | Scene 3 | First night |
-| Clip 4 | 15s | Scene 4 | Wandering/danger |
-| Clip 5 | 15s | Scene 5 | Observer finds |
-| Clip 6 | 15s | Scene 6 | First rejection |
-| Clip 7 | 15s | Scene 7 | Repeated attempts |
-| Clip 8 | 15s | Scene 8 | Trust breakthrough |
-| Clip 9 | 15s | Scene 9 | Coming home |
-| Clip 10 | 15s | Scene 10 | Time skip - happy ending |
+| 요소 | 일관된 표현 |
+|------|-------------|
+| 강아지 품종/크기 | "작은 흰색 말티즈, 약 3kg의 작은 성견" |
+| 강아지 눈 | "크고 둥근 갈색 눈" |
+| 강아지 목줄 | "목에 작은 방울이 달린 분홍색 목줄" |
+| 장소 | "미국 시애틀 교외" |
+| 구조자 | "노란색 우비를 입은 여자(20대 후반, 갈색 포니테일)" |
+| 사운드 | "No background music" + 구체적 환경음 |
 
-**Total: 150 seconds (2분 30초)** - 편집으로 90초로 압축
+### 씬별 변화 요소:
+
+| Scene | 털 상태 | 눈 감정 | 리본 | 날씨 |
+|-------|---------|---------|------|------|
+| 1 | 깨끗, 복슬복슬 | 혼란 | 있음 | 가벼운 비 |
+| 2 | 축축함 | 혼란+희망 | 있음(축 처짐) | 비 |
+| 3 | 젖어서 납작 | 공포 | 없음 | 폭우 |
+| 4 | 더럽고 엉킴 | 두려움+피로 | 없음 | 흐림 |
+| 5 | 매우 더러움 | 두려움+경계 | 없음 | 비 |
+| 6 | 매우 더러움 | 공포+불신 | 없음 | 비 |
+| 7 | 더러움(덜 마름) | 경계+호기심 | 없음 | 맑음 |
+| 8 | 더러움(건강해짐) | 희망 | 없음 | 맑음 |
+| 9 | 더러움(눈빛 변화) | 신뢰+안도 | 없음 | 저녁 |
+| 10 | 깨끗, 복슬복슬 | 행복 | 새 리본 | 화창 |
 
 ---
 
@@ -431,13 +310,3 @@ Intensity
   0 |________________________________
       S1  S2  S3  S4  S5  S6  S7  S8  S9  S10
 ```
-
----
-
-## Hook Points Checklist
-
-- [x] A Hook (0-20초): 충격적 유기 장면 - Scene 1
-- [x] B Hook (20-40초): 상황 악화, 동물 반응 - Scene 2-3
-- [x] C Hook (40-60초): 감정 폭발, 위기 절정 - Scene 4
-- [x] D Hook (60-80초): 신뢰 테스트, 변화 - Scene 5-8
-- [x] E Hook (80-90초): 새 가족, 타임스킵 - Scene 9-10
