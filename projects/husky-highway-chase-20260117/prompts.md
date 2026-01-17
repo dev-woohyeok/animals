@@ -2,7 +2,7 @@
 
 > 고속도로에서 버려진 허스키가 주인의 차를 끝까지 쫓아가고, 신호에 멈춘 차 앞에서 짖는 모습이 뒷차 운전자에 의해 촬영되어 결국 새 가족을 찾게 되는 이야기
 
-**총 길이:** 133초 (10개 장면)
+**총 길이:** 148초 (11개 장면)
 
 ---
 
@@ -146,11 +146,39 @@ No background music. SUV 출발 소리, 허스키 낑낑거리는 소리, 거친
 
 ---
 
-## Scene 6: 도움의 손길 (A Helping Hand)
+## Scene 6: 방황 (Lost and Alone)
+
+- **Duration:** 15s
+- **Emotion:** 슬픔, 상실감, 혼란
+- **Camera:** handheld from inside car, through windshield
+- **Lighting:** harsh daylight
+
+**Caption:**
+
+- EN: "He just kept crying..."
+- KR: "계속 울고만 있었다..."
+
+### Sora2 Prompt
+
+```
+아마추어 핸드폰 영상. 차 안에서 앞유리 너머로 촬영. 흔들리는 화면.
+
+미국 텍사스, 교차로 갓길. 맑은 낮, 강한 햇빛.
+
+촬영자의 흰색 SUV가 갓길에 멈춰있다. 앞유리 너머로 시베리안 허스키 한 마리가 보인다. 허스키는 중형견 사이즈, 약 25kg. 회색과 흰색이 섞인 두꺼운 털. 밝은 파란색 눈. 파란색 목줄. 완전히 지쳐 있다.
+
+허스키가 도로 갓길에서 슬피 울며 방황한다. 주인이 떠난 방향을 바라보다가 고개를 돌린다. 어디로 가야할지 모르겠다는 듯이 두리번거린다. 낑낑거리며 운다. 꼬리가 축 처져 있다. 완전히 길을 잃은 표정이다.
+
+No background music. 허스키 낑낑거리며 우는 소리, 슬픈 울음소리, 교차로 차량 소음, 촬영자가 안타까워하며 한숨 쉬는 소리.
+```
+
+---
+
+## Scene 7: 도움의 손길 (A Helping Hand)
 
 - **Duration:** 15s
 - **Emotion:** 연민, 희망, 조심스러움
-- **Camera:** handheld POV, approaching dog
+- **Camera:** handheld POV, getting out of car and approaching
 - **Lighting:** harsh daylight
 
 **Caption:**
@@ -161,20 +189,22 @@ No background music. SUV 출발 소리, 허스키 낑낑거리는 소리, 거친
 ### Sora2 Prompt
 
 ```
-아마추어 핸드폰 영상. 1인칭 POV, 차에서 내려 걸어가며 촬영. 흔들리는 화면.
+아마추어 핸드폰 영상. 1인칭 POV. 차 문을 열고 내리는 장면에서 시작. 흔들리는 화면.
 
 미국 텍사스, 교차로 갓길. 맑은 낮, 강한 햇빛.
 
-시베리안 허스키 한 마리. 중형견 사이즈, 약 25kg. 회색과 흰색이 섞인 두꺼운 털. 밝은 파란색 눈. 파란색 목줄. 완전히 지쳐서 헐떡인다.
+20대 후반 백인 여자, 금발 포니테일, 흰색 탱크탑. 여자가 흰색 SUV 운전석 문을 열고 내린다. 핸드폰을 들고 천천히 허스키에게 다가간다.
 
-20대 후반 백인 여자, 금발 포니테일, 흰색 탱크탑. 흰색 SUV에서 내려 천천히 허스키에게 다가간다. 허스키는 여전히 떠난 차 방향을 바라보며 서 있다.
+시베리안 허스키 한 마리가 갓길에서 울고 있다. 허스키는 중형견 사이즈, 약 25kg. 회색과 흰색이 섞인 두꺼운 털. 밝은 파란색 눈. 파란색 목줄. 완전히 지쳐서 헐떡인다.
 
-No background music. 발소리, 허스키 거친 숨소리, 멀리서 들리는 차 소음, 여자가 부드럽게 말하는 소리.
+여자가 조심스럽게 다가간다. 허스키가 여자 쪽을 돌아본다. 여전히 낑낑거리며 운다. 경계하지 않고 가만히 서 있다.
+
+No background music. 차 문 열리는 소리, 발소리, 허스키 낑낑거리는 소리, 여자가 부드럽게 말하는 소리.
 ```
 
 ---
 
-## Scene 7: 받아들임 (Acceptance)
+## Scene 8: 받아들임 (Acceptance)
 
 - **Duration:** 15s
 - **Emotion:** 안도, 따뜻함, 희망
@@ -202,7 +232,7 @@ No background music. 허스키가 물 마시는 소리, 꼬리 흔드는 소리,
 
 ---
 
-## Scene 8: 함께 가자 (Let's Go Home)
+## Scene 9: 함께 가자 (Let's Go Home)
 
 - **Duration:** 12s
 - **Emotion:** 안도, 결심, 희망
@@ -230,7 +260,7 @@ No background music. 차 문 열리는 소리, 허스키가 차에 뛰어오르�
 
 ---
 
-## Scene 9: 새로운 시작 (New Beginning)
+## Scene 10: 새로운 시작 (New Beginning)
 
 - **Duration:** 12s
 - **Emotion:** 행복, 사랑, 치유
@@ -258,7 +288,7 @@ No background music. 허스키 핥는 소리, 여자 웃는 소리, 허스키 �
 
 ---
 
-## Scene 10: 바이럴 (Gone Viral)
+## Scene 11: 바이럴 (Gone Viral)
 
 - **Duration:** 10s
 - **Emotion:** 감동, 정의 실현, 희망
