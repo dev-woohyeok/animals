@@ -23,7 +23,9 @@
       "Bash(mv:*)",
       "Skill(animal-shorts)",
       "Skill(animal-shorts-scene)",
-      "Skill(animal-shorts-prompt)"
+      "Skill(animal-shorts-prompt)",
+      "Skill(animal-shorts-title)",
+      "Skill(animal-shorts-export)"
     ]
   }
 }
