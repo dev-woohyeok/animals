@@ -241,8 +241,8 @@ No background music. 허스키가 물 마시는 소리, 꼬리 흔드는 소리,
 
 **Caption:**
 
-- EN: "I've got you now..."
-- KR: "이제 내가 데려갈게..."
+- EN: "She picked him up and carried him to her car"
+- KR: "그녀는 허스키를 안아 올려 차에 태웠다"
 
 ### Sora2 Prompt
 
@@ -269,8 +269,8 @@ No background music. 여자가 부드럽게 말하는 소리, 허스키 낑낑�
 
 **Caption:**
 
-- EN: "The first few days..."
-- KR: "처음 며칠은..."
+- EN: "The first few days were hard... he couldn't stop crying"
+- KR: "처음 며칠은 힘들었다... 허스키는 계속 울었다"
 
 ### Sora2 Prompt
 
@@ -303,8 +303,8 @@ No background music. 허스키 낑낑거리며 우는 소리, 여자가 부드�
 
 **Caption:**
 
-- EN: "Slowly... he started to trust again"
-- KR: "천천히... 다시 믿기 시작했다"
+- EN: "But slowly... he started to open up"
+- KR: "하지만 천천히... 마음을 열기 시작했다"
 
 ### Sora2 Prompt
 
