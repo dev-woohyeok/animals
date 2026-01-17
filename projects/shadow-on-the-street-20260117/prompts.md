@@ -9,11 +9,13 @@
 ## Character Reference
 
 ### Black Cat
+
 - **Base:** Black cat. Adult.
 - **Eyes:** Large, round yellow eyes
 - **Size:** Medium
 
 ### Human Rescuer
+
 - **Base:** Late 20s woman. Grey hoodie. Brown ponytail.
 
 > Use this character description consistently across all prompts.
@@ -28,6 +30,7 @@
 - **Lighting:** Overcast day, grey sky
 
 ### Caption
+
 - **EN:** "I saw something moving across the street..."
 - **KR:** "길 건너편에서 뭔가 움직이는 게 보였다..."
 
@@ -38,7 +41,7 @@
 
 미국 시애틀 교외의 좁은 골목길. 흐린 낮. 회색빛 하늘. 낡은 건물들 사이 골목.
 
-고양이 한 마리. 성묘. 원래 색을 알 수 없을 정도로 오물과 먼지로 뒤덮인 털. 회색과 갈색 얼룩이 덕지덕지 묻어있음. 털이 뭉쳐서 덩어리처럼 엉김. 마치 쓰레기 더미에서 나온 것처럼 더러움. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 다 보임. 척추뼈가 튀어나옴. 엉덩이뼈가 날카롭게 드러남. 살이 거의 없어 해골처럼 보임. 크고 둥근 노란색 눈만 유일하게 빛남.
+고양이 한 마리. 성묘. 원래 색을 알 수 없을 정도로 오물과 먼지로 뒤덮인 털. 회색과 갈색 얼룩로  털이 덮여있어 검색털이 보이지 않음. 털이 뭉쳐서 덩어리처럼 엉김. 마치 쓰레기 더미에서 나온 것처럼 더러움. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 다 보임. 척추뼈가 튀어나옴. 엉덩이뼈가 날카롭게 드러남. 살이 거의 없어 해골처럼 보임. 털이 물에젖어 착달라붙어있어 앙상함이 돋보임  크고 둥근 노란색 눈만 유일하게 빛남.
 
 고양이가 천천히 골목을 걷는다. 두리번거리며 주변을 살핀다. 걸음이 느리고 힘이 없다. 카메라가 줌인하며 마른 몸을 잡는다.
 
@@ -55,6 +58,7 @@ No background music. 멀리 차 지나가는 소리, 바람 소리, 고양이 �
 - **Lighting:** Overcast day, alley shadows
 
 ### Caption
+
 - **EN:** "She was looking for food..."
 - **KR:** "먹을 걸 찾고 있었다..."
 
@@ -65,7 +69,7 @@ No background music. 멀리 차 지나가는 소리, 바람 소리, 고양이 �
 
 미국 시애틀 교외 골목길. 흐린 낮. 쓰레기통이 놓인 골목 구석.
 
-고양이 한 마리. 성묘. 먼지와 오물로 범벅이 된 털. 원래 무슨 색인지 알 수 없음. 흙과 기름때가 굳어있음. 털이 뭉쳐서 매트처럼 엉김. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 선명하게 보임. 척추뼈와 엉덩이뼈가 튀어나옴. 피골이 상접한 상태. 크고 둥근 노란색 눈.
+고양이 한 마리. 성묘. 원래 색을 알 수 없을 정도로 오물과 먼지로 뒤덮인 털. 회색과 갈색 얼룩으로 털이 덮여있어 검은털이 보이지 않음. 털이 뭉쳐서 덩어리처럼 엉김. 마치 쓰레기 더미에서 나온 것처럼 더러움. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 다 보임. 척추뼈가 튀어나옴. 엉덩이뼈가 날카롭게 드러남. 살이 거의 없어 해골처럼 보임. 크고 둥근 노란색 눈만 유일하게 빛남.
 
 고양이가 쓰레기통에 뛰어올라 뚜껑을 밀어 연다. 안을 뒤진다. 빈 비닐봉지만 있다. 빈 봉지를 핥는다. 고개를 숙이고 내려온다.
 
@@ -82,6 +86,7 @@ No background music. 쓰레기통 뚜껑 소리, 비닐봉지 바스락 소리, 
 - **Lighting:** Overcast day
 
 ### Caption
+
 - **EN:** "People just walked by..."
 - **KR:** "사람들은 그냥 지나갔다..."
 
@@ -92,7 +97,7 @@ No background music. 쓰레기통 뚜껑 소리, 비닐봉지 바스락 소리, 
 
 미국 시애틀 교외 골목길. 흐린 낮. 사람들이 지나다니는 골목.
 
-고양이 한 마리. 성묘. 쓰레기 더미에서 살았던 것처럼 더러운 털. 회색과 갈색이 섞인 얼룩덕지. 원래 무슨 색인지 전혀 알 수 없음. 털이 덩어리로 뭉침. 뼈만 남은 앙상한 몸. 걸을 때마다 갈비뼈가 움직이는 게 보임. 등뼈가 울퉁불퉁 튀어나옴. 크고 둥근 노란색 눈.
+고양이 한 마리. 성묘. 원래 색을 알 수 없을 정도로 오물과 먼지로 뒤덮인 털. 회색과 갈색 얼룩으로 털이 덮여있어 검은털이 보이지 않음. 털이 뭉쳐서 덩어리처럼 엉김. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 다 보임. 척추뼈가 튀어나옴. 살이 거의 없어 해골처럼 보임. 걸을 때마다 뼈가 움직이는 게 보임. 크고 둥근 노란색 눈만 유일하게 빛남.
 
 사람들의 발이 고양이 옆을 지나간다. 한 사람이 손으로 쫓는 시늉을 한다. 고양이가 움츠리며 뒤로 물러난다. 구석으로 숨는다.
 
@@ -109,6 +114,7 @@ No background music. 발자국 소리, 사람 중얼거리는 소리, 고양이 
 - **Lighting:** Rainy evening, dark sky
 
 ### Caption
+
 - **EN:** "Then the rain started..."
 - **KR:** "그때 비가 내리기 시작했다..."
 
@@ -119,7 +125,7 @@ No background music. 발자국 소리, 사람 중얼거리는 소리, 고양이 
 
 미국 시애틀 교외 골목길. 비 오는 저녁. 어두워지는 하늘. 빗줄기가 쏟아진다.
 
-고양이 한 마리. 성묘. 비에 젖으며 오물이 흘러내림. 더러운 물이 털에서 떨어짐. 검은색이 조금씩 드러나기 시작하지만 여전히 더러움. 몸에 달라붙은 젖은 털 사이로 뼈가 그대로 드러남. 갈비뼈가 하나하나 셀 수 있을 정도. 젖어서 더 앙상해 보임. 크고 둥근 노란색 눈. 떨고 있음.
+고양이 한 마리. 성묘. 비에 젖으며 오물이 흘러내림. 더러운 물이 털에서 떨어짐. 검은색이 조금씩 드러나기 시작하지만 여전히 더러움. 털이 물에 젖어 착 달라붙어있어 앙상함이 더 돋보임. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 다 보임. 척추뼈가 튀어나옴. 살이 거의 없어 해골처럼 보임. 크고 둥근 노란색 눈만 유일하게 빛남. 떨고 있음.
 
 비가 쏟아진다. 고양이가 뛰어다니며 비 피할 곳을 찾는다. 건물 처마 밑으로 들어간다. 웅크려 앉아 떨고 있다.
 
@@ -136,6 +142,7 @@ No background music. 세찬 빗소리, 고양이 발소리, 떨리는 숨소리.
 - **Lighting:** Rainy evening, streetlight
 
 ### Caption
+
 - **EN:** "I couldn't just watch anymore..."
 - **KR:** "더 이상 지켜볼 수만은 없었다..."
 
@@ -146,7 +153,7 @@ No background music. 세찬 빗소리, 고양이 발소리, 떨리는 숨소리.
 
 미국 시애틀 교외 골목길. 비 오는 저녁. 가로등 불빛. 젖은 바닥.
 
-고양이 한 마리. 성묘. 비에 젖어 오물이 반쯤 씻긴 털. 검은색이 부분적으로 드러남. 여전히 더럽고 엉김. 뼈만 앙상하게 남은 몸. 젖은 털 사이로 갈비뼈와 척추뼈가 선명하게 드러남. 힘이 없음. 크고 둥근 노란색 눈.
+고양이 한 마리. 성묘. 비에 젖어 오물이 반쯤 씻긴 털. 검은색이 부분적으로 드러나기 시작함. 여전히 더럽고 엉김. 털이 물에 젖어 착 달라붙어있어 앙상함이 더 돋보임. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 다 보임. 척추뼈가 튀어나옴. 살이 거의 없어 해골처럼 보임. 힘이 없음. 크고 둥근 노란색 눈만 유일하게 빛남.
 
 카메라가 흔들리며 고양이에게 다가간다. 고양이가 일어나 도망치려 한다. 몇 발자국 뛰다가 힘이 없어 주저앉는다. 움직이지 않는다.
 
@@ -163,6 +170,7 @@ No background music. 빗소리, 빠른 발자국 소리, 고양이 약한 울음
 - **Lighting:** Rainy evening, streetlight
 
 ### Caption
+
 - **EN:** "Finally... I got her."
 - **KR:** "드디어... 잡았다."
 
@@ -173,7 +181,7 @@ No background music. 빗소리, 빠른 발자국 소리, 고양이 약한 울음
 
 미국 시애틀 교외 골목길. 비 오는 저녁. 가로등 아래.
 
-고양이 한 마리. 성묘. 젖고 더러운 털. 비에 씻겨 이제야 검은색인 것을 알 수 있음. 뼈만 남아 축 늘어진 몸. 안았을 때 뼈밖에 안 잡힐 정도로 앙상함. 크고 둥근 노란색 눈. 힘이 없음.
+고양이 한 마리. 성묘. 젖고 더러운 털. 비에 씻겨 이제야 검은색인 것을 알 수 있음. 털이 물에 젖어 착 달라붙어있어 앙상함이 더 돋보임. 뼈만 앙상하게 남은 몸. 갈비뼈가 하나하나 다 보임. 안았을 때 뼈밖에 안 잡힐 정도로 앙상함. 살이 거의 없어 해골처럼 보임. 힘이 없음. 크고 둥근 노란색 눈만 유일하게 빛남.
 
 20대 후반 여자. 회색 후드티. 갈색 포니테일. 비에 젖음.
 
@@ -192,6 +200,7 @@ No background music. 빗소리, 여자 숨소리, 고양이 약한 울음소리.
 - **Lighting:** Bright indoor lighting
 
 ### Caption
+
 - **EN:** "Under all that dirt... she was a black cat."
 - **KR:** "그 더러움 아래... 검은 고양이였다."
 
@@ -221,6 +230,7 @@ No background music. 물 흐르는 소리, 고양이 약한 울음소리, 수건
 - **Lighting:** Warm indoor lighting
 
 ### Caption
+
 - **EN:** "She ate like she'd never eaten before..."
 - **KR:** "처음 먹어보는 것처럼 먹었다..."
 
@@ -248,6 +258,7 @@ No background music. 고양이 밥 먹는 소리, 그릇 소리, 고양이 숨�
 - **Lighting:** Warm lamp light
 
 ### Caption
+
 - **EN:** "For the first time... she felt safe."
 - **KR:** "처음으로... 안전하다고 느꼈다."
 
@@ -275,6 +286,7 @@ No background music. 고양이 조용한 숨소리, 멀리 시계 소리.
 - **Lighting:** Warm natural light
 
 ### Caption
+
 - **EN:** "Weeks later... she started to trust."
 - **KR:** "몇 주 후... 마음을 열기 시작했다."
 
@@ -302,6 +314,7 @@ No background music. 고양이 골골송 소리, 발소리, 털 비비는 소리
 - **Lighting:** Golden sunset
 
 ### Caption
+
 - **EN:** "Now... she's home."
 - **KR:** "이제... 집이 생겼다."
 
@@ -331,11 +344,11 @@ No background music. 고양이 골골송 소리, 쓰다듬는 소리, 멀리 새
 
 ### Platform Titles
 
-| Platform | Title |
-|----------|-------|
-| **YouTube** | Found a starving black cat digging through trash... Her transformation after 1 month (Real Story) |
-| **Instagram** | A black cat I found in the rain 🐈‍⬛ One month later, unbelievable change |
-| **TikTok** | Found this skeleton cat on the street... wait for the ending, I'm crying |
+| Platform      | Title                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------- |
+| **YouTube**   | Found a starving black cat digging through trash... Her transformation after 1 month (Real Story) |
+| **Instagram** | A black cat I found in the rain 🐈‍⬛ One month later, unbelievable change                           |
+| **TikTok**    | Found this skeleton cat on the street... wait for the ending, I'm crying                          |
 
 ### Alternative Titles
 
@@ -368,4 +381,4 @@ No background music. 고양이 골골송 소리, 쓰다듬는 소리, 멀리 새
 
 ---
 
-*Generated by Animal Shorts Agent System*
+_Generated by Animal Shorts Agent System_
