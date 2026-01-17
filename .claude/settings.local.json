@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Bash(mkdir:*)",
       "Bash(git:*)",
       "Bash(python:*)",
       "Bash(python3:*)",
@@ -20,7 +21,9 @@
       "WebFetch(domain:*)",
       "WebSearch",
       "Bash(mv:*)",
-      "Skill(animal-shorts)"
+      "Skill(animal-shorts)",
+      "Skill(animal-shorts-scene)",
+      "Skill(animal-shorts-prompt)"
     ]
   }
 }
