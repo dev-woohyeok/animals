@@ -9,12 +9,24 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 
 ## 사용법
 
+### 1. 스토리 리서치 (선택)
+```
+/animal-shorts-research [동물] [--viral] [--recent]
+```
+→ 인터넷에서 감동적인 동물 구조 스토리 검색 및 분석
+
+### 2. 쇼츠 생성
 ```
 /animal-shorts [동물] / [상황] / [감정] / [결말]
 ```
+→ 90초 쇼츠 프롬프트 생성
 
 ### 예시
 ```
+# 리서치 먼저
+/animal-shorts-research 올빼미 --viral
+
+# 직접 생성
 /animal-shorts 골든 리트리버 / 버려진 후 노인을 만남 / 감동, 따뜻함
 /animal-shorts 아기 고슴도치 / 골든리트리버가 입에 물고 옴 / 귀여움 / 가족이 됨
 ```
@@ -25,6 +37,7 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 animals/
 ├── .claude/commands/     # Claude Code 스킬
 │   ├── animal-shorts.md        # 메인 워크플로우
+│   ├── animal-shorts-research.md # 스토리 리서치 에이전트 (NEW)
 │   ├── animal-shorts-story.md  # 스토리 생성
 │   ├── animal-shorts-scene.md  # 장면 분할
 │   ├── animal-shorts-prompt.md # Sora2 프롬프트
@@ -32,6 +45,7 @@ animals/
 │   └── animal-shorts-export.md # 파일 출력
 │
 ├── prompts/              # 시스템 프롬프트 (스킬에서 참조)
+│   ├── research_system.md      # 리서치 에이전트 시스템 (NEW)
 │   ├── story_system.md
 │   ├── scene_system.md
 │   ├── sora2_system.md
@@ -50,13 +64,19 @@ animals/
 ## 워크플로우
 
 ```
+[선택] /animal-shorts-research 동물
+    ↓
+인터넷에서 바이럴 스토리 검색/분석
+    ↓
+추천 스토리 선택
+    ↓
 /animal-shorts 입력
     ↓
 Step 1: 입력 분석 → 확인
     ↓
 Step 2: 스토리 생성 (5막) → 확인
     ↓
-Step 3: 장면 분할 (6개+) → 확인
+Step 3: 장면 분할 (8개+) → 확인
     ↓
 Step 4: Sora2 프롬프트 생성 → 확인
     ↓
