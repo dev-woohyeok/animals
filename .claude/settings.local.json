@@ -25,7 +25,9 @@
       "Skill(animal-shorts-scene)",
       "Skill(animal-shorts-prompt)",
       "Skill(animal-shorts-title)",
-      "Skill(animal-shorts-export)"
+      "Skill(animal-shorts-export)",
+      "WebFetch(domain:cottagelife.com)",
+      "WebFetch(domain:www.nbcphiladelphia.com)"
     ]
   }
 }
