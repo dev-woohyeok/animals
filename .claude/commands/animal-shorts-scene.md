@@ -1,12 +1,31 @@
 # /animal-shorts-scene - 장면 분할
 
-스토리를 15초 단위 장면으로 분할
+스토리를 15초 단위 장면으로 분할 (멀티샷 + 스타트 프레임 구조)
 
 ## 사용법
 
 ```
 /animal-shorts-scene [스토리 참조]
 ```
+
+---
+
+## 핵심 변경사항
+
+### 1. Hook First (Scene 1 = 가장 충격적 장면)
+- Scene 1은 시간순 도입이 아닌, **스토리에서 가장 임팩트 있는 순간**
+- 시청자 첫 3초 이탈 방지
+- 나머지 장면에서 시간순으로 전개
+
+### 2. 멀티샷 구조 (15초 = 3-5개 서브샷)
+- 쇼츠 시청자는 2-3초마다 시각 자극 필요
+- 한 장면 내에서 여러 앵글/샷 전환
+- 편집된 푸티지처럼 구성
+
+### 3. 스타트 프레임 전환
+- 전 씬의 마지막 프레임을 캡쳐 → 다음 씬 시작 이미지로 사용
+- Scene 2부터 첫 1초는 전환 beat
+- Sora2 독립 생성 간 시각적 일관성 확보
 
 ---
 
@@ -18,15 +37,24 @@
 - **총 장면 수**: 6개 이상
 - **각 장면 길이**: 15초 (10-18초 허용)
 - **총 영상 길이**: 90초 이상
+- **서브샷**: 장면당 3-5개 필수
+- **Scene 1**: 반드시 Hook (가장 충격적 순간)
 
 ### 장면 구성 요소
 1. **제목**: 한글 + 영문
-2. **자막**: 쇼츠용 짧은 캡션 (영문 + 한글)
-3. **설명**: 무엇이 일어나는지
-4. **동작**: 구체적인 움직임
+2. **is_hook**: Scene 1이면 true
+3. **자막**: 쇼츠용 짧은 캡션 (영문 + 한글)
+4. **설명**: 무엇이 일어나는지
 5. **감정**: 이 장면의 감정 톤
-6. **카메라**: 움직임, 앵글, 전환
-7. **조명**: 조명 설정 및 분위기
+6. **서브샷(sub_shots)**: 3-5개 beats
+   - beat 번호
+   - time (시간 범위)
+   - shot_type (샷 타입)
+   - description (설명)
+7. **카메라**: 주 움직임 + 서브샷 전환 스타일
+8. **조명**: 조명 설정 및 분위기
+9. **end_frame**: 이 장면의 마지막 프레임 설명 (다음 장면 시작 이미지 참조용)
+10. **start_frame_ref**: (Scene 2+) 전 씬 end_frame 참조
 
 ---
 
@@ -35,42 +63,104 @@
 ```yaml
 scenes:
   - id: 1
-    title: "특별한 발견"
-    title_en: "A Special Discovery"
+    title: "폭풍 속 발견"
+    title_en: "Discovery in the Storm"
+    is_hook: true
     caption:
-      en: "One day, he brought home something unexpected..."
-      ko: "어느 날, 그가 예상치 못한 것을 데려왔다..."
+      en: "Something was tied to that bench..."
+      ko: "벤치에 뭔가가 묶여있었다..."
     duration: 15
-    description: "골든 리트리버가 아기 고슴도치를 조심스럽게 입에 물고 집으로 들어온다"
-    action: "개가 천천히 걸어오며 입에 작은 고슴도치를 물고 있다"
-    emotion: "호기심, 조심스러움, 따뜻함"
+    description: "가장 충격적인 순간 - 폭풍우 속 벤치에 묶인 강아지"
+    emotion: "충격, 불안"
+
+    sub_shots:
+      - beat: 1
+        time: "0-2s"
+        shot_type: "extreme close-up"
+        description: "빗물에 젖은 강아지 눈 클로즈업. 떨리는 눈동자."
+      - beat: 2
+        time: "2-5s"
+        shot_type: "medium, pull back"
+        description: "카메라 빠지면서 벤치 다리에 묶인 줄 보임"
+      - beat: 3
+        time: "5-9s"
+        shot_type: "wide"
+        description: "빈 공원 전체, 폭풍우 속 작은 강아지"
+      - beat: 4
+        time: "9-13s"
+        shot_type: "close-up, low angle"
+        description: "벤치 아래 웅크린 강아지, 온몸이 떨린다"
+      - beat: 5
+        time: "13-15s"
+        shot_type: "close-up (bridge)"
+        description: "강아지가 고개를 들고 카메라를 바라봄"
+
     camera:
-      movement: "handheld POV"
-      angle: "owner perspective"
-      transition: "fade in"
-    lighting: "natural indoor lighting"
+      primary_movement: "handheld POV"
+      sub_shot_transitions: "cut → cut → slow zoom → cut"
+    lighting: "어둠 + 번개 플래시 + 핸드폰 플래시"
+    end_frame: "강아지가 카메라를 바라보는 클로즈업. 빗물에 젖은 얼굴, 크고 둥근 눈, 떨리는 몸"
     key_elements:
-      - "골든 리트리버의 부드러운 입"
-      - "작은 고슴도치"
-      - "주인의 놀란 반응"
+      - "벤치에 묶인 줄"
+      - "폭풍우"
+      - "떨리는 강아지"
 
   - id: 2
-    title: "첫 만남"
-    title_en: "First Meeting"
+    title: "3시간 전 - 유기"
+    title_en: "3 Hours Earlier - Abandoned"
+    is_hook: false
     caption:
-      en: "At first, she was so scared..."
-      ko: "처음엔, 너무 무서워했다..."
-    duration: 12
-    description: "..."
-    action: "..."
-    emotion: "..."
+      en: "3 hours earlier... someone left her here"
+      ko: "3시간 전... 누군가 여기 두고 갔다"
+    duration: 15
+    description: "시간을 되돌려 유기 장면"
+    emotion: "분노, 슬픔"
+    start_frame_ref: "Scene 1 end_frame (강아지 클로즈업)에서 시작 → 1초 전환 → 3시간 전 장면으로"
+
+    sub_shots:
+      - beat: 1
+        time: "0-1s"
+        shot_type: "transition"
+        description: "전 씬 마지막(강아지 클로즈업)에서 빠르게 전환, 텍스트: '3 hours earlier'"
+      - beat: 2
+        time: "1-5s"
+        shot_type: "wide, dashcam"
+        description: "주택가 도로, 은색 세단이 멈춤"
+      - beat: 3
+        time: "5-9s"
+        shot_type: "medium"
+        description: "남자가 강아지를 벤치 다리에 묶는다"
+      - beat: 4
+        time: "9-13s"
+        shot_type: "tracking"
+        description: "남자가 차로 돌아가 떠남. 강아지가 따라가려 함"
+      - beat: 5
+        time: "13-15s"
+        shot_type: "close-up (bridge)"
+        description: "혼란스러운 표정의 강아지. 줄에 걸려 더 못 감"
+
     camera:
-      movement: "..."
-      angle: "..."
-      transition: "..."
-    lighting: "..."
-    key_elements: [...]
+      primary_movement: "관찰 시점 → handheld"
+      sub_shot_transitions: "dissolve → cut → cut → cut"
+    lighting: "늦은 오후 흐린 하늘, 가로등 시작"
+    end_frame: "벤치에 묶인 강아지가 떠나는 차를 바라보는 모습. 줄이 팽팽하게 당겨짐"
+    key_elements:
+      - "은색 세단"
+      - "벤치에 묶는 행위"
+      - "따라가려는 강아지"
 ```
+
+---
+
+## 서브샷 전환 패턴 가이드
+
+| 패턴 | 서브샷 흐름 | 적합한 장면 |
+|------|------------|------------|
+| **줌인** | wide → medium → close-up → extreme CU | 발견, 관찰, 디테일 공개 |
+| **줌아웃** | CU → medium → wide reveal | 상황 공개, 반전, 스케일 |
+| **핑퐁** | 동물 → 사람 → 동물 → 사람 | 상호작용, 신뢰 구축 |
+| **속도 변화** | 느림 → 빠름 → 느림 | 긴장 → 액션 → 안도 |
+| **POV 전환** | 관찰자 → 1인칭 → 동물 시점 | 몰입 극대화 |
 
 ---
 
@@ -83,18 +173,20 @@ scenes:
 - `pan` - 좌우 패닝
 - `tracking` - 추적
 
-### Angle (앵글)
-- `close-up` - 클로즈업
-- `wide` - 와이드
-- `eye-level` - 눈높이
-- `low angle` - 로우앵글
-- `owner perspective` - 주인 시점
+### Shot Types (서브샷용)
+- `extreme close-up` - 눈, 디테일
+- `close-up` - 얼굴, 표정
+- `medium` - 상반신, 상호작용
+- `wide` - 환경, 전체 상황
+- `POV` - 1인칭 시점
+- `transition` - 전 씬 연결 (Scene 2+ 첫 beat)
+- `bridge` - 다음 씬 연결 (마지막 beat)
 
 ### Transition (전환)
-- `fade in` - 페이드 인
-- `cut` - 컷
-- `dissolve` - 디졸브
-- `match cut` - 매치 컷
+- `cut` - 빠른 컷 (서브샷 간 기본)
+- `fade` - 시간 경과
+- `dissolve` - 회상, 전환
+- `match cut` - 비주얼 연속성
 
 ---
 
@@ -106,15 +198,17 @@ scenes:
 - `soft evening light` - 부드러운 저녁빛
 - `warm sunset through window` - 창문으로 들어오는 석양
 - `cold blue-grey, overcast` - 차가운 흐린 날씨
+- `phone flashlight only` - 핸드폰 플래시만 (야간)
+- `lightning flash` - 번개 (폭풍 장면)
 
 ---
 
-## 장면 배치 가이드
+## 장면 배치 가이드 (Hook First)
 
-| 스토리 단계 | 장면 수 | 권장 분위기 |
-|------------|--------|------------|
-| 도입 | 1-2개 | 슬픔, 고독, 차가운 조명 |
-| 전개 | 1-2개 | 호기심, 따뜻한 조명 시작 |
-| 위기 | 1개 | 긴장, 대비 있는 조명 |
-| 해결 | 1-2개 | 안도, 따뜻한 조명 |
-| 결말 | 1-2개 | 행복, 황금빛 조명 |
+| 순서 | 역할 | 장면 수 | 서브샷 속도 | 분위기 |
+|------|------|--------|------------|--------|
+| Scene 1 | **Hook** (충격) | 1개 | 빠름 (4-5 beats) | 가장 강렬한 순간 |
+| Scene 2-3 | 배경/맥락 | 2개 | 보통 (3-4 beats) | 시간순 시작, "어떻게?" |
+| Scene 4-5 | 전개/위기 | 2개 | 빠름 (4-5 beats) | 긴장, 감정 고조 |
+| Scene 6-7 | 해결/전환 | 1-2개 | 느림 (3 beats) | 안도, 따뜻함 |
+| Final | 결말/여운 | 1개 | 최소 (2-3 beats) | 감동, 행복 |

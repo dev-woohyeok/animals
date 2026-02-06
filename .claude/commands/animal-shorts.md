@@ -55,9 +55,15 @@ total_duration: 90
 
 **[사용자 확인]**: 스토리가 마음에 드시나요? (수정 요청 가능)
 
-### Step 3: 장면 분할
+### Step 3: 장면 분할 (멀티샷 + 스타트 프레임)
 
 `prompts/scene_system.md` 규칙에 따라 **6개 이상의 15초 장면**으로 분할:
+
+**핵심 규칙**:
+1. **Scene 1 = Hook**: 가장 충격적/감정적인 순간 (시간순 아님)
+2. **멀티샷**: 각 15초 장면에 3-5개 서브샷 (빠른 화면 전환)
+3. **스타트 프레임**: Scene 2+는 전 씬 end_frame에서 시작 (1초 전환)
+4. **end_frame**: 각 씬 마지막 프레임 명시 (다음 씬 스타트 이미지용)
 
 **출력 형식**:
 ```yaml
@@ -65,43 +71,71 @@ scenes:
   - id: 1
     title: "장면 제목"
     title_en: "Scene Title"
+    is_hook: true
     duration: 15
     description: "장면 설명"
-    action: "주요 동작"
     emotion: "감정"
+    sub_shots:
+      - beat: 1
+        time: "0-3s"
+        shot_type: "extreme close-up"
+        description: "서브샷 설명"
+      - beat: 2
+        time: "3-7s"
+        shot_type: "medium, pull back"
+        description: "서브샷 설명"
+      # ... 3-5개
     camera:
-      movement: "slow dolly in"
-      angle: "close-up"
-      transition: "fade in"
+      primary_movement: "handheld POV"
+      sub_shot_transitions: "cut → cut → slow zoom"
     lighting: "warm sunset light"
+    end_frame: "이 씬의 마지막 프레임 설명"
+
+  - id: 2
+    start_frame_ref: "Scene 1 end_frame에서 시작 (1초 전환)"
+    # ...
 ```
 
 **[사용자 확인]**: 장면 구성이 적절한가요? (개별 장면 수정 가능)
 
-### Step 4: Sora2 프롬프트 생성
+### Step 4: Sora2 프롬프트 생성 (멀티샷 + 스타트 프레임)
 
-`prompts/sora2_system.md` 규칙에 따라 각 장면의 **영어 프롬프트** 생성 (한국어 번역 없음):
+`prompts/sora2_system.md` 규칙에 따라 각 장면의 **한국어 프롬프트** 생성:
 
 **핵심 규칙**:
 1. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명 사용
-2. **프롬프트 구조**:
-   - Character Description (캐릭터 설명)
-   - Setting/Environment (배경)
-   - Action (동작)
-   - Camera Movement (카메라)
-   - Lighting (조명)
-   - Atmosphere (분위기)
-   - Technical Specs (품질 마커)
+2. **멀티샷 시퀀스**: 서브샷을 (0-Xs) 형태로 시간순 묘사
+3. **스타트 프레임**: Scene 2+ 첫 줄에 전 씬 end_frame 참조
+4. **bridge 샷**: 마지막 서브샷은 다음 씬 연결 구도
+5. **프롬프트 구조**:
+   - Start Frame Transition (Scene 2+)
+   - Camera Style (촬영 스타일 + "여러 앵글 편집")
+   - Environment (환경)
+   - Animal Character (매번 전체 설명)
+   - Human Character (등장 시 매번 전체 설명)
+   - Sub-shot Sequence (서브샷 시퀀스)
+   - Sound Design (사운드)
 
 **출력 형식**:
 ```yaml
-character_reference: "A small African pygmy hedgehog with brown and cream quills..."
+consistency_template:
+  animal: {base, eyes, accessory}
+  location: {base}
+  human: {base}
 
 prompts:
   - scene_id: 1
+    is_hook: true
+    end_frame: "마지막 프레임 설명"
     prompt: |
-      First person POV handheld home video footage. [Character description].
-      [Setting]. [Action]. [Camera]. [Lighting]. [Atmosphere]. [Quality markers].
+      [전체 Self-Contained Multi-Shot 프롬프트]
+
+  - scene_id: 2
+    start_frame_ref: "Scene 1 end_frame"
+    end_frame: "마지막 프레임 설명"
+    prompt: |
+      (스타트 프레임: ...) 에서 시작. 빠르게 화면이 전환.
+      [전체 Self-Contained Multi-Shot 프롬프트]
 ```
 
 **[사용자 확인]**: 프롬프트가 적절한가요? (개별 수정 가능)
