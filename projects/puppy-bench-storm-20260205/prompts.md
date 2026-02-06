@@ -9,15 +9,19 @@
 ## 캐릭터 레퍼런스
 
 ### Puppy (강아지)
+
 > 작은 믹스견 강아지 한 마리. 약 4kg, 생후 4-5개월. 짧은 연갈색 털. 크고 둥근 갈색 눈. 낡은 파란색 목줄. 몸 여러 곳에 피부병(링웜) 자국.
 
 ### Previous Owner (전 주인)
+
 > 30대 남자. 검은 후디, 청바지, 운동화. 짧은 머리.
 
 ### Rescuer / New Owner (구조자 / 새 주인)
+
 > 30대 초반 여자. 노란색 우비(구조 시), 평소 회색 스웨터. 갈색 머리 포니테일.
 
 ### Location (장소)
+
 > 미국 오레곤주 포틀랜드 교외. 주택가 옆 작은 공원. 나무 벤치.
 
 ---
@@ -31,6 +35,7 @@
 - **Lighting:** 맑은 대낮, 밝은 자연광
 
 **Caption:**
+
 - EN: "I saw it from my car... I couldn't believe what I was seeing"
 - KR: "차 안에서 봤다... 내 눈을 의심했다"
 
@@ -46,10 +51,10 @@
 30대 남자. 검은 후디, 청바지.
 
 (0-4초) 차 안 원거리 시점. 줌인. 남자가 벤치에 강아지를 줄로 묶고 있다.
-(4-9초) 더 줌인. 남자가 돌아서 걸어간다. 강아지가 따라가려 한다. 남자가 돌아서서 강아지를 밀치고 소리를 지른다.
-(9-15초) 줌인 유지. 남자가 차를 타고 떠난다. 강아지가 벤치 옆에 홀로 남아 떠난 방향을 바라본다. 촬영자의 거친 숨소리.
+(4-9초) 더 줌인. 남자가 돌아서 걸어간다. 강아지가 따라가려 하지만 짧은 줄 길이로 인해 쫒아가지 못하고, 남자가 돌아서서 강아지를 밀치고 소리를 지른다.
+(9-15초) 줌인 유지. 남자가 차를 타고 떠난다. 강아지가 벤치 옆에 홀로 남아 떠난 방향을 바라본다.
 
-No background music. 멀리서 들리는 남자 소리, 차 엔진 소리, 강아지 낑낑거리는 소리, 촬영자 숨소리.
+No background music. 멀리서 남자 소리, 차 엔진 소리, 강아지 낑낑거리는 소리, 촬영자가 충격과 분노로 혼잣말하는 소리.
 ```
 
 **end_frame:** 차 안에서 줌인한 시점. 벤치 옆에 홀로 앉아 떠난 방향을 바라보는 강아지. 낮.
@@ -65,6 +70,7 @@ No background music. 멀리서 들리는 남자 소리, 차 엔진 소리, 강�
 - **Lighting:** 낮 → 석양 → 저녁
 
 **Caption:**
+
 - EN: "She didn't move... she was sure he'd come back"
 - KR: "움직이지 않았다... 꼭 돌아올 거라 믿으며"
 
@@ -103,6 +109,7 @@ No background music. 새소리, 지나가는 사람 발소리, 차 소리, 바�
 - **Lighting:** 어둠 + 폭우 + 핸드폰 플래시
 
 **Caption:**
+
 - EN: "Then the storm came... but so did she"
 - KR: "폭풍이 왔다... 하지만 그녀도 왔다"
 
@@ -143,6 +150,7 @@ No background music. 폭우 소리, 천둥, 강아지 짖는 소리, 여자 목�
 - **Lighting:** 핸드폰 플래시 → 차 실내등
 
 **Caption:**
+
 - EN: "She cut the leash... and everything changed"
 - KR: "줄을 끊었다... 그리고 모든 게 달라졌다"
 
@@ -182,6 +190,7 @@ No background music. 폭우 소리, 가위 소리, 발소리, 차 문 닫히는 
 - **Lighting:** 따뜻한 자연광, 실내
 
 **Caption:**
+
 - EN: "Day 1... Day 7... Day 30... she was healing"
 - KR: "1일차... 7일차... 30일차... 치유되고 있었다"
 
@@ -222,6 +231,7 @@ No background music. 강아지 발소리, 꼬리 흔드는 소리, 여자 웃는
 - **Lighting:** 따뜻한 실내 → 현관 역광
 
 **Caption:**
+
 - EN: "Then one day... he showed up at the door"
 - KR: "그러던 어느 날... 그가 문 앞에 나타났다"
 
@@ -264,6 +274,7 @@ No background music. 초인종 소리, 문 열리는 소리, 남자 목소리, �
 - **Lighting:** 현관 자연광
 
 **Caption:**
+
 - EN: "She barked at him... then ran behind her real mom"
 - KR: "그에게 짖었다... 그리고 진짜 엄마 뒤로 숨었다"
 
@@ -306,6 +317,7 @@ No background music. 강아지 짖는 소리, 강아지 으르렁, 남자 발소
 - **Lighting:** 따뜻한 석양, 실내
 
 **Caption:**
+
 - EN: "Family isn't who leaves you... it's who stays"
 - KR: "가족은 떠나는 사람이 아니라... 남아주는 사람이다"
 
@@ -340,9 +352,11 @@ No background music. 강아지 잠자는 숨소리, 꼬리가 소파를 스치�
 - **TikTok:** he threw her away like nothing... but she found someone better 😭💔
 
 ### Hooks
+
 - **Emotional:** 💔 He Pushed This Puppy Away and Tied Her to a Bench...
 - **Curiosity:** The Previous Owner Came Back for Her... But Watch the Dog's Reaction
 - **Outcome:** Abandoned Puppy Chooses Her Real Family → The Ending Will Break You 😭
 
 ### Hashtags
+
 #rescue #abandoned #puppy #storm #adoptdontshop #animalrescue #loyalty #chooseyourfamily #fyp #emotional #dogrescue
