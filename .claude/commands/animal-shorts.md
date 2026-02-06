@@ -16,154 +16,97 @@
 
 ---
 
-## 워크플로우
+## ⚠️ 워크플로우 (완전 자동화)
 
-이 명령을 실행하면 다음 단계를 순차적으로 진행합니다. **각 단계에서 사용자 확인 후 다음 단계로 진행합니다.**
+**스토리 선택만 물어보고, 나머지는 전부 자동 진행. 중간에 절대 멈추지 않는다.**
 
-### Step 1: 입력 분석
-
-사용자 입력에서 다음을 추출합니다:
-- **동물**: 종류, 나이, 특징 (예: "아기 고슴도치", "골든 리트리버")
-- **상황**: 핵심 스토리 전제 (예: "입에 물고 옴", "버려진 후 구조됨")
-- **감정**: 목표 감정 톤 (예: "감동", "따뜻함", "희망")
-- **결말**: 원하는 결말 (선택사항)
-
-### Step 2: 스토리 생성
-
-`prompts/story_system.md` 규칙에 따라 **5막 구조** 스토리 생성:
-
-1. **도입**: 동물 상황 소개, 공감 구축
-2. **전개**: 주요 캐릭터 등장, 연결 시작
-3. **위기**: 긴장, 위험, 결정의 순간
-4. **해결**: 전환점, 구원 또는 변화
-5. **결말**: 감정적 보상, 새로운 시작
-
-**출력 형식**:
-```yaml
-title: "스토리 제목"
-synopsis: "1-2문장 요약"
-arc:
-  - phase: "도입"
-    description: "..."
-    emotion: "슬픔, 고독"
-  - phase: "전개"
-    description: "..."
-    emotion: "호기심, 희망"
-  # ...
-total_duration: 90
+```
+Step 1: 입력 분석 → 스토리 3개 제안 (리스트)
+          ↓
+    [유일한 사용자 확인] 스토리 선택
+          ↓
+Step 2: 스토리 생성 → 자동 진행
+          ↓
+Step 3: 장면 분할 → 자동 진행
+          ↓
+Step 4: Sora2 프롬프트 → 자동 진행
+          ↓
+Step 5: 제목 생성 → 자동 진행
+          ↓
+Step 6: 파일 저장 + git commit & push → 완료
 ```
 
-**[사용자 확인]**: 스토리가 마음에 드시나요? (수정 요청 가능)
+---
 
-### Step 3: 장면 분할 (멀티샷 + 스타트 프레임)
+### Step 1: 스토리 제안 (유일한 사용자 확인)
+
+사용자 입력에서 동물/상황/감정을 추출한 뒤, **3가지 스토리 방향을 리스트로 제안**:
+
+```
+입력: /animal-shorts 강아지 / 벤치에 묶여 버려짐 / 감동
+
+📋 스토리 옵션:
+
+1. 「폭풍우 속 구조」
+   벤치에 묶인 채 폭풍우를 맞는 강아지. 우연히 지나가던 여자가 구조.
+   차 안에서 깊은 한숨을 쉬며 눈을 감는다.
+
+2. 「기다림 끝에 선택」
+   밀쳐지고 버려진 강아지가 벤치를 떠나지 않고 기다린다.
+   구조 후 전 주인이 찾아오지만, 강아지는 새 주인을 선택한다.
+
+3. 「벤치의 약속」
+   매일 같은 벤치에서 기다리는 강아지. SNS에서 화제.
+   전국에서 입양 신청이 쇄도하지만, 매일 밥을 주던 노숙자가 진짜 가족.
+
+→ 번호를 선택하거나, 원하는 방향을 말해주세요.
+```
+
+**이 선택 이후 모든 단계는 자동 진행. 중간에 묻지 않는다.**
+
+---
+
+### Step 2: 스토리 생성 (자동)
+
+`prompts/story_system.md` 규칙에 따라 **5막 구조** 스토리 생성.
+→ 완료 즉시 Step 3으로 자동 진행.
+
+### Step 3: 장면 분할 (자동)
 
 `prompts/scene_system.md` 규칙에 따라 **6개 이상의 15초 장면**으로 분할:
 
 **핵심 규칙**:
-1. **Scene 1 = Hook**: 가장 충격적/감정적인 순간 (시간순 아님)
-2. **멀티샷**: 각 15초 장면에 3-5개 서브샷 (빠른 화면 전환)
+1. **Scene 1 = Hook**: 가장 충격적/감정적인 순간
+2. **멀티샷**: 각 15초 장면에 3-5개 서브샷
 3. **스타트 프레임**: Scene 2+는 전 씬 end_frame에서 시작 (1초 전환)
-4. **end_frame**: 각 씬 마지막 프레임 명시 (다음 씬 스타트 이미지용)
+4. **end_frame**: 각 씬 마지막 프레임 명시
 
-**출력 형식**:
-```yaml
-scenes:
-  - id: 1
-    title: "장면 제목"
-    title_en: "Scene Title"
-    is_hook: true
-    duration: 15
-    description: "장면 설명"
-    emotion: "감정"
-    sub_shots:
-      - beat: 1
-        time: "0-3s"
-        shot_type: "extreme close-up"
-        description: "서브샷 설명"
-      - beat: 2
-        time: "3-7s"
-        shot_type: "medium, pull back"
-        description: "서브샷 설명"
-      # ... 3-5개
-    camera:
-      primary_movement: "handheld POV"
-      sub_shot_transitions: "cut → cut → slow zoom"
-    lighting: "warm sunset light"
-    end_frame: "이 씬의 마지막 프레임 설명"
+→ 완료 즉시 Step 4로 자동 진행.
 
-  - id: 2
-    start_frame_ref: "Scene 1 end_frame에서 시작 (1초 전환)"
-    # ...
-```
-
-**[사용자 확인]**: 장면 구성이 적절한가요? (개별 장면 수정 가능)
-
-### Step 4: Sora2 프롬프트 생성 (멀티샷 + 스타트 프레임)
+### Step 4: Sora2 프롬프트 생성 (자동)
 
 `prompts/sora2_system.md` 규칙에 따라 각 장면의 **한국어 프롬프트** 생성:
 
 **핵심 규칙**:
-1. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명 사용
-2. **멀티샷 시퀀스**: 서브샷을 (0-Xs) 형태로 시간순 묘사
+1. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명
+2. **멀티샷 시퀀스**: 서브샷을 (0-Xs) 형태로 시간순
 3. **스타트 프레임**: Scene 2+ 첫 줄에 전 씬 end_frame 참조
-4. **bridge 샷**: 마지막 서브샷은 다음 씬 연결 구도
-5. **프롬프트 구조**:
-   - Start Frame Transition (Scene 2+)
-   - Camera Style (촬영 스타일 + "여러 앵글 편집")
-   - Environment (환경)
-   - Animal Character (매번 전체 설명)
-   - Human Character (등장 시 매번 전체 설명)
-   - Sub-shot Sequence (서브샷 시퀀스)
-   - Sound Design (사운드)
+4. **카메라 상세 + 상황 간결**: Sora2에 자유도
+5. **bridge 샷**: 마지막 서브샷은 다음 씬 연결
+
+→ 완료 즉시 Step 5로 자동 진행.
+
+### Step 5: 제목 생성 (자동)
+
+`prompts/title_system.md` 규칙에 따라 플랫폼별 최적화 제목 생성.
+→ 완료 즉시 Step 6으로 자동 진행.
+
+### Step 6: 파일 저장 + git (자동)
+
+최종 결과물을 `projects/{slug}/prompts.md` 형식으로 저장.
+git commit & push 자동 실행.
 
 **출력 형식**:
-```yaml
-consistency_template:
-  animal: {base, eyes, accessory}
-  location: {base}
-  human: {base}
-
-prompts:
-  - scene_id: 1
-    is_hook: true
-    end_frame: "마지막 프레임 설명"
-    prompt: |
-      [전체 Self-Contained Multi-Shot 프롬프트]
-
-  - scene_id: 2
-    start_frame_ref: "Scene 1 end_frame"
-    end_frame: "마지막 프레임 설명"
-    prompt: |
-      (스타트 프레임: ...) 에서 시작. 빠르게 화면이 전환.
-      [전체 Self-Contained Multi-Shot 프롬프트]
-```
-
-**[사용자 확인]**: 프롬프트가 적절한가요? (개별 수정 가능)
-
-### Step 5: 제목 생성
-
-`prompts/title_system.md` 규칙에 따라 플랫폼별 최적화 제목 생성:
-
-**출력 형식**:
-```yaml
-main_title: "메인 제목"
-subtitle: "부제목"
-platform_variants:
-  youtube_shorts: "YouTube용 제목 (이모지, 100자 이내)"
-  instagram_reels: "Instagram용 제목 (세련된 톤)"
-  tiktok: "TikTok용 제목 (구어체, 강한 후킹)"
-hooks:
-  emotional: "감정 자극형 후킹"
-  curiosity: "호기심 유발형 후킹"
-  outcome: "결과 강조형 후킹"
-```
-
-**[사용자 확인]**: 제목이 마음에 드시나요?
-
-### Step 6: 파일 저장
-
-최종 결과물을 `projects/{slug}/prompts.md` 형식으로 저장:
-
 ```markdown
 # {제목}
 
@@ -173,15 +116,25 @@ hooks:
 
 ---
 
+## 캐릭터 레퍼런스
+...
+
 ## Scene 1: {title}
 - **Duration:** 15s
+- **is_hook:** true
 - **Emotion:** {emotion}
 - **Camera:** {camera}
 
+**Caption:**
+- EN: "..."
+- KR: "..."
+
 ### Sora2 Prompt
 \`\`\`
-{english_prompt}
+{prompt}
 \`\`\`
+
+**end_frame:** ...
 
 ---
 ...
@@ -200,15 +153,6 @@ hooks:
 - `prompts/scene_system.md` - 장면 분할 가이드
 - `prompts/sora2_system.md` - Sora2 프롬프트 규칙
 - `prompts/title_system.md` - 제목 생성 전략
-- `output/hedgehog_family.md` - 출력 형식 예시
-
----
-
-## 도구 사용
-
-- **Read**: 시스템 프롬프트 및 설정 파일 로드
-- **Write**: 최종 출력 파일 저장
-- **TodoWrite**: 워크플로우 진행 상황 추적
 
 ---
 
@@ -221,5 +165,5 @@ hooks:
 
 **불허**:
 - 폭력적이거나 부적절한 콘텐츠
-- 사용자 확인 없이 다음 단계 진행
 - 저작권 침해 콘텐츠
+- **스토리 선택 이후 중간에 사용자에게 확인 요청 (금지!)**
