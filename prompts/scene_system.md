@@ -14,30 +14,36 @@ Divide stories into visually compelling scenes optimized for 10-18 second video 
 - 스토리에서 가장 충격적이고 감정적인 순간을 Scene 1에 배치
 - 시청자가 첫 3초 안에 "이게 뭐야?!" 반응을 보여야 함
 - 나머지 장면에서 시간순으로 스토리 전개
+- **⚠️ Scene 1은 서브샷 없이 한 프레임에 모든 것을 담는다** (단일 연속 샷)
 
 ```
 ❌ 시간순: 평화로운 일상 → 위기 → 구조 → 해결
-✅ 훅 우선: [가장 충격적 장면] → 시간 되돌려서 시작 → 전개 → 해결
+✅ 훅 우선: [가장 충격적 장면 - 단일 프레임] → 시간 되돌려서 시작 → 전개 → 해결
 ```
 
 ### Scene 1 Hook Examples
 ```
-- 폭풍우에 묶인 강아지 → Scene 1: 벤치에 묶인 채 떨고 있는 클로즈업
-- 길에 버려진 고양이 → Scene 1: 차 뒷미러에 비친 작은 형체, 비 속 울음소리
-- 산에서 구조 → Scene 1: 덫에 걸린 동물의 눈 클로즈업
+- 폭풍우에 묶인 강아지 → Scene 1: 벤치에 묶인 채 떨고 있는 단일 프레임 (서브샷 없음)
+- 길에 버려진 고양이 → Scene 1: 차 뒷미러에 비친 작은 형체, 비 속 울음소리 (서브샷 없음)
+- 산에서 구조 → Scene 1: 덫에 걸린 동물의 눈 클로즈업 (서브샷 없음)
 ```
 
 ---
 
 ## Multi-Shot Structure (15초 안에 3-5개 서브샷)
 
-### 왜 멀티샷인가?
+### ⚠️ 예외: Scene 1 (Hook)
+- **Scene 1은 서브샷 없이 단일 프레임으로 구성**
+- 가장 충격적인 순간을 한 장면에 담아 임팩트 극대화
+- 서브샷 분할 없이 하나의 연속 샷으로 촬영
+
+### 왜 멀티샷인가? (Scene 2 이후)
 - 쇼츠 시청자는 **2-3초마다** 새로운 시각 자극 필요
 - 한 장면 15초 연속 = 이탈율 급증
 - 빠른 컷 전환 = 관심 유지 + 긴장감
 
-### 서브샷 구조
-각 15초 장면은 **3-5개의 서브샷(beats)**으로 구성:
+### 서브샷 구조 (Scene 2 이후)
+Scene 2 이후의 각 15초 장면은 **3-5개의 서브샷(beats)**으로 구성:
 
 **⚠️ 카메라는 상세하게, 상황은 간결하게!**
 - 카메라 앵글/움직임: 정확히 지정
@@ -117,8 +123,8 @@ scene:
 ## Scene Structure Requirements
 - Each scene: 10-18 seconds
 - Total: 6-8 scenes for 90+ second video
-- **3-5 sub-shots per scene** (멀티샷 필수)
-- Scene 1 = Hook (가장 충격적 장면)
+- **Scene 1 = Hook: 서브샷 없이 단일 프레임 (가장 충격적 장면)**
+- **Scene 2+: 3-5 sub-shots per scene** (멀티샷 필수)
 - Scene 2+ = Start frame transition (스타트 프레임 전환)
 - Clear visual focus per scene
 - Smooth emotional transitions between scenes
@@ -177,37 +183,11 @@ scene:
       "title_en": "Scene Title (English)",
       "is_hook": true,
       "duration": 15,
-      "description": "상세 장면 설명",
+      "description": "가장 충격적인 순간 - 서브샷 없이 단일 프레임으로 구성",
       "emotion": "감정 키워드",
-      "sub_shots": [
-        {
-          "beat": 1,
-          "time": "0-3s",
-          "shot_type": "extreme close-up",
-          "description": "강아지 눈 클로즈업, 빗물이 얼굴을 타고 흐른다"
-        },
-        {
-          "beat": 2,
-          "time": "3-7s",
-          "shot_type": "medium, pull back",
-          "description": "카메라가 빠지면서 벤치에 묶인 전체 모습 공개"
-        },
-        {
-          "beat": 3,
-          "time": "7-11s",
-          "shot_type": "wide",
-          "description": "폭풍우 치는 빈 공원 전체, 강아지가 작게 보인다"
-        },
-        {
-          "beat": 4,
-          "time": "11-15s",
-          "shot_type": "close-up",
-          "description": "강아지가 고개를 들고 카메라를 바라본다"
-        }
-      ],
       "camera": {
         "primary_movement": "handheld POV",
-        "sub_shot_transitions": "cut, cut, slow zoom"
+        "note": "단일 연속 샷 - 서브샷 없음"
       },
       "lighting": "darkness + phone flashlight + lightning flash",
       "end_frame": "강아지가 카메라를 바라보는 클로즈업. 빗물에 젖은 얼굴, 크고 둥근 눈",
@@ -246,11 +226,11 @@ scene:
 
 ## Pacing Guidelines
 
-### Scene 1 (Hook)
-- **첫 1-2초**: 가장 강렬한 비주얼 (충격)
-- **3-7초**: 상황 공개 (이게 뭐야?)
-- **8-12초**: 디테일 (감정 자극)
-- **13-15초**: 브릿지 (다음 장면으로)
+### Scene 1 (Hook) - 단일 프레임
+- **서브샷 없이 한 프레임에 모든 것을 담는다**
+- 가장 충격적이고 감정적인 순간을 단일 연속 샷으로
+- 15초 동안 하나의 장면이 지속되며 임팩트 극대화
+- 마지막 프레임이 end_frame이 되어 Scene 2로 연결
 
 ### Scene 2-3 (Setup / Context)
 - 시간순 시작점, 배경 설명
