@@ -123,8 +123,8 @@ No background music. 거친 숨소리, 눈 밟히는 소리, 아기 표범 울�
 
 **Caption:**
 
-- EN: "I couldn't get him to eat... but the mama cat knew exactly what to do"
-- KR: "아무리 해도 먹지 않았다... 하지만 엄마 고양이는 뭘 해야 하는지 알고 있었다"
+- EN: "The mama cat took her in... as one of her own"
+- KR: "엄마 고양이가 그 아이를 자기 새끼로 받아들였다"
 
 **start_frame_ref:** Scene 2 end_frame (여자가 재킷 안에 아기를 품음)
 
