@@ -83,8 +83,8 @@ No background music. 아기 표범 울음소리, 여자 거친 숨소리, 안쓰
 
 **Caption:**
 
-- EN: "When I got the call, I drove 2 hours through the snow..."
-- KR: "신고를 받고 2시간을 눈 속으로 달렸다..."
+- EN: "I couldn't just leave her there..."
+- KR: "그냥 놔두고 갈 수가 없었다..."
 
 **start_frame_ref:** Scene 1 end_frame (아기 눈표범이 카메라를 바라봄)
 
