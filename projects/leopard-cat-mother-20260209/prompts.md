@@ -245,8 +245,8 @@ No background music. 박스 찌그러지는 소리, 고양이 그루밍 소리, 
 
 **Caption:**
 
-- EN: "She just opened the door... and he knew it was time"
-- KR: "문을 열어줬을 뿐인데... 그는 때가 된 걸 알았다"
+- EN: "It was time to let her go..."
+- KR: "그녀를 보내줄 때가 됐다..."
 
 **start_frame_ref:** Scene 5 end_frame (표범이 창문에 코 대고 밖을 봄)
 
