@@ -287,8 +287,8 @@ No background music. 문 열리는 소리, 표범 발이 눈 밟는 소리, 고�
 
 **Caption:**
 
-- EN: "1 year later... she brought her babies to meet grandma"
-- KR: "1년 후... 할머니에게 아기를 보여주러 왔다"
+- EN: "1 year later... she came back as a mother"
+- KR: "1년 후... 엄마가 되어 그녀가 돌아왔다"
 
 **start_frame_ref:** Scene 6 end_frame (엄마 고양이가 문턱에 앉아 빈 마당을 바라봄)
 
