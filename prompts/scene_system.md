@@ -30,7 +30,7 @@ Divide stories into visually compelling scenes optimized for 10-18 second video 
 
 ---
 
-## Multi-Shot Structure (15초 안에 3-5개 서브샷)
+## Multi-Shot Structure (15초 안에 최대 3개 서브샷)
 
 ### ⚠️ 예외: Scene 1 (Hook)
 - **Scene 1은 서브샷 없이 단일 프레임으로 구성**
@@ -43,7 +43,7 @@ Divide stories into visually compelling scenes optimized for 10-18 second video 
 - 빠른 컷 전환 = 관심 유지 + 긴장감
 
 ### 서브샷 구조 (Scene 2 이후)
-Scene 2 이후의 각 15초 장면은 **3-5개의 서브샷(beats)**으로 구성:
+Scene 2 이후의 각 15초 장면은 **최대 3개의 서브샷(beats)**으로 구성:
 
 **⚠️ 카메라는 상세하게, 상황은 간결하게!**
 - 카메라 앵글/움직임: 정확히 지정
@@ -124,7 +124,7 @@ scene:
 - Each scene: 10-18 seconds
 - Total: 6-8 scenes for 90+ second video
 - **Scene 1 = Hook: 서브샷 없이 단일 프레임 (가장 충격적 장면)**
-- **Scene 2+: 3-5 sub-shots per scene** (멀티샷 필수)
+- **Scene 2+: max 3 sub-shots per scene** (멀티샷 필수)
 - Scene 2+ = Start frame transition (스타트 프레임 전환)
 - Clear visual focus per scene
 - Smooth emotional transitions between scenes
@@ -138,7 +138,7 @@ scene:
 - Key visual elements
 
 ### 2. Sub-shots (서브샷) - NEW
-- 3-5 beats per scene
+- max 3 beats per scene
 - Each beat: shot type + duration + description
 - Last beat = bridge to next scene (end_frame)
 
