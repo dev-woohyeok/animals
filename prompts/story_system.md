@@ -127,6 +127,9 @@ template_used:
   archetype: "rescue_adoption"  # or unexpected_bond, loss_and_reunion
   emotional_pattern: "dual_climax"  # or gradual_rise, u_curve
 
+hook_formula: "증거 발견 | 소리 먼저 | 떠나는 차 | 크기 대비 | 플래시 포워드 | 일상 침입 | 움직이지 않는 몸"
+hook_description: "Scene 1에서 어떤 장면이 후킹이 되는지 구체적으로"
+
 arc:
   - phase: "도입"
     description: "장면 설명 (구체적으로)"
@@ -134,28 +137,48 @@ arc:
       - "세부 비트1"
       - "세부 비트2"
     emotion: "감정 키워드들"
+    character_state:
+      physical: "물리적 상태 (털, 체중, 상처 등)"
+      emotional: "감정 상태"
+      behavioral: "행동 패턴"
 
   - phase: "전개"
     description: "..."
     beats: [...]
     emotion: "..."
+    character_state:
+      physical: "이전 대비 변화"
+      emotional: "이전 대비 변화"
+      behavioral: "이전 대비 변화"
 
   - phase: "위기"
     description: "..."
     beats: [...]
     emotion: "..."
+    character_state:
+      physical: "..."
+      emotional: "..."
+      behavioral: "..."
 
   - phase: "해결"
     description: "..."
     beats: [...]
     emotion: "..."
+    character_state:
+      physical: "..."
+      emotional: "..."
+      behavioral: "..."
 
   - phase: "결말"
     description: "..."
     beats: [...]
     emotion: "..."
+    character_state:
+      physical: "최종 상태 (처음과 극명한 대비)"
+      emotional: "최종 감정"
+      behavioral: "최종 행동"
 
-character_development: "캐릭터가 어떻게 변화하는지"
+character_development: "캐릭터가 어떻게 변화하는지 (물리적 + 감정적 + 행동적)"
 
 emotional_journey:
   - position: 0.0

@@ -27,7 +27,10 @@
       "Skill(animal-shorts-title)",
       "Skill(animal-shorts-export)",
       "WebFetch(domain:cottagelife.com)",
-      "WebFetch(domain:www.nbcphiladelphia.com)"
+      "WebFetch(domain:www.nbcphiladelphia.com)",
+      "WebFetch(domain:simonkingsnorth.com)",
+      "WebFetch(domain:www.clipwise.ai)",
+      "WebFetch(domain:brandefy.com)"
     ]
   }
 }
