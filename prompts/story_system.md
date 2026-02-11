@@ -15,6 +15,7 @@ Create compelling 90+ second story structures for animal-related short videos th
 
 | 입력 키워드 | 추천 원형 | 추천 감정 패턴 |
 |------------|----------|---------------|
+| 유기, 버림, 도로, 고속도로, 묶여 | rescue_adoption | viral_abandonment |
 | 구조, 발견, 버려진 | rescue_adoption | dual_climax |
 | 침입, 거부, 처음엔 싫었는데 | unexpected_bond | u_curve |
 | 이별, 재회, 돌아옴 | loss_and_reunion | gradual_rise |
@@ -25,6 +26,7 @@ Create compelling 90+ second story structures for animal-related short videos th
 ```
 library/templates/
 ├── emotional_patterns/          # 감정 곡선 패턴
+│   ├── viral_abandonment.md   # 바이럴 유기 (분노→안쓰러움→무력감→안도→감동)
 │   ├── dual_climax.md          # 이중 절정 (비극 + 결심)
 │   ├── gradual_rise.md         # 점진적 상승 (성장/재회)
 │   └── u_curve.md              # U자형 (유머→감동)
@@ -40,6 +42,18 @@ library/templates/
 ---
 
 ## Emotional Patterns Quick Reference
+
+### viral_abandonment (바이럴 유기)
+```
+100 |  ★ 분노                              ★ 감동
+ 70 |       ★ 안쓰러움               ↗
+ 50 |                          ★ 안도
+ 30 |            ★ 무력감   ↗
+    |___Hook____배경____바닥____전환____결말
+```
+- 사용: 유기/버림 스토리, 바이럴 극대화
+- 특징: 분노로 시작 → 5단계 감정 → 감동 결말
+- 핵심: 분노(공유 동기) + 무력감(이탈 방지) + 안도(카타르시스)
 
 ### dual_climax (이중 절정)
 ```
@@ -177,6 +191,10 @@ total_duration: 90
 
 ```
 입력 분석
+    │
+    ├─ 동물이 유기/버림받음?
+    │   ├─ Yes → rescue_adoption + viral_abandonment
+    │   └─ No → 다음 질문
     │
     ├─ 동물이 위험에 처함/구조됨?
     │   ├─ Yes → rescue_adoption

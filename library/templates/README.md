@@ -8,6 +8,7 @@
 
 | 패턴 | 특징 | 적합한 상황 |
 |------|------|-------------|
+| **viral_abandonment** | 분노→안쓰러움→무력감→안도→감동 | 유기 스토리, 바이럴 극대화 |
 | **dual_climax** | 두 번의 절정 (비극 + 결심) | 구조 스토리, 강렬한 감정 |
 | **gradual_rise** | 비극 시작 → 성장 → 재회 | 양육/성장, 세대 연결 |
 | **u_curve** | 경계 → 유대 → 이별 → 재회 | 유머+감동, 다른 종 우정 |
@@ -16,7 +17,7 @@
 
 | 원형 | 핵심 플롯 | 추천 감정 패턴 |
 |------|----------|---------------|
-| **rescue_adoption** | 위기 동물 구조 → 가족 | dual_climax |
+| **rescue_adoption** | 위기 동물 구조 → 가족 | viral_abandonment, dual_climax |
 | **unexpected_bond** | 거부 → 우정 → 가족 | u_curve |
 | **loss_and_reunion** | 유대 → 이별 → 재회 | gradual_rise |
 
@@ -70,6 +71,7 @@ reunion:
 
 | 원하는 효과 | 추천 패턴 |
 |------------|----------|
+| 바이럴 조회수 터뜨리고 싶다 | viral_abandonment |
 | 최대한 울리고 싶다 | dual_climax |
 | 따뜻하게 마무리하고 싶다 | gradual_rise |
 | 웃음과 감동 둘 다 | u_curve |
@@ -78,6 +80,7 @@ reunion:
 
 | 핵심 사건 | 추천 패턴 |
 |----------|----------|
+| 유기/버림받음 | viral_abandonment |
 | 비극적 발견/상실 | dual_climax |
 | 성장과 독립 | gradual_rise |
 | 처음엔 싫었는데 친해짐 | u_curve |
@@ -85,6 +88,19 @@ reunion:
 ---
 
 ## Combination Examples
+
+### Example 0: 고속도로 유기 강아지 스토리
+
+```
+원형: rescue_adoption
+패턴: viral_abandonment
+
+- 분노(Hook): CCTV에 찍힌 고속도로 유기 장면
+- 안쓰러움: 차를 따라 달리다 멈춰선 강아지
+- 무력감: 도로 한가운데서 지쳐 웅크림
+- 안도: 다른 차가 멈추고 구조
+- 감동: 새 가족과 행복한 일상
+```
 
 ### Example 1: 아기 여우 스토리
 
@@ -129,6 +145,7 @@ reunion:
 library/templates/
 ├── README.md                    # 이 파일
 ├── emotional_patterns/          # 감정 곡선 패턴
+│   ├── viral_abandonment.md   # 바이럴 유기 (분노→안쓰러움→무력감→안도→감동)
 │   ├── dual_climax.md          # 이중 절정
 │   ├── gradual_rise.md         # 점진적 상승
 │   └── u_curve.md              # U자형
