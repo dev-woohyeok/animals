@@ -111,8 +111,9 @@ Convert scene descriptions (with sub-shots) into optimized Sora2 prompts that ge
 
 ### 5. 동물 캐릭터 (Animal Character) - CRITICAL
 ```
-[품종] + [크기] + [털 색상/상태] + [눈] + [액세서리] + [현재 상태]
+[성별] + [품종] + [크기] + [털 색상/상태] + [눈] + [액세서리] + [현재 상태]
 
+⚠️ 성별은 첫 씬에서 정하면 전체 영상에서 고정! (아기 동물은 암컷 고정)
 ⚠️ 기본 설명 + 이 씬에서의 상태 변화를 명시!
 ⚠️ 매 씬마다 character_state를 반영하여 캐릭터 설명을 변경!
 ```
