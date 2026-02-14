@@ -64,9 +64,9 @@
 
 **Caption:**
 
-- EN: "She just wanted to eat. He grabbed a broom."
-- KR: "그냥 먹고 싶었을 뿐이다. 남자는 빗자루를 들었다."
-- Type: 대비형
+- EN: "Wait... is he hitting her with a broom? She can barely walk."
+- KR: "잠깐... 빗자루로 때리는 거야? 걷지도 못하는 애한테?"
+- Type: 촬영자 시점 — 분노/충격
 
 ### Sora2 Prompt
 
@@ -81,7 +81,7 @@
 
 길 건너편에서 줌인하여 촬영. 래브라도가 가게 앞 쓰레기통에 코를 넣고 뒤지고 있음. 가게 주인이 문을 열고 나와 빗자루를 휘두름. 래브라도가 움찔하며 뒤로 물러남. 꼬리를 다리 사이로 말고 세 다리로 절뚝거리며 도망감. 카메라가 도망가는 래브라도를 따라 줌인.
 
-No background music. 빗자루 소리, 가게 주인 소리치는 소리, 강아지 낑낑거림, 거리 소음, 촬영자 숨소리.
+No background music. 빗자루 소리, 가게 주인 소리치는 소리, 강아지 낑낑거림, 거리 소음, 촬영자(여자)가 놀라며 당황하는 음성.
 ```
 
 **end_frame:** 원거리 줌인. 꼬리를 내리고 가게에서 절뚝거리며 도망가는 래브라도. 빗자루 든 남자가 뒤에 서 있음. 흔들리는 핸드폰 화면.
@@ -105,9 +105,9 @@ No background music. 빗자루 소리, 가게 주인 소리치는 소리, 강아
 
 **Caption:**
 
-- EN: "Everyone walked past. No one stopped."
-- KR: "모두 지나갔다. 아무도 멈추지 않았다."
-- Type: 대비형
+- EN: "I followed her. Nobody even looked."
+- KR: "따라갔다. 아무도 쳐다보지 않았다."
+- Type: 촬영자 시점 — 답답함/안쓰러움
 
 ### Sora2 Prompt
 
@@ -151,9 +151,9 @@ No background music. 빗소리, 발소리, 강아지 낑낑거림, 차 지나가
 
 **Caption:**
 
-- EN: "She was limping... but her tail was wagging."
-- KR: "다리를 절고 있었다... 그런데 꼬리를 흔들었다."
-- Type: 대비형
+- EN: "I knelt down... and she came to me. Wagging her tail."
+- KR: "무릎을 꿇었다... 꼬리를 흔들며 다가왔다."
+- Type: 촬영자 시점 — 뭉클함
 
 ### Sora2 Prompt
 
@@ -198,9 +198,9 @@ No background music. 강아지 숨소리, 꼬리 흔드는 소리, 여자 부드
 
 **Caption:**
 
-- EN: "The vet scanned her... and found a microchip."
-- KR: "수의사가 스캔했다... 칩이 나왔다."
-- Type: 반전형
+- EN: "The vet found a chip. Someone was looking for her."
+- KR: "칩이 나왔다. 누군가 이 아이를 찾고 있었다."
+- Type: 촬영자 시점 — 놀라움/희망
 
 ### Sora2 Prompt
 
@@ -245,9 +245,9 @@ No background music. 스캐너 삐 소리, 컴퓨터 소리, 강아지 숨소리
 
 **Caption:**
 
-- EN: "2 weeks. She was becoming herself again."
-- KR: "2주. 점점 원래 모습을 찾아갔다."
-- Type: 시점형
+- EN: "Day by day, she started trusting again."
+- KR: "하루하루, 다시 믿기 시작했다."
+- Type: 촬영자 시점 — 따뜻함
 
 ### Sora2 Prompt
 
@@ -292,9 +292,9 @@ No background music. 물 소리, 강아지 밥 먹는 소리, 여자 웃음소�
 
 **Caption:**
 
-- EN: "She remembered."
-- KR: "기억하고 있었다."
-- Type: 단정형
+- EN: "The door opened. She knew."
+- KR: "문이 열렸다. 이 아이는 알고 있었다."
+- Type: 촬영자 시점 — 감동 폭발
 
 ### Sora2 Prompt
 
@@ -341,9 +341,9 @@ No background music. 강아지 낑낑거림, 꼬리 소리, 할머니 목소리,
 
 **Caption:**
 
-- EN: "She wasn't lost. She was finding her way home."
-- KR: "길을 잃은 게 아니었다. 집으로 가는 중이었다."
-- Type: 반전형
+- EN: "She's home. She made it home."
+- KR: "집이다. 드디어 집에 왔다."
+- Type: 촬영자 시점 — 행복/완결
 
 ### Sora2 Prompt
 
