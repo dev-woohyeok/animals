@@ -133,6 +133,17 @@ Step 6: 파일 저장 + git commit & push → 완료
 
 **반드시 아마추어 핸드폰 푸티지 스타일로 작성**
 
+### 🚨 최우선 원칙: 진짜 현실처럼 보여야 한다
+- **영화처럼 보이면 실패** — 이것이 프롬프트 작성의 가장 중요한 원칙
+- 모든 카메라 지시는 "실제로 핸드폰을 든 사람이 이렇게 촬영할 수 있는가?"로 판단
+- 영화적 카메라워크(와이드→미디엄→클로즈업, 핑퐁 편집, 로우앵글 등) 절대 금지
+- 서브샷은 촬영자의 자연스러운 카메라 움직임(줌인/줌아웃, 상하좌우 이동)으로만 전환
+
+### 촬영 시점별 규칙
+- **1인칭 POV**: 한 손 촬영, 연속, 촬영자 시선/움직임 따라감
+- **주변인 촬영**: 한 위치 고정, 디지털 줌, 다른 물체 뒤에서 몰래 촬영
+- **홈비디오**: 바닥에 놓거나 한 손, 자연 조명
+
 ### 필수 요소
 - `First person POV handheld phone footage`
 - `Shaky`, `unsteady`, `amateur footage`
@@ -141,6 +152,14 @@ Step 6: 파일 저장 + git commit & push → 완료
 - `Heavy breathing audible`
 - 단순하고 직접적인 문장
 - 실제 사람이 촬영한 것처럼 자연스럽게
+
+### 금지되는 영화적 카메라워크
+- ❌ `와이드` → `미디엄` → `클로즈업` (3단 구성)
+- ❌ `핑퐁` 편집 (A↔B 교차)
+- ❌ `로우앵글`, `하이앵글` (의도적 앵글 변화)
+- ❌ `트래킹샷`, `돌리샷` (카메라 장비 이동)
+- ❌ `여러 앵글에서 편집` (주변인 촬영인데 여러 카메라)
+- ❌ `슬로우 모션`, `매치 컷`
 
 ### 사운드 규칙 (중요!)
 - ❌ 배경음악(BGM)만 없앰: `No background music`
@@ -191,6 +210,24 @@ Step 6: 파일 저장 + git commit & push → 완료
 ❌ "Devastating discovery moment. Harsh flashlight creating dramatic shadows."
 ✅ "Unsteady amateur footage, phone flashlight only, out of focus moments."
 ```
+
+## 🔄 에이전트 시스템 동기화 규칙 (영구 고정)
+
+**에이전트 시스템 프롬프트가 수정되면 반드시 CLAUDE.md에도 반영한다.**
+
+- `prompts/` 디렉토리의 시스템 프롬프트 수정 시 → CLAUDE.md의 관련 섹션 업데이트
+- 새로운 규칙/원칙 추가 시 → CLAUDE.md에 요약 반영
+- 규칙 삭제/변경 시 → CLAUDE.md에서도 동일하게 반영
+- CLAUDE.md는 에이전트 시스템의 **요약본** 역할 — 상세 내용은 `prompts/`에, 핵심 규칙은 CLAUDE.md에
+
+### 동기화 대상
+| 시스템 프롬프트 | CLAUDE.md 섹션 |
+|---------------|---------------|
+| `sora2_system.md` | 프롬프트 스타일, Key Concepts |
+| `scene_system.md` | 프롬프트 스타일 (카메라 규칙) |
+| `story_system.md` | Key Concepts (스토리 관련) |
+| `title_system.md` | 제목 규칙 |
+| `caption_system.md` | Key Concepts (자막 관련) |
 
 ## Git 규칙
 
