@@ -228,7 +228,30 @@ character_state:
 - 물리적(physical) + 감정적(emotional) + 행동적(behavioral) 3가지 모두 기술
 - 시간 경과가 있는 씬은 반드시 물리적 변화 포함 (털 상태, 체중, 상처 등)
 
-### 3. Visual Description
+### 3. 인간 캐릭터 (Human Character) - ⚠️ CRITICAL
+**매 씬에 인간 캐릭터의 외모/복장을 포함해야 한다. 1인칭 POV 촬영자도 예외 없음!**
+
+```yaml
+# ⚠️ 1인칭 POV에서 촬영자 = 등장인물
+# 손, 옷소매, 목소리가 화면에 보이므로 캐릭터 설명 필수
+
+# ❌ 촬영자라서 캐릭터 설명 생략 (틀림!)
+camera: "1인칭 POV 핸드폰"
+# (인간 캐릭터 없음)
+
+# ✅ 촬영자여도 캐릭터 설명 포함 (정답!)
+camera: "1인칭 POV 핸드폰"
+human_character: "20대 후반 백인 여성. 긴 갈색 곱슬머리. 데님 재킷."
+human_visible: "손, 옷소매, 목소리"
+```
+
+**규칙:**
+- 1인칭 POV 촬영자 = 등장인물 (손, 옷, 목소리가 보임)
+- 주변인 촬영이어도 목소리가 들리면 성별/특징 포함
+- 인간이 프레임에 등장하는 모든 씬에 전체 외모 설명 포함
+- Sora2는 이전 프롬프트를 기억 못하므로 매번 반복 필수
+
+### 4. Visual Description
 - Specific, filmable actions
 - Clear subject focus
 - Environment details
