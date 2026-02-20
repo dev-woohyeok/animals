@@ -76,8 +76,8 @@
 
 **Caption:**
 
-- EN: "Wait... why can't it walk?"
-- KR: "잠깐... 왜 걸을 수가 없는 거지?"
+- EN: "Her legs are taped shut... she can't even stand"
+- KR: "다리가 테이프로 묶여있다... 서지도 못해"
 
 ### Sora2 Prompt
 
