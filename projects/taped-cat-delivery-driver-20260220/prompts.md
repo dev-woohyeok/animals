@@ -237,8 +237,8 @@ No background music. 병원 장비 소리, 형광등 윙윙거림, 여자 숨소
 
 **Caption:**
 
-- EN: "She had no idea there was someone else at home"
-- KR: "집에 누가 있는지 몰랐다"
+- EN: "Brought her home... someone won't stop staring"
+- KR: "집에 데려왔다... 누군가 눈을 못 뗀다"
 
 ### Sora2 Prompt
 
