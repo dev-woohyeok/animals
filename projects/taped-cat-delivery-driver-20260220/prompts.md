@@ -76,8 +76,8 @@
 
 **Caption:**
 
-- EN: "Someone did this to her..."
-- KR: "누군가 일부러 이렇게 한 거였다..."
+- EN: "Wait... why can't it walk?"
+- KR: "잠깐... 왜 걸을 수가 없는 거지?"
 
 ### Sora2 Prompt
 
