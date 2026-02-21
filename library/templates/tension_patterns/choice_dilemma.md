@@ -13,7 +13,7 @@
  60│  ╱    ╲    ╱          ╲ ╱      ╲
  50│ ╱      ╲  ╱            ▽        ╲
    └──────────────────────────────────
-    0    20    40    60    80    90초
+    0    10    25    40    50    60초
 ```
 
 ## 딜레마 유형
@@ -27,7 +27,7 @@
 
 ## 5단계 구조
 
-### A. 오프닝 (0-20초) - "두 곳에서 소리"
+### A. 오프닝 (0-10초) - "두 곳에서 소리"
 ```yaml
 trigger: 동시에 여러 곳에서 울음
 elements:
@@ -41,7 +41,7 @@ hooks:
   - 선택의 무게
 ```
 
-### B. 전개 (20-40초) - "첫 번째 선택"
+### B. 전개 (10-25초) - "첫 번째 선택"
 ```yaml
 trigger: 한쪽 선택 + 구조
 elements:
@@ -55,7 +55,7 @@ hooks:
   - 돌아갈 수 있을까?
 ```
 
-### C. 클라이맥스1 (40-60초) - "상황 악화"
+### C. 클라이맥스1 (25-40초) - "상황 악화"
 ```yaml
 trigger: 돌아가는 중 + 악화
 elements:
@@ -69,7 +69,7 @@ hooks:
   - 또 선택해야 함
 ```
 
-### D. 클라이맥스2 (60-80초) - "마지막 하나"
+### D. 클라이맥스2 (40-50초) - "마지막 하나"
 ```yaml
 trigger: 반복 구조 + 마지막 위기
 elements:
@@ -83,7 +83,7 @@ hooks:
   - 포기할 수 없다
 ```
 
-### E. 완결 (80-90초) - "모두 구했다"
+### E. 완결 (50-60초) - "모두 구했다"
 ```yaml
 trigger: 전원 구조 성공
 elements:
@@ -127,31 +127,31 @@ dilemma_structure:
 
 beats:
   opening:
-    duration: "0-20s"
+    duration: "0-10s"
     sounds: "crying from two directions"
     decision: "which way first?"
     urgency: "no time to think"
 
   development:
-    duration: "20-40s"
+    duration: "10-25s"
     first_rescue: "save 1-2"
     place_safe: "put in safe spot"
     return: "run back for others"
 
   climax_1:
-    duration: "40-60s"
+    duration: "25-40s"
     discovery: "more than expected"
     complication: "can't carry all"
     trips: "multiple rescue runs"
 
   climax_2:
-    duration: "60-80s"
+    duration: "40-50s"
     last_one: "one still missing"
     danger: "situation critical"
     rescue: "almost give up, then find"
 
   ending:
-    duration: "80-90s"
+    duration: "50-60s"
     count: "all accounted for"
     together: "huddled together"
     relief: "exhausted but happy"
@@ -200,22 +200,22 @@ beats:
 ### 2마리 (기본)
 ```
 0초:  두 방향에서 소리
-20초: A 구조 완료
-40초: B 찾아감
-60초: B 구조 중 위기
-80초: B 구조 완료
-90초: 둘 다 안전
+10초: A 구조 완료
+25초: B 찾아감
+40초: B 구조 중 위기
+50초: B 구조 완료
+60초: 둘 다 안전
 ```
 
 ### 3마리 (권장)
 ```
 0초:  두 방향에서 소리
-20초: A 구조 (1마리)
-40초: B 찾아감, 2마리 있음!
-60초: B-1 구조, B-2 남음
-70초: 다시 돌아감
-80초: B-2 구조 (가장 힘듦)
-90초: 3마리 모두 안전
+10초: A 구조 (1마리)
+25초: B 찾아감, 2마리 있음!
+40초: B-1 구조, B-2 남음
+45초: 다시 돌아감
+50초: B-2 구조 (가장 힘듦)
+60초: 3마리 모두 안전
 ```
 
 ### 4-5마리 (고급)

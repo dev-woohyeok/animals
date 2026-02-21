@@ -13,7 +13,7 @@
  60│ ╱  ╲  ╱  ▽    ╲   ╱            ╲
  50│╱    ▽           ╲ ╱
    └──────────────────────────────────
-    0    20    40    60    80    90초
+    0    10    25    40    50    60초
          ↑     ↑          ↑
       "뭐지?" "저게?" "알고보니!"
 ```
@@ -30,7 +30,7 @@
 
 ## 5단계 구조
 
-### A. 오프닝 (0-20초) - "뭔가 있다"
+### A. 오프닝 (0-10초) - "뭔가 있다"
 ```yaml
 trigger: 이상한 징후 감지
 elements:
@@ -44,7 +44,7 @@ hooks:
   - 가봐야 하나?
 ```
 
-### B. 전개 (20-40초) - "접근"
+### B. 전개 (10-25초) - "접근"
 ```yaml
 trigger: 정체 확인 시도
 elements:
@@ -58,7 +58,7 @@ hooks:
   - 왜 안 도망가지?
 ```
 
-### C. 클라이맥스1 (40-60초) - "정체 확인"
+### C. 클라이맥스1 (25-40초) - "정체 확인"
 ```yaml
 trigger: 드디어 확인 + 반전
 elements:
@@ -72,7 +72,7 @@ hooks:
   - 그래서 그랬구나
 ```
 
-### D. 클라이맥스2 (60-80초) - "숨겨진 진실"
+### D. 클라이맥스2 (40-50초) - "숨겨진 진실"
 ```yaml
 trigger: 더 큰 진실 + 위기/감동
 elements:
@@ -86,7 +86,7 @@ hooks:
   - 예상 못한 전개
 ```
 
-### E. 완결 (80-90초) - "해결과 연결"
+### E. 완결 (50-60초) - "해결과 연결"
 ```yaml
 trigger: 문제 해결 + 유대 형성
 elements:
@@ -130,30 +130,30 @@ characters:
 
 beats:
   opening:
-    duration: "0-20s"
+    duration: "0-10s"
     sign: "strange {{SOUND/MOVEMENT}}"
     reaction: "investigate reluctantly"
 
   development:
-    duration: "20-40s"
+    duration: "10-25s"
     approach: "flashlight search"
     partial: "glimpse of {{HINT}}"
     behavior: "doesn't run away"
 
   climax_1:
-    duration: "40-60s"
+    duration: "25-40s"
     reveal: "identity revealed"
     twist: "not what expected"
     reframe: "understand behavior"
 
   climax_2:
-    duration: "60-80s"
+    duration: "40-50s"
     deeper: "hidden truth discovered"
     stakes: "needs help"
     decision: "must help"
 
   ending:
-    duration: "80-90s"
+    duration: "50-60s"
     resolution: "problem solved"
     trust: "animal shows trust"
     future: "new connection"
@@ -195,19 +195,19 @@ beats:
 0초:   [어둠] → 소리만 들림
        ▓▓▓▓▓▓▓▓▓
 
-10초:  [손전등] → 움직임 포착
+5초:   [손전등] → 움직임 포착
        ▓▓▓░▓▓▓▓▓
           ↑ 뭔가 움직임
 
-20초:  [눈빛] → 반사된 눈만 보임
+10초:  [눈빛] → 반사된 눈만 보임
        ▓▓▓●●▓▓▓▓
           ↑ 두 눈빛
 
-40초:  [실루엣] → 형체 드러남
+25초:  [실루엣] → 형체 드러남
        ▓▓░░░░▓▓▓
           ↑ 여우 형태
 
-60초:  [완전 공개] → 상황 파악
+40초:  [완전 공개] → 상황 파악
        ░░░░░░░░░
          ↑ 다친 여우 + 새끼들
 ```
@@ -217,10 +217,10 @@ beats:
 | 단계 | 소리 | 해석 |
 |------|------|------|
 | 0초 | 긁는 소리 | 뭔가 접근? |
-| 10초 | 작은 울음 | 동물 같은데... |
-| 20초 | 발소리 + 숨소리 | 가까워진다 |
-| 40초 | 약한 울음 | 공격 아님, 도움 요청 |
-| 60초 | 새끼 울음 | 새끼들이 있었다 |
+| 5초 | 작은 울음 | 동물 같은데... |
+| 10초 | 발소리 + 숨소리 | 가까워진다 |
+| 25초 | 약한 울음 | 공격 아님, 도움 요청 |
+| 40초 | 새끼 울음 | 새끼들이 있었다 |
 
 ## 사운드 가이드
 

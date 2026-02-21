@@ -12,7 +12,7 @@
  70│  ╱╲ ╱  ╲  ╱      ╲  ╱  ╲ ╱    ╲
  60│ ╱  ▽    ▽         ▽    ▽       ╲
    └──────────────────────────────────
-    0    20    40    60    80    90초
+    0    10    25    40    50    60초
 ```
 
 ## 환경 위기 유형
@@ -27,7 +27,7 @@
 
 ## 5단계 구조
 
-### A. 오프닝 (0-20초) - "위험 속 발견"
+### A. 오프닝 (0-10초) - "위험 속 발견"
 ```yaml
 trigger: 재해 상황에서 동물 울음
 elements:
@@ -41,7 +41,7 @@ hooks:
   - 찾을 수 있을까?
 ```
 
-### B. 전개 (20-40초) - "구조 시도"
+### B. 전개 (10-25초) - "구조 시도"
 ```yaml
 trigger: 첫 구조 시도 + 장애물
 elements:
@@ -55,7 +55,7 @@ hooks:
   - 다 구할 수 있을까?
 ```
 
-### C. 클라이맥스1 (40-60초) - "선택과 위기"
+### C. 클라이맥스1 (25-40초) - "선택과 위기"
 ```yaml
 trigger: 시간 압박 + 다중 구조
 elements:
@@ -69,7 +69,7 @@ hooks:
   - 시간이 없다
 ```
 
-### D. 클라이맥스2 (60-80초) - "위기의 순간"
+### D. 클라이맥스2 (40-50초) - "위기의 순간"
 ```yaml
 trigger: 구조자도 위험
 elements:
@@ -83,7 +83,7 @@ hooks:
   - 마지막 순간 성공
 ```
 
-### E. 완결 (80-90초) - "모두 안전"
+### E. 완결 (50-60초) - "모두 안전"
 ```yaml
 trigger: 전원 구조
 elements:
@@ -127,31 +127,31 @@ crisis_escalation:
 
 beats:
   opening:
-    duration: "0-20s"
+    duration: "0-10s"
     disaster: "ongoing {{DISASTER}}"
     discovery: "hear crying"
     approach: "go toward sound"
 
   development:
-    duration: "20-40s"
+    duration: "10-25s"
     rescue_1: "reach first animal"
     complication: "more animals found"
     decision: "must save all"
 
   climax_1:
-    duration: "40-60s"
+    duration: "25-40s"
     action: "carry to safety"
     return: "go back for others"
     escalation: "disaster worsens"
 
   climax_2:
-    duration: "60-80s"
+    duration: "40-50s"
     final_rescue: "last animal"
     danger: "rescuer in trouble"
     escape: "barely make it out"
 
   ending:
-    duration: "80-90s"
+    duration: "50-60s"
     safety: "all safe"
     together: "animals huddled"
     connection: "first trust shown"
@@ -168,10 +168,10 @@ setting:
 
 escalation:
   0s:  "물에서 동물 울음"
-  20s: "바위에 매달린 새끼들"
-  40s: "한 마리 구하고 다시 돌아감"
-  60s: "물살에 휩쓸림, 나뭇가지 잡음"
-  80s: "기어서 올라옴, 다 살았다"
+  10s: "바위에 매달린 새끼들"
+  25s: "한 마리 구하고 다시 돌아감"
+  40s: "물살에 휩쓸림, 나뭇가지 잡음"
+  50s: "기어서 올라옴, 다 살았다"
 
 dangers:
   - 급류에 휩쓸림
@@ -189,10 +189,10 @@ setting:
 
 escalation:
   0s:  "연기 속 울음소리"
-  20s: "둥지에 갇힌 새끼들"
-  40s: "2마리 안고 나감, 1마리 남음"
-  60s: "다시 들어감, 숨 참음"
-  80s: "마지막 찾음, 뛰어나옴"
+  10s: "둥지에 갇힌 새끼들"
+  25s: "2마리 안고 나감, 1마리 남음"
+  40s: "다시 들어감, 숨 참음"
+  50s: "마지막 찾음, 뛰어나옴"
 
 dangers:
   - 연기 흡입
@@ -210,10 +210,10 @@ setting:
 
 escalation:
   0s:  "폭풍 속 울음"
-  20s: "무너진 구조물 아래 발견"
-  40s: "잔해 치우고 구출"
-  60s: "바람에 날아갈 뻔, 잡음"
-  80s: "차에 도착, 안전"
+  10s: "무너진 구조물 아래 발견"
+  25s: "잔해 치우고 구출"
+  40s: "바람에 날아갈 뻔, 잡음"
+  50s: "차에 도착, 안전"
 
 dangers:
   - 날아오는 물체

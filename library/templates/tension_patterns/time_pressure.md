@@ -13,7 +13,7 @@
  60│   ╱  ▽    ╲  ╱        ╲  ╱      ╲
  50│  ╱         ▽           ▽         ╲
    └──────────────────────────────────────
-    0    20    40    60     80      90초
+    0    10    25    40     50      60초
          ↑          ↑           ↑
       "시간없다"  "안되나?"   "움직였다!"
 ```
@@ -30,7 +30,7 @@
 
 ## 5단계 구조
 
-### A. 오프닝 (0-20초) - "발견"
+### A. 오프닝 (0-10초) - "발견"
 ```yaml
 trigger: 위험 상태의 동물 발견
 elements:
@@ -43,7 +43,7 @@ hooks:
   - 얼마나 버틸 수 있을까?
 ```
 
-### B. 전개 (20-40초) - "시간이 없다"
+### B. 전개 (10-25초) - "시간이 없다"
 ```yaml
 trigger: 상황 악화 + 시간 압박 인식
 elements:
@@ -57,7 +57,7 @@ hooks:
   - 환경 악화 (눈 더 내림 등)
 ```
 
-### C. 클라이맥스1 (40-60초) - "최악의 순간"
+### C. 클라이맥스1 (25-40초) - "최악의 순간"
 ```yaml
 trigger: 이동 중 위기
 elements:
@@ -71,7 +71,7 @@ hooks:
   - 포기 직전
 ```
 
-### D. 클라이맥스2 (60-80초) - "기다림"
+### D. 클라이맥스2 (40-50초) - "기다림"
 ```yaml
 trigger: 안전한 곳 도착 후 기다림
 elements:
@@ -86,7 +86,7 @@ hooks:
   - 포기 직전의 희망
 ```
 
-### E. 완결 (80-90초) - "살았다"
+### E. 완결 (50-60초) - "살았다"
 ```yaml
 trigger: 회복 신호
 elements:
@@ -136,30 +136,30 @@ crisis_elements:
 
 beats:
   opening:
-    duration: "0-20s"
+    duration: "0-10s"
     discovery: "barely alive {{ANIMAL}}"
     urgency: "need to act fast"
 
   development:
-    duration: "20-40s"
+    duration: "10-25s"
     action: "first aid attempt"
     complication: "condition worsens"
     decision: "must move now"
 
   climax_1:
-    duration: "40-60s"
+    duration: "25-40s"
     action: "running with animal"
     crisis: "falls / loses grip"
     fear: "is it still breathing?"
 
   climax_2:
-    duration: "60-80s"
+    duration: "40-50s"
     location: "safe place"
     waiting: "time markers"
     moment: "about to give up... movement!"
 
   ending:
-    duration: "80-90s"
+    duration: "50-60s"
     recovery: "opens eyes"
     connection: "first response"
     flash_forward: "healthy and playing"
@@ -171,11 +171,11 @@ beats:
 시간 경과에 따른 동물 상태:
 
 0초:  발견 ─── 약한 움직임, 눈 반쯤
-20초: 악화 ─── 떨림, 점점 차가움
-40초: 위기 ─── 거의 안 움직임
-60초: 임계 ─── 반응 없음
-80초: 반전 ─── 작은 떨림!
-90초: 회복 ─── 눈 뜸, 반응
+10초: 악화 ─── 떨림, 점점 차가움
+25초: 위기 ─── 거의 안 움직임
+40초: 임계 ─── 반응 없음
+50초: 반전 ─── 작은 떨림!
+60초: 회복 ─── 눈 뜸, 반응
 ```
 
 ## 시간 표현 기법

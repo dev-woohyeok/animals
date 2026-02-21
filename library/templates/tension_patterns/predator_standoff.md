@@ -44,7 +44,7 @@ hooks:
   - 왜 동물이 도망 안 갔을까?
 ```
 
-### C. 클라이맥스1 (40-60초) - "대치 상황"
+### C. 클라이맥스1 (25-40초) - "대치 상황"
 ```yaml
 trigger: 포식자 등장/대치
 elements:
@@ -59,7 +59,7 @@ hooks:
   - 동물 못 움직임
 ```
 
-### D. 클라이맥스2 (60-80초) - "탈출 시도"
+### D. 클라이맥스2 (40-50초) - "탈출 시도"
 ```yaml
 trigger: 동물 안고 후퇴
 elements:
@@ -74,7 +74,7 @@ hooks:
   - 위기 탈출
 ```
 
-### E. 완결 (80-90초) - "안전"
+### E. 완결 (50-60초) - "안전"
 ```yaml
 trigger: 포식자 퇴각/안전 확보
 elements:
@@ -116,28 +116,28 @@ characters:
 
 beats:
   opening:
-    duration: "0-20s"
+    duration: "0-10s"
     sound: "distant cry"
     action: "running toward sound"
 
   development:
-    duration: "20-40s"
+    duration: "10-25s"
     discovery: "injured {{ANIMAL}}"
     threat_reveal: "growling sounds"
 
   climax_1:
-    duration: "40-60s"
+    duration: "25-40s"
     confrontation: "predators appear"
     tension: "won't back down"
 
   climax_2:
-    duration: "60-80s"
+    duration: "40-50s"
     action: "retreat with animal"
     twist: "animal makes loud sound"
     resolution: "predators leave"
 
   ending:
-    duration: "80-90s"
+    duration: "50-60s"
     location: "vet clinic / safe place"
     emotion: "relief, hope"
     flash_forward: "recovery scene"
