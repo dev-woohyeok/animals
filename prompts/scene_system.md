@@ -189,8 +189,8 @@ scene:
 ---
 
 ## Scene Structure Requirements
-- Each scene: 10-18 seconds
-- Total: 6-8 scenes for 90+ second video
+- Each scene: 10-15 seconds
+- Total: 4-5 scenes for 60-second video (1 minute or less)
 - **Scene 1 = Hook: 서브샷 없이 단일 프레임 (가장 충격적 장면)**
 - **Scene 2+: max 3 sub-shots per scene** (멀티샷 필수)
 - Scene 2+ = Start frame transition (스타트 프레임 전환)
@@ -382,27 +382,22 @@ human_visible: "손, 옷소매, 목소리"
 - 15초 동안 하나의 장면이 지속되며 임팩트 극대화
 - 마지막 프레임이 end_frame이 되어 Scene 2로 연결
 
-### Scene 2-3 (Setup / Context)
+### Scene 2 (Setup / Context)
 - 시간순 시작점, 배경 설명
 - "어떻게 이렇게 됐을까?" 에 답하는 장면
 - 감정 투자 구축
 - **character_state: 초기 상태 (가장 안 좋은 상태)**
 
-### Scene 4-5 (Peak Tension / Turning Point)
+### Scene 3 (Peak Tension / Turning Point)
 - 최고 긴장/감동 순간 또는 전환점
 - 서브샷 전환 속도 증가
 - 감정 극대화
 - **character_state: 변화 시작 (첫 신뢰, 첫 접촉 등)**
 
-### Scene 6-7 (Resolution)
-- 해결, 구원, 전환
+### Scene 4-5 (Resolution + Impact)
+- 해결, 구원, 전환 → 감동적 마무리
 - 서브샷 속도 감소 (안도감)
-- **character_state: 뚜렷한 회복/변화**
-
-### Final Scene (Impact)
-- 서브샷 최소 (2-3개)
-- 느린 전환, 긴 클로즈업
-- 지속적 감정 여운
+- 느린 전환, 긴 클로즈업, 지속적 감정 여운
 - **character_state: 완전한 변화 (처음과 극명한 대비)**
 
 ---

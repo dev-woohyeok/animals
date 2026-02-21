@@ -73,7 +73,7 @@ Step 6: 파일 저장 + git commit & push → 완료
 
 ### Step 3: 장면 분할 (자동)
 
-`prompts/scene_system.md` 규칙에 따라 **6개 이상의 15초 장면**으로 분할:
+`prompts/scene_system.md` 규칙에 따라 **4-5개의 10-15초 장면**으로 분할 (총 60초 이하):
 
 **핵심 규칙**:
 1. **Scene 1 = Hook**: 가장 충격적/감정적인 순간 (서브샷 없이 단일 프레임)
