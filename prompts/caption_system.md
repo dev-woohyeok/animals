@@ -94,14 +94,21 @@ Generate emotionally explosive captions for each scene of an animal rescue short
 예시: "I found her hiding behind a dumpster..."
 ```
 
-### Scene 4-5 (Turning Point) - 전환/긴장
+### Scene 4 (Turning Point) - 전환/긴장
 ```
 목표: 감정 전환점 + 완주 동기 부여
 유형: 반전형 또는 질문형
 예시: "The vet's face said everything."
 ```
 
-### Scene 6-7 (Resolution) - 안도/감동 폭발
+### Scene 5 (Recovery) - 회복/유대
+```
+목표: 안도감 + 새로운 유대
+유형: 변화형 (이전 vs 지금)
+예시: "For the first time... she didn't flinch."
+```
+
+### Scene 6 (Ending) - 감동 폭발
 ```
 목표: 감정 카타르시스 + 공유 욕구
 유형: 대비형 (처음 vs 지금)

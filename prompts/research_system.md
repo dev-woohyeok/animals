@@ -214,13 +214,15 @@ recommended_adaptation:
 
   hook_strategy:
     type: "crisis_start | strange_discovery | mystery_setup"
-    opening_scene: "Description of first 15 seconds"
+    opening_scene: "Description of first 10 seconds"
 
   scene_breakdown:
-    - "Scene 1 (0-15s): ..."
-    - "Scene 2 (15-30s): ..."
-    - "Scene 3 (30-45s): ..."
-    - "Scene 4 (45-60s): ..."
+    - "Scene 1 (0-10s): Hook"
+    - "Scene 2 (10-20s): Setup"
+    - "Scene 3 (20-30s): Development"
+    - "Scene 4 (30-40s): Resolution"
+    - "Scene 5 (40-50s): Recovery"
+    - "Scene 6 (50-60s): Ending"
 
   emotional_arc: "dual_climax | gradual_rise | u_curve"
 

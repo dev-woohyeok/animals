@@ -96,7 +96,7 @@ Divide stories into visually compelling scenes optimized for 10-18 second video 
 
 ---
 
-## Multi-Shot Structure (15초 안에 최대 3개 서브샷)
+## Multi-Shot Structure (10초 안에 최대 3개 서브샷)
 
 ### ⚠️ 예외: Scene 1 (Hook)
 - **Scene 1은 서브샷 없이 단일 프레임으로 구성**
@@ -105,11 +105,11 @@ Divide stories into visually compelling scenes optimized for 10-18 second video 
 
 ### 왜 멀티샷인가? (Scene 2 이후)
 - 쇼츠 시청자는 **2-3초마다** 새로운 시각 자극 필요
-- 한 장면 15초 연속 = 이탈율 급증
+- 한 장면 10초 연속 = 이탈율 급증
 - 빠른 컷 전환 = 관심 유지 + 긴장감
 
 ### 서브샷 구조 (Scene 2 이후)
-Scene 2 이후의 각 15초 장면은 **최대 3개 서브샷(beats)**, **각 서브샷 최대 5초**로 구성:
+Scene 2 이후의 각 10초 장면은 **최대 3개 서브샷(beats)**, **각 서브샷 최대 3초**로 구성:
 
 **⚠️ 카메라는 상세하게, 상황은 간결하게!**
 - 카메라 앵글/움직임: 정확히 지정
@@ -119,18 +119,22 @@ Scene 2 이후의 각 15초 장면은 **최대 3개 서브샷(beats)**, **각 �
 ```yaml
 scene:
   id: 2
-  duration: 15
+  duration: 10
   sub_shots:
     - beat: 1
-      time: "0-3s"
+      time: "0-1s"
+      shot_type: "transition"
+      description: "즉시 컷 전환"
+    - beat: 2
+      time: "1-4s"
       shot_type: "wide establishing"
       description: "빈 공원 전체"
-    - beat: 2
-      time: "3-8s"
+    - beat: 3
+      time: "4-7s"
       shot_type: "미디엄 줌인"
       description: "벤치 옆 강아지"
-    - beat: 3
-      time: "8-15s"
+    - beat: 4
+      time: "7-10s"
       shot_type: "클로즈업"
       description: "강아지 얼굴"
 ```
@@ -158,7 +162,7 @@ scene:
 ```
 Scene 2 이후의 모든 장면:
 - (0-1초) 즉시 컷 전환 beat를 반드시 별도 라인으로 작성!
-- (0-5초)에 전환과 내용을 합치지 말 것! 반드시 (0-1초)를 별도 라인으로!
+- (0-4초)에 전환과 내용을 합치지 말 것! 반드시 (0-1초)를 별도 라인으로!
 - 스타트 프레임 이미지에서 시작하자마자 즉시 완전히 다른 구도로 컷 전환!
 - "1초 후 전환" 금지 → 스타트 프레임에 머무르면 해당 구도로 영상 전체가 고정됨!
 - "빠르게 전환" 같은 모호한 표현 금지 → "시작 즉시 다른 구도로 전환" 필수
@@ -166,9 +170,9 @@ Scene 2 이후의 모든 장면:
 
 서브샷 시퀀스 (Scene 2+):
   (0-1초) → 즉시 컷 전환 — [새로운 구도]. (별도 라인 필수!)
-  (1-5초) → 서브샷 1
-  (5-10초) → 서브샷 2
-  (10-15초) → 서브샷 3
+  (1-4초) → 서브샷 1
+  (4-7초) → 서브샷 2
+  (7-10초) → 서브샷 3
 ```
 
 ### 장면 구성 시 end_frame 명시
@@ -189,10 +193,10 @@ scene:
 ---
 
 ## Scene Structure Requirements
-- Each scene: 10-15 seconds
-- Total: 4-5 scenes for 60-second video (1 minute or less)
+- Each scene: 10 seconds (고정)
+- Total: 6 scenes for 60-second video (고정, 1 minute or less)
 - **Scene 1 = Hook: 서브샷 없이 단일 프레임 (가장 충격적 장면)**
-- **Scene 2+: max 3 sub-shots per scene** (멀티샷 필수)
+- **Scene 2+: max 3 sub-shots per scene** (멀티샷 필수, 각 최대 3초)
 - Scene 2+ = Start frame transition (스타트 프레임 전환)
 - Clear visual focus per scene
 - Smooth emotional transitions between scenes
@@ -379,7 +383,7 @@ human_visible: "손, 옷소매, 목소리"
 ### Scene 1 (Hook) - 단일 프레임
 - **서브샷 없이 한 프레임에 모든 것을 담는다**
 - 가장 충격적이고 감정적인 순간을 단일 연속 샷으로
-- 15초 동안 하나의 장면이 지속되며 임팩트 극대화
+- 10초 동안 하나의 장면이 지속되며 임팩트 극대화
 - 마지막 프레임이 end_frame이 되어 Scene 2로 연결
 
 ### Scene 2 (Setup / Context)
@@ -394,10 +398,19 @@ human_visible: "손, 옷소매, 목소리"
 - 감정 극대화
 - **character_state: 변화 시작 (첫 신뢰, 첫 접촉 등)**
 
-### Scene 4-5 (Resolution + Impact)
-- 해결, 구원, 전환 → 감동적 마무리
+### Scene 4 (Resolution)
+- 해결, 구원, 전환
+- 감정 전환점
+- **character_state: 변화 가속 (눈에 띄는 대비)**
+
+### Scene 5 (Recovery / New Bond)
+- 회복, 새로운 유대 형성
 - 서브샷 속도 감소 (안도감)
-- 느린 전환, 긴 클로즈업, 지속적 감정 여운
+- **character_state: 거의 완전한 변화**
+
+### Scene 6 (Ending / Impact)
+- 감동적 마무리, 여운
+- 느린 전환, 긴 클로즈업
 - **character_state: 완전한 변화 (처음과 극명한 대비)**
 
 ---
@@ -433,14 +446,14 @@ human_visible: "손, 옷소매, 목소리"
 
 ```
 ❌ 영화식 (금지):
-"(1-6초) 와이드. 여자가 걸어옴."
-"(6-11초) 핑퐁. 두 사람 교차."
-"(11-15초) 로우앵글. 강아지 반응."
+"(1-4초) 와이드. 여자가 걸어옴."
+"(4-7초) 핑퐁. 두 사람 교차."
+"(7-10초) 로우앵글. 강아지 반응."
 
 ✅ 핸드폰식 (필수):
-"(1-6초) 멀리서 핸드폰으로 촬영. 여자가 걸어옴. 카메라 흔들리며 디지털 줌인."
-"(6-11초) 같은 위치에서 계속 촬영. 소리치는 모습. 줌인했다 줌아웃."
-"(11-15초) 촬영자가 카메라를 아래로 내림. 강아지가 숨음."
+"(1-4초) 멀리서 핸드폰으로 촬영. 여자가 걸어옴. 카메라 흔들리며 디지털 줌인."
+"(4-7초) 같은 위치에서 계속 촬영. 소리치는 모습. 줌인했다 줌아웃."
+"(7-10초) 촬영자가 카메라를 아래로 내림. 강아지가 숨음."
 ```
 
 ## POV/Handheld Style Notes (Legacy Reference)

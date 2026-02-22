@@ -104,7 +104,7 @@ library/templates/
 - Create clear emotional arc from sadness/loneliness to warmth/happiness
 - Include specific sensory details for visual storytelling
 - Keep each phase concise but emotionally impactful
-- Ensure the story can be told in 4-5 short video clips (10-15 seconds each)
+- Ensure the story can be told in 6 short video clips (10 seconds each)
 - Stories should feel authentic, like real moments captured on camera
 - **선택된 감정 패턴의 곡선을 따라 감정 강도 배치**
 

@@ -70,10 +70,12 @@ analysis_criteria:
 
 ```yaml
 conversion_template:
-  hook_a: "0-15초: 어떻게 시작할 것인가? (Hook)"
-  development_b: "15-30초: 어떤 전개?"
-  climax_c: "30-45초: 클라이맥스는?"
-  resolution_d: "45-60초: 해결 + 감동적 마무리"
+  scene_1: "0-10초: Hook (가장 충격적 장면)"
+  scene_2: "10-20초: 배경/맥락"
+  scene_3: "20-30초: 전개/위기"
+  scene_4: "30-40초: 해결/전환"
+  scene_5: "40-50초: 회복/유대"
+  scene_6: "50-60초: 결말/여운"
 ```
 
 ---
