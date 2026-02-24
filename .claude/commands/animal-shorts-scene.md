@@ -1,6 +1,6 @@
 # /animal-shorts-scene - 장면 분할
 
-스토리를 10초 단위 장면으로 분할 (멀티샷 + 스타트 프레임 구조)
+스토리를 10초 단위 장면으로 분할 (멀티샷 구조)
 
 ## 사용법
 
@@ -24,12 +24,6 @@
 - 한 장면 내에서 여러 앵글/샷 전환
 - 편집된 푸티지처럼 구성
 
-### 3. 스타트 프레임 전환
-
-- 전 씬의 마지막 프레임을 캡쳐 → 다음 씬 시작 이미지로 사용
-- Scene 2부터 시작 즉시 완전히 다른 구도로 컷 전환 (스타트 프레임에 머무르면 해당 구도로 고정됨!)
-- Sora2 독립 생성 간 시각적 일관성 확보
-
 ---
 
 ## 장면 분할 규칙
@@ -42,7 +36,6 @@
 - **각 장면 길이**: 10초 (고정)
 - **총 영상 길이**: 60초 (6개 × 10초 = 60초)
 - **서브샷**: 장면당 최대 3개, 각 서브샷 최대 3초 (3초 초과 금지!)
-- **Scene 2+ (0-1초) 전환 beat**: 스타트 프레임에서 즉시 컷 전환 → 완전히 다른 앵글 (0-1초 별도 라인 필수! 0-5초에 합치지 말 것!)
 - **Scene 1**: 반드시 Hook (가장 충격적 순간)이며 서브샷 없이 한프레임에 다담음
 
 ### 장면 구성 요소
@@ -71,8 +64,6 @@
    - description (설명)
 10. **카메라**: 주 움직임 + 서브샷 전환 스타일
 11. **조명**: 조명 설정 및 분위기
-12. **end_frame**: 이 장면의 마지막 프레임 설명 (다음 장면 시작 이미지 참조용)
-13. **start_frame_ref**: (Scene 2+) 전 씬 end_frame 참조
 
 ---
 
@@ -95,7 +86,6 @@ scenes:
       primary_movement: "handheld POV"
       note: "단일 연속 샷 - 서브샷 없음"
     lighting: "어둠 + 번개 플래시 + 핸드폰 플래시"
-    end_frame: "강아지가 카메라를 바라보는 클로즈업. 빗물에 젖은 얼굴, 크고 둥근 눈, 떨리는 몸"
     key_elements:
       - "벤치에 묶인 줄"
       - "폭풍우"
@@ -111,26 +101,17 @@ scenes:
     duration: 15
     description: "시간을 되돌려 유기 장면"
     emotion: "분노, 슬픔"
-    start_frame_ref: "Scene 1 end_frame (강아지 클로즈업)에서 시작 즉시 컷 전환 → 3시간 전 장면으로"
 
     sub_shots:
       - beat: 1
-        time: "0-1s"
-        shot_type: "transition"
-        description: "전 씬 마지막(강아지 클로즈업)에서 빠르게 전환, 텍스트: '3 hours earlier'"
-      - beat: 2
-        time: "1-5s"
+        time: "0-3s"
         shot_type: "wide, dashcam"
         description: "주택가 도로, 은색 세단이 멈춤"
-      - beat: 3
-        time: "5-9s"
+      - beat: 2
+        time: "3-7s"
         shot_type: "medium"
         description: "남자가 강아지를 벤치 다리에 묶는다"
-      - beat: 4
-        time: "9-13s"
-        shot_type: "tracking"
-        description: "남자가 차로 돌아가 떠남. 강아지가 따라가려 함"
-      - beat: 5
+      - beat: 3
         time: "7-10s"
         shot_type: "close-up (bridge)"
         description: "혼란스러운 표정의 강아지. 줄에 걸려 더 못 감"
@@ -139,7 +120,6 @@ scenes:
       primary_movement: "관찰 시점 → handheld"
       sub_shot_transitions: "dissolve → cut → cut → cut"
     lighting: "늦은 오후 흐린 하늘, 가로등 시작"
-    end_frame: "벤치에 묶인 강아지가 떠나는 차를 바라보는 모습. 줄이 팽팽하게 당겨짐"
     key_elements:
       - "은색 세단"
       - "벤치에 묶는 행위"

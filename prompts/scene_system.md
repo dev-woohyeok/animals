@@ -122,18 +122,14 @@ scene:
   duration: 10
   sub_shots:
     - beat: 1
-      time: "0-1s"
-      shot_type: "transition"
-      description: "즉시 컷 전환"
-    - beat: 2
-      time: "1-4s"
+      time: "0-3s"
       shot_type: "wide establishing"
       description: "빈 공원 전체"
-    - beat: 3
-      time: "4-7s"
+    - beat: 2
+      time: "3-7s"
       shot_type: "미디엄 줌인"
       description: "벤치 옆 강아지"
-    - beat: 4
+    - beat: 3
       time: "7-10s"
       shot_type: "클로즈업"
       description: "강아지 얼굴"
@@ -151,53 +147,11 @@ scene:
 
 ---
 
-## Start Frame Transition (스타트 프레임 전환)
-
-### 개념
-- Sora2에서 **전 씬의 마지막 프레임을 캡쳐**하여 다음 씬의 시작 이미지로 사용
-- 스타트 프레임에서 **시작 즉시 완전히 다른 구도로 컷 전환** (머무르면 해당 구도로 고정됨!)
-- 이를 통해 독립 생성되는 Sora2 영상 간 **시각적 일관성** 확보
-
-### 프롬프트 반영 방법 — ⚠️ 즉시 컷 전환 영구 고정
-```
-Scene 2 이후의 모든 장면:
-- (0-1초) 즉시 컷 전환 beat를 반드시 별도 라인으로 작성!
-- (0-4초)에 전환과 내용을 합치지 말 것! 반드시 (0-1초)를 별도 라인으로!
-- 스타트 프레임 이미지에서 시작하자마자 즉시 완전히 다른 구도로 컷 전환!
-- "1초 후 전환" 금지 → 스타트 프레임에 머무르면 해당 구도로 영상 전체가 고정됨!
-- "빠르게 전환" 같은 모호한 표현 금지 → "시작 즉시 다른 구도로 전환" 필수
-- 전 씬 구도에서 줌만 하면 안 됨! 반드시 다른 앵글!
-
-서브샷 시퀀스 (Scene 2+):
-  (0-1초) → 즉시 컷 전환 — [새로운 구도]. (별도 라인 필수!)
-  (1-4초) → 서브샷 1
-  (4-7초) → 서브샷 2
-  (7-10초) → 서브샷 3
-```
-
-### 장면 구성 시 end_frame 명시
-```yaml
-scene:
-  id: 1
-  # ... (서브샷들)
-  end_frame: "벤치 아래 웅크린 강아지 클로즈업. 비에 젖은 털, 떨리는 몸"
-
-  # Scene 2는 이 end_frame에서 시작
-scene:
-  id: 2
-  start_frame_ref: "Scene 1의 end_frame"
-  # 시작 즉시 완전히 다른 구도로 컷 전환 (머무르면 고정됨!)
-  # 이후: 서브샷 진행
-```
-
----
-
 ## Scene Structure Requirements
 - Each scene: 10 seconds (고정)
 - Total: 6 scenes for 60-second video (고정, 1 minute or less)
 - **Scene 1 = Hook: 서브샷 없이 단일 프레임 (가장 충격적 장면)**
 - **Scene 2+: max 3 sub-shots per scene** (멀티샷 필수, 각 최대 3초)
-- Scene 2+ = Start frame transition (스타트 프레임 전환)
 - Clear visual focus per scene
 - Smooth emotional transitions between scenes
 
@@ -274,7 +228,7 @@ human_visible: "손, 옷소매, 목소리"
 ### 4. Sub-shots (서브샷)
 - max 3 beats per scene
 - Each beat: shot type + duration + description
-- Last beat = bridge to next scene (end_frame)
+- Last beat = final moment of the scene
 
 ### 5. Camera Work
 **Movement Types:**
@@ -332,7 +286,6 @@ human_visible: "손, 옷소매, 목소리"
         "note": "단일 연속 샷 - 서브샷 없음"
       },
       "lighting": "darkness + phone flashlight",
-      "end_frame": "이 씬의 마지막 프레임 설명",
       "key_elements": ["요소1", "요소2"]
     },
     {
@@ -341,7 +294,6 @@ human_visible: "손, 옷소매, 목소리"
       "title_en": "Scene Title",
       "is_hook": false,
       "duration": 15,
-      "start_frame_ref": "Scene 1의 end_frame에서 시작 즉시 컷 전환",
       "story_context": "전체 스토리에서 이 장면의 역할. 이전 장면과의 인과관계.",
       "character_state": {
         "physical": "이전 씬 대비 변화된 물리적 상태",
@@ -352,24 +304,23 @@ human_visible: "손, 옷소매, 목소리"
       "sub_shots": [
         {
           "beat": 1,
-          "time": "0-1s",
-          "shot_type": "transition",
-          "description": "전 씬 마지막 프레임에서 시작, 빠르게 전환"
+          "time": "0-3s",
+          "shot_type": "...",
+          "description": "..."
         },
         {
           "beat": 2,
-          "time": "1-8s",
+          "time": "3-7s",
           "shot_type": "...",
           "description": "..."
         },
         {
           "beat": 3,
-          "time": "8-15s",
+          "time": "7-10s",
           "shot_type": "...",
           "description": "..."
         }
       ],
-      "end_frame": "이 씬의 마지막 프레임 설명",
       "key_elements": ["요소1"]
     }
   ]
@@ -384,7 +335,6 @@ human_visible: "손, 옷소매, 목소리"
 - **서브샷 없이 한 프레임에 모든 것을 담는다**
 - 가장 충격적이고 감정적인 순간을 단일 연속 샷으로
 - 10초 동안 하나의 장면이 지속되며 임팩트 극대화
-- 마지막 프레임이 end_frame이 되어 Scene 2로 연결
 
 ### Scene 2 (Setup / Context)
 - 시간순 시작점, 배경 설명
