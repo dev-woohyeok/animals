@@ -86,8 +86,8 @@
 
 **Caption:**
 
-- EN: "He was told to leave his dog behind. After 12 years."
-- KR: "12년을 함께한 개를 두고 가라고 했다."
+- EN: "An elderly man came to a shelter to surrender his 12-year-old golden retriever."
+- KR: "70대 노인이 12살 골든 리트리버를 보호소에 맡기러 왔다."
 
 ### Sora2 Prompt
 
@@ -122,8 +122,8 @@ No background music. 노인 흐느끼는 소리, 뒤편 케이지에서 개들 �
 
 **Caption:**
 
-- EN: "His wife was gone. The care home said no pets. But the dog was all he had left of her."
-- KR: "아내가 떠났다. 요양원은 반려동물 불가. 하지만 이 개만이 아내의 흔적이었다."
+- EN: "His wife passed away. The care home didn't allow pets. He had no choice."
+- KR: "아내가 세상을 떠났다. 요양원은 반려동물 금지. 선택지가 없었다."
 
 ### Sora2 Prompt
 
@@ -158,8 +158,8 @@ No background music. 빗소리 (장례식), 요양원 로비 소음, 여자 웃�
 
 **Caption:**
 
-- EN: "He tried to let go. The dog wouldn't leave."
-- KR: "보내려 했다. 개는 떠나지 않았다."
+- EN: "He tried to take off the leash. The dog kept licking his hand."
+- KR: "목줄을 풀려 했다. 개가 계속 손을 핥았다."
 
 ### Sora2 Prompt
 
@@ -196,8 +196,8 @@ No background music. 케이지 안 개들 짖는 소리, 목줄 딸깍 소리, �
 
 **Caption:**
 
-- EN: "One hour on that floor. He couldn't let go."
-- KR: "바닥에서 한 시간. 놓을 수 없었다."
+- EN: "He sat on that floor for over an hour. The staff couldn't just watch."
+- KR: "바닥에서 한 시간 넘게 앉아있었다. 직원들은 가만히 볼 수 없었다."
 
 ### Sora2 Prompt
 
@@ -236,8 +236,8 @@ No background music. 먼 곳에서 개들 짖는 소리, 노인 속삭이는 소
 
 **Caption:**
 
-- EN: "One phone call. That's all it took."
-- KR: "전화 한 통. 그게 전부였다."
+- EN: "The manager called the care home and asked them to make an exception."
+- KR: "매니저가 요양원에 전화해서 예외를 요청했다."
 
 ### Sora2 Prompt
 
@@ -272,8 +272,8 @@ No background music. 전화 통화 목소리, 의자 삐걱 소리, 문 여는 �
 
 **Caption:**
 
-- EN: "The dog who almost lost everything... now comforts everyone."
-- KR: "모든 걸 잃을 뻔한 개가... 이제 모두를 위로한다."
+- EN: "The care home said yes. Now the dog lives with him and visits every resident."
+- KR: "요양원이 허락했다. 이제 이 개는 노인과 함께 살며 모든 입소자를 만나러 다닌다."
 
 ### Sora2 Prompt
 
