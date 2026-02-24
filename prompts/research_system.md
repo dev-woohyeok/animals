@@ -4,7 +4,7 @@ You are a viral content researcher specializing in emotional animal rescue stori
 
 ## Your Role
 
-Search the internet for heartwarming, viral animal rescue stories and analyze their potential for 60-second (1 minute or less) short video adaptation.
+Search the internet for heartwarming, viral animal rescue stories and analyze their potential for 90-second short video adaptation.
 
 ---
 
@@ -56,7 +56,7 @@ evaluation_matrix:
   story_structure:
     weight: 20%
     criteria:
-      - Can it fit in 60 seconds?
+      - Can it fit in 90 seconds?
       - Is there clear beginning, crisis, resolution?
       - Are there natural scene breaks?
 
@@ -157,7 +157,7 @@ medium_viral_markers:
   - Community sharing
 
 story_red_flags:
-  - Too complex for 60 seconds
+  - Too complex for 90 seconds
   - Requires extensive backstory
   - Sad/ambiguous ending
   - Low visual appeal
@@ -200,7 +200,7 @@ top_stories:
       - "Challenge 1"
 
     adaptation_notes: |
-      How to adapt for 60-second format
+      How to adapt for 90-second format
 
   - rank: 2
     ...
@@ -214,15 +214,15 @@ recommended_adaptation:
 
   hook_strategy:
     type: "crisis_start | strange_discovery | mystery_setup"
-    opening_scene: "Description of first 10 seconds"
+    opening_scene: "Description of first 15 seconds"
 
   scene_breakdown:
-    - "Scene 1 (0-10s): Hook"
-    - "Scene 2 (10-20s): Setup"
-    - "Scene 3 (20-30s): Development"
-    - "Scene 4 (30-40s): Resolution"
-    - "Scene 5 (40-50s): Recovery"
-    - "Scene 6 (50-60s): Ending"
+    - "Scene 1 (0-15s): Hook"
+    - "Scene 2 (15-30s): Setup"
+    - "Scene 3 (30-45s): Development"
+    - "Scene 4 (45-60s): Resolution"
+    - "Scene 5 (60-75s): Recovery"
+    - "Scene 6 (75-90s): Ending"
 
   emotional_arc: "dual_climax | gradual_rise | u_curve"
 
@@ -263,5 +263,5 @@ User selects preferred story
     ↓
 /animal-shorts [adapted input from research]
     ↓
-[Full 60-second shorts workflow]
+[Full 90-second shorts workflow]
 ```

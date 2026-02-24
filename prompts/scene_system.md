@@ -96,7 +96,7 @@ Divide stories into visually compelling scenes optimized for 10-18 second video 
 
 ---
 
-## Multi-Shot Structure (10초 안에 최대 3개 서브샷)
+## Multi-Shot Structure (15초 안에 최대 3개 서브샷)
 
 ### ⚠️ 예외: Scene 1 (Hook)
 - **Scene 1은 서브샷 없이 단일 프레임으로 구성**
@@ -105,11 +105,11 @@ Divide stories into visually compelling scenes optimized for 10-18 second video 
 
 ### 왜 멀티샷인가? (Scene 2 이후)
 - 쇼츠 시청자는 **2-3초마다** 새로운 시각 자극 필요
-- 한 장면 10초 연속 = 이탈율 급증
+- 한 장면 15초 연속 = 이탈율 급증
 - 빠른 컷 전환 = 관심 유지 + 긴장감
 
 ### 서브샷 구조 (Scene 2 이후)
-Scene 2 이후의 각 10초 장면은 **최대 3개 서브샷(beats)**, **각 서브샷 최대 3초**로 구성:
+Scene 2 이후의 각 15초 장면은 **최대 3개 서브샷(beats)**, **각 서브샷 최대 5초**로 구성:
 
 **⚠️ 카메라는 상세하게, 상황은 간결하게!**
 - 카메라 앵글/움직임: 정확히 지정
@@ -119,18 +119,18 @@ Scene 2 이후의 각 10초 장면은 **최대 3개 서브샷(beats)**, **각 �
 ```yaml
 scene:
   id: 2
-  duration: 10
+  duration: 15
   sub_shots:
     - beat: 1
-      time: "0-3s"
+      time: "0-5s"
       shot_type: "wide establishing"
       description: "빈 공원 전체"
     - beat: 2
-      time: "3-7s"
+      time: "5-10s"
       shot_type: "미디엄 줌인"
       description: "벤치 옆 강아지"
     - beat: 3
-      time: "7-10s"
+      time: "10-15s"
       shot_type: "클로즈업"
       description: "강아지 얼굴"
 ```
@@ -148,10 +148,10 @@ scene:
 ---
 
 ## Scene Structure Requirements
-- Each scene: 10 seconds (고정)
-- Total: 6 scenes for 60-second video (고정, 1 minute or less)
+- Each scene: 15 seconds (고정)
+- Total: 6 scenes for 90-second video (고정)
 - **Scene 1 = Hook: 서브샷 없이 단일 프레임 (가장 충격적 장면)**
-- **Scene 2+: max 3 sub-shots per scene** (멀티샷 필수, 각 최대 3초)
+- **Scene 2+: max 3 sub-shots per scene** (멀티샷 필수, 각 최대 5초)
 - Clear visual focus per scene
 - Smooth emotional transitions between scenes
 
@@ -304,19 +304,19 @@ human_visible: "손, 옷소매, 목소리"
       "sub_shots": [
         {
           "beat": 1,
-          "time": "0-3s",
+          "time": "0-5s",
           "shot_type": "...",
           "description": "..."
         },
         {
           "beat": 2,
-          "time": "3-7s",
+          "time": "5-10s",
           "shot_type": "...",
           "description": "..."
         },
         {
           "beat": 3,
-          "time": "7-10s",
+          "time": "10-15s",
           "shot_type": "...",
           "description": "..."
         }
@@ -334,7 +334,7 @@ human_visible: "손, 옷소매, 목소리"
 ### Scene 1 (Hook) - 단일 프레임
 - **서브샷 없이 한 프레임에 모든 것을 담는다**
 - 가장 충격적이고 감정적인 순간을 단일 연속 샷으로
-- 10초 동안 하나의 장면이 지속되며 임팩트 극대화
+- 15초 동안 하나의 장면이 지속되며 임팩트 극대화
 
 ### Scene 2 (Setup / Context)
 - 시간순 시작점, 배경 설명
@@ -396,14 +396,14 @@ human_visible: "손, 옷소매, 목소리"
 
 ```
 ❌ 영화식 (금지):
-"(0-3초) 와이드. 여자가 걸어옴."
-"(3-7초) 핑퐁. 두 사람 교차."
-"(7-10초) 로우앵글. 강아지 반응."
+"(0-5초) 와이드. 여자가 걸어옴."
+"(5-10초) 핑퐁. 두 사람 교차."
+"(10-15초) 로우앵글. 강아지 반응."
 
 ✅ 핸드폰식 (필수):
-"(0-3초) 멀리서 핸드폰으로 촬영. 여자가 걸어옴. 카메라 흔들리며 디지털 줌인."
-"(3-7초) 같은 위치에서 계속 촬영. 소리치는 모습. 줌인했다 줌아웃."
-"(7-10초) 촬영자가 카메라를 아래로 내림. 강아지가 숨음."
+"(0-5초) 멀리서 핸드폰으로 촬영. 여자가 걸어옴. 카메라 흔들리며 디지털 줌인."
+"(5-10초) 같은 위치에서 계속 촬영. 소리치는 모습. 줌인했다 줌아웃."
+"(10-15초) 촬영자가 카메라를 아래로 내림. 강아지가 숨음."
 ```
 
 ## POV/Handheld Style Notes (Legacy Reference)
