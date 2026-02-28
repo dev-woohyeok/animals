@@ -18,7 +18,7 @@
 | 2     | 같은 마른 상태, 먼지투성이, 몸을 떨고 있음                       | 공포, 경계, 떨림            | 구석에 웅크리고 떨고 있음                         |
 | 3     | 여전히 마르지만 먹이 먹고 약간 기운 차림                         | 경계 → 조심스러운 신뢰      | 절뚝거리며 다가와 먹고 올려다봄, 꼬리 약하게 흔듦 |
 | 4     | 깨끗하게 씻김, 다리 붕대, 배 불룩 확인                           | 신뢰, 안정                  | 진찰대에서 남자 손 핥음                           |
-| 5     | 깨끗한 털, 살 붙기 시작, 배가 눈에 띄게 불러옴                   | 편안, 안도, 완전한 신뢰     | 밥 먹고, 장난감 물어와 놀고, 남자 무릎에서 잠듦  |
+| 5     | 깨끗한 털, 살 붙기 시작, 배가 눈에 띄게 불러옴                   | 편안, 안도, 완전한 신뢰     | 밥 먹고, 장난감 물어와 놀고, 남자 무릎에서 잠듦   |
 | 6     | 체중 회복, 깨끗한 털, 배가 많이 불러옴                           | 긴장하지만 남자 곁에서 안정 | 출산 후 새끼를 핥아줌                             |
 | 7     | 출산 후 건강, 윤기 나는 깨끗한 털, 새끼 4마리 곁                 | 모성애, 행복, 완전한 신뢰   | 새끼 핥아주다 남자 올려다보며 꼬리 흔듦           |
 
@@ -26,15 +26,15 @@
 
 > 30대 초반 백인 남성. 짧은 갈색 머리. 1인칭 POV 촬영자.
 
-| Scene | 복장              | 보이는 부분                            |
-| ----- | ----------------- | -------------------------------------- |
-| 1     | —                 | (등장하지 않음, 길 건너편 행인이 촬영) |
-| 2     | 회색 후디, 청바지 | 손, 소매                               |
-| 3     | 회색 후디, 청바지 | 손 (간식 내밀기), 소매                 |
-| 4     | 회색 후디, 청바지 | 손 (강아지 쓰다듬기), 소매             |
+| Scene | 복장              | 보이는 부분                               |
+| ----- | ----------------- | ----------------------------------------- |
+| 1     | —                 | (등장하지 않음, 길 건너편 행인이 촬영)    |
+| 2     | 회색 후디, 청바지 | 손, 소매                                  |
+| 3     | 회색 후디, 청바지 | 손 (간식 내밀기), 소매                    |
+| 4     | 회색 후디, 청바지 | 손 (강아지 쓰다듬기), 소매                |
 | 5     | 검은색 티셔츠     | 손 (장난감 던지기, 강아지 쓰다듬기), 소매 |
-| 6     | 검은색 티셔츠     | 손, 소매                               |
-| 7     | 검은색 티셔츠     | 손 (강아지 쓰다듬기), 소매             |
+| 6     | 검은색 티셔츠     | 손, 소매                                  |
+| 7     | 검은색 티셔츠     | 손 (강아지 쓰다듬기), 소매                |
 
 ### 상점주인 (Scene 1만)
 
@@ -68,8 +68,8 @@
 
 **Caption:**
 
-- EN: "A shop owner was chasing a starving dog with a broom... just for looking for food in the trash."
-- KR: "쓰레기통에서 먹을 것을 찾고 있었을 뿐인데... 상점 주인이 빗자루로 쫓아냈다."
+- EN: "He chased a starving dog with a broom."
+- KR: "굶주린 강아지를 빗자루로 쫓아냈다."
 
 ### Sora2 Prompt
 
@@ -104,8 +104,8 @@ No background music. 도로 위 차 지나가는 소리, 멀리서 들리는 상
 
 **Caption:**
 
-- EN: "I followed her into the alley. She was shaking in the corner, too scared to run."
-- KR: "골목을 따라 들어갔다. 구석에서 떨고 있었다. 도망칠 힘도 없었다."
+- EN: "She was shaking in the corner. Too weak to run."
+- KR: "구석에서 떨고 있었다. 도망칠 힘도 없었다."
 
 ### Sora2 Prompt
 
@@ -140,8 +140,8 @@ No background music. 촬영자 발소리, 숨소리, 강아지 낑낑거리는 �
 
 **Caption:**
 
-- EN: "I put food right in front of her. She ate lying down... then nudged my hand."
-- KR: "코앞에 먹을 것을 놓았다. 누운 채로 먹더니... 내 손에 코를 갖다 댔다."
+- EN: "She ate lying down... then touched my hand."
+- KR: "누운 채로 먹더니... 내 손에 코를 댔다."
 
 ### Sora2 Prompt
 
@@ -176,8 +176,8 @@ No background music. 강아지 먹는 소리, 촬영자 부드러운 말소리, 
 
 **Caption:**
 
-- EN: "I took her to the vet for her leg. But the vet found something else... she was pregnant."
-- KR: "다리 때문에 병원에 데려갔다. 그런데 수의사가 다른 걸 발견했다... 임신이었다."
+- EN: "I took her for her leg. The vet found something else."
+- KR: "다리 치료하러 갔는데... 임신이었다."
 
 ### Sora2 Prompt
 
@@ -214,8 +214,8 @@ No background music. 초음파 기계 소리, 강아지 숨소리, 수의사 설
 
 **Caption:**
 
-- EN: "She eats, she plays, she sleeps on my lap. The alley dog became a house dog."
-- KR: "밥 먹고, 장난감 물어오고, 내 무릎에서 잠든다. 골목 강아지가 집 강아지가 됐다."
+- EN: "She eats, plays, and sleeps on my lap. She's home now."
+- KR: "밥 먹고, 놀고, 내 무릎에서 잠든다."
 
 ### Sora2 Prompt
 
@@ -232,8 +232,8 @@ No background music. 초음파 기계 소리, 강아지 숨소리, 수의사 설
 
 촬영자 — 30대 초반 백인 남성의 손. 검은색 티셔츠 소매 보임.
 
-(0-5초) 거실 바닥. 강아지가 밥그릇으로 달려간다. 불룩한 배가 흔들린다. 허겁지겁 먹는다. 카메라 흔들림.
-(5-10초) 강아지가 고무 장난감을 입에 물고 뒤뚱뒤뚱 다가온다. 남자 발치에 떨어뜨리고 올려다본다. 꼬리 흔듦. 남자의 손이 장난감을 던진다. 검은 티셔츠 소매 보임. 강아지가 불룩한 배로 뒤뚱거리며 가져온다.
+(0-5초) 거실 바닥. 강아지가 밥그릇으로 달려간다. 허겁지겁 먹는다. 카메라 흔들림.
+(5-10초) 강아지가 고무 장난감을 입에 물고 뒤뚱뒤뚱 다가온다. 남자 발치에 떨어뜨리고 올려다본다. 꼬리 흔듦. 남자의 손이 강아지를 쓰다듭는다. 검은 티셔츠 소매 보임. 강아지가 가져온다.
 (10-15초) 소파. 강아지가 남자 무릎에 머리를 얹고 눈을 감는다. 남자의 손이 강아지 머리를 쓰다듬는다. 꼬리가 천천히 흔들리다 멈춘다. 편안하게 잠든다.
 
 No background music. 강아지 밥 먹는 소리, 장난감 바닥에 떨어지는 소리, 강아지 발소리, 남자 웃는 소리, 강아지 숨소리.
@@ -250,8 +250,8 @@ No background music. 강아지 밥 먹는 소리, 장난감 바닥에 떨어지�
 
 **Caption:**
 
-- EN: "She gave birth at home. 4 tiny puppies. I stayed by her side the whole time."
-- KR: "집에서 출산했다. 작은 강아지 4마리. 처음부터 끝까지 곁에 있었다."
+- EN: "4 tiny puppies. I was right there."
+- KR: "작은 강아지 4마리. 처음부터 곁에 있었다."
 
 ### Sora2 Prompt
 
@@ -286,8 +286,8 @@ No background music. 새끼 강아지 낑낑거리는 소리, 엄마 강아지 �
 
 **Caption:**
 
-- EN: "She was starving in a trash can. Now she's a mom, safe at home with her babies."
-- KR: "쓰레기통을 뒤지던 그 강아지. 이제는 엄마가 되어, 아기들과 함께 집에 있다."
+- EN: "From a trash can... to a mom with her babies."
+- KR: "쓰레기통을 뒤지던 강아지가... 엄마가 됐다."
 
 ### Sora2 Prompt
 
