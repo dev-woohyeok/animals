@@ -356,8 +356,8 @@ No background music. 허스키 짖는 소리, 기쁨의 낑낑거림, 케이지 
 
 **Caption:**
 
-- EN: "He howled every night. Now he's going home."
-- KR: "매일 밤 울부짖었다. 이제 집으로 간다."
+- EN: "He finally found his person again. They're going home."
+- KR: "그리워하던 주인을 다시 만났다. 이제 함께 집으로 간다."
 
 ### Sora2 Prompt
 
