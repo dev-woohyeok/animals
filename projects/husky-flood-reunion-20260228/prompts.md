@@ -169,12 +169,7 @@ No background music. 급류 소리, 허스키 낑낑거리는 소리, 구조대�
 
 ---
 
-## Scene 4: 매일 밤, 같은 울부짖음 (Every Night, He Howled)
-
-**Caption:**
-
-- EN: "Every night. Same howl. He was calling for him."
-- KR: "매일 밤. 같은 울부짖음. 주인을 부르고 있었다."
+## Scene 4: 주인을 그리워하다 (Missing Him)
 
 ---
 
@@ -184,6 +179,11 @@ No background music. 급류 소리, 허스키 낑낑거리는 소리, 구조대�
 - **Emotion:** 슬픔, 무력감
 - **Camera:** 대피소 직원 핸드폰 촬영
 - **Lighting:** 낮, 형광등
+
+**Caption:**
+
+- EN: "He hasn't eaten in days."
+- KR: "며칠째 아무것도 먹지 않았다."
 
 #### Sora2 Prompt
 
@@ -214,6 +214,11 @@ No background music. 밥그릇 바닥에 끌리는 소리, 직원이 부드럽�
 - **Camera:** 대피소 직원 핸드폰 촬영
 - **Lighting:** 낮, 형광등
 
+**Caption:**
+
+- EN: "Every time someone walked by... he thought it was him."
+- KR: "누가 지나갈 때마다... 주인인 줄 알았다."
+
 #### Sora2 Prompt
 
 ```
@@ -243,6 +248,11 @@ No background music. 복도 발소리, 허스키 낑낑거리는 소리, 다른 
 - **Camera:** 대피소 직원 핸드폰 촬영
 - **Lighting:** 저녁, 형광등
 
+**Caption:**
+
+- EN: "He just sat by the door... waiting."
+- KR: "문 앞에 앉아서... 그냥 기다렸다."
+
 #### Sora2 Prompt
 
 ```
@@ -271,6 +281,11 @@ No background music. 허스키 코 숨소리, 대피소 환기 소리, 먼 곳�
 - **Emotion:** 슬픔, 깊은 그리움
 - **Camera:** 대피소 직원 핸드폰 촬영
 - **Lighting:** 밤, 형광등 (어둡게)
+
+**Caption:**
+
+- EN: "Every night. Same howl. He was calling for him."
+- KR: "매일 밤. 같은 울부짖음. 주인을 부르고 있었다."
 
 #### Sora2 Prompt
 
