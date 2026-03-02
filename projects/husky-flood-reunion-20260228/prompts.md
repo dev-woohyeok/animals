@@ -318,8 +318,8 @@ No background music. 허스키 하울링, 케이지 금속 울림, 다른 개들
 
 **Caption:**
 
-- EN: "3 weeks later... a voice he never forgot."
-- KR: "3주 후... 잊지 못한 그 목소리."
+- EN: "3 weeks later... his owner came back for him."
+- KR: "3주 후... 주인이 그를 찾아왔다."
 
 ### Sora2 Prompt
 
