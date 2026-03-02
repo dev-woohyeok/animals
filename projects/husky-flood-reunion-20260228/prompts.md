@@ -1,4 +1,4 @@
-# He Pushed His Dog Up The Tree... The Water Took Him
+# He Was Drowning But Saved His Dog First... 3 Weeks Later
 
 > 텍사스 홍수에서 남자와 허스키가 급류에 떠내려간다. 허스키는 나무에 매달려 구조되고, 남자는 급류에 휩쓸린다. 대피소에서 매일 밤 하울링을 멈추지 않는 허스키. 3주 후 깁스를 한 남자가 대피소 문을 열고 들어온다.
 
@@ -385,25 +385,24 @@ No background music. 트럭 엔진 소리, 바람 소리, 허스키 숨소리, �
 
 ## 제목 옵션
 
-**메인:** He Pushed His Dog Up The Tree... The Water Took Him
-
-**부제목:** 3 weeks later, a voice the husky never forgot.
+**메인:** He Was Drowning But Saved His Dog First... 3 Weeks Later
 
 ### 플랫폼별 제목
 
-- **YouTube Shorts:** He Pushed His Husky Up The Tree... Then The Flood Took Him (True Story)
-- **Instagram Reels:** He saved his dog from the flood. 3 weeks later, a miracle.
-- **TikTok:** he pushed his husky up the tree and the water took him... 3 weeks later
+- **YouTube Shorts:** He Was Drowning But Saved His Dog First... What Happened 3 Weeks Later Broke Me
+- **Instagram Reels:** He was swept away in a flood. But he saved his husky first. Wait for it.
+- **TikTok:** he was drowning but saved his dog first... 3 weeks later the shelter door opened
 
 ### 후킹 옵션
 
-- **감정형:** His husky howled every night for 3 weeks... then the door opened
-- **호기심형:** Why did this husky howl every single night at the shelter? Then the door opened...
-- **결과형:** Husky lost in a Texas flood howled every night... wait for the reunion
+- **궁금증 유발:** A husky refused to eat for 3 weeks. Then someone opened the door...
+- **감정 폭발:** This husky waited by the door every single day... then HE walked in
+- **충격 → 반전:** They found a husky alone in a flood. No one knew what he did to save him.
+- **짧고 강렬:** He drowned saving his dog. But he survived.
 
 ### 해시태그
 
-#husky #siberianhusky #dogrescue #flood #reunion #heartwarming #shorts #dogsoftiktok #rescuedog #truestory #texasflood #howling
+#husky #siberianhusky #dogrescue #flood #reunion #heartwarming #shorts #dogsoftiktok #rescuedog #truestory #texasflood #howling #waitforit
 
 ---
 
