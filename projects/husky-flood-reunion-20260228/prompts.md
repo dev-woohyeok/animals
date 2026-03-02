@@ -318,8 +318,8 @@ No background music. 허스키 하울링, 케이지 금속 울림, 다른 개들
 
 **Caption:**
 
-- EN: "3 weeks later... his owner came back for him."
-- KR: "3주 후... 주인이 그를 찾아왔다."
+- EN: "3 weeks later... the one he waited for finally came."
+- KR: "3주 후... 기다리던 그가 찾아왔다."
 
 ### Sora2 Prompt
 
