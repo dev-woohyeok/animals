@@ -214,8 +214,8 @@ No background music. 물소리, 고무보트 소리, 여자 거친 숨소리, �
 
 **Caption:**
 
-- EN: "I screamed until my voice broke. No one heard. Then she howled."
-- KR: "목이 터지도록 소리쳤다. 아무도 못 들었다. 그런데 이 아이의 하울링은 들렸다."
+- EN: "My voice couldn't reach them. But her howl did."
+- KR: "내 목소리는 닿지 않았다. 하지만 이 아이의 울음은 닿았다."
 
 ### Sora2 Prompt
 
