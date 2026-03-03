@@ -223,8 +223,8 @@ No background music. 아기 원숭이 작은 숨소리, 천 소리, 환경음.
 
 **Caption:**
 
-- EN: "Weeks passed. Months passed. She never let go."
-- KR: "몇 주가 지나고, 몇 달이 지났다. 한 번도 놓지 않았다."
+- EN: "She ate with it. Walked with it. Slept with it. She never once let go."
+- KR: "인형과 먹고, 인형과 걷고, 인형과 잤다. 단 한 번도 놓지 않았다."
 
 ### Sora2 Prompt
 
