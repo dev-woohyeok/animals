@@ -113,8 +113,8 @@ No background music. 어미 원숭이 소리, 아기 원숭이 울부짖는 소�
 
 **Caption:**
 
-- EN: "Born different. Left alone. She fit in my hand."
-- KR: "다르게 태어났다. 혼자 남겨졌다. 손바닥에 들어왔다."
+- EN: "Born different. Left behind. She fit right in my palm."
+- KR: "다르게 태어났다. 버려졌다. 내 손바닥 안에 쏙 들어왔다."
 
 ### Sora2 Prompt
 
