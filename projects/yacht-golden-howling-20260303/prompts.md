@@ -66,8 +66,8 @@
 
 **Caption:**
 
-- EN: "I should have listened to my dad..."
-- KR: "아빠 말을 들을걸..."
+- EN: "Stranded in the middle of the ocean... just me and her."
+- KR: "바다 한가운데... 나와 이 아이뿐이었다."
 
 ### Sora2 Prompt
 
