@@ -140,7 +140,7 @@ No background music. 급류 소리, 허스키 울부짖는 소리, 보트 엔진
 - **Duration:** 15s
 - **Emotion:** 긴장 → 안도
 - **Camera:** 구조 보트 위에서 핸드폰 촬영
-- **Lighting:** 낮, 흐린 하늘, 홍수
+- **Lighting:** 낮, 흐린 하늘, 홍
 
 **Caption:**
 
