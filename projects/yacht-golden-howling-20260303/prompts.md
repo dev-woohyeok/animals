@@ -176,8 +176,8 @@ No background music. 물이 갑판 위로 밀려오는 소리, 바람 소리, �
 
 **Caption:**
 
-- EN: "I put her on the raft first."
-- KR: "이 아이를 먼저 태웠다."
+- EN: "The boat was going down. We had to get out. Now."
+- KR: "배가 가라앉고 있었다. 지금 당장 나가야 했다."
 
 ### Sora2 Prompt
 
