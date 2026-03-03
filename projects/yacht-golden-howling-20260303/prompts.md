@@ -373,7 +373,7 @@ No background music. 바람 소리, 파도 소리, 요트 엔진 소리, 골든 
 | Platform | Title |
 |----------|-------|
 | **YouTube Shorts** | My Yacht Was Sinking... My Golden Retriever Did THIS to Save Me 😭 (True Story) |
-| **Instagram Reels** | I screamed for help. No one heard. Then she howled. |
+| **Instagram Reels** | No one could hear me. But they heard her. |
 | **TikTok** | my yacht sank and I was stranded at sea... my golden saved my life 😭 |
 
 ### Hooks
