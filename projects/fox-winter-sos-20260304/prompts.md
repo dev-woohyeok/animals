@@ -362,23 +362,13 @@ No background music. 새끼 여우 재잘거리는 소리, 리트리버 핥는 �
 
 ## 제목 옵션
 
-**메인:** A Fox Knocked Me Down While Chopping Wood... She Was Asking for Help
-
-**부제목:** Two baby foxes buried in snow. My golden retriever became their mom.
-
-- **YouTube:** 🦊 A Fox Tackled Me While Chopping Wood... What She Was Hiding in the Snow (True Story)
-- **Instagram:** She knocked me down and wouldn't leave... then led me to her babies buried in snow 🦊❄️
-- **TikTok:** A fox attacked me while I was chopping wood... wait till you see why 😭
-
-### 후킹 옵션
-
-- **감정형:** A mother fox's desperate plea saved her babies' lives
-- **호기심형:** Why did this fox keep tackling a stranger...? The reason will break you
-- **결과형:** Two frozen fox cubs found in snow... my retriever became their mom
+- **YouTube:** A Fox Tackled Me and Dragged Me Into the Woods 🦊 Her Babies Were Dying
+- **Instagram:** A wild fox knocked me down... then I heard crying under the snow 😭
+- **TikTok:** A fox just attacked me while chopping wood... she needed help 🦊
 
 ### Hashtags
 
-#foxrescue #goldenretriever #animalrescue #babyfox #truestory #heartwarming #animalsoftiktok #wildlife #shorts
+#foxrescue #goldenretriever #animalrescue #babyfox #foryou #viral #animalsoftiktok #shorts
 
 ---
 
