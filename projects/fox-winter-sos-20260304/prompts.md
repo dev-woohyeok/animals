@@ -327,8 +327,8 @@ No background music. 새끼 여우 약한 끼익 소리, 리트리버 코 고는
 
 **Caption:**
 
-- EN: "A fox, a retriever, and two babies... one family now"
-- KR: "여우, 리트리버, 아기 둘... 이제 한 가족이다"
+- EN: "She brought them to my dog... now they're all family"
+- KR: "엄마 여우가 우리 개한테 맡겼다... 이제 다 같이 산다"
 
 ### Sora2 Prompt
 
