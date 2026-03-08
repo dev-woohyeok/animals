@@ -198,8 +198,8 @@ No background music. 트럭 엔진 아이들링, 고양이 울음, 고양이 핥
 
 **Caption:**
 
-- EN: "He brought her home. She climbed right into his son's lap."
-- KR: "집에 데려왔다. 고양이가 아들 무릎 위로 올라갔다."
+- EN: "She ate like she'd never eaten before... then chose the smallest human."
+- KR: "태어나서 처음으로 배불리 먹었다... 그리고 가장 작은 사람을 골랐다."
 
 ### Sora2 Prompt
 
