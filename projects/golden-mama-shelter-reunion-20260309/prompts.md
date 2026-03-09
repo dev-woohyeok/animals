@@ -67,8 +67,8 @@ human_family:
 | ------------------- | ------------------------------------------------------------------------ |
 | **Hook**            | 강제 분리 — 새끼 3마리가 순서대로 빼앗기고 엄마가 점점 무너지는 장면     |
 | **Duration**        | 15초 (서브샷 3개: 첫째/둘째/셋째)                                        |
-| **Caption EN**      | One by one, they took all her babies                                     |
-| **Caption KR**      | 하나씩, 아기들을 전부 데려갔다                                           |
+| **Caption EN**      | 3 puppies. 3 families. She hid the last one under her belly... they took that one too. |
+| **Caption KR**      | 3마리. 3가족. 마지막을 배 밑에 숨겼지만... 그것마저 데려갔다.            |
 | **Emotion**         | 당혹→공포→절망                                                           |
 | **Character State** | 건강한 체형 → 야위기 시작. 킁킁→새끼 숨기기→밥그릇 무시하고 구석 웅크림. |
 
@@ -77,8 +77,8 @@ human_family:
 | 항목                | 내용                                                                                             |
 | ------------------- | ------------------------------------------------------------------------------------------------ |
 | **Duration**        | 15초 (서브샷 3개)                                                                                |
-| **Caption EN**      | Day 5... she gave up                                                                             |
-| **Caption KR**      | 5일째... 포기했다                                                                                |
+| **Caption EN**      | It's been 5 days. She won't eat. She won't move. Just stares at the door... waiting.             |
+| **Caption KR**      | 5일째. 먹지도, 움직이지도 않는다. 문만 바라본다... 아기들이 돌아올까 봐.                         |
 | **Emotion**         | 무기력, 생사의 경계                                                                              |
 | **Character State** | 갈비뼈 보임, 눈 충혈, 일어서지 못함. 삶의 의지 상실. 사료 거부, 미동 없음, 꼬리만 미세하게 떨림. |
 
@@ -87,8 +87,8 @@ human_family:
 | 항목                | 내용                                               |
 | ------------------- | -------------------------------------------------- |
 | **Duration**        | 15초 (서브샷 3개)                                  |
-| **Caption EN**      | The staff refused to let her go                    |
-| **Caption KR**      | 관리사들은 포기하지 않았다                         |
+| **Caption EN**      | We pulled out every adoption record and started calling. Every. Single. Family. |
+| **Caption KR**      | 입양 기록을 전부 꺼냈다. 한 가정씩 전화를 돌리기 시작했다.              |
 | **Emotion**         | 절박함, 걱정, 결심                                 |
 | **Character State** | 여전히 야위고 무반응. 외부 차단. (관리사의 전환점) |
 
@@ -97,8 +97,8 @@ human_family:
 | 항목 | 내용 |
 |------|------|
 | **Duration** | 15초 (서브샷 3개) |
-| **Caption EN** | One baby came back... mama came alive |
-| **Caption KR** | 아기 한 마리가 돌아오자... 엄마가 살아났다 |
+| **Caption EN** | One family brought her puppy back. She hadn't stood up in 5 days... until she smelled him. |
+| **Caption KR** | 한 가족이 아기를 데려왔다. 5일간 꼼짝 않던 엄마가... 냄새를 맡는 순간 벌떡 일어났다.      |
 | **Emotion** | 놀람 → 기쁨 폭발, 에너지 회복 |
 | **Character State** | 엎드려 있다가 → 냄새 맡고 벌떡 일어남 → 새끼에게 달려가 미친 듯이 핥고 뒹굴고 꼬리 세차게 흔듦. 5일 만에 완전히 기운 되찾음. |
 
@@ -107,8 +107,8 @@ human_family:
 | 항목 | 내용 |
 |------|------|
 | **Duration** | 15초 (서브샷 3개) |
-| **Caption EN** | "We'll take mama too" |
-| **Caption KR** | "엄마도 데려갈게요" |
+| **Caption EN** | They came to bring the puppy back. They left with mama too.  |
+| **Caption KR** | 아기를 데려다주러 왔다가... 엄마까지 데려가기로 했다.        |
 | **Emotion** | 감동, 결심, 따뜻함 |
 | **Character State** | 엄마: 새끼와 함께 편안하게 누워 핥아줌. 입양 가족(새끼를 데려온 커플): 재회 장면을 지켜보다 눈물, 관리사에게 엄마 입양 의사 전달. |
 
@@ -117,8 +117,8 @@ human_family:
 | 항목                | 내용                                                                           |
 | ------------------- | ------------------------------------------------------------------------------ |
 | **Duration**        | 15초 (서브샷 3개)                                                              |
-| **Caption EN**      | She'll never lose her baby again                                               |
-| **Caption KR**      | 다시는 아기를 잃지 않을 거야                                                   |
+| **Caption EN**      | She's going home. And this time, her baby is coming with her.                  |
+| **Caption KR**      | 집으로 간다. 이번엔, 아기와 함께.                                              |
 | **Emotion**         | 행복, 감동, 완전함                                                             |
 | **Character State** | 약간 야위었지만 눈에 생기, 꼬리 힘차게. 완전한 안도. 새끼 곁에 바짝 붙어 걸음. |
 
