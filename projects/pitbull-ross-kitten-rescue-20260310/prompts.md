@@ -96,8 +96,8 @@ sound:
 | 항목                | 내용                                                              |
 | ------------------- | ----------------------------------------------------------------- |
 | **Duration**        | 15초 (서브샷 3개)                                                 |
-| **Caption EN**      | The smallest one wasn't moving... I had to hurry                  |
-| **Caption KR**      | 가장 작은 아이가 움직이지 않았다... 서둘러야 했다                 |
+| **Caption EN**      | I wrapped them and ran. The smallest one finally moved... she's alive. |
+| **Caption KR**      | 감싸서 뛰었다. 가장 작은 아이가 드디어 움직였다... 살아있다.          |
 | **Emotion**         | 절박→안도, 희망                                                   |
 | **Character State** | 반응 없던 새끼가 미약하게 움직임 시작. 로스: 헐떡거리며 곁에 있음 |
 
