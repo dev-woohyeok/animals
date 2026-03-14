@@ -91,8 +91,8 @@ No background music. 여우 으르렁 소리, 철조망 끊어지는 소리, 남
 - **Lighting:** 아침 자연광 → 저녁 실내 따뜻한 조명 + 마당 황혼빛
 
 **Caption:**
-- EN: "The food kept disappearing... then I finally saw her"
-- KR: "먹이가 계속 사라졌다... 그리고 드디어 봤다"
+- EN: "I left food out for days... she finally showed up"
+- KR: "며칠간 먹이를 놓아뒀더니... 드디어 나타났다"
 
 ### Sora2 Prompt
 
