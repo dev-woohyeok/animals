@@ -247,8 +247,8 @@ No background music. 여우 코 숨소리, 남자 조용한 웃음, 새소리, �
 - **Lighting:** 부드러운 오후 햇살, 따뜻한 자연광
 
 **Caption:**
-- EN: "My daughter met her babies... and they just clicked"
-- KR: "내 딸이 여우 아기들을 만났다... 바로 친구가 됐다"
+- EN: "One day she showed up with her babies"
+- KR: "어느 날 아기들을 데리고 왔다"
 
 ### Sora2 Prompt
 
