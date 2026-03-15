@@ -216,7 +216,7 @@ No background music. 새끼 고양이 울음, 엄마 고양이 그르렁(purr), 
 
 아기 고양이 1마리(생후 5-6주로 성장). 흰색+회색 솜털이 깨끗하고 풍성해짐. 눈이 완전히 떠져 있음. 파란 눈. 소파 위를 뒤뚱뒤뚱 걸어 다님. 건강함.
 
-중간 크기 성체 암컷 길고양이 한 마리. 짧은 얼룩무늬(tabby) 털, 갈색과 검은색 줄무늬, 배 쪽 크림색. 노란색 눈. 귀 한쪽 끝 살짝 찢어짐. 털이 윤기가 남. 건강해진 상태. 소파 위에서 편안하게 앉아 있음.
+중간 크기 성체 암컷 길고양이 한 마리. 짧은 회색 얼룩무늬(tabby) 털, 갈색과 검은색 줄무늬, 배 쪽 크림색. 노란색 눈. 귀 한쪽 끝 살짝 찢어짐. 털이 윤기가 남. 건강해진 상태. 소파 위에서 편안하게 앉아 있음.
 
 촬영자: 20대 후반 백인 여성의 손과 무릎. 편한 스웨트팬츠. (1인칭 POV 촬영자)
 
@@ -238,24 +238,25 @@ No background music. 새끼 고양이 작은 울음, 엄마 고양이 그르렁(
 
 ## Titles
 
-| Platform | Title |
-|----------|-------|
-| **YouTube Shorts** | A Kitten Was Drowning in Wet Concrete... I Pulled It Out With My Bare Hands (True Story) |
+| Platform            | Title                                                                                     |
+| ------------------- | ----------------------------------------------------------------------------------------- |
+| **YouTube Shorts**  | A Kitten Was Drowning in Wet Concrete... I Pulled It Out With My Bare Hands (True Story)  |
 | **Instagram Reels** | Its head was almost under. I pulled it out with bleeding hands... now it sleeps on my lap |
-| **TikTok** | I found a kitten drowning in concrete... now she lives with me 😭 |
+| **TikTok**          | I found a kitten drowning in concrete... now she lives with me 😭                         |
 
 ### Hashtags
+
 `#catrescue #kitten #concrete #animalrescue #motherlove #heartwarming #truestory #catsoftiktok #rescuekitten #adoption #shorts`
 
 ---
 
 ## Captions Summary
 
-| Scene | English | 한글 |
-|-------|---------|------|
-| 1 | I was jogging when this cat grabbed my leg and wouldn't let go | 조깅 중이었는데 이 고양이가 내 다리를 물고 놓지 않았다 |
-| 2 | It was sinking in wet concrete. It was barely moving | 젖은 콘크리트에 빠져 있었다. 거의 움직이지 않았다 |
-| 3 | Its head was almost completely under. I pulled it out with my bare hands | 머리까지 거의 다 잠겨 있었다. 맨손으로 잡아 꺼냈다 |
-| 4 | The vet nodded. She's going to make it | 수의사가 고개를 끄덕였다. 살 수 있다고 |
-| 5 | I washed off the concrete. Her real color finally came through | 콘크리트를 씻겨주자 원래 색이 드러났다 |
-| 6 | She asked a stranger for help. Now we're a family | 낯선 사람에게 도움을 구했다. 이제 우리는 가족이다 |
+| Scene | English                                                                  | 한글                                                   |
+| ----- | ------------------------------------------------------------------------ | ------------------------------------------------------ |
+| 1     | I was jogging when this cat grabbed my leg and wouldn't let go           | 조깅 중이었는데 이 고양이가 내 다리를 물고 놓지 않았다 |
+| 2     | It was sinking in wet concrete. It was barely moving                     | 젖은 콘크리트에 빠져 있었다. 거의 움직이지 않았다      |
+| 3     | Its head was almost completely under. I pulled it out with my bare hands | 머리까지 거의 다 잠겨 있었다. 맨손으로 잡아 꺼냈다     |
+| 4     | The vet nodded. She's going to make it                                   | 수의사가 고개를 끄덕였다. 살 수 있다고                 |
+| 5     | I washed off the concrete. Her real color finally came through           | 콘크리트를 씻겨주자 원래 색이 드러났다                 |
+| 6     | She asked a stranger for help. Now we're a family                        | 낯선 사람에게 도움을 구했다. 이제 우리는 가족이다      |
