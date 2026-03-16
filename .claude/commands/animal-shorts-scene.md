@@ -12,11 +12,11 @@
 
 ## 핵심 변경사항
 
-### 1. Hook First (Scene 1 = 가장 충격적 장면)
+### 1. 시간순 전개 + 강한 도입 (Scene 1 = 시간순 첫 장면)
 
-- Scene 1은 시간순 도입이 아닌, **스토리에서 가장 임팩트 있는 순간**
+- Scene 1은 시간순 첫 장면이면서 관객의 관심을 끄는 도입
 - 시청자 첫 3초 이탈 방지
-- 나머지 장면에서 시간순으로 전개
+- **모든 장면은 시간순(chronological)으로 전개. 과거 회상/플래시백 절대 금지**
 
 ### 2. 멀티샷 구조 (15초 = 최대 3개 서브샷)
 
@@ -36,7 +36,7 @@
 - **각 장면 길이**: 15초 (고정)
 - **총 영상 길이**: 90초 (6개 × 15초 = 90초)
 - **서브샷**: 장면당 최대 3개, 각 서브샷 최대 5초 (5초 초과 금지!)
-- **Scene 1**: 반드시 Hook (가장 충격적 순간)이며 서브샷 없이 한프레임에 다담음
+- **Scene 1**: 시간순 도입 장면이며 서브샷 없이 단일 연속 샷으로 구성
 
 ### 장면 구성 요소
 
@@ -72,58 +72,58 @@
 ```yaml
 scenes:
   - id: 1
-    title: "폭풍 속 발견"
-    title_en: "Discovery in the Storm"
-    is_hook: true
+    title: "벤치에 묶인 강아지"
+    title_en: "Tied to the Bench"
+    is_opening: true
     caption:
-      en: "Something was tied to that bench..."
-      ko: "벤치에 뭔가가 묶여있었다..."
+      en: "Someone just left her here..."
+      ko: "누군가 여기 두고 갔다..."
     duration: 15
-    description: "가장 충격적인 순간 - 폭풍우 속 벤치에 묶인 강아지. 서브샷 없이 단일 프레임."
-    emotion: "충격, 불안"
+    description: "시간순 도입 — 벤치에 묶인 강아지를 발견. 서브샷 없이 단일 프레임."
+    emotion: "충격, 분노"
     # ⚠️ Scene 1은 서브샷 없음 - 한 프레임에 모든 것을 담는다
     camera:
       primary_movement: "handheld POV"
       note: "단일 연속 샷 - 서브샷 없음"
-    lighting: "어둠 + 번개 플래시 + 핸드폰 플래시"
+    lighting: "늦은 오후 흐린 하늘"
     key_elements:
       - "벤치에 묶인 줄"
-      - "폭풍우"
       - "떨리는 강아지"
+      - "끊어진 목줄"
 
   - id: 2
-    title: "3시간 전 - 유기"
-    title_en: "3 Hours Earlier - Abandoned"
-    is_hook: false
+    title: "다가가기"
+    title_en: "Getting Closer"
+    is_opening: false
     caption:
-      en: "3 hours earlier... someone left her here"
-      ko: "3시간 전... 누군가 여기 두고 갔다"
+      en: "She was shaking so badly..."
+      ko: "너무 심하게 떨고 있었다..."
     duration: 15
-    description: "시간을 되돌려 유기 장면"
-    emotion: "분노, 슬픔"
+    description: "여자가 다가가서 강아지 상태를 확인"
+    emotion: "연민, 걱정"
 
     sub_shots:
       - beat: 1
         time: "0-5s"
-        shot_type: "wide, dashcam"
-        description: "주택가 도로, 은색 세단이 멈춤"
+        shot_type: "medium"
+        description: "여자가 벤치 쪽으로 다가간다"
       - beat: 2
         time: "5-10s"
-        shot_type: "medium"
-        description: "남자가 강아지를 벤치 다리에 묶는다"
+        shot_type: "close-up"
+        description: "강아지 얼굴. 떨림. 줄에 묶인 모습"
       - beat: 3
         time: "10-15s"
         shot_type: "close-up (bridge)"
-        description: "혼란스러운 표정의 강아지. 줄에 걸려 더 못 감"
+        description: "여자의 손이 줄을 풀기 시작"
 
     camera:
-      primary_movement: "관찰 시점 → handheld"
-      sub_shot_transitions: "dissolve → cut → cut → cut"
-    lighting: "늦은 오후 흐린 하늘, 가로등 시작"
+      primary_movement: "handheld POV"
+      sub_shot_transitions: "물리적 카메라 동작"
+    lighting: "늦은 오후 흐린 하늘"
     key_elements:
-      - "은색 세단"
-      - "벤치에 묶는 행위"
-      - "따라가려는 강아지"
+      - "강아지 떨림"
+      - "줄 풀기"
+      - "여자의 손"
 ```
 
 ---
@@ -186,14 +186,14 @@ scenes:
 
 ---
 
-## 장면 배치 가이드 (Hook First)
+## 장면 배치 가이드 (시간순 전개)
 
 | 순서      | 역할              | 서브샷 속도              | 분위기                 |
 | --------- | ----------------- | ------------------------ | ---------------------- |
-| Scene 1   | **Hook** (충격)   | 서브샷 없음 (단일 프레임) | 가장 강렬한 순간       |
-| Scene 2   | 배경/맥락         | 보통 (3 beats)           | 시간순 시작, "어떻게?" |
-| Scene 3   | 전개/위기         | 빠름 (3 beats)           | 긴장, 감정 고조        |
-| Scene 4   | 해결/전환         | 보통 (3 beats)           | 감정 전환점            |
+| Scene 1   | **도입** (관심)   | 서브샷 없음 (단일 프레임) | 시간순 시작, 관심 끌기  |
+| Scene 2   | 전개              | 보통 (3 beats)           | 상황 전개, 감정 구축    |
+| Scene 3   | 위기/전환         | 빠름 (3 beats)           | 긴장, 감정 고조        |
+| Scene 4   | 해결              | 보통 (3 beats)           | 감정 전환점            |
 | Scene 5   | 회복/유대         | 느림 (2-3 beats)         | 안도, 따뜻함           |
 | Scene 6   | 결말/여운         | 느림 (2 beats)           | 감동, 행복             |
 
