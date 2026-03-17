@@ -74,8 +74,8 @@ sound_base:
 No background music. 거리 소음, 식당 주인 화내는 소리, 비글 발소리, 접시 부딪히는 소리, 차 지나가는 소리, 촬영자 웃는 소리.
 ```
 
-**Caption (EN)**: "This stray Beagle just stole a sandwich right in front of the owner..."
-**Caption (KR)**: "떠돌이 비글이 주인 앞에서 샌드위치를 훔쳐서 달렸다..."
+**Caption (EN)**: "This stray Beagle just stole a sandwich\nright in front of the owner..."
+**Caption (KR)**: "떠돌이 비글이 주인 앞에서\n샌드위치를 훔쳐서 달렸다..."
 
 ---
 
