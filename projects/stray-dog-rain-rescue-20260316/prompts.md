@@ -84,9 +84,9 @@ No background music. 거리 소음, 식당 주인 화내는 소리, 비글 발�
 ```
 // Story: 전체: 시애틀 늦은 오후. 떠돌이 비글이 식당에서 샌드위치를 훔쳐 도망 → 식당 주인이 쫓아냄 → 여자가 따라가보니 골목에서 하얀 아기 고양이에게 샌드위치를 찢어주고 있음 → 감동한 여자가 둘을 병원에 데려감 → 입양 → 가족이 됨.
 // 앞 장면: 식당에서 떠돌이 비글이 샌드위치를 훔쳐 도망. 식당 주인이 화내며 쫓아냈다. 비글은 먹지 않고 입에 문 채 달렸다.
-// 이 장면: 여자가 비글을 따라 골목 입구까지 온다. 골목 입구에 서서 멀리 안쪽을 핸드폰으로 촬영. 디지털 줌인하니 비글이 샌드위치를 아기 고양이에게 찢어주고 있다.
+// 이 장면: 여자가 비글을 따라 골목 입구까지 온다. 골목 입구 벽 뒤에 숨어서 안쪽을 몰래 핸드폰으로 촬영. 비글이 샌드위치를 아기 고양이에게 가져다주고 찢어서 먹여준다.
 
-1인칭 POV 핸드폰 영상. 골목 입구에서 멀리 촬영. 흔들리고 불안정한 아마추어 푸티지. 디지털 줌인.
+1인칭 POV 핸드폰 영상. 골목 입구 벽 뒤에 숨어서 몰래 촬영. 흔들리고 불안정한 아마추어 푸티지. 벽이 화면 가장자리에 걸림. 디지털 줌인.
 
 미국 워싱턴주 시애틀 다운타운 좁은 골목. 늦은 오후 햇살. 벽돌 벽. 바닥에 골판지 박스 몇 개.
 
@@ -94,15 +94,15 @@ No background music. 거리 소음, 식당 주인 화내는 소리, 비글 발�
 
 아기 고양이 1마리(생후 5-6주). 순백색 짧은 솜털. 약간 지저분하지만 하얀색이 뚜렷. 크고 둥근 청회색 눈. 극도로 작음.
 
-촬영자: 20대 후반 아시안-아메리칸 여성의 손. 데님 재킷 소매 보임. (1인칭 POV 촬영자 — 골목 입구에 서서 촬영)
+촬영자: 20대 후반 아시안-아메리칸 여성의 손. 데님 재킷 소매 보임. (1인칭 POV 촬영자 — 골목 입구 벽 뒤에 숨어서 몰래 촬영)
 
 (0-1초) 참조 이미지 프레임.
 — 1초에 빠른 화면 전환 —
-(1-5초) 1인칭 POV. 골목 입구에서 촬영. 멀리 비글이 샌드위치를 입에 물고 골목 안쪽으로 뛰어간다. 흔들리는 화면.
+(1-5초) 1인칭 POV. 골목 입구 벽 뒤에 숨어서 촬영. 벽이 화면 한쪽에 걸림. 멀리 비글이 샌드위치를 입에 물고 골목 안쪽으로 뛰어간다.
 — 전환: 디지털 줌인 —
-(5-10초) 1인칭 POV. 디지털 줌인. 화질 거침. 비글이 골목 안쪽 골판지 박스 앞에서 멈추고 샌드위치를 바닥에 내려놓는다. 박스 뒤에서 새하얀 아기 고양이가 나온다.
+(5-10초) 1인칭 POV. 디지털 줌인. 비글이 골판지 박스 앞에서 멈추고 샌드위치를 바닥에 내려놓는다. 박스 뒤에서 새하얀 아기 고양이가 나온다.
 — 전환: 디지털 줌인 —
-(10-15초) 1인칭 POV. 최대 줌인. 비글이 샌드위치를 입으로 작게 찢어서 고양이 앞에 밀어준다. 고양이가 먹는다. 비글은 자기는 먹지 않고 고양이를 내려다본다.
+(10-15초) 1인칭 POV. 디지털 줌인. 비글이 샌드위치를 입으로 찢어서 고양이 앞에 밀어준다. 고양이가 먹는다. 비글은 먹지 않고 고양이를 내려다본다.
 
 No background music. 먼 거리 소음, 촬영자 놀라는 숨소리.
 ```
@@ -246,9 +246,9 @@ No background music. 비글 편안한 숨소리, 고양이 그르렁(purr), 소�
 
 ## Titles
 
-| Platform            | Title                                                                                  |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| **YouTube Shorts**  | I Filmed a Stray Beagle Stealing Food... Then Followed Her to an Alley (True Story)    |
+| Platform            | Title                                                                                   |
+| ------------------- | --------------------------------------------------------------------------------------- |
+| **YouTube Shorts**  | I Filmed a Stray Beagle Stealing Food... Then Followed Her to an Alley (True Story)     |
 | **Instagram Reels** | She wasn't stealing for herself. She was feeding a baby no one knew about               |
 | **TikTok**          | This stray Beagle stole a sandwich every day... to feed a tiny white kitten in an alley |
 
@@ -260,11 +260,11 @@ No background music. 비글 편안한 숨소리, 고양이 그르렁(purr), 소�
 
 ## Captions Summary
 
-| Scene | English                                                                         | 한글                                                              |
-| ----- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| 1     | This stray Beagle just stole a sandwich right in front of the owner...          | 떠돌이 비글이 주인 앞에서 샌드위치를 훔쳐서 달렸다...                      |
-| 2     | She wasn't stealing for herself. There was a baby hiding behind the boxes       | 자기가 먹으려고 훔친 게 아니었다. 박스 뒤에 아기가 숨어 있었다               |
-| 3     | She curled up around the kitten like a real mother                              | 진짜 엄마처럼 아기를 몸으로 감싸고 있었다                                 |
-| 4     | She didn't run. She just looked up at me with those eyes                        | 도망가지 않았다. 그냥 그 눈으로 나를 올려다봤다                           |
-| 5     | They tried to separate them. She wouldn't leave her baby                        | 떼어 놓으려 했다. 엄마는 절대 아기 곁을 떠나지 않았다                      |
-| 6     | She stole a sandwich to feed a kitten. Now they have a home together            | 아기를 먹이려고 샌드위치를 훔쳤던 엄마. 이제 둘 다 집이 생겼다              |
+| Scene | English                                                                   | 한글                                                           |
+| ----- | ------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| 1     | This stray Beagle just stole a sandwich right in front of the owner...    | 떠돌이 비글이 주인 앞에서 샌드위치를 훔쳐서 달렸다...          |
+| 2     | She wasn't stealing for herself. There was a baby hiding behind the boxes | 자기가 먹으려고 훔친 게 아니었다. 박스 뒤에 아기가 숨어 있었다 |
+| 3     | She curled up around the kitten like a real mother                        | 진짜 엄마처럼 아기를 몸으로 감싸고 있었다                      |
+| 4     | She didn't run. She just looked up at me with those eyes                  | 도망가지 않았다. 그냥 그 눈으로 나를 올려다봤다                |
+| 5     | They tried to separate them. She wouldn't leave her baby                  | 떼어 놓으려 했다. 엄마는 절대 아기 곁을 떠나지 않았다          |
+| 6     | She stole a sandwich to feed a kitten. Now they have a home together      | 아기를 먹이려고 샌드위치를 훔쳤던 엄마. 이제 둘 다 집이 생겼다 |
