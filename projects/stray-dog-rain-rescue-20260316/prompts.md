@@ -129,11 +129,12 @@ No background music. 먼 거리 소음, 촬영자 놀라는 숨소리.
 
 촬영자: 20대 후반 아시안-아메리칸 여성의 손. 데님 재킷 소매 보임. 은색 반지. (1인칭 POV 촬영자)
 
-(0-2초) 참조 이미지에서 자연스럽게 이어짐. 벽 뒤에 숨어서 촬영 — 화면 왼쪽에 벽 가장자리 보임. 콘크리트 바닥 위에 비글이 서 있고 옆에 하얀 고양이. 뒤에 골판지 박스. 그대로 이어서 —
-(2-5초) 벽 뒤에서 나와 비글에게 다가간다. 비글이 고양이 앞을 막아서며 여자를 경계한다. 낮게 으르렁거린다.
-— 전환: 멈춤 —
+(0-1초) 참조 이미지 프레임.
+— 1초에 빠른 화면 전환 —
+(1-5초) 여자가 벽 뒤에서 나와 콘크리트 바닥을 건너 비글에게 다가간다. 비글이 고양이 앞을 막아서며 여자를 경계한다. 낮게 으르렁거린다.
+— 전환: 자연스러운 화면 전환 —
 (5-10초) 여자가 멈춘다. 천천히 손을 내민다. 비글이 긴장한 채 손을 바라본다. 고양이가 비글 뒤에서 고개를 내밀고 있다.
-— 전환: 줌인 —
+— 전환: 자연스러운 화면 전환 —
 (10-15초) 비글이 조심스럽게 손 냄새를 맡는다. 경계가 풀린다. 꼬리가 아주 약간 흔들린다.
 
 No background music. 비글 낮은 으르렁 소리, 비글 코 킁킁거리는 소리, 촬영자 숨소리.
@@ -261,11 +262,11 @@ No background music. 비글 편안한 숨소리, 고양이 그르렁(purr), 소�
 
 ## Captions Summary
 
-| Scene | English                                                                   | 한글                                                           |
-| ----- | ------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| 1     | This stray Beagle just stole a sandwich right in front of the owner...    | 떠돌이 비글이 주인 앞에서 샌드위치를 훔쳐서 달렸다...          |
-| 2     | She wasn't stealing for herself. There was a baby hiding in the alley     | 자기가 먹으려고 훔친 게 아니었다. 골목에 아기가 숨어 있었다    |
-| 3     | She didn't run. She just looked up at me with those eyes                  | 도망가지 않았다. 그냥 그 눈으로 나를 올려다봤다                |
-| 4     | She followed me out. She trusted me with her baby                         | 따라 나왔다. 아기를 나에게 맡긴 거다                           |
-| 5     | They tried to separate them. She wouldn't leave her baby                  | 떼어 놓으려 했다. 엄마는 절대 아기 곁을 떠나지 않았다          |
-| 6     | She stole a sandwich to feed a kitten. Now they have a home together      | 아기를 먹이려고 샌드위치를 훔쳤던 엄마. 이제 둘 다 집이 생겼다 |
+| Scene | English                                                                | 한글                                                           |
+| ----- | ---------------------------------------------------------------------- | -------------------------------------------------------------- |
+| 1     | This stray Beagle just stole a sandwich right in front of the owner... | 떠돌이 비글이 주인 앞에서 샌드위치를 훔쳐서 달렸다...          |
+| 2     | She wasn't stealing for herself. There was a baby hiding in the alley  | 자기가 먹으려고 훔친 게 아니었다. 골목에 아기가 숨어 있었다    |
+| 3     | She didn't run. She just looked up at me with those eyes               | 도망가지 않았다. 그냥 그 눈으로 나를 올려다봤다                |
+| 4     | She followed me out. She trusted me with her baby                      | 따라 나왔다. 아기를 나에게 맡긴 거다                           |
+| 5     | They tried to separate them. She wouldn't leave her baby               | 떼어 놓으려 했다. 엄마는 절대 아기 곁을 떠나지 않았다          |
+| 6     | She stole a sandwich to feed a kitten. Now they have a home together   | 아기를 먹이려고 샌드위치를 훔쳤던 엄마. 이제 둘 다 집이 생겼다 |
