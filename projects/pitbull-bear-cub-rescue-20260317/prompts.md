@@ -52,8 +52,8 @@ emotional_journey:
 
 **Caption:**
 
-- EN: "Tank heard it before I did..."
-- KR: "탱크가 나보다 먼저 들었다..."
+- EN: "Tank just took off into the woods..."
+- KR: "탱크가 갑자기 숲으로 뛰쳐나갔다..."
 
 ### Sora2 Prompt
 
