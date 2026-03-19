@@ -296,8 +296,8 @@ No background music. 새소리, 바람, 촬영자 웃음, 탱크 편안한 숨�
 **메인:** Tank and the Fox Kit
 **부제목:** A Pit Bull Who Became a Fox's Dad
 
-- **YouTube:** My Pit Bull Fought Off 2 Coyotes to Save a Baby Fox... 3 Months Later He Became Its Dad 🦊 (Real Story)
-- **Instagram:** Tank charged at two coyotes to save a baby fox kit. Now the fox won't sleep without him 🤍
+- **YouTube:** My Pit Bull Fought Off 2 Wolves to Save a Baby Fox... 3 Months Later He Became Its Dad 🦊 (Real Story)
+- **Instagram:** Tank charged at two wolves to save a baby fox kit. Now the fox won't sleep without him 🤍
 - **TikTok:** my pit bull heard screaming in the woods and just TOOK OFF... wait for what he was protecting
 
 ### 후킹 옵션
