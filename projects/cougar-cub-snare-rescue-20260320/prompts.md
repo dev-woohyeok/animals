@@ -54,8 +54,10 @@ emotional_journey:
 
 **Caption:**
 
-- EN: "A cougar just charged at me..."
-- KR: "퓨마가 나한테 달려들었다..."
+- EN: "A cougar just charged at me
+  I thought I was dead"
+- KR: "퓨마가 나한테 달려들었다
+  죽는 줄 알았다"
 
 ### Sora2 Prompt
 
@@ -90,8 +92,10 @@ No background music. 장작 타는 소리, 퓨마 발소리, 촬영자 비명, �
 
 **Caption:**
 
-- EN: "She wasn't attacking... she was asking for help"
-- KR: "공격이 아니었다... 도움을 요청하고 있었다"
+- EN: "She wasn't attacking
+  She was asking for help"
+- KR: "공격이 아니었다
+  도움을 요청하고 있었다"
 
 ### Sora2 Prompt
 
@@ -130,8 +134,10 @@ No background music. 퓨마 낮은 울음, 낙엽 밟는 소리, 촬영자 발�
 
 **Caption:**
 
-- EN: "A baby cougar... caught in a wire snare"
-- KR: "아기 퓨마가... 와이어 올무에 걸려 있었다"
+- EN: "A baby cougar
+  Caught in a wire snare"
+- KR: "아기 퓨마가 있었다
+  와이어 올무에 걸린 채로"
 
 ### Sora2 Prompt
 
@@ -172,8 +178,10 @@ No background music. 아기 퓨마 낑낑거림, 와이어 끊는 소리, 촬영
 
 **Caption:**
 
-- EN: "I couldn't just leave her out there"
-- KR: "그냥 두고 올 수는 없었다"
+- EN: "I couldn't just leave her out there
+  Not like this"
+- KR: "그냥 두고 올 수는 없었다
+  이 상태로는"
 
 ### Sora2 Prompt
 
@@ -212,8 +220,10 @@ No background music. 아기 퓨마 그르렁거림, 참치 먹는 소리, 촬영
 
 **Caption:**
 
-- EN: "Her mom was already waiting"
-- KR: "어미가 이미 기다리고 있었다"
+- EN: "I put her down in the grass
+  Her mom was already waiting"
+- KR: "풀밭에 내려놓았다
+  어미가 이미 기다리고 있었다"
 
 ### Sora2 Prompt
 
@@ -254,8 +264,10 @@ No background music. 새소리, 아침 바람, 풀밭 소리, 아기 퓨마 울�
 
 **Caption:**
 
-- EN: "The next morning... she came back"
-- KR: "다음날 아침... 어미가 돌아왔다"
+- EN: "The next morning
+  She came back"
+- KR: "다음날 아침
+  어미가 돌아왔다"
 
 ### Sora2 Prompt
 

@@ -76,8 +76,12 @@ scenes:
     title_en: "Tied to the Bench"
     is_opening: true
     caption:
-      en: "Someone just left her here..."
-      ko: "누군가 여기 두고 갔다..."
+      en: |
+        Someone just left her here
+        Tied to a bench in the cold
+      ko: |
+        누군가 여기 두고 갔다
+        추운 벤치에 묶인 채로
     duration: 15
     description: "시간순 도입 — 벤치에 묶인 강아지를 발견. 서브샷 = 개별 미니 씬 (시간 경과)."
     emotion: "충격, 분노"
@@ -96,8 +100,12 @@ scenes:
     title_en: "Getting Closer"
     is_opening: false
     caption:
-      en: "She was shaking so badly..."
-      ko: "너무 심하게 떨고 있었다..."
+      en: |
+        She was shaking so badly
+        I couldn't just walk past
+      ko: |
+        너무 심하게 떨고 있었다
+        그냥 지나칠 수 없었다
     duration: 15
     description: "여자가 다가가서 강아지 상태를 확인"
     emotion: "연민, 걱정"
