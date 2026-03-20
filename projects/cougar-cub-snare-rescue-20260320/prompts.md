@@ -265,9 +265,9 @@ No background music. 아침 바람, 눈 밟는 소리, 아기 설표 울음, 촬
 **Caption:**
 
 - EN: "The next morning
-  She came back"
+  She left me a gift"
 - KR: "다음날 아침
-  어미가 돌아왔다"
+  그녀가 선물을 남기고 갔다"
 
 ### Sora2 Prompt
 
