@@ -417,17 +417,17 @@ No background music. 고양이 발소리, 부엉이 날개 퍼덕이는 소리, 
 
 ```json
 {
-  "main_title": "An Owl Kept Tapping on My Window... What She Brought Me Changed My Life",
-  "subtitle": "The most unexpected family",
+  "main_title": "An Owl Wouldn't Stop Hitting My Window... I Found a KITTEN in Her Nest",
+  "subtitle": "Then she laid eggs on my cushion",
   "platform_variants": {
-    "youtube_shorts": "🦉 An Owl Kept Tapping on My Window... She Brought Me a Family (True Story)",
-    "instagram_reels": "An owl knocked on my window and gave me a family I never expected 🦉🐱",
-    "tiktok": "An owl wouldn't stop tapping on my window... wait for the ending 😭"
+    "youtube_shorts": "🦉 An Owl Kept HITTING My Window — I Looked in Her Nest and Found a KITTEN (True Story)",
+    "instagram_reels": "An owl hid a kitten in her nest. Then she moved into my house and laid eggs 🦉🐱",
+    "tiktok": "This owl wouldn't leave my window alone... what was in her nest made me cry 😭"
   },
   "hooks": {
-    "emotional": "This owl knocked on my window and changed my life forever 😭",
-    "curiosity": "An owl kept tapping on my window... what I found in her nest was NOT what I expected",
-    "outcome": "An owl brought me a kitten, then laid eggs on a cushion... now they're one family"
+    "emotional": "She wasn't attacking my window. She was begging me to save the kitten in her nest 😭",
+    "curiosity": "An owl hid a KITTEN in her nest... then she did something no one expected",
+    "outcome": "An owl brought me a kitten, moved in, laid eggs on my cushion... now the cat thinks she's an owl"
   }
 }
 ```
