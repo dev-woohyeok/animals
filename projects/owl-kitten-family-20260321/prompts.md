@@ -83,8 +83,6 @@ emotional_journey:
 (1-5초) 1인칭 POV. 뒷마당 쪽 거실 창문 앞에서 핸드폰으로 촬영. 창턱에 큰 부엉이가 앉아 부리로 유리를 톡톡톡 두드리고 있다. 남자 쪽을 쳐다보고 다시 유리를 두드리기를 반복. 큰 노란 눈이 남자를 똑바로 쳐다보며 울음소리를 냄. 뭔가 요구하듯 고개를 끄덕이는 동작.
 — 자연스러운 화면 전환 —
 (5-10초) 디지털 줌인. 부엉이 얼굴 클로즈업. 부엉이가 유리를 세게 톡톡 두드리고, 뒷마당 나무 쪽을 돌아보고, 다시 남자를 쳐다보며 운다. 나무 쪽과 남자 쪽을 번갈아 보며 따라오라는 듯 반복.
-— 자연스러운 화면 전환 —
-(10-15초) 부엉이가 창턱에서 뒷마당 오크나무 쪽으로 날아감. 나무 가지에 앉아 다시 남자 쪽을 돌아봄. 울음소리를 내며 기다림. 카메라가 흔들리며 창문 너머로 부엉이를 따라감.
 
 No background music. 유리 두드리는 소리, 부엉이 반복적인 울음소리, 부엉이 날개 퍼덕이는 소리, 남자 놀란 목소리.
 ```
@@ -338,11 +336,11 @@ No background music. 아기 부엉이 삐약삐약 소리, 고양이 가르랑�
 
 ## 자막 요약 (Captions Summary)
 
-| Scene | EN | KR | Type |
-|-------|----|----|------|
-| 1 | Something kept tapping on my window / In broad daylight | 뭔가 창문을 계속 두드렸다 / 대낮에 | 단정형 |
-| 2 | I followed her to a tree / What I found inside changed everything | 부엉이를 따라 나무까지 갔다 / 둥지 안에서 발견한 것이 모든 걸 바꿨다 | 시점형 |
-| 3 | I took the kitten down / The owl followed me inside | 아기 고양이를 내려놓자 / 부엉이가 집까지 따라 들어왔다 | 반전형 |
-| 4 | She tucked the kitten under her wings / Like it was her own | 부엉이가 날개로 아기 고양이를 감쌌다 / 마치 자기 새끼처럼 | 대비형 |
-| 5 | I woke up to a surprise / She laid two eggs on the cushion | 아침에 일어나니 깜짝 놀랐다 / 부엉이가 방석 위에 알 두 개를 낳았다 | 단정형 |
-| 6 | An owl knocked on my window / Now I have a family I never expected | 부엉이가 내 창문을 두드렸다 / 생각도 못 한 가족이 생겼다 | 대비형 |
+| Scene | EN                                                                 | KR                                                                   | Type   |
+| ----- | ------------------------------------------------------------------ | -------------------------------------------------------------------- | ------ |
+| 1     | Something kept tapping on my window / In broad daylight            | 뭔가 창문을 계속 두드렸다 / 대낮에                                   | 단정형 |
+| 2     | I followed her to a tree / What I found inside changed everything  | 부엉이를 따라 나무까지 갔다 / 둥지 안에서 발견한 것이 모든 걸 바꿨다 | 시점형 |
+| 3     | I took the kitten down / The owl followed me inside                | 아기 고양이를 내려놓자 / 부엉이가 집까지 따라 들어왔다               | 반전형 |
+| 4     | She tucked the kitten under her wings / Like it was her own        | 부엉이가 날개로 아기 고양이를 감쌌다 / 마치 자기 새끼처럼            | 대비형 |
+| 5     | I woke up to a surprise / She laid two eggs on the cushion         | 아침에 일어나니 깜짝 놀랐다 / 부엉이가 방석 위에 알 두 개를 낳았다   | 단정형 |
+| 6     | An owl knocked on my window / Now I have a family I never expected | 부엉이가 내 창문을 두드렸다 / 생각도 못 한 가족이 생겼다             | 대비형 |
