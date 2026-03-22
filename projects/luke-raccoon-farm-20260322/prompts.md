@@ -274,10 +274,10 @@ No background music. 너구리 발소리, 풀 스치는 소리, Luke 낑낑거�
 
 **Caption:**
 
-- EN: "She came back one evening
-  She wasn't alone"
-- KR: "어느 저녁 너구리가 돌아왔다
-  혼자가 아니었다"
+- EN: "She goes to the forest every morning
+  But she always comes home to Luke"
+- KR: "매일 아침 숲으로 간다
+  하지만 항상 Luke에게 돌아온다"
 
 ### Sora2 Prompt
 
@@ -341,7 +341,7 @@ No background music. 아기 너구리 소리, 엄마 너구리 발소리, Luke �
 | 3 | He licked her like she was his own / She climbed right up | 자기 새끼처럼 핥아줬다 / 너구리는 바로 올라탔다 | 반전형 |
 | 4 | Weeks went by / Luke taught her everything | 몇 주가 지났다 / Luke가 모든 걸 가르쳤다 | 시간형 |
 | 5 | One morning she walked into the forest / Luke waited by the door for days | 어느 아침 너구리가 숲으로 걸어갔다 / Luke는 며칠째 문 앞에서 기다렸다 | 대비형 |
-| 6 | She came back one evening / She wasn't alone | 어느 저녁 너구리가 돌아왔다 / 혼자가 아니었다 | 반전형 |
+| 6 | She goes to the forest every morning / But she always comes home to Luke | 매일 아침 숲으로 간다 / 하지만 항상 Luke에게 돌아온다 | 대비형 |
 
 ---
 
