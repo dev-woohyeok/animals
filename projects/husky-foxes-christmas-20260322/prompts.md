@@ -33,9 +33,9 @@ emotional_journey:
 
 > 암컷 아기 북극여우(Arctic Fox) 자매 2마리. 생후 약 8주. 각 약 1kg. 순백색 복슬복슬한 솜털. 작은 둥근 귀. 검은 코. 작은 반짝이는 검은 눈. 뭉툭한 짧은 다리. 동그란 얼굴. 두 마리는 크기와 생김새가 거의 동일.
 
-### 허스키 (Siberian Husky)
+### 코다 — 허스키 (Koda the Siberian Husky)
 
-> 성체 수컷 시베리안 허스키. 약 25kg. 회색-흰색 두꺼운 이중 털. 밝은 파란 눈. 뾰족한 삼각형 귀. 근육질. 넓은 가슴. 늑대 같은 외모. 편안하고 친근한 표정.
+> 성체 수컷 시베리안 허스키 "코다(Koda)". 약 25kg. 회색-흰색 두꺼운 이중 털. 밝은 파란 눈. 뾰족한 삼각형 귀. 근육질. 넓은 가슴. 늑대 같은 외모. 편안하고 친근한 표정.
 
 ### 촬영자 (1인칭 POV)
 
@@ -63,9 +63,9 @@ emotional_journey:
 **Caption:**
 
 - EN: "Two baby foxes just ran through my dog door
-  My husky froze"
+  Koda froze"
 - KR: "아기 여우 두 마리가 개구멍으로 뛰어들었다
-  허스키가 얼어붙었다"
+  코다가 얼어붙었다"
 
 ### Sora2 Prompt
 
@@ -107,9 +107,9 @@ No background music. 개구멍 플랩 펑 열리는 소리, 눈 떨어지는 소
 **Caption:**
 
 - EN: "They stole his bed
-  He just stood there staring at me"
-- KR: "여우들이 허스키 침대를 차지했다
-  허스키가 멍하니 나를 쳐다본다"
+  Koda just stood there staring at me"
+- KR: "여우들이 코다 침대를 차지했다
+  코다가 멍하니 나를 쳐다본다"
 
 ### Sora2 Prompt
 
@@ -239,9 +239,9 @@ No background music. 밥 먹는 소리, 잔디 밟는 소리, 발소리, 새소�
 **Caption:**
 
 - EN: "Their parents came to take them home
-  He sat by the door all night"
+  Koda sat by the door all night"
 - KR: "여우 부모가 데리러 왔다
-  허스키는 밤새 문 앞에 앉아 있었다"
+  코다는 밤새 문 앞에 앉아 있었다"
 
 ### Sora2 Prompt
 
@@ -323,17 +323,17 @@ No background music. 개구멍 플랩 소리, 허스키 꼬리 흔드는 소리,
 
 ```json
 {
-  "main_title": "Two Baby Foxes Broke Into My House Through the Dog Door... They Came Back on Christmas",
+  "main_title": "Two Baby Foxes Broke Into My House Through the Dog Door... They Came Back on Christmas for Koda",
   "subtitle": "The reunion that broke the internet",
   "platform_variants": {
-    "youtube_shorts": "🦊 Two Baby Foxes Ran Through My Dog Door... My Husky Lost His Bed, Then His Heart (Wait for Christmas)",
-    "instagram_reels": "Two baby foxes stole my husky's bed, then his heart, then came back on Christmas 🦊🐺🎄",
-    "tiktok": "Two baby foxes ran through my dog door in a snowstorm... what happened on Christmas night broke me 😭"
+    "youtube_shorts": "🦊 Two Baby Foxes Ran Through My Dog Door... Koda Lost His Bed, Then His Heart (Wait for Christmas)",
+    "instagram_reels": "Two baby foxes stole Koda's bed, then his heart, then came back on Christmas 🦊🐺🎄",
+    "tiktok": "Two baby foxes ran through my dog door in a snowstorm... what happened to Koda on Christmas night broke me 😭"
   },
   "hooks": {
-    "emotional": "My husky sat by the dog door every night after they left... then Christmas came 😭",
-    "curiosity": "Two baby foxes broke into my house through the dog door... my husky didn't know what to do",
-    "outcome": "Two baby foxes stole my husky's bed and his heart... 9 months later they came back through the same door"
+    "emotional": "Koda sat by the dog door every night after they left... then Christmas came 😭",
+    "curiosity": "Two baby foxes broke into my house through the dog door... Koda didn't know what to do",
+    "outcome": "Two baby foxes stole Koda's bed and his heart... 9 months later they came back through the same door"
   }
 }
 ```
@@ -344,11 +344,11 @@ No background music. 개구멍 플랩 소리, 허스키 꼬리 흔드는 소리,
 
 | Scene | EN | KR | Type |
 | ----- | -- | -- | ---- |
-| 1 | Two baby foxes just ran through my dog door / My husky froze | 아기 여우 두 마리가 개구멍으로 뛰어들었다 / 허스키가 얼어붙었다 | 상황형 |
-| 2 | They stole his bed / He just stood there staring at me | 여우들이 허스키 침대를 차지했다 / 허스키가 멍하니 나를 쳐다본다 | 반전형 |
+| 1 | Two baby foxes just ran through my dog door / Koda froze | 아기 여우 두 마리가 개구멍으로 뛰어들었다 / 코다가 얼어붙었다 | 상황형 |
+| 2 | They stole his bed / Koda just stood there staring at me | 여우들이 코다 침대를 차지했다 / 코다가 멍하니 나를 쳐다본다 | 반전형 |
 | 3 | He growled at first / Then one grabbed his tail | 처음엔 으르렁거렸다 / 그러다 꼬리를 물렸다 | 대비형 |
 | 4 | Weeks went by / They became inseparable | 몇 주가 지났다 / 셋은 떼놓을 수 없게 되었다 | 시간형 |
-| 5 | Their parents came to take them home / He sat by the door all night | 여우 부모가 데리러 왔다 / 허스키는 밤새 문 앞에 앉아 있었다 | 대비형 |
+| 5 | Their parents came to take them home / Koda sat by the door all night | 여우 부모가 데리러 왔다 / 코다는 밤새 문 앞에 앉아 있었다 | 대비형 |
 | 6 | On Christmas night they came back / All grown up | 크리스마스 밤에 돌아왔다 / 다 큰 모습으로 | 반전형 |
 
 ---
