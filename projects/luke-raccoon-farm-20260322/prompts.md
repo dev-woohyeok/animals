@@ -21,7 +21,7 @@ emotional_journey:
   - position: 0.17 → 호기심, 따뜻함 (60)
   - position: 0.33 → 감동, 사랑 (75)
   - position: 0.50 → 행복, 기쁨 (80)
-  - position: 0.67 → 긴장, 불안 (70)
+  - position: 0.67 → 슬픔, 상실 (85)
   - position: 0.83 → 감동, 행복, 사랑 (95)
 ```
 
@@ -62,7 +62,7 @@ emotional_journey:
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 야생 본능이 돌아왔지만 Luke를 선택 → 매일 숲에서 돌아와 Luke와 함께.
+// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 다 큰 너구리가 숲으로 떠남 → 아기들과 함께 돌아와 Luke와 재회.
 앞 장면: 없음 (첫 장면).
 이 장면: 도입 — 농장 도로변에서 울음소리를 듣고 풀숲을 헤치자 어미 잃은 아기 너구리 발견. Luke가 옆에서 킁킁거림.
 
@@ -106,7 +106,7 @@ No background music. 아기 너구리 울음소리, 풀 급하게 헤치는 소�
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 야생 본능이 돌아왔지만 Luke를 선택 → 매일 숲에서 돌아와 Luke와 함께.
+// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 다 큰 너구리가 숲으로 떠남 → 아기들과 함께 돌아와 Luke와 재회.
 앞 장면: 도로변 풀숲에서 어미 잃은 아기 너구리를 발견해 손바닥에 올렸다. Luke가 옆에서 킁킁거렸다.
 이 장면: 전개 — 집에 데려와 젖병으로 먹임. Luke가 호기심으로 다가와 냄새를 맡고, 아기 너구리가 Luke 코에 작은 손을 대봄.
 
@@ -150,7 +150,7 @@ No background music. 젖병 빠는 소리, Luke 킁킁거리는 소리, Luke 꼬
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 야생 본능이 돌아왔지만 Luke를 선택 → 매일 숲에서 돌아와 Luke와 함께.
+// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 다 큰 너구리가 숲으로 떠남 → 아기들과 함께 돌아와 Luke와 재회.
 앞 장면: 집에서 젖병으로 아기 너구리를 먹였다. Luke가 호기심으로 다가와 냄새를 맡았고, 너구리가 Luke 코를 만졌다.
 이 장면: 전환 — 며칠 후. Luke가 아기 너구리를 핥아주기 시작. 너구리가 Luke 등에 올라탐. Luke가 가만히 받아줌 — 아빠가 된 순간.
 
@@ -194,7 +194,7 @@ No background music. Luke 핥는 소리, 너구리 발소리, Luke 숨소리, �
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 야생 본능이 돌아왔지만 Luke를 선택 → 매일 숲에서 돌아와 Luke와 함께.
+// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 다 큰 너구리가 숲으로 떠남 → 아기들과 함께 돌아와 Luke와 재회.
 앞 장면: Luke가 아기 너구리를 핥아주고, 너구리가 Luke 등에 올라타는 것을 받아줬다. 아빠가 되었다.
 이 장면: 성장 — 몇 주 후. Luke와 너구리가 나란히 밥 먹고, 뒷마당에서 같이 뛰어놀고, 함께 잠드는 성장 몽타주.
 
@@ -221,53 +221,51 @@ No background music. 잔디 밟는 소리, 발소리, 밥 먹는 소리, Luke �
 
 ---
 
-## Scene 5: 선택의 순간 (The Choice)
+## Scene 5: 떠남 (Goodbye)
 
 - **Duration:** 15s
-- **Emotion:** 긴장, 불안, 감동
+- **Emotion:** 슬픔, 상실, 그리움
 - **Camera:** 1인칭 POV 핸드폰
-- **Lighting:** 황금빛 석양
+- **Lighting:** 흐린 오후
 
 **Caption:**
 
-- EN: "She stared at the wild ones
-  Then turned back to Luke"
-- KR: "야생 너구리들을 바라봤다
-  그리고 Luke에게 돌아왔다"
+- EN: "One morning she walked into the forest
+  Luke waited by the door for days"
+- KR: "어느 아침 너구리가 숲으로 걸어갔다
+  Luke는 며칠째 문 앞에서 기다렸다"
 
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 야생 본능이 돌아왔지만 Luke를 선택 → 매일 숲에서 돌아와 Luke와 함께.
+// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 다 큰 너구리가 숲으로 떠남 → 아기들과 함께 돌아와 Luke와 재회.
 앞 장면: 몇 주간 Luke와 너구리가 함께 먹고, 뛰놀고, 잠자며 가족처럼 지냈다.
-이 장면: 선택 — 너구리가 많이 자람. 뒷마당 숲 가장자리에서 야생 너구리 무리를 발견하고 바라봄. 긴 침묵. 돌아서서 Luke에게 다가감.
+이 장면: 이별 — 다 큰 너구리가 숲 가장자리에서 한 번 뒤를 돌아보고 숲으로 걸어 들어감. Luke가 현관 앞에 앉아 빈 뒷마당을 바라보며 기다림.
 
 1인칭 POV 핸드폰 영상. 한 손 촬영. 흔들리고 불안정한 아마추어 푸티지.
 
-미국 몬태나 농장. 뒷마당 숲 가장자리. 석양. 황금빛 자연광.
+미국 몬태나 농장. 뒷마당 → 현관. 흐린 오후.
 
-암컷 너구리(Raccoon) 한 마리. 생후 약 16주. 약 3kg으로 자람. 회색-갈색 두꺼운 털. 선명한 검은 눈 마스크. 통통한 줄무늬 꼬리. 밝은 검은 눈. 거의 성체 크기. 숲 가장자리에서 멈춰 섬.
+암컷 너구리(Raccoon) 한 마리. 생후 약 16주. 약 3kg으로 자람. 회색-갈색 두꺼운 털. 선명한 검은 눈 마스크. 통통한 줄무늬 꼬리. 밝은 검은 눈. 거의 성체 크기. 숲 쪽을 바라봄.
 
-야생 너구리 2-3마리. 숲 안쪽에서 어슴푸레하게 보임.
-
-성체 수컷 저먼 셰퍼드 "Luke" 한 마리. 약 35kg. 검은색-황갈색 새들백 무늬. 큰 갈색 눈. 뾰족한 귀. 너구리 옆에 앉아 가만히 지켜봄.
+성체 수컷 저먼 셰퍼드 "Luke" 한 마리. 약 35kg. 검은색-황갈색 새들백 무늬. 큰 갈색 눈. 뾰족한 귀. 슬픈 표정. 귀와 꼬리가 축 처짐.
 
 50대 초반 백인 남자의 손. 체크 플란넬 셔츠 소매 보임. (1인칭 POV 촬영자)
 
 (0-1초) 참조 이미지 프레임.
 — 1초에 빠른 화면 전환 —
-(1-5초) 뒷마당 숲 가장자리. 석양. 너구리가 숲 방향을 바라보고 서 있다. 숲 안쪽에 야생 너구리 2-3마리의 실루엣. Luke가 너구리 옆에 앉아 같은 방향을 바라봄.
+(1-5초) 뒷마당 숲 가장자리. 다 큰 너구리가 숲을 향해 천천히 걸어감. 한 번 뒤를 돌아보고 멈춤. 그리고 다시 돌아서 숲 속으로 사라짐. 카메라 흔들림.
 — 자연스러운 화면 전환 —
-(5-10초) 클로즈업. 너구리가 숲을 바라보며 멈춰 있다. 코가 킁킁거림. 긴 침묵. Luke가 너구리를 조용히 내려다봄.
+(5-10초) Luke가 뒷마당을 향해 몇 발자국 걸어가다 멈춤. 너구리가 사라진 숲 방향을 가만히 바라봄. 귀가 축 처짐. 낑낑거림.
 — 자연스러운 화면 전환 —
-(10-15초) 너구리가 돌아서서 Luke에게 다가감. Luke 옆구리에 몸을 기댐. Luke가 너구리를 핥아줌. 남자의 안도하는 숨소리.
+(10-15초) 현관 앞. Luke가 뒷문 앞에 엎드려 누워 빈 뒷마당을 바라보고 있다. 꼬리가 축 처짐. 옆에 너구리 밥그릇이 비어 있음. 남자 한숨.
 
-No background music. 바람소리, 숲 소리, 너구리 킁킁거리는 소리, Luke 핥는 소리, 남자 숨소리.
+No background music. 너구리 발소리, 풀 스치는 소리, Luke 낑낑거리는 소리, 바람소리, 남자 한숨.
 ```
 
 ---
 
-## Scene 6: 매일 돌아오는 길 (She Always Comes Home)
+## Scene 6: 엄마가 되어 돌아오다 (She Came Back with Babies)
 
 - **Duration:** 15s
 - **Emotion:** 감동, 행복, 사랑, 완전함
@@ -276,37 +274,39 @@ No background music. 바람소리, 숲 소리, 너구리 킁킁거리는 소리,
 
 **Caption:**
 
-- EN: "She goes to the forest every morning
-  But she always comes home to Luke"
-- KR: "매일 아침 숲으로 간다
-  하지만 항상 Luke에게 돌아온다"
+- EN: "She came back one evening
+  She wasn't alone"
+- KR: "어느 저녁 너구리가 돌아왔다
+  혼자가 아니었다"
 
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 야생 본능이 돌아왔지만 Luke를 선택 → 매일 숲에서 돌아와 Luke와 함께.
-앞 장면: 숲 가장자리에서 야생 너구리들을 바라봤지만, 돌아서서 Luke에게 몸을 기댔다. Luke를 선택했다.
-이 장면: 결말 — 다 큰 너구리가 매일 아침 숲으로 갔다가 저녁에 돌아옴. 농장 현관에서 Luke와 나란히 앉아 석양을 바라보는 마지막 장면.
+// Story: 전체: 농장 도로변에서 어미 잃은 아기 너구리 발견 → 집에 데려와 젖병으로 먹임 → 저먼 셰퍼드 Luke가 아빠 역할 시작 → 같이 먹고 놀며 성장 → 다 큰 너구리가 숲으로 떠남 → 아기들과 함께 돌아와 Luke와 재회.
+앞 장면: 다 큰 너구리가 숲으로 떠났다. Luke가 며칠째 현관 앞에서 기다렸다.
+이 장면: 결말 — 어느 저녁, 숲에서 다 큰 너구리가 아기 너구리 3마리를 데리고 돌아옴. Luke가 미친듯이 반기고, 아기 너구리들이 Luke 위로 올라탐. 현관에서 다 같이 나란히 앉아 석양을 바라봄.
 
 홈비디오 스타일 핸드폰 영상. 바닥 눈높이에서 촬영하거나 한 손 촬영. 자연 조명.
 
-미국 몬태나 농장 주택. 현관 + 뒷마당. 석양. 따뜻한 황금빛 자연광.
+미국 몬태나 농장 주택. 뒷마당 + 현관. 석양. 따뜻한 황금빛 자연광.
 
-성체 암컷 너구리(Raccoon) 한 마리. 약 5kg. 회색-갈색 두꺼운 건강한 털. 선명한 검은 눈 마스크. 풍성한 줄무늬 꼬리. 밝은 검은 눈. 야생적이지만 Luke 옆에서 편안한 표정.
+성체 암컷 너구리(Raccoon) 한 마리. 약 5kg. 회색-갈색 두꺼운 건강한 털. 선명한 검은 눈 마스크. 풍성한 줄무늬 꼬리. 밝은 검은 눈.
 
-성체 수컷 저먼 셰퍼드 "Luke" 한 마리. 약 35kg. 검은색-황갈색 새들백 무늬. 큰 갈색 눈. 뾰족한 귀. 편안하고 행복한 표정. 너구리 옆에 누워 있음.
+아기 너구리 3마리. 생후 약 6주. 각 약 400g. 작은 솜뭉치. 검은 눈 마스크가 희미하게 보임. 엄마 너구리 뒤를 뒤뚱뒤뚱 따라감.
 
-50대 초반 백인 남자의 조용한 웃음소리. 체크 플란넬 셔츠 소매 보임. (1인칭 POV 촬영자)
+성체 수컷 저먼 셰퍼드 "Luke" 한 마리. 약 35kg. 검은색-황갈색 새들백 무늬. 큰 갈색 눈. 뾰족한 귀. 꼬리를 미친듯이 흔듦. 편안하고 행복한 표정.
+
+50대 초반 백인 남자의 놀란 웃음소리. 체크 플란넬 셔츠 소매 보임. (1인칭 POV 촬영자)
 
 (0-1초) 참조 이미지 프레임.
 — 1초에 빠른 화면 전환 —
-(1-5초) 뒷마당. 숲 가장자리에서 다 큰 너구리가 농장 쪽으로 걸어옴. Luke가 현관에서 일어나 꼬리를 흔들며 마중 나감.
+(1-5초) 뒷마당. 석양. 숲 가장자리에서 다 큰 너구리가 걸어옴. 뒤로 아기 너구리 3마리가 뒤뚱뒤뚱 따라옴. Luke가 현관에서 벌떡 일어나 꼬리를 미친듯이 흔들며 달려감. 남자 놀란 웃음소리.
 — 자연스러운 화면 전환 —
-(5-10초) 너구리가 Luke에게 달려가 코를 맞댐. Luke가 너구리를 핥아줌. 매일 하는 인사처럼 자연스러움.
+(5-10초) Luke가 엄마 너구리에게 코를 맞대고 핥아줌. 아기 너구리들이 Luke 발 사이를 기어다니며 올라탐. Luke가 가만히 서서 아기들이 올라타게 해줌.
 — 자연스러운 화면 전환 —
-(10-15초) 농장 현관. 석양. Luke와 너구리가 나란히 앉아 목초지와 석양을 바라봄. 너구리가 Luke에게 몸을 기댐. 남자의 조용한 웃음소리.
+(10-15초) 현관. 석양. Luke가 엎드려 누워 있고, 엄마 너구리가 Luke 옆에 몸을 기대고, 아기 너구리 3마리가 Luke 배 위와 등 위에서 뒤뚱거리며 놀고 있다. 남자의 조용한 웃음소리.
 
-No background music. 너구리 발소리, Luke 꼬리 흔드는 소리, Luke 핥는 소리, 새소리, 바람소리, 남자 조용한 웃음.
+No background music. 아기 너구리 소리, 엄마 너구리 발소리, Luke 꼬리 흔드는 소리, Luke 핥는 소리, 남자 놀란 웃음소리, 남자 조용한 웃음.
 ```
 
 ---
@@ -315,17 +315,17 @@ No background music. 너구리 발소리, Luke 꼬리 흔드는 소리, Luke 핥
 
 ```json
 {
-  "main_title": "My German Shepherd Became a Dad to an Orphaned Baby Raccoon... She Chose Him Over the Wild",
-  "subtitle": "The bond that nature couldn't break",
+  "main_title": "My German Shepherd Raised an Orphaned Raccoon... She Came Back with Babies",
+  "subtitle": "The bond that became a family",
   "platform_variants": {
-    "youtube_shorts": "🦝 I Found a Baby Raccoon Crying by the Road... My German Shepherd Adopted Her (She Never Left)",
-    "instagram_reels": "My German Shepherd Luke found a baby raccoon and became her dad. She chose him over the wild 🦝🐕",
-    "tiktok": "I found a crying baby raccoon by the road... my German Shepherd became her dad and she never left 😭"
+    "youtube_shorts": "🦝 I Found a Baby Raccoon Crying by the Road... My German Shepherd Raised Her (Wait for the Ending)",
+    "instagram_reels": "My German Shepherd Luke raised an orphaned raccoon. She left one day... then came back with babies 🦝🐕",
+    "tiktok": "My German Shepherd raised an orphaned baby raccoon... she disappeared into the forest and came back with babies 😭"
   },
   "hooks": {
-    "emotional": "She had a chance to go back to the wild... but she turned around and walked back to Luke 😭",
-    "curiosity": "I found a baby raccoon orphaned by the road... I didn't expect my German Shepherd to adopt her",
-    "outcome": "My German Shepherd raised an orphaned raccoon... every morning she goes to the forest, every evening she comes home to him"
+    "emotional": "She left for the forest one morning and Luke waited by the door for days... then she came back with babies 😭",
+    "curiosity": "I found a baby raccoon orphaned by the road... my German Shepherd became her dad",
+    "outcome": "My German Shepherd raised an orphaned raccoon from a baby... she left for the wild but came back as a mom with 3 babies"
   }
 }
 ```
@@ -340,8 +340,8 @@ No background music. 너구리 발소리, Luke 꼬리 흔드는 소리, Luke 핥
 | 2 | She fit in my palm / Luke couldn't stop staring | 손바닥에 쏙 들어왔다 / Luke가 눈을 떼지 못했다 | 대비형 |
 | 3 | He licked her like she was his own / She climbed right up | 자기 새끼처럼 핥아줬다 / 너구리는 바로 올라탔다 | 반전형 |
 | 4 | Weeks went by / Luke taught her everything | 몇 주가 지났다 / Luke가 모든 걸 가르쳤다 | 시간형 |
-| 5 | She stared at the wild ones / Then turned back to Luke | 야생 너구리들을 바라봤다 / 그리고 Luke에게 돌아왔다 | 반전형 |
-| 6 | She goes to the forest every morning / But she always comes home to Luke | 매일 아침 숲으로 간다 / 하지만 항상 Luke에게 돌아온다 | 대비형 |
+| 5 | One morning she walked into the forest / Luke waited by the door for days | 어느 아침 너구리가 숲으로 걸어갔다 / Luke는 며칠째 문 앞에서 기다렸다 | 대비형 |
+| 6 | She came back one evening / She wasn't alone | 어느 저녁 너구리가 돌아왔다 / 혼자가 아니었다 | 반전형 |
 
 ---
 
