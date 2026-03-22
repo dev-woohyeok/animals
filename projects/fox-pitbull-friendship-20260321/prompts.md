@@ -54,10 +54,10 @@ emotional_journey:
 
 **Caption:**
 
-- EN: "Something scratched at my tent
-  I should have kept it closed"
-- KR: "뭔가 텐트를 긁었다
-  열지 말았어야 했다"
+- EN: "A baby fox ran into my tent
+  A wolf was right behind her"
+- KR: "아기 여우가 텐트로 뛰어들었다
+  바로 뒤에 늑대가 있었다"
 
 ### Sora2 Prompt
 
@@ -330,7 +330,7 @@ No background music. 고양이 그르렁거리는 소리, 여우 발소리, 남�
 
 | Scene | EN                                                                                  | KR                                                                          | Type   |
 | ----- | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------ |
-| 1     | Something scratched at my tent / I should have kept it closed                       | 뭔가 텐트를 긁었다 / 열지 말았어야 했다                                     | 시점형 |
+| 1     | A baby fox ran into my tent / A wolf was right behind her                           | 아기 여우가 텐트로 뛰어들었다 / 바로 뒤에 늑대가 있었다                     | 상황형 |
 | 2     | Then I heard it / Something was hunting her                                         | 그때 들었다 / 뭔가 이 여우를 쫓고 있었다                                    | 단정형 |
 | 3     | I yelled into the dark / She ate like she hadn't in days                            | 어둠 속을 향해 소리쳤다 / 여우는 며칠 굶은 것처럼 먹었다                    | 대비형 |
 | 4     | I packed up to leave / She sat by my tire and waited                                | 짐을 싸고 떠나려 했다 / 여우는 바퀴 옆에 앉아 기다렸다                      | 반전형 |
