@@ -30,7 +30,14 @@
       "WebFetch(domain:www.nbcphiladelphia.com)",
       "WebFetch(domain:simonkingsnorth.com)",
       "WebFetch(domain:www.clipwise.ai)",
-      "WebFetch(domain:brandefy.com)"
+      "WebFetch(domain:brandefy.com)",
+      "WebFetch(domain:www.yahoo.com)",
+      "WebFetch(domain:www.buzzfeed.com)",
+      "WebFetch(domain:www.news9.com)",
+      "WebFetch(domain:www.newsweek.com)",
+      "WebFetch(domain:pethelpful.com)",
+      "WebFetch(domain:www.goodgoodgood.co)",
+      "WebFetch(domain:www.upworthy.com)"
     ]
   }
 }
