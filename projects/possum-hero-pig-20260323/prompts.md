@@ -235,9 +235,11 @@ No background music. 코요테 으르렁 소리, Possum 돌진 소리, 몸이 �
 **Caption:**
 
 - EN: "Possum turned around and charged
-  They bit him dozens of times but Possum never backed down"
+  They bit him dozens of times
+  Possum never backed down"
 - KR: "Possum이 돌아서서 돌진했다
-  수십 번 물렸지만 Possum은 한 발짝도 물러나지 않았다"
+  수십 번을 물렸다
+  Possum은 한 발짝도 물러나지 않았다"
 
 ### Sora2 Prompt
 
@@ -384,7 +386,7 @@ No background music. 새소리, 풀 밟는 소리, 양 울음소리, Possum 발�
 | 2 | Possum learned to herd on his own / The sheep followed him everywhere | Possum이 혼자 양 몰이를 배웠다 / 양들은 어디든 따라갔다 | 반전형 |
 | 3a | Two coyotes came from the treeline / Possum pushed every sheep uphill | 코요테 두 마리가 숲에서 나타났다 / Possum이 모든 양을 언덕 위로 밀어 올렸다 | 긴장형 |
 | 3b | A coyote charged at the sheep / Possum threw himself in the way | 코요테가 양을 향해 달려왔다 / Possum이 몸을 던졌다 | 반전형 |
-| 4 | Possum turned around and charged / They bit him dozens of times but Possum never backed down | Possum이 돌아서서 돌진했다 / 수십 번 물렸지만 Possum은 한 발짝도 물러나지 않았다 | 대비형 |
+| 4 | Possum turned around and charged / They bit him dozens of times / Possum never backed down | Possum이 돌아서서 돌진했다 / 수십 번을 물렸다 / Possum은 한 발짝도 물러나지 않았다 | 대비형 |
 | 5 | Possum lost an ear and took dozens of bites / Every single sheep survived | Possum은 귀 하나를 잃고 수십 군데 물렸다 / 양은 전부 살았다 | 대비형 |
 | 6 | Possum is back on the hill / One ear short, twice the hero | Possum이 다시 언덕에 섰다 / 귀 하나가 없지만 영웅은 두 배 | 반전형 |
 
