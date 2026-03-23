@@ -59,9 +59,9 @@ emotional_journey:
 **Caption:**
 
 - EN: "Nobody wanted this runt pig
-  He became the sheriff of the farm"
+  Possum became the sheriff of the farm"
 - KR: "아무도 원하지 않던 꼬마 돼지
-  농장의 보안관이 되었다"
+  Possum이 농장의 보안관이 되었다"
 
 ### Sora2 Prompt
 
@@ -102,9 +102,9 @@ No background music. 새소리, 풀 밟는 소리, 양 울음소리, Possum 코 
 
 **Caption:**
 
-- EN: "He learned to herd on his own
+- EN: "Possum learned to herd on his own
   The sheep followed him everywhere"
-- KR: "혼자 양 몰이를 배웠다
+- KR: "Possum이 혼자 양 몰이를 배웠다
   양들은 어디든 따라갔다"
 
 ### Sora2 Prompt
@@ -147,9 +147,9 @@ No background music. 양 울음소리, Possum 달리는 발소리, 풀 밟는 �
 **Caption:**
 
 - EN: "Two coyotes came from the treeline
-  He pushed every sheep uphill"
+  Possum pushed every sheep uphill"
 - KR: "코요테 두 마리가 숲에서 나타났다
-  모든 양을 언덕 위로 밀어 올렸다"
+  Possum이 모든 양을 언덕 위로 밀어 올렸다"
 
 ### Sora2 Prompt
 
@@ -191,9 +191,9 @@ No background music. 양 울음소리, 코요테 으르렁 소리, Possum 달리
 **Caption:**
 
 - EN: "A coyote charged at the sheep
-  He threw himself in the way"
+  Possum threw himself in the way"
 - KR: "코요테가 양을 향해 달려왔다
-  돼지가 몸을 던졌다"
+  Possum이 몸을 던졌다"
 
 ### Sora2 Prompt
 
@@ -234,10 +234,10 @@ No background music. 코요테 으르렁 소리, Possum 돌진 소리, 몸이 �
 
 **Caption:**
 
-- EN: "He turned around and charged
-  They bit him dozens of times but he never backed down"
-- KR: "돌아서서 돌진했다
-  수십 번 물렸지만 한 발짝도 물러나지 않았다"
+- EN: "Possum turned around and charged
+  They bit him dozens of times but Possum never backed down"
+- KR: "Possum이 돌아서서 돌진했다
+  수십 번 물렸지만 Possum은 한 발짝도 물러나지 않았다"
 
 ### Sora2 Prompt
 
@@ -278,9 +278,9 @@ No background music. Possum 돌진 소리, 머리 부딪치는 소리, 코요테
 
 **Caption:**
 
-- EN: "He lost an ear and took dozens of bites
+- EN: "Possum lost an ear and took dozens of bites
   Every single sheep survived"
-- KR: "귀 하나를 잃고 수십 군데 물렸다
+- KR: "Possum은 귀 하나를 잃고 수십 군데 물렸다
   양은 전부 살았다"
 
 ### Sora2 Prompt
@@ -320,9 +320,9 @@ No background music. 병원 장비 소리, Possum 숨소리, 여자 떨리는 �
 
 **Caption:**
 
-- EN: "He's back on the hill
+- EN: "Possum is back on the hill
   One ear short, twice the hero"
-- KR: "다시 언덕에 섰다
+- KR: "Possum이 다시 언덕에 섰다
   귀 하나가 없지만 영웅은 두 배"
 
 ### Sora2 Prompt
@@ -359,15 +359,15 @@ No background music. 새소리, 풀 밟는 소리, 양 울음소리, Possum 발�
 
 ```json
 {
-  "main_title": "A Tiny Pig Saved My Entire Flock From Two Coyotes... He Lost an Ear but Not a Single Sheep",
+  "main_title": "A Tiny Pig Named Possum Saved My Entire Flock From Two Coyotes... Lost an Ear but Not a Single Sheep",
   "subtitle": "The smallest hero on the farm",
   "platform_variants": {
-    "youtube_shorts": "🐷 My Tiny Pig Fought Two Coyotes to Save His Sheep... He Lost an Ear (Wait for His Return)",
+    "youtube_shorts": "🐷 My Tiny Pig Possum Fought Two Coyotes to Save His Sheep... Lost an Ear (Wait for His Return)",
     "instagram_reels": "A runt pig nobody wanted learned to herd sheep. When two coyotes attacked, he saved every single one 🐷🐑",
     "tiktok": "My tiny pig fought two coyotes to save his sheep... he lost an ear but saved them all 😭"
   },
   "hooks": {
-    "emotional": "He turned around and ran straight at two coyotes... alone... to save his sheep 😭",
+    "emotional": "Possum turned around and ran straight at two coyotes... alone... to save his sheep 😭",
     "curiosity": "A runt pig nobody wanted learned to herd sheep on his own... then two coyotes came from the treeline",
     "outcome": "A tiny pig fought two coyotes alone to save his flock... lost an ear, saved every sheep, and went back to herding"
   }
@@ -380,13 +380,13 @@ No background music. 새소리, 풀 밟는 소리, 양 울음소리, Possum 발�
 
 | Scene | EN | KR | Type |
 | ----- | -- | -- | ---- |
-| 1 | Nobody wanted this runt pig / He became the sheriff of the farm | 아무도 원하지 않던 꼬마 돼지 / 농장의 보안관이 되었다 | 반전형 |
-| 2 | He learned to herd on his own / The sheep followed him everywhere | 혼자 양 몰이를 배웠다 / 양들은 어디든 따라갔다 | 반전형 |
-| 3a | Two coyotes came from the treeline / He pushed every sheep uphill | 코요테 두 마리가 숲에서 나타났다 / 모든 양을 언덕 위로 밀어 올렸다 | 긴장형 |
-| 3b | A coyote charged at the sheep / He threw himself in the way | 코요테가 양을 향해 달려왔다 / 돼지가 몸을 던졌다 | 반전형 |
-| 4 | He turned around and charged / They bit him dozens of times but he never backed down | 돌아서서 돌진했다 / 수십 번 물렸지만 한 발짝도 물러나지 않았다 | 대비형 |
-| 5 | He lost an ear and took dozens of bites / Every single sheep survived | 귀 하나를 잃고 수십 군데 물렸다 / 양은 전부 살았다 | 대비형 |
-| 6 | He's back on the hill / One ear short, twice the hero | 다시 언덕에 섰다 / 귀 하나가 없지만 영웅은 두 배 | 반전형 |
+| 1 | Nobody wanted this runt pig / Possum became the sheriff of the farm | 아무도 원하지 않던 꼬마 돼지 / Possum이 농장의 보안관이 되었다 | 반전형 |
+| 2 | Possum learned to herd on his own / The sheep followed him everywhere | Possum이 혼자 양 몰이를 배웠다 / 양들은 어디든 따라갔다 | 반전형 |
+| 3a | Two coyotes came from the treeline / Possum pushed every sheep uphill | 코요테 두 마리가 숲에서 나타났다 / Possum이 모든 양을 언덕 위로 밀어 올렸다 | 긴장형 |
+| 3b | A coyote charged at the sheep / Possum threw himself in the way | 코요테가 양을 향해 달려왔다 / Possum이 몸을 던졌다 | 반전형 |
+| 4 | Possum turned around and charged / They bit him dozens of times but Possum never backed down | Possum이 돌아서서 돌진했다 / 수십 번 물렸지만 Possum은 한 발짝도 물러나지 않았다 | 대비형 |
+| 5 | Possum lost an ear and took dozens of bites / Every single sheep survived | Possum은 귀 하나를 잃고 수십 군데 물렸다 / 양은 전부 살았다 | 대비형 |
+| 6 | Possum is back on the hill / One ear short, twice the hero | Possum이 다시 언덕에 섰다 / 귀 하나가 없지만 영웅은 두 배 | 반전형 |
 
 ---
 
