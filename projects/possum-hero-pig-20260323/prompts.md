@@ -280,9 +280,11 @@ No background music. Possum 돌진 소리, 머리 부딪치는 소리, 코요테
 
 **Caption:**
 
-- EN: "Possum kept fighting even as they tore him apart
+- EN: "They tore him apart
+  Possum never stopped fighting
   Every single sheep survived"
-- KR: "Possum은 온몸이 찢겨도 싸움을 멈추지 않았다
+- KR: "온몸이 찢겼다
+  Possum은 싸움을 멈추지 않았다
   양은 전부 살았다"
 
 ### Sora2 Prompt
@@ -387,7 +389,7 @@ No background music. 새소리, 풀 밟는 소리, 양 울음소리, Possum 발�
 | 3a | Two coyotes came from the treeline / Possum pushed every sheep uphill | 코요테 두 마리가 숲에서 나타났다 / Possum이 모든 양을 언덕 위로 밀어 올렸다 | 긴장형 |
 | 3b | A coyote charged at the sheep / Possum threw himself in the way | 코요테가 양을 향해 달려왔다 / Possum이 몸을 던졌다 | 반전형 |
 | 4 | Possum turned around and charged / They bit him dozens of times / Possum never backed down | Possum이 돌아서서 돌진했다 / 수십 번을 물렸다 / Possum은 한 발짝도 물러나지 않았다 | 대비형 |
-| 5 | Possum kept fighting even as they tore him apart / Every single sheep survived | Possum은 온몸이 찢겨도 싸움을 멈추지 않았다 / 양은 전부 살았다 | 대비형 |
+| 5 | They tore him apart / Possum never stopped fighting / Every single sheep survived | 온몸이 찢겼다 / Possum은 싸움을 멈추지 않았다 / 양은 전부 살았다 | 대비형 |
 | 6 | Possum is back on the hill / One ear short, twice the hero | Possum이 다시 언덕에 섰다 / 귀 하나가 없지만 영웅은 두 배 | 반전형 |
 
 ---
