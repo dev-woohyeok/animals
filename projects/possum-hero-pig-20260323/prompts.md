@@ -31,7 +31,7 @@ emotional_journey:
 
 ### Possum — 미니 돼지 (Potbelly Pig)
 
-> 수컷 미니 포트벨리 돼지 "Possum". 약 15kg. 순백색 짧은 털. 분홍색 피부가 살짝 비침. 짧은 다리. 둥근 주둥이. 작은 분홍빛 눈. 뾰족한 귀 2개 (Scene 5-6에서는 왼쪽 귀 없음). 양 떼보다 훨씬 작지만 당당하게 앞장서서 걸어다님.
+> 수컷 미니 포트벨리 돼지 "Possum". 약 15kg. 순백색 짧은 털. 분홍색 피부가 살짝 비침. 짧은 다리. 둥근 주둥이. 작은 분홍빛 눈. 뾰족한 귀 2개 (Scene 5-6에서는 몸에 붕대와 흉터). 양 떼보다 훨씬 작지만 당당하게 앞장서서 걸어다님.
 
 ### 양 떼 (Sheep Flock)
 
@@ -325,9 +325,9 @@ No background music. 병원 장비 소리, Possum 숨소리, 여자 떨리는 �
 **Caption:**
 
 - EN: "Possum is back on the hill
-  One ear short, twice the hero"
+  Covered in scars, twice the hero"
 - KR: "Possum이 다시 언덕에 섰다
-  귀 하나가 없지만 영웅은 두 배"
+  온몸에 흉터를 달고 영웅은 두 배"
 
 ### Sora2 Prompt
 
@@ -390,7 +390,7 @@ No background music. 새소리, 풀 밟는 소리, 양 울음소리, Possum 발�
 | 3b | A coyote charged at the sheep / Possum threw himself in the way | 코요테가 양을 향해 달려왔다 / Possum이 몸을 던졌다 | 반전형 |
 | 4 | Possum turned around and charged / They bit him dozens of times / Possum never backed down | Possum이 돌아서서 돌진했다 / 수십 번을 물렸다 / Possum은 한 발짝도 물러나지 않았다 | 대비형 |
 | 5 | They tore him apart / Possum never stopped fighting / Every single sheep survived | 온몸이 찢겼다 / Possum은 싸움을 멈추지 않았다 / 양은 전부 살았다 | 대비형 |
-| 6 | Possum is back on the hill / One ear short, twice the hero | Possum이 다시 언덕에 섰다 / 귀 하나가 없지만 영웅은 두 배 | 반전형 |
+| 6 | Possum is back on the hill / Covered in scars, twice the hero | Possum이 다시 언덕에 섰다 / 온몸에 흉터를 달고 영웅은 두 배 | 반전형 |
 
 ---
 
