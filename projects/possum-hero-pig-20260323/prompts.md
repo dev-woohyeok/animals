@@ -58,10 +58,10 @@ emotional_journey:
 
 **Caption:**
 
-- EN: "He was the runt nobody wanted
-  The sheep didn't care"
+- EN: "Nobody wanted this runt pig
+  He became the sheriff of the farm"
 - KR: "아무도 원하지 않던 꼬마 돼지
-  양들은 상관없었다"
+  농장의 보안관이 되었다"
 
 ### Sora2 Prompt
 
@@ -340,7 +340,7 @@ No background music. 새소리, 풀 밟는 소리, 양 울음소리, Possum 발�
 
 | Scene | EN | KR | Type |
 | ----- | -- | -- | ---- |
-| 1 | He was the runt nobody wanted / The sheep didn't care | 아무도 원하지 않던 꼬마 돼지 / 양들은 상관없었다 | 대비형 |
+| 1 | Nobody wanted this runt pig / He became the sheriff of the farm | 아무도 원하지 않던 꼬마 돼지 / 농장의 보안관이 되었다 | 반전형 |
 | 2 | He learned to herd on his own / The sheep followed him everywhere | 혼자 양 몰이를 배웠다 / 양들은 어디든 따라갔다 | 반전형 |
 | 3 | Two coyotes came from the treeline / He pushed every sheep uphill | 코요테 두 마리가 숲에서 나타났다 / 모든 양을 언덕 위로 밀어 올렸다 | 긴장형 |
 | 4 | Then he turned around / And ran straight at them alone | 그리고 돌아섰다 / 혼자서 코요테를 향해 달렸다 | 반전형 |
