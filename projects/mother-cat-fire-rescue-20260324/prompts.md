@@ -230,10 +230,10 @@ No background music. 어미 고양이 그르렁 소리, 새끼들 쪽쪽 소리,
 
 **Caption:**
 
-- EN: "She carried them out of the fire
-  Now she watches them eat"
-- KR: "불 속에서 물고 나온 새끼들이
-  이제 밥을 먹고 있다"
+- EN: "Her fur grew back white again
+  Her babies started running"
+- KR: "다시 하얀 털이 자라났다
+  새끼들이 뛰어다니기 시작했다"
 
 ### Sora2 Prompt
 
