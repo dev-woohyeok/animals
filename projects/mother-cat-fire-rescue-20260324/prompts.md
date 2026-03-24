@@ -54,10 +54,10 @@ emotional_journey:
 
 **Caption:**
 
-- EN: "She went back in three times
-  Then counted them with her nose"
-- KR: "세 번을 다시 들어갔다
-  그리고 코로 한 마리씩 세었다"
+- EN: "The barn was on fire
+  She never stopped going back in"
+- KR: "헛간이 불타고 있었다
+  그녀는 멈추지 않았다"
 
 ### Sora2 Prompt
 
