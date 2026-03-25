@@ -163,6 +163,7 @@ Generate emotionally explosive captions for each scene of an animal rescue short
 6. **마지막 Scene 자막은 영상 제목과 연결** - 여운 + 브랜딩
 7. **감정 동사 사용** - feel, break, choose, trust, wait, carry
 8. **수동태 활용** - "was abandoned", "was left", "was chained" (동정 유발)
+9. **⚠️ 서브샷별 자막 필수** — 씬 하나에 자막 1개가 아님! 서브샷(시간 구간)별로 자막을 각각 작성. 각 서브샷의 장면 내용에 맞는 자막을 매칭해야 함.
 
 ---
 
@@ -187,23 +188,38 @@ scenes:
 ```yaml
 captions:
   - scene: 1
-    en: |
-      She was pregnant
-      He grabbed a broom
-    kr: |
-      임신한 고양이였다
-      남자는 빗자루를 들었다
-    type: "대비형"
-
-  - scene: 2
-    en: |
-      I heard something behind the dumpster
-      I wish I hadn't looked
-    kr: |
-      쓰레기통 뒤에서 소리가 들렸다
-      보지 말걸 그랬다
-    type: "시점형"
+    sub_captions:
+      - time: "1-5초"
+        en: |
+          She was pregnant
+          He grabbed a broom
+        kr: |
+          임신한 고양이였다
+          남자는 빗자루를 들었다
+        type: "대비형"
+      - time: "5-10초"
+        en: |
+          She hit the ground
+          And couldn't get back up
+        kr: |
+          바닥에 쓰러졌다
+          다시 일어나지 못했다
+        type: "단정형"
+      - time: "10-15초"
+        en: |
+          I heard something behind the dumpster
+          I wish I hadn't looked
+        kr: |
+          쓰레기통 뒤에서 소리가 들렸다
+          보지 말걸 그랬다
+        type: "시점형"
 ```
+
+**⚠️ 서브샷별 자막 규칙:**
+- 각 서브샷(시간 구간)마다 해당 장면에 맞는 자막을 개별 작성
+- 씬 전체에 자막 1개만 쓰는 것 금지
+- 서브샷 내용과 자막이 반드시 매칭되어야 함
+- 서브샷 2-3개를 묶어서 하나의 자막을 쓸 수도 있음 (예: 5-15초)
 
 ---
 
@@ -217,4 +233,6 @@ captions:
 [ ] 마지막 Scene 자막이 전체 스토리를 한 줄로 요약하는가?
 [ ] EN/KR 병기인가?
 [ ] 각 자막의 유형(대비/단정/반전/질문/시점)이 명시되어 있는가?
+[ ] ⚠️ 서브샷별로 자막이 각각 작성되었는가? (씬 전체 1개 금지!)
+[ ] 각 서브샷 자막이 해당 서브샷의 장면 내용과 매칭되는가?
 ```
