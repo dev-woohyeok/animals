@@ -99,10 +99,10 @@ No background music. 빗소리, 독수리 날갯짓 소리, 바닥에 부딪히�
 
 **Caption:**
 
-- EN: "I wrapped her in a towel
-  She didn't even fight it"
-- KR: "타월로 감쌌다
-  저항조차 하지 않았다"
+- EN: "The vet said the arrow missed the bone
+  She was lucky to be alive"
+- KR: "수의사가 말했다, 화살이 뼈를 비껴갔다고
+  살아있는 게 기적이라고"
 
 ### Sora2 Prompt
 
