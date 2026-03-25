@@ -99,10 +99,21 @@ No background music. 빗소리, 독수리 날갯짓 소리, 바닥에 부딪히�
 
 **Caption:**
 
-- EN: "The vet said the arrow missed the bone
-  She was lucky to be alive"
-- KR: "수의사가 말했다, 화살이 뼈를 비껴갔다고
-  살아있는 게 기적이라고"
+- (1-5초)
+  - EN: "I wrapped her in a towel
+    She didn't even fight it"
+  - KR: "타월로 감쌌다
+    저항조차 하지 않았다"
+- (5-10초)
+  - EN: "The vet said the arrow missed the bone
+    She was lucky to be alive"
+  - KR: "수의사가 말했다, 화살이 뼈를 비껴갔다고
+    살아있는 게 기적이라고"
+- (10-15초)
+  - EN: "She just looked at me
+    Like she knew I was trying to help"
+  - KR: "나를 올려다보기만 했다
+    도와주려는 걸 아는 것 같았다"
 
 ### Sora2 Prompt
 
@@ -141,10 +152,21 @@ No background music. 비 소리, 와이퍼 소리, 차 엔진, 독수리 낮은 
 
 **Caption:**
 
-- EN: "Max gave up his bed
-  She fell asleep right next to him"
-- KR: "Max가 자기 침대를 내줬다
-  그 옆에서 잠들었다"
+- (1-5초)
+  - EN: "Max never left her side
+    Not even for a second"
+  - KR: "Max는 곁을 떠나지 않았다
+    단 1초도"
+- (5-10초)
+  - EN: "A golden retriever and a bald eagle
+    Playing catch"
+  - KR: "골든 리트리버와 독수리가
+    공놀이를 하고 있다"
+- (10-15초)
+  - EN: "She pressed her beak against his nose
+    And just stayed there"
+  - KR: "부리를 코에 대고
+    가만히 있었다"
 
 ### Sora2 Prompt
 
