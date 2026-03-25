@@ -185,10 +185,16 @@ No background music. 비 소리, 와이퍼 소리, 차 엔진, 독수리 낮은 
 
 **Caption:**
 
-- EN: "Day 14
-  She spread her wings for the first time"
-- KR: "14일째
-  처음으로 날개를 펼쳤다"
+- (1-5초)
+  - EN: "I fed her every single day
+    She got stronger each morning"
+  - KR: "매일 먹이를 줬다
+    날마다 힘을 되찾았다"
+- (5-15초)
+  - EN: "Day 14
+    She wanted out"
+  - KR: "14일째
+    그녀는 밖으로 나가고 싶어했다"
 
 ### Sora2 Prompt
 
