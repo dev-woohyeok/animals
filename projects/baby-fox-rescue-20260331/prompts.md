@@ -235,10 +235,10 @@ No background music. 늑대가 유리에 부딪히는 쾅 소리, 으르렁거�
 
 **Caption:**
 
-- EN: "I put her down and drove away
-  She chased my car... I couldn't do it"
-- KR: "내려주고 떠나려 했다
-  차를 쫓아왔다... 그럴 수 없었다"
+- EN: "I named her Luna
+  I couldn't leave her behind"
+- KR: "이름을 루나라고 지었다
+  이 아이를 두고 갈 수 없었다"
 
 ### Sora2 Prompt
 
