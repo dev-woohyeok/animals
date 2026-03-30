@@ -85,13 +85,13 @@ emotional_journey:
 
 (0-1초) 참조 이미지 프레임.
 — 1초에 빠른 화면 전환 —
-(1-5초) 차 안 운전석. 창문 밖에 아기 여우가 앞발을 올리고 창문을 긁고 있다. 작은 발톱이 유리를 긁는다. 남자 놀란 소리.
+(1-5초) 차 안 운전석. 창문 밖에 아기 여우가 두 앞발을 유리에 대고 미친 듯이 긁고 있다. 작은 발톱이 유리를 연속으로 빠르게 긁는다. 온몸이 떨리고 있다. 입을 벌려 울부짖는다. 남자 놀란 소리.
 — 자연스러운 화면 전환 —
-(5-10초) 차에서 내림. 아기 여우가 남자를 올려다보다 청바지 바짓단을 입으로 물고 끈다. 숲 쪽으로 이끈다. 남자가 핸드폰을 들어 촬영하며 따라간다.
+(5-10초) 차에서 내림. 아기 여우가 남자 발 앞에서 빙빙 돌며 낑낑거린다. 청바지 바짓단을 입으로 물고 온 힘을 다해 잡아당긴다. 몸이 작아서 뒤로 미끄러지면서도 놓지 않는다. 숲 쪽으로 끈다.
 — 자연스러운 화면 전환 —
-(10-15초) 아기 여우가 바짓단을 놓고 몇 발자국 앞으로 가다 돌아보며 낑낑거린다. 다시 돌아와 바짓단을 문다. 숲 안쪽으로 끌고 간다. 카메라 흔들림.
+(10-15초) 아기 여우가 바짓단을 놓고 몇 발자국 뛰어가다 급하게 돌아본다. 남자가 안 따라오자 다시 달려와서 바짓단을 문다. 끌다가 놓고, 또 뛰어가다 돌아오고, 다시 문다. 계속 반복하며 숲 안쪽으로 이끈다. 울음소리가 점점 커진다. 카메라 흔들림.
 
-No background music. 여우 발톱이 유리를 긁는 소리, 남자 놀란 숨소리, 아기 여우 낑낑거리는 소리, 숲속 새소리, 낙엽 밟는 소리.
+No background music. 여우 발톱이 유리를 연속으로 긁는 소리, 아기 여우 울부짖는 소리, 낑낑거리는 울음소리, 남자 놀란 숨소리, 숲속 새소리, 낙엽 밟는 소리.
 ```
 
 ---
@@ -289,13 +289,13 @@ No background music. 여우 발소리, 공 굴러가는 소리, 남자 웃음소
 
 ## 자막 요약 (Captions Summary)
 
-| Scene | EN | KR | Type |
-|-------|----|----|------|
-| 1 | A baby fox scratched my car window / She grabbed my pants and pulled me | 아기 여우가 차 창문을 긁었다 / 바짓단을 물고 끌고 갔다 | 상황형 |
-| 2 | She led me to her mother / She pressed her face against her mom's and cried | 엄마에게 데려갔다 / 엄마 얼굴에 얼굴을 대고 울었다 | 감정형 |
-| 3 | I heard growling behind the trees / I grabbed her and ran | 나무 뒤에서 으르렁소리 / 여우를 안고 뛰었다 | 긴장형 |
-| 4 | I gave her food and tried to leave / She chased my car | 먹이를 주고 떠나려 했다 / 차를 쫓아왔다 | 반전형 |
-| 5 | She lost her mom that day / But she'll never be alone again | 그날 엄마를 잃었다 / 다시는 혼자가 아니다 | 대비형 |
+| Scene | EN                                                                          | KR                                                     | Type   |
+| ----- | --------------------------------------------------------------------------- | ------------------------------------------------------ | ------ |
+| 1     | A baby fox scratched my car window / She grabbed my pants and pulled me     | 아기 여우가 차 창문을 긁었다 / 바짓단을 물고 끌고 갔다 | 상황형 |
+| 2     | She led me to her mother / She pressed her face against her mom's and cried | 엄마에게 데려갔다 / 엄마 얼굴에 얼굴을 대고 울었다     | 감정형 |
+| 3     | I heard growling behind the trees / I grabbed her and ran                   | 나무 뒤에서 으르렁소리 / 여우를 안고 뛰었다            | 긴장형 |
+| 4     | I gave her food and tried to leave / She chased my car                      | 먹이를 주고 떠나려 했다 / 차를 쫓아왔다                | 반전형 |
+| 5     | She lost her mom that day / But she'll never be alone again                 | 그날 엄마를 잃었다 / 다시는 혼자가 아니다              | 대비형 |
 
 ---
 
