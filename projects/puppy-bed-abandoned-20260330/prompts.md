@@ -138,9 +138,9 @@ No background music. 발소리, 바람 소리, 강아지 낑낑거리는 소리,
 **Caption:**
 
 - EN: "I wrapped her in a towel and drove home
-  She didn't look up from the food bowl until it was empty"
+  She ate like she hadn't eaten in days"
 - KR: "수건으로 감싸고 집으로 데려왔다
-  그릇이 빌 때까지 고개도 안 들었다"
+  정신없이 밥을 먹었다"
 
 ### Sora2 Prompt
 
@@ -285,7 +285,7 @@ No background music. 강아지 발소리, 장난감 삑삑 소리, 강아지가 
 
 (0-1초) 참조 이미지 프레임.
 — 1초에 빠른 화면 전환 —
-(1-5초) 소파 위. 여자 무릎 위에 파자마 입은 강아지가 배를 보이며 잠들어 있다. 옆에 새 분홍색 침대와 장난감들이 보임. 오리 인형이 강아지 발 옆에 있음.
+(1-5초) 소파 위. 여자 무릎 위에  강아지가 배를 보이며 잠들어 있다. 옆에 새 분홍색 침대와 장난감들이 보임. 오리 인형이 강아지 발 옆에 있음.
 — 자연스러운 화면 전환 —
 (5-10초) 여자의 왼손이 강아지 배를 천천히 쓰다듬는다. 강아지가 눈을 반쯤 뜨고 여자를 올려다본다.
 — 자연스러운 화면 전환 —
@@ -319,14 +319,14 @@ No background music. 강아지 잔잔한 숨소리, 꼬리가 소파를 탁탁 �
 
 ## 자막 요약 (Captions Summary)
 
-| Scene | EN | KR | Type |
-|-------|----|----|------|
-| 1 | A bed, a water bowl, and a toy / Someone left their dog here | 침대, 물그릇, 장난감 / 누군가 모든 걸 두고 갔다 | 상황형 |
-| 2 | She licked my hand / She buried her face in my neck | 내 손을 핥았다 / 내 목에 얼굴을 파묻었다 | 전환형 |
-| 3 | I wrapped her in a towel and drove home / She didn't look up from the bowl | 수건으로 감싸고 집으로 데려왔다 / 그릇이 빌 때까지 고개도 안 들었다 | 감정형 |
-| 4 | Her first warm bath / The softest fur under all that mud | 처음 받는 따뜻한 목욕 / 흙 밑에 가장 부드러운 털 | 대비형 |
-| 5 | New pajamas, new bed, new toy / This is forever | 새 파자마, 새 침대, 새 장난감 / 이건 영원한 거야 | 반전형 |
-| 6 | She used to sleep on a dirty bed / Now she sleeps like this | 지저분한 침대에서 자던 아이가 / 이제 매일 이렇게 잔다 | 대비형 |
+| Scene | EN                                                                         | KR                                                                  | Type   |
+| ----- | -------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------ |
+| 1     | A bed, a water bowl, and a toy / Someone left their dog here               | 침대, 물그릇, 장난감 / 누군가 모든 걸 두고 갔다                     | 상황형 |
+| 2     | She licked my hand / She buried her face in my neck                        | 내 손을 핥았다 / 내 목에 얼굴을 파묻었다                            | 전환형 |
+| 3     | I wrapped her in a towel and drove home / She ate like she hadn't eaten in days | 수건으로 감싸고 집으로 데려왔다 / 정신없이 밥을 먹었다 | 감정형 |
+| 4     | Her first warm bath / The softest fur under all that mud                   | 처음 받는 따뜻한 목욕 / 흙 밑에 가장 부드러운 털                    | 대비형 |
+| 5     | New pajamas, new bed, new toy / This is forever                            | 새 파자마, 새 침대, 새 장난감 / 이건 영원한 거야                    | 반전형 |
+| 6     | She used to sleep on a dirty bed / Now she sleeps like this                | 지저분한 침대에서 자던 아이가 / 이제 매일 이렇게 잔다               | 대비형 |
 
 ---
 
