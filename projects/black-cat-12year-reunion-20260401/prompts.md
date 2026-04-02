@@ -213,17 +213,9 @@ No background music. 스캐너 삐 소리, 수의사 목소리, 컴퓨터 키보
 
 **Caption:**
 
-- (1-5초)
-  - EN: "Then she got a phone call"
-  - KR: "그때 전화가 왔습니다"
-
-- (5-10초)
-  - EN: "Your cat Milo was found. He's been registered for 6 years"
-  - KR: "고양이 마일로를 찾았습니다. 6년 전 등록된 칩입니다"
-
-- (10-15초)
-  - EN: "She grabbed her keys and ran out the door"
-  - KR: "그녀는 차 키를 집어들고 뛰어나갔습니다"
+- (1-15초)
+  - EN: "We found your cat Milo. He's been missing for 6 years"
+  - KR: "고양이 마일로를 찾았습니다. 6년 전 실종 신고된 아이입니다"
 
 ### Sora2 Prompt
 ```
