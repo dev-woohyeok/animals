@@ -359,8 +359,8 @@ No background music. 고양이 그르렁 소리 (크게), 여자의 울음소리
 **Caption:**
 
 - (1-15초)
-  - EN: "6 years apart, but he never forgot his way home"
-  - KR: "6년이 지났지만, 집으로 가는 길을 잊지 않았습니다"
+  - EN: "6 years apart, but he never forgot"
+  - KR: "6년이 지났지만, 한 번도 잊지 않았습니다"
 
 ### Sora2 Prompt
 ```
