@@ -214,8 +214,8 @@ No background music. 스캐너 삐 소리, 수의사 목소리, 컴퓨터 키보
 **Caption:**
 
 - (1-15초)
-  - EN: "We found your cat Milo. He's been missing for 6 years"
-  - KR: "고양이 마일로를 찾았습니다. 6년 전 실종 신고된 아이입니다"
+  - EN: "They said they found Milo. I thought I'd never see him again"
+  - KR: "마일로를 찾았다고 했다. 다시는 못 볼 줄 알았는데"
 
 ### Sora2 Prompt
 ```
