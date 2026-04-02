@@ -358,17 +358,9 @@ No background music. 고양이 그르렁 소리 (크게), 여자의 울음소리
 
 **Caption:**
 
-- (1-5초)
-  - EN: "Milo came home for the first time in 6 years"
-  - KR: "마일로가 6년 만에 집으로 돌아왔습니다"
-
-- (5-10초)
-  - EN: "He curled up next to her and wouldn't stop purring"
-  - KR: "그녀 옆에 바짝 붙어 그르렁거리는 소리가 멈추지 않았습니다"
-
-- (10-15초)
-  - EN: "6 years apart, but he never forgot"
-  - KR: "6년이 지났지만, 한 번도 잊지 않았습니다"
+- (1-15초)
+  - EN: "6 years apart, but he never forgot his way home"
+  - KR: "6년이 지났지만, 집으로 가는 길을 잊지 않았습니다"
 
 ### Sora2 Prompt
 ```
