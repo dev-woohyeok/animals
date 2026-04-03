@@ -2,7 +2,7 @@
 
 > 미국식 주택에서 기르던 엄마 오리의 알이 깨진 것을 발견한 남자가, 알 속 배아를 살리기 위해 그릇에 옮기고 약품을 투여하고, 랩으로 감싸 인큐베이터에 넣는다. 며칠에 걸쳐 혈관이 자라고 배아가 발달하더니 마침내 새끼 오리가 부화한다. 새끼 오리는 주인을 따라다니며 자라 아름다운 성체 오리가 된다.
 
-**총 길이:** 90초 (6개 장면 x 15초)
+**총 길이:** 105초 (7개 장면 x 15초)
 
 ---
 
@@ -258,7 +258,49 @@ No background music. 새끼 오리 삐약거리는 소리, 남자 흥분된 숨�
 
 ---
 
-## Scene 6: 성장과 행복한 삶 (15초)
+## Scene 6: 아기 오리의 귀여운 일상 (15초)
+
+- **Duration:** 15s
+- **Emotion:** 귀여움, 웃음
+- **Camera:** 1인칭 POV + 홈캠(바닥 고정) 핸드폰
+- **Lighting:** 실내 자연광 + 따뜻한 조명
+
+**Caption:**
+
+- EN: "She followed him everywhere around the house
+  And kept popping up in front of the camera"
+- KR: "집 안 어디든 그를 따라다녔습니다
+  카메라 앞에 계속 얼굴을 들이밀었습니다"
+
+### Sora2 Prompt
+
+```
+// Story: 전체: 미국식 주택에서 엄마 오리의 알이 깨진 것을 발견 → 알 속 배아를 살리기 위해 그릇에 옮기고 약품 투여 → 랩으로 감싸 인큐베이터에 넣음 → 며칠간 배아가 발달 → 새끼 오리 부화 → 주인을 따르며 성장.
+앞 장면: 새끼 오리가 부화하여 손바닥 위에서 첫 걸음을 떼었다.
+이 장면: 아기 오리의 귀여운 일상. 주인을 졸졸 따라다니고, 카메라에 여러 방향에서 얼굴을 들이민다. 바닥에 놓인 카메라를 오리가 위에서 내려다보는 장면.
+
+홈비디오 스타일 핸드폰 영상. 바닥 고정 촬영 + 한 손 촬영 혼합. 약간 흔들림. 밝고 따뜻한 톤.
+
+미국식 주택 거실. 나무 바닥. 가죽 소파. 밝은 자연광.
+
+노란 솜털의 아기 페킨 오리. 암컷. 생후 약 1-2주. 주황색 부리와 물갈퀴 발. 검은 구슬 같은 눈. 솜털이 보송보송하게 말라있음. 활발하게 뒤뚱뒤뚱 돌아다님.
+
+20대 후반~30대 백인 남자의 발과 다리. 회색 스웨트팬츠. 양말. (1인칭 POV 촬영자 — 홈캠 장면에서는 발만 보임)
+
+(0-1초) 참조 이미지 프레임. — 1초에 빠른 화면 전환 —
+
+(1-5초) First person POV handheld phone footage. 극도의 클로즈업. 아기 오리 얼굴에 줌인. 검은 구슬 같은 눈이 카메라를 바라본다. 작은 주황색 부리가 카메라 렌즈를 콕콕 쪼아본다. 노란 솜털이 보송보송. Shaky extreme close-up, amateur footage, phone camera auto-focusing.
+— 자연스러운 화면 전환 —
+(5-10초) 홈캠 스타일. 핸드폰을 거실 바닥 구석에 세워놓고 촬영. 와이드 앵글. 남자가 거실을 왔다갔다한다. 아기 오리가 뒤뚱뒤뚱 남자 발을 졸졸 따라간다. 남자가 방향을 바꾸면 오리도 급하게 방향을 바꿔 따라간다. 빠르게 재생되는 듯한 느낌. Low angle floor level footage, stationary phone, wide shot, natural indoor lighting.
+— 자연스러운 화면 전환 —
+(10-15초) 핸드폰이 바닥에 카메라를 천장 방향으로 놓여있다. 아기 오리가 카메라 위로 다가와 위에서 내려다본다. 오리 얼굴이 화면 가득 잡힌다. 주황색 부리가 렌즈를 콕 쪼는다. 검은 눈이 카메라를 빤히 내려다본다. 오리 얼굴 아래로 천장과 조명이 보인다. Low angle looking up, phone on floor facing ceiling, duckling face filling frame, amateur footage.
+
+No background music. 아기 오리 삐약거리는 소리, 오리 발이 나무 바닥 타닥타닥 소리, 부리로 렌즈 콕콕 쪼는 소리, 남자 웃음소리, 발소리.
+```
+
+---
+
+## Scene 7: 성장과 행복한 삶 (15초)
 
 - **Duration:** 15s
 - **Emotion:** 행복, 따뜻함
@@ -267,17 +309,17 @@ No background music. 새끼 오리 삐약거리는 소리, 남자 흥분된 숨�
 
 **Caption:**
 
-- EN: "The duckling grew up following him everywhere
-  A lucky and happy duck with a loving family"
-- KR: "새끼 오리는 어디든 그를 따라다니며 자랐습니다
+- EN: "The duckling grew into a beautiful, happy duck
+  A lucky duck with a loving family"
+- KR: "새끼 오리는 아름답고 행복한 오리로 자랐습니다
   사랑받는 가족과 함께하는 행운의 오리가 되었습니다"
 
 ### Sora2 Prompt
 
 ```
 // Story: 전체: 미국식 주택에서 엄마 오리의 알이 깨진 것을 발견 → 알 속 배아를 살리기 위해 그릇에 옮기고 약품 투여 → 랩으로 감싸 인큐베이터에 넣음 → 며칠간 배아가 발달 → 새끼 오리 부화 → 주인을 따르며 성장.
-앞 장면: 새끼 오리가 부화하여 첫 걸음을 떼었다.
-이 장면: 결말 — 새끼 오리가 주인을 따라다니며 자란다. 고양이와도 어울린다. 아름다운 성체 오리로 성장한 행복한 결말.
+앞 장면: 아기 오리가 주인을 졸졸 따라다니고, 바닥에 놓인 카메라에 얼굴을 들이밀었다.
+이 장면: 결말 — 고양이와 어울리고, 아름다운 성체 오리로 성장한 행복한 결말.
 
 홈비디오 스타일 핸드폰 영상. 한 손 촬영. 약간 흔들림. 밝고 따뜻한 톤.
 
@@ -291,13 +333,13 @@ No background music. 새끼 오리 삐약거리는 소리, 남자 흥분된 숨�
 
 (0-1초) 참조 이미지 프레임. — 1초에 빠른 화면 전환 —
 
-(1-5초) First person POV handheld phone footage. 미국식 거실, 나무 바닥. 노란 솜털의 아기 오리가 남자 발을 따라 뒤뚱뒤뚱 걸어온다. 남자가 걸어가면 빠르게 따라간다. 카메라가 아래를 향해 따라오는 오리를 촬영. Shaky amateur footage, natural indoor lighting.
+(1-5초) First person POV handheld phone footage. 미국식 거실, 나무 바닥. 아기 오리가 주황색 태비 고양이 옆에 앉아있다. 고양이가 오리를 핥아준다. 오리가 고양이에게 다가가 옆에 붙는다. Handheld phone footage, warm indoor lighting.
 — 자연스러운 화면 전환 —
-(5-10초) 거실 바닥. 아기 오리가 주황색 태비 고양이 옆에 앉아있다. 고양이가 오리를 핥아준다. 오리가 고양이에게 다가가 옆에 붙는다. Handheld phone footage, warm indoor lighting.
+(5-10초) 야외 정원. 밝은 햇살, 파란 하늘. 남자의 손이 하얀 성체 페킨 오리를 들어올린다. 하얀 깃털이 햇살에 빛난다. 주황색 부리로 남자 손가락을 부드럽게 문다. Handheld phone footage, bright natural sunlight, warm tone, slightly shaky.
 — 자연스러운 화면 전환 —
-(10-15초) 야외 정원. 밝은 햇살, 파란 하늘. 남자의 손이 하얀 성체 페킨 오리를 들어올린다. 하얀 깃털이 햇살에 빛난다. 주황색 부리로 남자 손가락을 부드럽게 문다. 오리가 카메라를 정면으로 바라보며 편안한 표정. Handheld phone footage, bright natural sunlight, warm tone, slightly shaky.
+(10-15초) 성체 오리가 카메라를 정면으로 바라보며 편안한 표정. 남자의 손이 하얀 깃털을 쓰다듬는다. 오리가 눈을 반쯤 감으며 편안해한다. Handheld phone footage, warm golden hour sunlight.
 
-No background music. 아기 오리 발소리, 아기 오리 삐약거리는 소리, 고양이 그르렁 소리, 남자 웃음소리, 새소리, 성체 오리 꽥꽥 소리, 바람 소리.
+No background music. 고양이 그르렁 소리, 남자 웃음소리, 새소리, 성체 오리 꽥꽥 소리, 바람 소리.
 ```
 
 ---
@@ -332,7 +374,8 @@ No background music. 아기 오리 발소리, 아기 오리 삐약거리는 소�
 | 3 | He wrapped the embryo in plastic wrap / And placed it carefully inside an incubator | 배아를 랩으로 감쌌습니다 / 인큐베이터 안에 조심스럽게 넣었습니다 | 설명형 |
 | 4 | Day by day the embryo grew / Blood vessels spread and a tiny heart started beating | 날이 갈수록 배아가 자랐습니다 / 혈관이 퍼지고 작은 심장이 뛰기 시작했습니다 | 감탄형 |
 | 5 | The duckling was finally born / A tiny miracle came to life in his hands | 드디어 새끼 오리가 태어났습니다 / 그의 손 안에서 작은 기적이 태어났습니다 | 감동형 |
-| 6 | The duckling grew up following him everywhere / A lucky and happy duck with a loving family | 어디든 그를 따라다니며 자랐습니다 / 사랑받는 가족과 함께하는 행운의 오리 | 행복형 |
+| 6 | She followed him everywhere around the house / And kept popping up in front of the camera | 집 안 어디든 그를 따라다녔습니다 / 카메라 앞에 계속 얼굴을 들이밀었습니다 | 귀여움형 |
+| 7 | The duckling grew into a beautiful, happy duck / A lucky duck with a loving family | 아름답고 행복한 오리로 자랐습니다 / 사랑받는 가족과 함께하는 행운의 오리 | 행복형 |
 
 ---
 
