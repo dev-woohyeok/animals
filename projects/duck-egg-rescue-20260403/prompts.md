@@ -209,7 +209,7 @@ No background music. 플라스틱 랩 바스락 소리, 인큐베이터 뚜껑 �
 — 전환: 시간 경과. 카메라를 내려놓았다 다시 든다 —
 (5-10초) [Day 10] 같은 컵. 주황색 바탕에 빨간 혈관이 거미줄처럼 선명하게 퍼져있다. 배아 점이 크게 자랐다. 남자의 손이 주사기로 영양제를 한 방울 떨어뜨린다. Shaky extreme close-up, amateur footage, slightly out of focus moments.
 — 전환: 시간 경과. 카메라를 줌아웃했다 다시 줌인한다 —
-(10-15초) [Day 25] 컵 안에 노란 솜털이 보송보송하게 난 완전한 새끼 오리가 웅크리고 있다. 물기 없이 마른 노란 솜털. 작은 주황색 부리. 눈을 감고 있다가 천천히 뜬다. 검은 구슬 같은 눈이 카메라를 올려다본다. 컵 안에서 미세하게 움직인다. 남자의 손이 살짝 떨린다. Shaky extreme close-up, amateur footage, phone camera struggling to focus.
+(10-15초) [Day 25] 컵 안에 완전한 새끼 오리가 웅크리고 있다. 노란 솜털이 젖어있지만 주변에 액체나 막은 없다. 작은 주황색 부리. 눈을 감고 있다가 천천히 뜬다. 검은 구슬 같은 눈이 카메라를 올려다본다. 컵 안에서 미세하게 움직인다. 남자의 손이 살짝 떨린다. Shaky extreme close-up, amateur footage, phone camera struggling to focus.
 
 No background music. 인큐베이터 윙윙 소리, 남자 조용한 숨소리, 액체 떨어지는 소리, 남자 놀라는 작은 감탄소리.
 ```
