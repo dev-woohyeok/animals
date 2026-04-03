@@ -293,7 +293,7 @@ No background music. 새끼 오리 삐약거리는 소리, 남자 흥분된 숨�
 — 자연스러운 화면 전환 —
 (5-10초) 홈캠 스타일. 핸드폰을 거실 바닥 구석에 세워놓고 촬영. 와이드 앵글. 남자가 거실을 왔다갔다한다. 아기 오리가 뒤뚱뒤뚱 남자 발을 졸졸 따라간다. 남자가 방향을 바꾸면 오리도 급하게 방향을 바꿔 따라간다. 빠르게 재생되는 듯한 느낌. Low angle floor level footage, stationary phone, wide shot, natural indoor lighting.
 — 자연스러운 화면 전환 —
-(10-15초) 핸드폰이 바닥에 화면이 위를 향하게 놓여있다. 고정 앵글. 아기 오리가 호기심에 핸드폰 주위를 빙글빙글 돌며 내려다본다. 오리 얼굴이 프레임 가장자리에서 왼쪽, 위, 오른쪽으로 천천히 이동한다. 검은 구슬 같은 눈이 렌즈를 빤히 내려다본다. 고개를 갸웃거린다. 주황색 부리가 렌즈를 콕 쪼는다. 오리 얼굴 뒤로 천장과 조명이 보인다. Stationary phone on floor facing up, duckling circling around the phone and looking down curiously, amateur footage.
+(10-15초) 핸드폰이 바닥에 화면이 위를 향하게 고정. 같은 앵글에서 빠르게 편집한 컴필레이션. 오리 얼굴이 왼쪽에서 쏙 나타났다 사라짐. 오른쪽에서 쏙 나타났다 사라짐. 왼쪽에서 또 나타났다 사라짐. 위에서 정면으로 내려다보며 고개를 갸웃. 주황색 부리가 렌즈를 콕 쪼는다. 오리 얼굴 뒤로 천장이 보인다. Stationary phone on floor facing up, quick-cut compilation of duckling popping in from left, right, left, then looking straight down, amateur edited footage.
 
 No background music. 아기 오리 삐약거리는 소리, 오리 발이 나무 바닥 타닥타닥 소리, 부리로 렌즈 콕콕 쪼는 소리, 남자 웃음소리, 발소리.
 ```
