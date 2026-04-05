@@ -15,7 +15,13 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 ```
 → 인터넷에서 감동적인 동물 구조 스토리 검색 및 분석
 
-### 2. 쇼츠 생성
+### 2. 쇼츠 영상 분석 (선택)
+```
+/animal-shorts-analyze [YouTube Shorts URL]
+```
+→ 기존 쇼츠 영상을 캡처/분석하여 레퍼런스 기반 스토리 생성
+
+### 3. 쇼츠 생성
 ```
 /animal-shorts [동물] / [상황] / [감정] / [결말]
 ```
@@ -37,7 +43,8 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 animals/
 ├── .claude/commands/     # Claude Code 스킬
 │   ├── animal-shorts.md        # 메인 워크플로우
-│   ├── animal-shorts-research.md # 스토리 리서치 에이전트 (NEW)
+│   ├── animal-shorts-research.md # 스토리 리서치 에이전트
+│   ├── animal-shorts-analyze.md  # 쇼츠 영상 분석 (NEW)
 │   ├── animal-shorts-story.md  # 스토리 생성
 │   ├── animal-shorts-scene.md  # 장면 분할
 │   ├── animal-shorts-prompt.md # Sora2 프롬프트
@@ -64,10 +71,12 @@ animals/
 ## 워크플로우 (완전 자동화)
 
 ```
-[선택] /animal-shorts-research 동물
-    ↓
-인터넷에서 바이럴 스토리 검색/분석
-    ↓
+[선택A] /animal-shorts-research 동물
+    ↓ 인터넷에서 바이럴 스토리 검색/분석
+
+[선택B] /animal-shorts-analyze [YouTube URL]
+    ↓ 기존 쇼츠 캡처/분석 → 스토리 3개 제안 → 선택 후 자동 진행
+
 /animal-shorts 입력
     ↓
 Step 1: 입력 분석 → 스토리 3개 제안 (리스트)
