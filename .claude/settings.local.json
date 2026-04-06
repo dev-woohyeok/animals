@@ -37,7 +37,9 @@
       "WebFetch(domain:www.newsweek.com)",
       "WebFetch(domain:pethelpful.com)",
       "WebFetch(domain:www.goodgoodgood.co)",
-      "WebFetch(domain:www.upworthy.com)"
+      "WebFetch(domain:www.upworthy.com)",
+      "WebFetch(domain:www.youtube.com)",
+      "WebFetch(domain:noembed.com)"
     ]
   }
 }

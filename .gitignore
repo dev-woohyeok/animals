@@ -59,3 +59,4 @@ output/*.md
 # Temporary files
 *.tmp
 *.bak
+temp_analysis/
