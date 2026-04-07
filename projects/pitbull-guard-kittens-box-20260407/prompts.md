@@ -189,14 +189,14 @@ When they finished, he licked the milk off their faces
 **Caption EN:**
 The kittens got bigger and bolder
 
-They climbed on him, bit his ears, stole his food
+They bit his ears and followed him everywhere
 
 He just let them do whatever they wanted
 
 **Caption KR:**
 고양이들이 커지면서 대담해졌다
 
-위에 올라가고, 귀를 물고, 밥을 빼앗았다
+귀를 물고, 어디를 가든 졸졸 따라다녔다
 
 핏불은 그냥 하고 싶은 대로 하게 내버려두었다
 
@@ -377,11 +377,11 @@ No background music. 아기 고양이 쪽쪽 빠는 소리, 핏불 코 킁킁 �
 — 1초에 빠른 화면 전환 —
 (1-5초) 미디엄. 거실 바닥에 핏불이 엎드려 있음. 주황색 고양이가 핏불 귀를 앞발로 잡고 입으로 물어당김. 핏불이 눈만 돌려 쳐다보고 가만히 있음.
 — 자연스러운 화면 전환 —
-(5-10초) 미디엄. 핏불의 밥그릇 앞. 핏불이 먹으려는데 검은 고양이가 그릇 안에 앞발을 넣고 사료를 꺼냄. 핏불이 한 발 물러서서 기다림.
+(5-10초) 미디엄. 핏불이 거실에서 부엌 쪽으로 걸어감. 검은 고양이와 주황색 고양이가 뒤에서 종종걸음으로 따라감. 핏불이 멈추면 고양이들도 멈춤. 핏불이 뒤를 돌아봄.
 — 자연스러운 화면 전환 —
 (10-15초) 미디엄. 핏불이 옆으로 누워있음. 고양이 2마리가 핏불 배 위에 올라타서 서로 놀고 있음. 핏불이 꼬리만 느리게 흔들며 눈을 감음.
 
-No background music. 고양이 장난치는 소리, 사료 바닥에 떨어지는 소리, 촬영자 웃음소리.
+No background music. 고양이 장난치는 소리, 고양이 발소리, 촬영자 웃음소리.
 ```
 
 ---
