@@ -39,7 +39,10 @@
       "WebFetch(domain:www.goodgoodgood.co)",
       "WebFetch(domain:www.upworthy.com)",
       "WebFetch(domain:www.youtube.com)",
-      "WebFetch(domain:noembed.com)"
+      "WebFetch(domain:noembed.com)",
+      "WebFetch(domain:cowboystatedaily.com)",
+      "WebFetch(domain:www.aproposh.com)",
+      "WebFetch(domain:exploringanimals.com)"
     ]
   }
 }

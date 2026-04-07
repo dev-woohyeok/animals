@@ -20,17 +20,17 @@
 
 | Platform            | Title                                                                                 |
 | ------------------- | ------------------------------------------------------------------------------------- |
-| **YouTube Shorts**  | A Stray Pit Bull Guarded a Box for Days... What Was Inside Made Me Cry (True Story) |
-| **Instagram Reels** | He wouldn't let anyone near that box. When I opened it, I understood everything |
+| **YouTube Shorts**  | A Stray Pit Bull Guarded a Box for Days... What Was Inside Made Me Cry (True Story)   |
+| **Instagram Reels** | He wouldn't let anyone near that box. When I opened it, I understood everything       |
 | **TikTok**          | This pit bull growled at EVERYONE near this box... wait till you see what's inside 😭 |
 
 ### Hooks
 
-| Type | Title |
-|------|-------|
+| Type          | Title                                                         |
+| ------------- | ------------------------------------------------------------- |
 | **Emotional** | What this stray pit bull was protecting will break your heart |
-| **Curiosity** | Why would a stray pit bull guard a torn box for days? |
-| **Outcome** | He guarded them alone for days... now they're a family |
+| **Curiosity** | Why would a stray pit bull guard a torn box for days?         |
+| **Outcome**   | He guarded them alone for days... now they're a family        |
 
 ### Hashtags
 
@@ -73,11 +73,11 @@ sound:
 
 ### Scene 1 — 으르렁거리는 파수꾼 (The Growling Guardian)
 
-| 항목 | 내용 |
-|------|------|
-| **Hook** | 증거 발견 — 건설 현장 골목에서 찢어진 상자를 지키며 으르렁거리는 떠돌이 핏불 |
-| **Duration** | 15초 (단일 연속 샷, 서브샷 없음) |
-| **Emotion** | 긴장, 호기심, 경계 |
+| 항목                | 내용                                                                                                 |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Hook**            | 증거 발견 — 건설 현장 골목에서 찢어진 상자를 지키며 으르렁거리는 떠돌이 핏불                         |
+| **Duration**        | 15초 (단일 연속 샷, 서브샷 없음)                                                                     |
+| **Emotion**         | 긴장, 호기심, 경계                                                                                   |
 | **Character State** | 핏불: 마르고 지저분한 털, 갈비뼈 살짝 보임, 으르렁거리며 상자 위에 앉아 경계. 고양이: (아직 안 보임) |
 
 **Caption EN:**
@@ -92,10 +92,10 @@ He growled the second I got close
 
 ### Scene 2 — 굶주린 신뢰 (Hungry Trust)
 
-| 항목 | 내용 |
-|------|------|
-| **Duration** | 15초 (서브샷 3개) |
-| **Emotion** | 연민, 호기심, 인내 |
+| 항목                | 내용                                                                                    |
+| ------------------- | --------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 3개)                                                                       |
+| **Emotion**         | 연민, 호기심, 인내                                                                      |
 | **Character State** | 핏불: 여전히 마르지만 경계가 살짝 누그러짐. 꼬리를 미세하게 흔듦. 상자 앞에서 안 움직임 |
 
 **Caption EN:**
@@ -114,10 +114,10 @@ But he still would not leave that box
 
 ### Scene 3 — 상자 속의 소리 (The Sound Inside the Box)
 
-| 항목 | 내용 |
-|------|------|
-| **Duration** | 15초 (서브샷 3개) |
-| **Emotion** | 긴장→충격→경외 |
+| 항목                | 내용                                                                                                         |
+| ------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Duration**        | 15초 (서브샷 3개)                                                                                            |
+| **Emotion**         | 긴장→충격→경외                                                                                               |
 | **Character State** | 핏불: 낑낑거리며 남자를 올려다봄. 꼬리 낮게, 초조하지만 신뢰하는 눈빛. 고양이: 상자 안에서 웅크림, 약한 울음 |
 
 **Caption EN:**
@@ -136,10 +136,10 @@ It was kittens... two of them
 
 ### Scene 4 — 그가 지킨 것 (What He Was Protecting)
 
-| 항목 | 내용 |
-|------|------|
-| **Duration** | 15초 (서브샷 3개) |
-| **Emotion** | 감동, 경외, 따뜻함 |
+| 항목                | 내용                                                                                                          |
+| ------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 3개)                                                                                             |
+| **Emotion**         | 감동, 경외, 따뜻함                                                                                            |
 | **Character State** | 핏불: 처음으로 꼬리를 크게 흔듦. 긴장이 풀린 표정. 부드러운 눈. 고양이: 후디에 감싸여 따뜻해짐, 울음이 잦아듦 |
 
 **Caption EN:**
@@ -158,10 +158,10 @@ He was their dad... protecting them all along
 
 ### Scene 5 — 아빠의 밤 (Dad's Watch)
 
-| 항목 | 내용 |
-|------|------|
-| **Duration** | 15초 (서브샷 3개) |
-| **Emotion** | 감동, 경외, 사랑 |
+| 항목                | 내용                                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 3개)                                                                                       |
+| **Emotion**         | 감동, 경외, 사랑                                                                                        |
 | **Character State** | 핏불: 깨끗해짐, 살이 붙기 시작, 편안한 표정. 고양이: 점점 통통해짐, 눈이 완전히 열림, 핏불에게 기어오름 |
 
 **Caption EN:**
@@ -180,10 +180,10 @@ He was not just protecting them... he was raising them
 
 ### Scene 6 — 핏불 아빠네 가족 (Pitbull Dad's Family)
 
-| 항목 | 내용 |
-|------|------|
-| **Duration** | 15초 (서브샷 3개) |
-| **Emotion** | 행복, 감동, 사랑, 완전함 |
+| 항목                | 내용                                                                                                       |
+| ------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 3개)                                                                                          |
+| **Emotion**         | 행복, 감동, 사랑, 완전함                                                                                   |
 | **Character State** | 핏불: 건강하고 윤기나는 털, 새 파란색 목줄, 소파에서 편안하게 잠. 고양이: 통통하고 건강, 핏불 배 위에서 잠 |
 
 **Caption EN:**
@@ -219,7 +219,7 @@ And he still sleeps with his babies every single night
 
 (0-1초) 참조 이미지 프레임.
 — 1초에 빠른 화면 전환 —
-(1-15초) 단일 연속 샷. 골목을 걸어가다 멈춤. 앞쪽에 핏불이 찢어진 골판지 상자 위에 앉아있음. 촬영자가 몇 발자국 다가가자 핏불이 고개를 들고 이빨을 드러내며 으르렁거림. 촬영자가 멈추고 뒷걸음질. 카메라 흔들림. 핏불이 상자를 앞발로 감싸듯 위치를 잡고 촬영자를 노려봄.
+(1-15초) 단일 연속 샷. 골목을 걸어가다 멈춤. 앞쪽에 핏불이 찢어진 골판지 상자 위에 앉아있음. 촬영자가 몇 발자국 다가가자 핏불이 고개를 들고 이빨을 드러내며 으르렁거리며 짖는다. 촬영자가 멈추고 뒷걸음질. 카메라 흔들림. 핏불이 상자를 앞발로 감싸듯 위치를 잡고 촬영자를 노려봄.
 
 No background music. 핏불 으르렁거리는 소리, 촬영자 놀란 숨소리, 발소리, 먼 공사장 소음.
 ```
