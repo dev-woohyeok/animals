@@ -29,7 +29,7 @@
 | Type          | Title                                                            |
 | ------------- | ---------------------------------------------------------------- |
 | **Emotional** | What this mother bear did to say thank you will break your heart |
-| **Curiosity** | Why did a bear leave fish in a heart shape on my doorstep?              |
+| **Curiosity** | Why did a bear leave fish in a heart shape on my doorstep?       |
 | **Outcome**   | I saved her baby from a trap... she never forgot                 |
 
 ### Hashtags
@@ -201,25 +201,25 @@ She looked back once... then they were gone
 
 ### Scene 7 — 물고기 하트 (The Fish Heart)
 
-| 항목                | 내용                                                                                                                                    |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| **Duration**        | 15초 (서브샷 3개)                                                                                                                       |
-| **Emotion**         | 당혹→놀라움→감동                                                                                                                        |
+| 항목                | 내용                                                                                                                                                                    |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 3개)                                                                                                                                                       |
+| **Emotion**         | 당혹→놀라움→감동                                                                                                                                                        |
 | **Character State** | 어미 곰: 울타리 너머 멀리서 조용히 남자와 아기를 바라봄. 아기 곰: 촬영자에게 다가와 다리에 몸을 비비며 애교. 촬영자: 하트 발견 → 아기 곰 쓰다듬음 → 어미 곰과 눈 마주침 |
 
 **Caption EN:**
-I opened the door and they were just... there
+I opened the door to this
 
-Then she came up to me like nothing had changed
+She walked right up to me
 
-Her mother was watching us from the fence
+Her mom was watching from the fence
 
 **Caption KR:**
-문을 열었더니 그냥... 놓여있었다
+문을 열었더니 이게 놓여있었다
 
-아무 일 없었다는 듯 다가와 애교를 부렸다
+아기가 다가와 애교를 부렸다
 
-어미가 울타리 너머에서 우리를 보고 있었다
+어미가 울타리 너머에서 보고 있었다
 
 ---
 
@@ -404,7 +404,7 @@ No background music. 곰 발소리, 아기 곰 작은 소리, 새소리, 아침 
 — 자연스러운 화면 전환 —
 (5-10초) 미디엄. 하트를 바라보고 있는데 옆에서 아기 곰이 다가옴. 촬영자의 다리에 몸을 비비며 애교를 부림. 촬영자가 카메라를 내려 아기 곰을 비춤. 손으로 아기 곰 머리를 쓰다듬음.
 — 자연스러운 화면 전환 —
-(10-15초) 미디엄. 촬영자가 고개를 들어 앞마당 너머를 봄. 울타리 너머에 어미 곰이 멀리 서서 조용히 이쪽을 바라보고 있음. 남자와 아기 곰을 지켜봄. 카메라가 어미 곰에 고정된 채 끝남.
+(10-15초) 미디엄. 촬영자가 고개를 들어 앞마당을봄, 엄마 곰이 조금 떨어진곳에서 남자와 아기곰을 보고있음 카메라가 어미 곰에 고정된 채 끝남.
 
 No background music. 아침 새소리, 아기 곰 작은 소리, 촬영자 떨리는 숨소리, 바람 소리.
 ```
