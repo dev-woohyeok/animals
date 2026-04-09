@@ -21,7 +21,15 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 ```
 → 기존 쇼츠 영상을 캡처/분석하여 레퍼런스 기반 스토리 생성
 
-### 3. 쇼츠 생성
+### 3. 바이럴 공식 쇼츠 생성 (추천)
+```
+/animal-shorts-viral [동물]                  # 두 공식 모두 제안 (6개)
+/animal-shorts-viral [동물] --surprise       # 서프라이즈 공식만 (3개)
+/animal-shorts-viral [동물] --rescue         # 분노+구조 공식만 (3개)
+```
+→ 채널 분석 데이터 기반 검증된 바이럴 공식으로 쇼츠 프롬프트 생성
+
+### 4. 쇼츠 생성 (자유 입력)
 ```
 /animal-shorts [동물] / [상황] / [감정] / [결말]
 ```
@@ -29,10 +37,15 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 
 ### 예시
 ```
+# 바이럴 공식 (추천)
+/animal-shorts-viral 코기                     # 서프라이즈+구조 6개 제안
+/animal-shorts-viral 골든 리트리버 --surprise   # 서프라이즈 공식만
+/animal-shorts-viral 고양이 --rescue           # 분노+구조 공식만
+
 # 리서치 먼저
 /animal-shorts-research 올빼미 --viral
 
-# 직접 생성
+# 자유 입력
 /animal-shorts 골든 리트리버 / 버려진 후 노인을 만남 / 감동, 따뜻함
 /animal-shorts 아기 고슴도치 / 골든리트리버가 입에 물고 옴 / 귀여움 / 가족이 됨
 ```
@@ -43,8 +56,11 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 animals/
 ├── .claude/commands/     # Claude Code 스킬
 │   ├── animal-shorts.md        # 메인 워크플로우
+│   ├── animal-shorts-viral.md    # 바이럴 공식 통합 진입점
+│   ├── animal-shorts-formula1.md # 서프라이즈 공식 (S티어)
+│   ├── animal-shorts-formula2.md # 분노+구조 공식 (A티어)
 │   ├── animal-shorts-research.md # 스토리 리서치 에이전트
-│   ├── animal-shorts-analyze.md  # 쇼츠 영상 분석 (NEW)
+│   ├── animal-shorts-analyze.md  # 쇼츠 영상 분석
 │   ├── animal-shorts-story.md  # 스토리 생성
 │   ├── animal-shorts-scene.md  # 장면 분할
 │   ├── animal-shorts-prompt.md # Sora2 프롬프트
