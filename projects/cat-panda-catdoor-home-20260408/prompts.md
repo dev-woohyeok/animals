@@ -169,18 +169,18 @@ How could I say no to that face
 | **Character State** | 판다: 집 안에서 사고를 침. 서브샷마다 다른 사고 현장. 고양이: 판다 옆에서 지켜보거나 황당한 표정. 촬영자: 웃으며 촬영 |
 
 **Caption EN:**
-I came back and she had eaten the homework
+Living with a baby panda
 
-She was sitting in the dirt with a pot on her head
+Is basically living in chaos
 
-Then I found her wrapped in toilet paper like a burrito
+But look at that face... I can not be mad
 
 **Caption KR:**
-돌아왔더니 숙제를 먹어버렸다
+아기 판다와 사는 건
 
-흙투성이에 머리에 화분을 쓰고 앉아있었다
+매일이 재난이다
 
-화장지에 감긴 채 누워있었다
+근데 저 얼굴 보면 화를 못 내겠다
 
 ### Scene 6 — 포옹 (The Embrace)
 
