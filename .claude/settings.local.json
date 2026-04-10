@@ -42,7 +42,15 @@
       "WebFetch(domain:noembed.com)",
       "WebFetch(domain:cowboystatedaily.com)",
       "WebFetch(domain:www.aproposh.com)",
-      "WebFetch(domain:exploringanimals.com)"
+      "WebFetch(domain:exploringanimals.com)",
+      "WebFetch(domain:socialblade.com)",
+      "WebFetch(domain:playboard.co)",
+      "WebFetch(domain:www.noxinfluencer.com)",
+      "WebFetch(domain:youtube.com)",
+      "WebFetch(domain:www.viewstats.com)",
+      "WebFetch(domain:vidiq.com)",
+      "WebFetch(domain:us.youtubers.me)",
+      "WebFetch(domain:mixerno.space)"
     ]
   }
 }
