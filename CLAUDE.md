@@ -211,19 +211,27 @@ Step 6: 파일 저장 + git commit & push → 완료
 - ❌ 과장된 형용사, 문학적 표현
 
 ### 대사 규칙 (영구 적용)
-- ❌ 구체적인 대사 금지: `"HEY!"`, `"Come here!"`, `"Oh my god!"` 등
-- ✅ 대사 가이드만 제공: Sora2가 자연스럽게 생성하도록
+- ✅ **대사는 반드시 영어로만 작성** (타겟이 미국/북미이므로 등장인물은 영어 사용)
+- ❌ **한글 대사 절대 금지**: `"세상에"`, `"엄마는 어디 갔지"`, `"루나야"` 등 금지
+- ✅ 과도한 구체 대사보다 대사 가이드 선호 (Sora2 자유도 확보)
+- ✅ 짧은 감탄사/호명 정도는 영어로 허용: `"Oh my god…"`, `"Luna!"`, `"Is that you…?"`
 
 ```
-❌ "yelling 'HEY! HEY!' at the wolf"
-✅ "yelling aggressively at the wolf to scare it away"
+❌ "여성이 '세상에… 다쳤어' 하고 속삭인다"
+✅ "여성이 'Oh my god… she's hurt' 하고 속삭인다"
+✅ "여성이 놀라 낮은 목소리로 속삭인다" (가이드형도 OK)
 
-❌ "saying 'It's okay, I'm here'"
-✅ "speaking softly to calm the fox down"
+❌ "여자가 '엄마는 어디 갔지' 하고 말한다"
+✅ "여자가 'Where's her mom…' 하고 말한다"
 
-❌ "shouting 'Get away!'"
-✅ "shouting to chase the wolves away"
+❌ "소리치며 '저리 가!' 외침"
+✅ "yelling aggressively to scare it away" (가이드형)
+✅ "shouting 'Get away!' aggressively" (짧은 영어 대사 OK)
 ```
+
+**지문(내레이션) vs 대사 구분**:
+- 지문/묘사는 한국어 (프롬프트 본문)
+- 등장인물이 실제로 말하는 따옴표 안 대사는 영어만
 
 ### 올바른 예시
 ```
