@@ -66,12 +66,12 @@ No background music. 개구멍 플라스틱 펄럭이는 소리, 나무 바닥 �
 
 ```
 EN:
-I thought she was a puppy
-But her ears kept getting bigger
+He brought a tiny puppy from somewhere
+But something was off
 
 KR:
-강아지인 줄 알았다
-근데 귀가 점점 커졌다
+어디서 작은 강아지를 데려왔다
+근데 뭔가 이상했다
 ```
 
 ### Sora2 Prompt
