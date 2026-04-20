@@ -20,23 +20,42 @@
 
 ## 공식 데이터 (채널 분석 기반)
 
-### 성공 사례
-| 조회수 | 제목 | 핵심 |
-|---:|---|---|
-| 14.4M | he kicked out a pregnant cat with a broom | 임신 고양이 + 빗자루 |
-| 5.1M | Corgi abandoned by her owner | 코기 유기 |
-| 3.3M | He Kicked a Tiny Kitten Begging for Food | 새끼 고양이 발로 참 |
-| 2.3M | Someone Left Their Puppy With Her Bed | 강아지 침대째 버림 |
-| 1.7M | I Filmed a Stray Beagle Stealing Food | 배고픈 비글 몰래 촬영 |
-| 1.5M | A Starving Dog Chased From The Trash | 굶주린 개 쓰레기통에서 쫓김 |
-| 1.0M | Mama Dog Stopped Eating After They Took All 3 Puppies | 새끼 빼앗긴 엄마개 |
+### 성공 사례 (채널 실측 데이터 — 2026.04.20 기준)
+
+#### A티어: 분노+구조 (인게이지먼트 최강)
+| 조회수 | 제목 | 좋아요율 | 댓글 |
+|---:|---|---|---:|
+| 4.0M | He kicked out a pregnant cat with a broom | 7.8% | 17,600 |
+| 3.0M | Saw Something Fall From the Window | 2.2% | 3,631 |
+| 588.8K | Dragged a pregnant pitbull out of his house | 7.1% | 2,471 |
+
+#### B티어: 유기/충성 (안정적 성과)
+| 조회수 | 제목 | 좋아요율 | 댓글 |
+|---:|---|---|---:|
+| 3.2M | Husky abandoned on highway | 5.2% | 6,072 |
+| 1.2M | Corgi abandoned by her owner | 5.7% | 3,388 |
+| 868K | Someone Left Their Puppy With Her Bed | 7.1% | 3,880 |
+| 564K | This husky wouldn't leave his owner's grave | - | 2,755 |
 
 ### 핵심 성공 요인
-- **분노 유발**: 가해자가 명확한 3인칭 제목 ("he kicked", "someone left")
+- **분노 유발**: 가해자가 명확한 3인칭 제목 ("he kicked", "someone left") → 댓글 폭발
 - **약한 피해자**: "임신한", "아기", "작은", "굶주린" 수식어가 분노 극대화
-- **소문자 제목**: 의도적 소문자 = 캐주얼/실제 느낌 (14.4M 영상)
+- **소문자 제목**: 의도적 소문자 = 캐주얼/실제 느낌 (4M 영상)
 - **구조 카타르시스**: 분노 → 안도 전환이 공유 행동 유발
 - **Before/After**: 처음 비참한 모습 vs 마지막 행복한 모습
+- **인게이지먼트 최강**: 좋아요율 7%+ (채널 평균 4.1%의 거의 2배)
+- **댓글 최다**: "pregnant cat broom" 영상 댓글 17,600개 — 채널 1위
+
+### 인게이지먼트 인사이트 (채널 실측)
+```
+분노+구조 영상 평균 좋아요율: 7.0% (채널 평균 4.1%의 1.7배)
+분노+구조 영상 평균 댓글 수: 7,901개
+유기/충성 영상 평균 좋아요율: 5.7%
+
+→ 조회수는 서프라이즈 공식(S티어)이 높지만,
+  인게이지먼트(좋아요+댓글)는 분노+구조가 압도적
+→ 알고리즘 추천에 유리 (높은 인게이지먼트 = 더 많은 노출)
+```
 
 ---
 
