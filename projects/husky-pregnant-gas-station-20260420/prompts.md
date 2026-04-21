@@ -320,9 +320,9 @@ I signed the papers today
 오늘 서류에 서명했다
 
 서브샷 3:
-She has a family now
+The girl left in the rain now has a family
 
-이제 가족이 생겼다
+빗속에 버려졌던 아이, 이제 가족이 생겼다
 
 ---
 
