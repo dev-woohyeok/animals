@@ -315,14 +315,14 @@ No background music. 새끼들 낑낑 소리, 허스키 핥는 소리, 꼬리 �
 2주 후 — 네 마리의 건강한 새끼들이 햇살 아래 뛰어논다
 
 서브샷 2:
-I signed the adoption papers today
+I signed the papers today
 
-오늘 입양 서류에 서명했다
+오늘 서류에 서명했다
 
 서브샷 3:
-The girl who was left at the church steps now has a family
+She has a family now
 
-교회 계단에 버려졌던 아이가 이제 가족이 생겼다
+이제 가족이 생겼다
 
 ---
 
