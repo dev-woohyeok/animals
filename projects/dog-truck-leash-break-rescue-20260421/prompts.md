@@ -1,6 +1,6 @@
-# he tied a dog to his truck and drove away
+# he threw a dog out of his moving car
 
-> 이삿짐 트럭 범퍼에 묶인 채 끌려가다 목줄이 끊어져 도로에 뒹군 강아지. 뒤따라오던 남자가 구조하지만, 집에서 벽만 바라보며 슬퍼하던 강아지가 점점 마음을 열고 행복을 되찾는다.
+> 달리는 차에서 내던져져 도로 위에 뒹군 강아지. 뒤따라오던 남자가 구조하지만, 집에서 벽만 바라보며 슬퍼하던 강아지가 점점 마음을 열고 행복을 되찾는다.
 
 **총 길이:** 90초 (6개 장면)
 
@@ -18,7 +18,7 @@
 
 ---
 
-## Scene 1: 끌려가다 끊어진 목줄 (The Leash Snapped)
+## Scene 1: 달리는 차에서 버려진 강아지 (Thrown Out of a Moving Car)
 
 - **Duration:** 15s
 - **Emotion:** 분노, 충격
@@ -27,35 +27,35 @@
 
 ### Character State
 
-- **Physical:** 빨간 나일론 목줄이 트럭 범퍼에 연결. 발바닥 까짐. 먼지투성이 털.
-- **Emotional:** 극도의 공포와 패닉
-- **Behavioral:** 필사적으로 달리다 뒹굴며 일어나지 못함
+- **Physical:** 짧은 연갈색 털 먼지투성이. 아스팔트에 뒹굴며 긁힘.
+- **Emotional:** 극도의 공포와 혼란
+- **Behavioral:** 도로에 내동댕이쳐진 뒤 비틀거리며 차를 쫓아가려 함
 
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 이삿짐 트럭 범퍼에 묶인 채 끌려가다 목줄이 끊어져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
+// Story: 전체: 달리는 차에서 버려져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
 앞 장면: 없음 (첫 장면).
-이 장면: 트럭에 끌려가던 강아지의 목줄이 끊어지며 도로에 뒹군다 — 충격과 분노.
+이 장면: 달리는 차 문이 열리고 강아지가 도로 위에 내던져진다 — 충격과 분노.
 
 주변인 촬영 아마추어 핸드폰 영상. 도로변 인도에서 촬영. 흔들리고 불안정. 급하게 핸드폰을 꺼내 찍은 느낌.
 
 미국 콜로라도주 교외 2차선 도로. 낮. 맑음. 건조한 아스팔트. 양옆에 마른 풀밭.
 
-생후 8-9개월 믹스견 암컷. 약 7kg. 짧은 연갈색 털에 가슴 부분 흰색 반점. 크고 둥근 갈색 눈. 중간 크기 축 처진 귀. 빨간색 낡은 나일론 목줄이 목에 있음. 먼지투성이.
+생후 8-9개월 믹스견 암컷. 약 7kg. 짧은 연갈색 털에 가슴 부분 흰색 반점. 크고 둥근 갈색 눈. 중간 크기 축 처진 귀. 먼지투성이.
 
 (0-1초) 참조 이미지 프레임.
 — 1초에 빠른 화면 전환 —
-(1-15초) 도로변에서 핸드폰으로 촬영. 2차선 도로 위에 강아지 한 마리가 옆으로 뒹굴며 넘어져 있다. 끊어진 빨간 목줄이 목에서 늘어져 있다. 멀리 낡은 트럭이 멈추지 않고 작아지며 사라진다. 강아지가 일어나려 하지만 다리가 풀려 다시 주저앉는다. 촬영자가 디지털 줌인한다.
+(1-15초) 도로변에서 핸드폰으로 촬영. 달리는 검은 세단의 뒷문이 열리며 강아지 한 마리가 도로 위로 내던져진다. 강아지가 아스팔트 위에서 뒹군다. 차는 문을 닫고 그대로 달려간다. 강아지가 비틀거리며 일어나 차를 쫓아가려 하지만 차는 이미 멀어진다. 촬영자가 디지털 줌인한다.
 
-No background music. 멀어지는 트럭 엔진 소리, 강아지 낑낑거리는 소리, 촬영자(여성)의 놀란 숨소리.
+No background music. 차 엔진 소리, 강아지가 아스팔트에 부딪히는 소리, 강아지 낑낑거리는 소리, 촬영자(여성)의 놀란 숨소리.
 ```
 
 ### Caption
 
-She was tied to his truck bumper
+She was thrown out of a moving car
 
-트럭 범퍼에 묶인 채 끌려가고 있었다
+달리는 차에서 내던져졌다
 
 ---
 
@@ -75,15 +75,15 @@ She was tied to his truck bumper
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 이삿짐 트럭 범퍼에 묶인 채 끌려가다 목줄이 끊어져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
-앞 장면: 트럭에 끌려가던 강아지의 목줄이 끊어지며 아스팔트에서 뒹굴었다. 트럭은 그대로 갔다.
+// Story: 전체: 달리는 차에서 버려져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
+앞 장면: 달리는 세단 뒷문이 열리며 강아지가 도로 위로 내던져졌다. 차는 그대로 갔다.
 이 장면: 뒤따라오던 남자가 차를 세우고 달려가 강아지를 안아올려 차에 태운다 — 공포에서 안도로.
 
 1인칭 POV 핸드헬드 핸드폰 영상. 흔들리고 불안정. 한 손 촬영.
 
 미국 콜로라도주 교외 2차선 도로. 낮. 맑음. 건조한 아스팔트. 양옆에 마른 풀밭.
 
-생후 8-9개월 믹스견 암컷. 약 7kg. 짧은 연갈색 털에 가슴 부분 흰색 반점. 크고 둥근 갈색 눈. 중간 크기 축 처진 귀. 끊어진 빨간 목줄 조각이 목에 남아 있음. 발바닥 까짐. 먼지투성이. 옆으로 누워 헐떡이고 있음.
+생후 8-9개월 믹스견 암컷. 약 7kg. 짧은 연갈색 털에 가슴 부분 흰색 반점. 크고 둥근 갈색 눈. 중간 크기 축 처진 귀. 발바닥 까짐. 먼지투성이. 옆으로 누워 헐떡이고 있음.
 
 30대 초반 백인 남성의 손. 회색 반팔 티셔츠 소매 보임. (1인칭 POV 촬영자)
 
@@ -133,7 +133,7 @@ I carried her to my truck
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 이삿짐 트럭 범퍼에 묶인 채 끌려가다 목줄이 끊어져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
+// Story: 전체: 달리는 차에서 버려져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
 앞 장면: 남자가 도로에서 강아지를 안아올려 차에 태우고 집으로 데려왔다.
 이 장면: 집에 왔지만 구석에서 벽만 바라보고 밥도 먹지 않는 강아지 — 슬픔과 무기력.
 
@@ -191,7 +191,7 @@ Same spot. Same position. All night.
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 이삿짐 트럭 범퍼에 묶인 채 끌려가다 목줄이 끊어져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
+// Story: 전체: 달리는 차에서 버려져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
 앞 장면: 집에 온 뒤 구석에서 벽만 바라보고 밥도 안 먹었다. 며칠째.
 이 장면: 3일째. 남자가 옆에 앉아 기다리자 강아지가 처음으로 손 냄새를 맡고 밥을 먹기 시작한다 — 슬픔에서 호기심으로.
 
@@ -249,7 +249,7 @@ Then she started eating
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 이삿짐 트럭 범퍼에 묶인 채 끌려가다 목줄이 끊어져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
+// Story: 전체: 달리는 차에서 버려져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
 앞 장면: 3일째에 처음으로 손 냄새를 맡고 밥을 먹기 시작했다.
 이 장면: 7일째. 강아지가 스스로 남자에게 다가와 발밑에 눕고 처음으로 꼬리를 흔든다 — 경계에서 신뢰로.
 
@@ -307,7 +307,7 @@ Her first tail wag
 ### Sora2 Prompt
 
 ```
-// Story: 전체: 이삿짐 트럭 범퍼에 묶인 채 끌려가다 목줄이 끊어져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
+// Story: 전체: 달리는 차에서 버려져 도로에 뒹군 강아지를 뒤따라오던 남자가 구조 → 집에서 슬퍼하다 → 마음을 열고 행복.
 앞 장면: 7일째에 처음으로 남자에게 다가와 발밑에 누우며 꼬리를 흔들었다.
 이 장면: 3개월 후. 완전히 행복해진 강아지의 세 가지 순간을 SNS 스타일로 빠르게 보여준다 — 사랑과 행복.
 
@@ -351,19 +351,19 @@ My best decision ever
 
 ## 제목 옵션
 
-**메인:** he tied a dog to his truck and drove away
+**메인:** he threw a dog out of his moving car
 
 ### Platform Variants
 
-- **YouTube:** he tied her to his moving truck 💔 the leash snapped (True Story)
-- **Instagram:** Tied to a truck bumper. Left on the road. But someone was right behind her 🐾
-- **TikTok:** he tied her to the bumper and just drove away 😭
+- **YouTube:** he threw her out of his moving car 💔 she tried to chase him (True Story)
+- **Instagram:** Thrown out of a moving car. Left on the road. But someone was right behind her 🐾
+- **TikTok:** he opened the door and threw her out while driving 😭
 
 ### Hooks
 
-- **감정형:** She was dragged behind a truck until the leash broke 💔
-- **호기심형:** he tied a dog to his truck bumper... what happened next changed two lives
-- **결과형:** he tied her to his truck 💔 3 months later she finally smiled
+- **감정형:** She was thrown out of a moving car onto the road 💔
+- **호기심형:** he threw a dog out of his car... what happened next changed two lives
+- **결과형:** he threw her out of his car 💔 3 months later she finally smiled
 
 ### Hashtags
 
