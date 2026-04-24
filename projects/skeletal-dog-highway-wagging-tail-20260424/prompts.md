@@ -17,8 +17,40 @@
 ### @ 참조 가이드
 | 참조 | 용도 |
 |------|------|
-| @Image1 | 동물 캐릭터 참조 (모든 클립에 공통 사용) |
-| @Image2+ | 장면별 배경/환경 참조 (선택) |
+| @Image1 | 동물 캐릭터 참조 — 초기 상태 (모든 클립에 공통 사용) |
+| @Image2 | 동물 캐릭터 참조 — 회복 후 상태 (Scene 5-6용) |
+
+---
+
+## 이미지 생성 프롬프트
+
+### @Image1 — 유기견 (초기 상태: Scene 1~4 공통)
+
+> 이 이미지를 모든 Seedance 2.0 클립의 @Image1으로 사용합니다.
+
+```
+A photorealistic close-up photograph of an extremely emaciated medium mixed-breed stray dog lying on a gravel highway shoulder. The dog has short tan and brown fur that is heavily matted and patchy with visible bald spots on the flanks and back. Every single rib is sharply visible through the skin, hip bones jutting out prominently, spine ridge clearly defined along the back. The dog has large dark brown slightly sunken eyes looking directly at camera with a gentle hopeful expression despite the horrifying condition. Dry cracked nose. No collar. The dog's tail is slightly raised as if mid-wag. Overcast late afternoon light, grey sky. Gravel and dead grass beneath the dog. Shot on phone camera, slightly out of focus background, amateur quality. Photorealistic, not illustrated.
+```
+
+### @Image2 — 유기견 (회복 후 상태: Scene 5~6용)
+
+> Scene 5-6에서 @Image2로 사용하여 회복된 모습의 시각적 일관성 확보.
+
+```
+A photorealistic photograph of a healthy medium mixed-breed dog sitting on a wooden front porch at golden hour sunset. Same dog breed as reference — tan and brown short fur that is now glossy, smooth, and full with no bald spots. The dog is at a healthy weight of about 25kg, muscular and well-fed. No ribs visible. Bright clear dark brown eyes, alert and happy. Wet healthy nose. Wearing a new blue collar with a metal tag. Tail mid-wag. The dog has a relaxed happy expression with mouth slightly open. Warm golden sunset light illuminating the fur. American suburban house porch with wooden steps. Shot on phone camera, casual home video quality. Photorealistic, not illustrated.
+```
+
+### @Image3 — 동물병원 장면 배경 (Scene 4용, 선택)
+
+```
+A photorealistic photograph of a veterinary clinic examination room. Steel examination table in center. IV drip stand with fluid bag hanging. Bright white fluorescent overhead lighting. Medical supplies on counter in background. Small stainless steel food bowl on the table. Clinical clean environment. Shot on phone camera, slightly overexposed from fluorescent lights. Amateur quality.
+```
+
+### @Image4 — 고속도로 갓길 배경 (Scene 1~3용, 선택)
+
+```
+A photorealistic photograph of a highway road shoulder in the Pacific Northwest, near Portland Oregon. Grey gravel shoulder with dead brown grass along the edge. Metal guard rail. Overcast grey sky, late afternoon flat light. A dark grey sedan parked on the shoulder with hazard lights on. Two-lane highway with occasional passing cars blurred in background. Slightly desaturated muted tones. Shot on phone camera from driver's perspective approaching on foot. Amateur quality.
+```
 
 ---
 
