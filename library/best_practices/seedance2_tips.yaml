@@ -1,0 +1,145 @@
+# Seedance 2.0 Prompt Best Practices
+
+general_rules:
+  - rule: "Use @ reference system for character consistency"
+    description: "Anchor character appearance with @Image1 reference across all clips"
+    good: "@Image1's golden retriever puppy as the subject. Fluffy cream-colored fur with golden undertones, large expressive brown eyes."
+    bad: "A cute golden puppy"
+    importance: high
+
+  - rule: "Specify camera movements precisely"
+    description: "Use Seedance 2.0 camera language for precise control"
+    good: "Slow push in toward the subject, ending in close-up. Handheld, slightly shaky."
+    bad: "Camera moves closer"
+    importance: high
+
+  - rule: "Use time-segmented prompts"
+    description: "Break 10s+ videos into timed segments for precise control"
+    good: "0-5s: Wide shot of empty park. — natural transition — 5-10s: Medium shot, puppy next to bench."
+    bad: "Show a park with a puppy"
+    importance: high
+
+  - rule: "Include style modifiers at end"
+    description: "Add quality/mood keywords at the end of every prompt"
+    good: "Amateur phone footage quality. Slightly shaky. Natural lighting. Photorealistic."
+    bad: (no style modifier)
+    importance: high
+
+  - rule: "Audio direction always included"
+    description: "Guide Seedance 2.0's auto-generated audio"
+    good: "No background music. Natural ambient sound only — rain, dog whimpering, footsteps."
+    bad: "No background music, no sounds"
+    importance: medium
+
+  - rule: "Keep prompts concise"
+    description: "Detailed camera + brief situation = best quality"
+    good: "Close-up. Puppy's eyes. Raindrops."
+    bad: "Extreme close-up on puppy's eye. Raindrops streaming down face while lightning reflects in trembling pupils full of terror."
+    importance: high
+
+consistency_patterns:
+  character_reference:
+    description: "Use @ references + text description for consistency across clips"
+    template: "@Image1's [ANIMAL] as the subject. [TEXT_STATE_DESCRIPTION]. [ACTION]. [CAMERA]. [STYLE]."
+    example: |
+      @Image1's golden retriever puppy as the subject.
+      Fluffy cream-colored fur, large expressive brown eyes,
+      slightly floppy ears, white patch on chest.
+      Currently: fur matted and dirty, ribs slightly showing.
+    tips:
+      - "Use @Image1 in every prompt for visual consistency"
+      - "Add text description for scene-specific state changes"
+      - "Include distinctive marks (spots, patterns) every time"
+      - "Keep size/age information consistent"
+
+  scene_transition:
+    description: "Patterns for smooth scene transitions"
+    tips:
+      - "Maintain same background elements (same room, same street)"
+      - "Gradual lighting changes only"
+      - "Character pose continuity"
+      - "Time progression clear (moments later, the next morning)"
+
+  style_consistency:
+    description: "Maintain consistent style across all clips"
+    tips:
+      - "Same style modifiers in every prompt"
+      - "Consistent color palette (amateur phone footage = natural)"
+      - "Same shooting style throughout (handheld POV / bystander)"
+
+emotional_keywords:
+  sadness:
+    visual: ["muted colors", "grey tones", "overcast sky", "empty spaces"]
+    lighting: ["cold blue lighting", "dim", "shadows"]
+    camera: ["slow movement", "static shots", "wide angles showing isolation"]
+    atmosphere: ["melancholic", "lonely", "isolated"]
+
+  hope:
+    visual: ["warm tones emerging", "light breaking through", "upward gaze"]
+    lighting: ["soft warm light", "golden highlights", "sun rays"]
+    camera: ["gentle push in", "upward tilts"]
+    atmosphere: ["hopeful", "anticipating"]
+
+  joy:
+    visual: ["bright colors", "movement", "playful action"]
+    lighting: ["bright", "warm", "golden hour", "vibrant"]
+    camera: ["dynamic movement", "tracking shots"]
+    atmosphere: ["joyful", "heartwarming", "vibrant"]
+
+  tension:
+    visual: ["high contrast", "sharp shadows", "close framing"]
+    lighting: ["dramatic", "harsh", "spotlighting"]
+    camera: ["quick transitions", "shallow depth of field", "close-ups"]
+    atmosphere: ["tense", "uncertain"]
+
+  peace:
+    visual: ["soft focus", "gentle movements", "comfortable spaces"]
+    lighting: ["soft diffused", "warm", "even"]
+    camera: ["slow gentle movement", "wide establishing shots"]
+    atmosphere: ["peaceful", "serene", "calm"]
+
+seedance2_specific:
+  at_reference_system:
+    description: "How to use @ references effectively"
+    tips:
+      - "Always specify WHAT to reference: character, camera, scene, audio"
+      - "Don't just say 'reference @Video1' — say 'reference @Video1's camera movement'"
+      - "Combine multiple references: @Image1's character + @Image2 as first frame"
+      - "Max 12 files total (9 images + 3 videos or 9 images + 3 audio)"
+
+  camera_language:
+    description: "Seedance 2.0 camera movement keywords"
+    movements:
+      - "Push in / Slow push — toward subject"
+      - "Pull back / Pull away — away from subject"
+      - "Pan left/right — horizontal rotation"
+      - "Tilt up/down — vertical rotation"
+      - "Track / Follow shot — follows subject"
+      - "Orbit / Revolve — circles around subject"
+      - "First-person POV — subjective camera"
+      - "Digital zoom in/out — phone zoom effect"
+
+  quality_suffix:
+    description: "Standard quality modifiers for animal shorts"
+    standard: "Amateur phone footage quality. Slightly shaky. Natural lighting. Photorealistic. Raw, unedited feel."
+    night: "Amateur phone footage quality. Phone flashlight only. Shaky. Out of focus moments."
+
+  common_mistakes:
+    - "Vague references: Don't just say 'reference @Video1'"
+    - "Conflicting instructions: Don't mix 'static camera' and 'orbit shot'"
+    - "Content overload: Don't pack too many scenes into 5 seconds"
+    - "Missing audio direction: Always include sound design"
+    - "Real human faces: Don't upload realistic face photos"
+    - "Duration mismatch: Match complexity to generation length"
+
+prompt_structure:
+  recommended_order:
+    - story_context         # // Story: ...
+    - at_reference          # @Image1's character
+    - shooting_style        # Camera perspective + quality
+    - environment           # Location + weather + time
+    - animal_character      # Full description + current state
+    - human_character       # When appearing
+    - time_segments         # 0-5s / 5-10s / 10-15s
+    - audio_direction       # Sound design
+    - style_modifiers       # Quality + mood keywords

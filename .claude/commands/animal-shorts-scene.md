@@ -1,6 +1,6 @@
 # /animal-shorts-scene - 장면 분할
 
-스토리를 15초 단위 장면으로 분할 (멀티샷 구조)
+스토리를 15초 단위 장면으로 분할 (멀티샷 구조, Seedance 2.0 최적화)
 
 ## 사용법
 
@@ -35,18 +35,18 @@
 
 - **총 장면 수**: 6개 (고정)
 - **각 장면 길이**: 15초 (고정)
-- **총 영상 길이**: 90초 (6개 × 15초 = 90초)
+- **총 영상 길이**: 90초 (6개 x 15초 = 90초)
 - **서브샷**: 장면당 최대 3개, 각 서브샷 최대 5초 (5초 초과 금지!)
-- **⚠️ 서브샷 = 개별 미니 씬**: 자연스럽게 연결되지만 시간이 경과해서 구별되는 장면 (연속 실시간 ❌)
+- **⚠️ 서브샷 = 개별 미니 씬**: 자연스럽게 연결되지만 시간이 경과해서 구별 (연속 실시간 ❌)
 
 ### 장면 구성 요소
 
 1. **제목**: 한글 + 영문
 2. **is_hook**: Scene 1이면 true
 3. **story_context**: ⚠️ CRITICAL! 반드시 3가지 포함:
-   - **[전체]** 전체 스토리 요약 1문장 (매 씬에 동일 반복)
-   - **[앞 장면]** 직전 장면에서 무슨 일이 있었는지 (인과관계)
-   - **[이 장면]** 이 장면의 역할과 감정 방향
+   - **[Overall]** 전체 스토리 요약 1문장 (매 씬에 동일 반복)
+   - **[Previous]** 직전 장면에서 무슨 일이 있었는지 (인과관계)
+   - **[This scene]** 이 장면의 역할과 감정 방향
 4. **character_state**: ⚠️ CRITICAL! 매 씬마다 변화 필수:
    - physical: 물리적 상태 (이전 씬 대비 변화)
    - emotional: 감정 상태 (이전 씬 대비 변화)
@@ -55,7 +55,7 @@
    - 1인칭 POV 촬영자도 등장인물 (손, 옷소매, 목소리 보임)
    - 매 씬에 성별/나이/외모/복장 전체 설명 반복
    - 촬영자가 주인공이면 절대 생략 금지
-6. **자막**: 쇼츠용 짧은 캡션 (영문 + 한글)
+6. **자막**: 서브샷별 짧은 캡션 (영문 + 한글)
 7. **설명**: 무엇이 일어나는지
 8. **감정**: 이 장면의 감정 톤
 9. **서브샷(sub_shots)**: 최대 3개 beats
@@ -77,36 +77,34 @@ scenes:
     title_en: "Tied to the Bench"
     is_opening: true
     caption:
-      en: |
-        Someone just left her here
-        Tied to a bench in the cold
-      ko: |
-        누군가 여기 두고 갔다
-        추운 벤치에 묶인 채로
+      - time: "0-15s"
+        en: "Someone just left her here\nTied to a bench in the cold"
+        ko: "누군가 여기 두고 갔다\n추운 벤치에 묶인 채로"
     duration: 15
-    description: "시간순 도입 — 벤치에 묶인 강아지를 발견. 서브샷 = 개별 미니 씬 (시간 경과)."
+    description: "시간순 도입 — 단일 연속 장면으로 촬영"
     emotion: "충격, 분노"
-    # ⚠️ 서브샷 = 개별 미니 씬 (시간 경과 전환)
     camera:
       primary_movement: "handheld POV"
-      note: "서브샷 = 개별 미니 씬 (시간 경과 전환)"
+      note: "Scene 1 = 단일 연속 장면 (서브샷 금지)"
     lighting: "늦은 오후 흐린 하늘"
     key_elements:
       - "벤치에 묶인 줄"
       - "떨리는 강아지"
-      - "끊어진 목줄"
 
   - id: 2
     title: "다가가기"
     title_en: "Getting Closer"
     is_opening: false
     caption:
-      en: |
-        She was shaking so badly
-        I couldn't just walk past
-      ko: |
-        너무 심하게 떨고 있었다
-        그냥 지나칠 수 없었다
+      - time: "0-5s"
+        en: "She was shaking so badly"
+        ko: "너무 심하게 떨고 있었다"
+      - time: "5-10s"
+        en: "I couldn't just walk past"
+        ko: "그냥 지나칠 수 없었다"
+      - time: "10-15s"
+        en: "I had to help"
+        ko: "도와줘야 했다"
     duration: 15
     description: "여자가 다가가서 강아지 상태를 확인"
     emotion: "연민, 걱정"
@@ -154,10 +152,9 @@ scenes:
 ### Movement (움직임)
 
 - `handheld POV` - 1인칭 핸드헬드 (추천)
-- `slow dolly in` - 느린 접근
 - `static` - 고정
-- `pan` - 좌우 패닝
 - `tracking` - 추적
+- `digital zoom in/out` - 핸드폰 줌
 
 ### Shot Types (서브샷용)
 
@@ -166,7 +163,6 @@ scenes:
 - `medium` - 상반신, 상호작용
 - `wide` - 환경, 전체 상황
 - `POV` - 1인칭 시점
-- `transition` - 전 씬 연결 (Scene 2+ 첫 beat)
 - `bridge` - 다음 씬 연결 (마지막 beat)
 
 ### Transition (전환) — ⚠️ 물리적 카메라 동작만!
@@ -174,8 +170,6 @@ scenes:
 서브샷 간 전환은 촬영자의 물리적 핸드폰 동작으로만:
 - 폰을 옆으로 돌림 (화면 흔들리며 초점 나감)
 - 폰을 아래로/위로 내림/올림
-- 폰을 바닥에 내려놓음 (화면 크게 흔들림)
-- 폰을 뒤집어 후면/전면 카메라 전환 (화면 깜빡임)
 - 디지털 줌인/줌아웃
 
 ❌ 영화식 전환 금지: cut, fade, dissolve, match cut
@@ -191,7 +185,6 @@ scenes:
 - `warm sunset through window` - 창문으로 들어오는 석양
 - `cold blue-grey, overcast` - 차가운 흐린 날씨
 - `phone flashlight only` - 핸드폰 플래시만 (야간)
-- `lightning flash` - 번개 (폭풍 장면)
 
 ---
 
@@ -213,7 +206,7 @@ scenes:
 **장면 분할 완료 즉시 다음 단계를 자동 실행한다. 멈추지 않는다.**
 
 1. 장면 분할 완료
-2. → 즉시 Sora2 프롬프트 (`/animal-shorts-prompt`) 실행
+2. → 즉시 Seedance 2.0 프롬프트 (`/animal-shorts-prompt`) 실행
 3. → 즉시 제목 생성 (`/animal-shorts-title`) 실행
 4. → 즉시 파일 저장 + git (`/animal-shorts-export`) 실행
 

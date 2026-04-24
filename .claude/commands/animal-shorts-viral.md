@@ -36,7 +36,7 @@ Step 2: 스토리 생성 (/animal-shorts-story) → 자동 진행
           ↓
 Step 3: 장면 분할 (/animal-shorts-scene) → 자동 진행
           ↓
-Step 4: Sora2 프롬프트 (/animal-shorts-prompt) → 자동 진행
+Step 4: Seedance 2.0 프롬프트 (/animal-shorts-prompt) → 자동 진행
           ↓
 Step 5: 제목 생성 (/animal-shorts-title) → 자동 진행
           ↓
@@ -118,15 +118,15 @@ Step 6: 파일 저장 + git commit & push (/animal-shorts-export) → 완료
 
 → 완료 즉시 Step 4로 자동 진행.
 
-### Step 4: Sora2 프롬프트 생성
-`prompts/sora2_system.md` 규칙에 따라 한국어 프롬프트 생성.
+### Step 4: Seedance 2.0 프롬프트 생성
+`prompts/seedance2_system.md` 규칙에 따라 영어 프롬프트 생성.
 
 **핵심 규칙**:
-1. 캐릭터 일관성: 모든 프롬프트에 동일 캐릭터 설명
-2. Self-Contained: 각 프롬프트에 전체 맥락 포함
+1. @ 참조 시스템: `@Image1's [animal] as the subject` 로 캐릭터 일관성
+2. Self-Contained: 각 프롬프트에 전체 맥락 포함 (텍스트)
 3. 아마추어 핸드폰 촬영 스타일 필수
-4. `(0-1초) 참조 이미지 프레임` 고정
-5. `No background music` + 자연음 필수
+4. 오디오 지시: `No background music` + 자연음
+5. 스타일 수식어: 프롬프트 끝에 amateur, shaky, photorealistic 등
 
 → 완료 즉시 Step 5로 자동 진행.
 
@@ -209,14 +209,14 @@ Step 6: 파일 저장 + git commit & push (/animal-shorts-export) → 완료
 ### 파이프라인 스킬
 - `.claude/commands/animal-shorts-story.md` — 스토리 생성
 - `.claude/commands/animal-shorts-scene.md` — 장면 분할
-- `.claude/commands/animal-shorts-prompt.md` — Sora2 프롬프트
+- `.claude/commands/animal-shorts-prompt.md` — Seedance 2.0 프롬프트
 - `.claude/commands/animal-shorts-title.md` — 제목 생성
 - `.claude/commands/animal-shorts-export.md` — 파일 출력
 
 ### 시스템 프롬프트
 - `prompts/story_system.md`
 - `prompts/scene_system.md`
-- `prompts/sora2_system.md`
+- `prompts/seedance2_system.md`
 - `prompts/title_system.md`
 
 ### 템플릿

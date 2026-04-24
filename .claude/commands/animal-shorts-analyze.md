@@ -134,7 +134,7 @@ analysis:
 1. 스토리 선택 완료
 2. → 즉시 스토리 생성 (`/animal-shorts-story` 규칙 적용)
 3. → 즉시 장면 분할 (`/animal-shorts-scene` 규칙 적용)
-4. → 즉시 Sora2 프롬프트 (`/animal-shorts-prompt` 규칙 적용)
+4. → 즉시 Seedance 2.0 프롬프트 (`/animal-shorts-prompt` 규칙 적용)
 5. → 즉시 제목 생성 (`/animal-shorts-title` 규칙 적용)
 6. → 즉시 파일 저장 + git (`/animal-shorts-export` 규칙 적용)
 
@@ -146,7 +146,7 @@ analysis:
 
 - `prompts/story_system.md` - 스토리 구조 가이드
 - `prompts/scene_system.md` - 장면 분할 가이드
-- `prompts/sora2_system.md` - Sora2 프롬프트 규칙
+- `prompts/seedance2_system.md` - Seedance 2.0 프롬프트 규칙
 - `prompts/title_system.md` - 제목 생성 전략
 
 ---

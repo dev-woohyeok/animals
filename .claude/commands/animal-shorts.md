@@ -1,6 +1,6 @@
 # /animal-shorts - Animal Shorts Prompt Generator
 
-동물 관련 감동 쇼츠 영상 제작을 위한 Sora2 프롬프트 자동 생성 워크플로우
+동물 관련 감동 쇼츠 영상 제작을 위한 Seedance 2.0 프롬프트 자동 생성 워크플로우
 
 ## 사용법
 
@@ -29,7 +29,7 @@ Step 2: 스토리 생성 → 자동 진행
           ↓
 Step 3: 장면 분할 → 자동 진행
           ↓
-Step 4: Sora2 프롬프트 → 자동 진행
+Step 4: Seedance 2.0 프롬프트 → 자동 진행
           ↓
 Step 5: 제목 생성 → 자동 진행
           ↓
@@ -82,15 +82,16 @@ Step 6: 파일 저장 + git commit & push → 완료
 
 → 완료 즉시 Step 4로 자동 진행.
 
-### Step 4: Sora2 프롬프트 생성 (자동)
+### Step 4: Seedance 2.0 프롬프트 생성 (자동)
 
-`prompts/sora2_system.md` 규칙에 따라 각 장면의 **한국어 프롬프트** 생성:
+`prompts/seedance2_system.md` 규칙에 따라 각 장면의 **영어 프롬프트** 생성:
 
 **핵심 규칙**:
-1. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명
-2. **멀티샷 시퀀스**: 서브샷을 (0-Xs) 형태로 시간순
-3. **카메라 상세 + 상황 간결**: Sora2에 자유도
-4. **bridge 샷**: 마지막 서브샷은 다음 씬 연결
+1. **@ 참조 시스템**: `@Image1's [animal] as the subject` 로 캐릭터 일관성
+2. **캐릭터 텍스트 설명**: @ 참조 + 텍스트로 상태 변화 표현
+3. **멀티샷 시퀀스**: 서브샷을 시간 분할 형태로 (0-5s, 5-10s, 10-15s)
+4. **카메라 상세 + 상황 간결**: Seedance 2.0에 자유도
+5. **스타일 수식어**: 프롬프트 끝에 amateur, shaky, photorealistic 등
 
 → 완료 즉시 Step 5로 자동 진행.
 
@@ -124,17 +125,11 @@ git commit & push 자동 실행.
 - **Camera:** {camera}
 
 **Caption:**
-- (1-5초)
-  - EN: "..."
-  - KR: "..."
-- (5-10초)
-  - EN: "..."
-  - KR: "..."
-- (10-15초)
+- (0-15s)
   - EN: "..."
   - KR: "..."
 
-### Sora2 Prompt
+### Seedance 2.0 Prompt
 \`\`\`
 {prompt}
 \`\`\`
@@ -154,7 +149,7 @@ git commit & push 자동 실행.
 
 - `prompts/story_system.md` - 스토리 구조 가이드
 - `prompts/scene_system.md` - 장면 분할 가이드
-- `prompts/sora2_system.md` - Sora2 프롬프트 규칙
+- `prompts/seedance2_system.md` - Seedance 2.0 프롬프트 규칙
 - `prompts/title_system.md` - 제목 생성 전략
 
 ---
@@ -163,7 +158,7 @@ git commit & push 자동 실행.
 
 **허용**:
 - 동물 관련 감동 스토리 생성
-- Sora2 최적화 프롬프트 생성
+- Seedance 2.0 최적화 프롬프트 생성
 - 일관성 있는 캐릭터 설명 유지
 
 **불허**:

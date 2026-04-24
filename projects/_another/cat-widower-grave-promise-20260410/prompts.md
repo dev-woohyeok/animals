@@ -17,19 +17,19 @@
 
 ### Platform Variants
 
-| Platform | Title |
-|---|---|
-| **YouTube Shorts** | A Widower Rescued a Stray Cat He Didn't Want... Then Took It to His Wife's Grave (True Story) |
-| **Instagram Reels** | He said "I'm not your friend." The cat didn't believe him. 🐈‍⬛ |
-| **TikTok** | he rescued a cat he didn't want and brought it to his wife's grave 😭 |
+| Platform            | Title                                                                                         |
+| ------------------- | --------------------------------------------------------------------------------------------- |
+| **YouTube Shorts**  | A Widower Rescued a Stray Cat He Didn't Want... Then Took It to His Wife's Grave (True Story) |
+| **Instagram Reels** | He said "I'm not your friend." The cat didn't believe him. 🐈‍⬛                                 |
+| **TikTok**          | he rescued a cat he didn't want and brought it to his wife's grave 😭                         |
 
 ### Hooks
 
-| Type | Title |
-|---|---|
+| Type          | Title                                                   |
+| ------------- | ------------------------------------------------------- |
 | **Emotional** | "I still can't follow you. It's harder than I thought." |
-| **Curiosity** | Why did he carry a cat in a box to his wife's grave? |
-| **Outcome** | The cat he pushed away wouldn't let go of his foot |
+| **Curiosity** | Why did he carry a cat in a box to his wife's grave?    |
+| **Outcome**   | The cat he pushed away wouldn't let go of his foot      |
 
 ### Hashtags
 
@@ -75,11 +75,11 @@ sound:
 
 ### Scene 1 — 돌 (The Rock)
 
-| 항목 | 내용 |
-|---|---|
-| **Hook** | 일상 침입 — 길 건너편에서 돌이 날아가 고양이 머리에 맞는 충격 |
-| **Duration** | 15초 (단일 연속 샷, 서브샷 없음) |
-| **Emotion** | 분노, 충격, 놀라움 |
+| 항목                | 내용                                                                                                                                            |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Hook**            | 일상 침입 — 길 건너편에서 돌이 날아가 고양이 머리에 맞는 충격                                                                                   |
+| **Duration**        | 15초 (단일 연속 샷, 서브샷 없음)                                                                                                                |
+| **Emotion**         | 분노, 충격, 놀라움                                                                                                                              |
 | **Character State** | 고양이: 길가 울타리 근처에 있음. 돌이 머리에 맞아 휘청임. 여성: 강아지를 안고 돌을 던짐. 남자(촬영자): 길 건너 집 현관 앞에서 목격, 놀라서 촬영 |
 
 **Caption EN:**
@@ -96,10 +96,10 @@ She was throwing rocks at a stray cat
 
 ### Scene 2 — 경고 (The Warning)
 
-| 항목 | 내용 |
-|---|---|
-| **Duration** | 15초 (서브샷 2개) |
-| **Emotion** | 분노, 단호함 |
+| 항목                | 내용                                                                                      |
+| ------------------- | ----------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 2개)                                                                         |
+| **Emotion**         | 분노, 단호함                                                                              |
 | **Character State** | 남자: 길을 건너 여성에게 다가감. 화가 남. 여성: 돌을 또 집어듦. 강아지는 여성 품에서 짖음 |
 
 **Caption EN:**
@@ -108,7 +108,7 @@ I crossed the street yelling at her
 One more rock and I kick you onto that roof
 
 **Caption KR:**
-길을 건너며 소리쳤다
+길을 건너며 소리쳤
 
 한 번만 더 던지면 너를 지붕 위로 날려버리겠다
 
@@ -116,10 +116,10 @@ One more rock and I kick you onto that roof
 
 ### Scene 3 — 뭐가 어때 (So What)
 
-| 항목 | 내용 |
-|---|---|
-| **Duration** | 15초 (서브샷 2개) |
-| **Emotion** | 분노, 경멸, 허탈함 |
+| 항목                | 내용                                                                                          |
+| ------------------- | --------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 2개)                                                                             |
+| **Emotion**         | 분노, 경멸, 허탈함                                                                            |
 | **Character State** | 여성: 경멸하는 표정으로 남자를 쳐다봄. 강아지를 더 꽉 안고 돌아섬. 남자: 가까이서 여성을 촬영 |
 
 **Caption EN:**
@@ -136,10 +136,10 @@ It is a stray. It only spreads disease. A filthy thing
 
 ### Scene 4 — 난 네 친구 아니야 (I'm Not Your Friend)
 
-| 항목 | 내용 |
-|---|---|
-| **Duration** | 15초 (서브샷 2개) |
-| **Emotion** | 연민, 거리두기, 난처함 |
+| 항목                | 내용                                                                                                                      |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 2개)                                                                                                         |
+| **Emotion**         | 연민, 거리두기, 난처함                                                                                                    |
 | **Character State** | 고양이: 이마에 피 한 방울. 다친 상태로 남자에게 다가옴. 남자: 쪼그려 앉아 고양이를 살펴보지만 손을 흔들며 "가"라고 밀어냄 |
 
 **Caption EN:**
@@ -156,10 +156,10 @@ I am not your friend. Go on. Shoo
 
 ### Scene 5 — 발에 매달려 (Clinging to My Boot)
 
-| 항목 | 내용 |
-|---|---|
-| **Duration** | 15초 (서브샷 2개) |
-| **Emotion** | 난처함, 먹먹함, 체념 |
+| 항목                | 내용                                                                                                                 |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 2개)                                                                                                    |
+| **Emotion**         | 난처함, 먹먹함, 체념                                                                                                 |
 | **Character State** | 고양이: 남자의 부츠에 얼굴을 비비고 앞발로 바지를 붙잡음. 남자: 걸으며 고양이를 떼어내려 하지만 고양이가 질질 끌려옴 |
 
 **Caption EN:**
@@ -176,10 +176,10 @@ She would not let go of my boot
 
 ### Scene 6 — 박스 (The Box)
 
-| 항목 | 내용 |
-|---|---|
-| **Duration** | 15초 (서브샷 2개) |
-| **Emotion** | 체념, 따뜻함, 조용한 결심 |
+| 항목                | 내용                                                                                                                     |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Duration**        | 15초 (서브샷 2개)                                                                                                        |
+| **Emotion**         | 체념, 따뜻함, 조용한 결심                                                                                                |
 | **Character State** | 남자: 집 현관 앞에 종이 박스를 내려놓음. 고양이: 망설임 없이 박스에 스스로 들어감. 남자: 한참 바라보다가 박스를 들어올림 |
 
 **Caption EN:**
@@ -196,10 +196,10 @@ She walked right in like she knew
 
 ### Scene 7 — 아내에게 (To My Wife)
 
-| 항목 | 내용 |
-|---|---|
-| **Duration** | 15초 (서브샷 3개) |
-| **Emotion** | 슬픔, 그리움, 사랑, 결심 |
+| 항목                | 내용                                                                                                                          |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| **Duration**        | 15초 (서브샷 3개)                                                                                                             |
+| **Emotion**         | 슬픔, 그리움, 사랑, 결심                                                                                                      |
 | **Character State** | 남자: 공동묘지 아내 무덤 앞에 박스를 내려놓고 앉음. 자조적으로 웃으며 말함. 고양이: 박스 사이로 얼굴을 살짝 내밈. 마지막 원경 |
 
 **Caption EN:**

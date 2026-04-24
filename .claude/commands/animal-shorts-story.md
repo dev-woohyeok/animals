@@ -134,7 +134,7 @@ total_duration: 90
 
 1. 스토리 생성 완료
 2. → 즉시 장면 분할 (`/animal-shorts-scene`) 실행
-3. → 즉시 Sora2 프롬프트 (`/animal-shorts-prompt`) 실행
+3. → 즉시 Seedance 2.0 프롬프트 (`/animal-shorts-prompt`) 실행
 4. → 즉시 제목 생성 (`/animal-shorts-title`) 실행
 5. → 즉시 파일 저장 + git (`/animal-shorts-export`) 실행
 

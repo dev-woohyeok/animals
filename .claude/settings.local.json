@@ -50,7 +50,24 @@
       "WebFetch(domain:www.viewstats.com)",
       "WebFetch(domain:vidiq.com)",
       "WebFetch(domain:us.youtubers.me)",
-      "WebFetch(domain:mixerno.space)"
+      "WebFetch(domain:mixerno.space)",
+      "WebFetch(domain:www.tiktok.com)",
+      "WebFetch(domain:tokcount.com)",
+      "WebFetch(domain:countik.com)",
+      "WebFetch(domain:exolyt.com)",
+      "WebFetch(domain:app.exolyt.com)",
+      "WebFetch(domain:www.tikwm.com)",
+      "WebFetch(domain:urlebird.com)",
+      "WebFetch(domain:bytedance.larkoffice.com)",
+      "WebFetch(domain:help.apiyi.com)",
+      "WebFetch(domain:wavespeed.ai)",
+      "WebFetch(domain:videoweb.ai)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:seedance-prompt-guide.sirioberati.com)",
+      "WebFetch(domain:redreamality.com)",
+      "WebFetch(domain:www.xmsumi.com)",
+      "WebFetch(domain:www.cnblogs.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }
