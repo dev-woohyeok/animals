@@ -32,6 +32,8 @@
 A photorealistic close-up photograph of an extremely emaciated medium mixed-breed stray dog lying on a gravel highway shoulder. The dog has short tan and brown fur that is heavily matted and patchy with visible bald spots on the flanks and back. Every single rib is sharply visible through the skin, hip bones jutting out prominently, spine ridge clearly defined along the back. The dog has large dark brown slightly sunken eyes looking directly at camera with a gentle hopeful expression despite the horrifying condition. Dry cracked nose. No collar. The dog's tail is slightly raised as if mid-wag. Overcast late afternoon light, grey sky. Gravel and dead grass beneath the dog. Shot on phone camera, slightly out of focus background, amateur quality. Photorealistic, not illustrated.
 ```
 
+> **한국어 해석:** 극심하게 마른 중형 믹스견이 고속도로 갓길 자갈 위에 누워 있는 실사 클로즈업 사진. 짧은 황갈색/갈색 털은 심하게 엉키고 군데군데 빠져서 옆구리와 등에 탈모 부위가 보임. 갈비뼈 하나하나가 피부를 통해 선명하게 보이고, 엉덩이 뼈가 뚜렷이 돌출, 등뼈가 산등성이처럼 선명. 크고 약간 움푹 들어간 짙은 갈색 눈으로 카메라를 바라보며 참담한 상태에도 불구하고 부드럽고 희망적인 표정. 건조하고 갈라진 코. 목줄 없음. 꼬리를 살짝 들어 흔드는 중. 흐린 늦은 오후 빛, 회색 하늘. 자갈과 마른 풀. 핸드폰 촬영 품질, 배경 약간 초점 나감. 실사풍, 일러스트 아님.
+
 ### @Image2 — 유기견 (회복 후 상태: Scene 5~6용)
 
 > Scene 5-6에서 @Image2로 사용하여 회복된 모습의 시각적 일관성 확보.
@@ -90,6 +92,8 @@ No background music. Highway traffic noise, gravel crunching under boots, wind, 
 
 Amateur phone footage quality. Shaky. Harsh overcast natural light. Photorealistic. Raw, unedited feel.
 ```
+
+> **한국어 해석:** // 스토리: 전체: 고속도로 갓길에서 발견된 뼈만 남은 유기견 — 간신히 살아있지만 사람에게 꼬리를 흔듦 — 구조 — 3개월 회복 — 행복한 가족. 이전: 없음 (첫 장면). 이 장면: 발견 — 촬영자가 차를 세우고 갓길 자갈 위에 누워있는 극심하게 마른 개를 발견. 다가가면서 충격적인 상태가 드러남. / @Image1의 중형 믹스견을 주인공으로. / 1인칭 POV 핸드폰 촬영. 흔들리고 불안정한 아마추어 영상. / 포틀랜드 오레곤 근처 고속도로 갓길. 늦은 오후. 흐린 하늘. 자갈 갓길, 마른 풀. 가드레일. 뒤로 지나가는 차들. / 중형 믹스견, 수컷, 약 15kg (심각 저체중). 짧은 황갈색/갈색 털, 심하게 엉키고 군데군데 빠짐. 갈비뼈, 엉덩이뼈, 등뼈 모두 피부를 통해 선명. 크고 약간 움푹한 짙은 갈색 눈. 건조한 갈라진 코. 자갈 위에 누워 있음. / 30대 중반 백인 남성의 손. 회색 후디 소매. / 0-15초: 단일 연속 촬영. 차 창문에서 흔들리며 촬영. 갓길에 검은 형체 발견. 촬영자가 내려서 자갈 밟는 소리와 함께 접근. 형체에 다가가면 — 극심하게 마른 개가 땅에 누워있는 게 드러남. 카메라가 가까이 가자 개가 약하게 머리를 들고, 뼈만 남은 몸에도 불구하고 꼬리를 자갈 위에서 느리게 흔들기 시작. 촬영자 반응에 카메라 흔들림. / 배경음악 없음. 고속도로 교통 소음, 부츠 아래 자갈 부서지는 소리, 바람, 개 꼬리가 자갈에 약하게 부딪히는 소리, 촬영자의 날카로운 숨소리.
 
 ---
 
@@ -150,6 +154,8 @@ No background music. Highway traffic, wind, dog panting weakly, gravel shifting 
 Amateur phone footage quality. Slightly shaky. Harsh overcast light. Photorealistic. Raw feel.
 ```
 
+> **한국어 해석:** 클로즈업으로 기아의 참혹한 정도를 드러냄. 그럼에도 개는 일어서서 사람에게 다가가려 함. / 0-3초: 위에서 본 개의 몸통 클로즈업. 갈비뼈 하나하나가 피부 아래 그림자를 드리움. 엉덩이뼈 튀어나옴. / 3-6초: 개의 얼굴 클로즈업. 움푹 꺼진 눈이 카메라를 올려봄. 건조한 갈라진 코. 귀 살짝 움직임. / 6-9초: 미디엄샷. 남자의 손이 천천히 개에게 다가감. 개가 살짝 움찔하지만 물러서진 않음. / 9-12초: 미디엄샷. 개가 떨리는 앞다리로 밀어 올려 일어나려 함. 다리가 심하게 떨림. 거의 쓰러질 뻔함. / 12-15초: 지면 높이 로우앵글. 흔들리는 다리로 서 있는 개, 꼬리를 흔들며. 촬영자의 손 쪽으로 한 발짝.
+
 ---
 
 ## Scene 3: 품에 안기다 (Into His Arms)
@@ -209,6 +215,8 @@ No background music. Footsteps on gravel, car hazard lights clicking, dog exhali
 Amateur phone footage quality. Shaky. Overcast natural light. Photorealistic. Raw, unedited feel.
 ```
 
+> **한국어 해석:** 남자가 개를 안아 차로 옮김. 개는 믿기 힘들 정도로 가벼움. / 0-3초: 미디엄샷. 남자가 쪼그려 앉아 개의 몸 아래로 손을 밀어넣음. 들어올림 — 충격적으로 가벼움. / 3-6초: 옆에서 미디엄샷. 남자가 개를 가슴에 안고 섬. 개의 다리가 축 늘어지고, 회색 후디에 갈비뼈가 보임. / 6-9초: 개의 얼굴 클로즈업. 남자 팔 안쪽에 얼굴을 파묻음. 눈 반쯤 감김. 코를 옷감에 파묻음. / 9-12초: 차를 향해 걸어가는 미디엄샷. 남자가 조심스럽게 개를 안고 감. 개의 꼬리가 남자의 팔뚝에서 약하게 흔들림. / 12-15초: 차 안에서 찍은 클로즈업. 남자가 조수석에 개를 부드럽게 내려놓음. 개의 발이 남자의 손을 향해 뻗음.
+
 ---
 
 ## Scene 4: 첫 번째 밥 (First Real Meal)
@@ -267,6 +275,8 @@ No background music. Metal bowl scraping, dog eating sounds, IV drip, vet clinic
 
 Amateur phone footage quality. Slightly shaky. Bright fluorescent clinical lighting. Photorealistic.
 ```
+
+> **한국어 해석:** 동물병원에서 수액 맞으며 첫 진짜 식사. / 0-3초: 미디엄샷. 개가 스틸 테이블에 누워있음. 위에 수액 백 걸려있음. 수의사 손(장갑 낀)이 청진기로 심장 확인. / 3-6초: 개 앞다리에 테이프로 고정된 수액 라인 클로즈업. 수액이 천천히 떨어짐. / 6-9초: 미디엄샷. 작은 금속 그릇에 습식 사료가 개 앞에 놓임. 개가 머리를 들어 조심스럽게 냄새 맡음. / 9-12초: 개의 얼굴 클로즈업. 첫 한 입. 천천히 씹음, 거의 당황한 듯. 그리고 점점 빨리 먹음. / 12-15초: 그릇에서 먹는 개 클로즈업. 꼬리가 테이블에서 흔들림. 남자의 손이 개의 등에 부드럽게 올려져 있음.
 
 ---
 
@@ -332,6 +342,8 @@ No background music. Dog panting happily, toy squeaking, paws on hardwood floor,
 Home video quality. Casual one-handed phone footage. Warm natural indoor light. Photorealistic. Cozy feel.
 ```
 
+> **한국어 해석:** 3개월 회복 몽타주. 매 서브샷마다 다른 주차를 보여주며 극적인 변화. / 0-3초: 미디엄샷. 아직 매우 마른 개가 강아지 침대에서 꼭 웅크리고 잠듦. 갈비뼈가 새로 자란 털 사이로 희미하게 보임. / 3-6초: 미디엄샷. 거실 바닥에서 고무 장난감을 물고 있는 개. 꼬리 흔듦. 약간 더 살이 붙음. / 6-9초: 미디엄샷. 창가에 앉은 개. 건강하게 자란 털에 햇빛. 탈모 부위 없음. 귀를 앞으로 세움. / 9-12초: 와이드샷. 뒷마당. 푸른 잔디를 가로질러 달리는 개. 건강한 몸. 햇빛에 반짝이는 윤기나는 털. / 12-15초: 클로즈업. 소파에 누운 개, 쿠션에 머리. 밝고 건강한 눈으로 카메라를 봄. 꼬리 빠르게 흔듦. 편안하고 행복한 표정.
+
 ---
 
 ## Scene 6: 가족 (Family)
@@ -390,6 +402,8 @@ No background music. Evening birds chirping, distant neighborhood sounds, dog si
 
 Home video quality. Steady one-handed phone footage. Warm golden hour sunset light. Photorealistic. Peaceful, lingering feel.
 ```
+
+> **한국어 해석:** 마지막 장면 — 완전히 건강하고 행복한 가족이 된 개. / 0-3초: 와이드샷. 현관에 황금빛 석양. 남자가 나무 계단에 앉아 있고 건강한 개가 옆에 누워 있음. 평화로운. / 3-6초: 미디엄샷. 개가 옆으로 굴러 다리를 쭉 뻗음. 건강하고 가득 찬 배가 보임. 남자의 손이 개 가슴을 긁어줌. / 6-9초: 개의 얼굴 클로즈업. 남자의 허벅지에 머리를 기댐. 만족에 차 눈이 반쯤 감김. 새 파란색 목줄 보임. / 9-12초: 남자의 손이 부드럽게 개의 머리를 쓰다듬는 클로즈업. 쓸 때마다 개의 귀가 까딱임. 꼬리가 나무 현관에서 천천히 흔들림. / 12-15초: 뒤로 빠지는 와이드샷. 현관의 남자와 개. 뒤에 석양. 개가 머리를 들어 남자의 손을 한 번 핥고, 다시 내려놓음. 고요.
 
 ---
 

@@ -37,6 +37,54 @@ projects/{slug}/prompts.md
 
 ---
 
+## 캐릭터 레퍼런스
+
+### 동물 캐릭터
+> {animal_character_reference}
+
+### 인간 캐릭터 (1인칭 POV 촬영자)
+> {human_character_reference}
+
+### @ 참조 가이드
+| 참조 | 용도 |
+|------|------|
+| @Image1 | 동물 캐릭터 참조 — 초기 상태 (모든 클립에 공통) |
+| @Image2 | 동물 캐릭터 참조 — 회복 후 상태 (후반부용) |
+
+---
+
+## 이미지 생성 프롬프트
+
+### @Image1 — {동물} (초기 상태)
+
+> 이 이미지를 모든 Seedance 2.0 클립의 @Image1으로 사용합니다.
+
+\`\`\`
+{english_image_prompt_1}
+\`\`\`
+
+> **한국어 해석:** {korean_translation_1}
+
+### @Image2 — {동물} (회복 후 상태)
+
+> Scene 후반부에서 @Image2로 사용.
+
+\`\`\`
+{english_image_prompt_2}
+\`\`\`
+
+> **한국어 해석:** {korean_translation_2}
+
+### @Image3+ — 배경/환경 (선택)
+
+\`\`\`
+{english_image_prompt_3}
+\`\`\`
+
+> **한국어 해석:** {korean_translation_3}
+
+---
+
 ## Scene 1: {title} ({title_en})
 
 - **Duration:** {duration}s
@@ -45,9 +93,10 @@ projects/{slug}/prompts.md
 - **Lighting:** {lighting}
 
 **Caption:**
-- (0-15s)
+- (0-3s)
   - EN: "..."
   - KR: "..."
+- (3-6s) ...
 
 ### Seedance 2.0 Prompt
 
@@ -55,29 +104,13 @@ projects/{slug}/prompts.md
 {english_prompt}
 \`\`\`
 
+> **한국어 해석:** {korean_translation_of_prompt}
+
 ---
 
 ## Scene 2: {title} ({title_en})
 
 ...
-
----
-
-## 캐릭터 레퍼런스
-
-> {character_reference}
-
-모든 프롬프트에서 이 캐릭터 설명을 일관되게 사용합니다.
-@Image1으로 캐릭터 시각적 일관성을 확보합니다.
-
----
-
-## @ 참조 가이드
-
-| 참조 | 용도 |
-|------|------|
-| @Image1 | 동물 캐릭터 참조 (모든 클립에 공통 사용) |
-| @Image2+ | 장면별 배경/환경 참조 (선택) |
 
 ---
 
