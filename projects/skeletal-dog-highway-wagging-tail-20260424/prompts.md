@@ -17,8 +17,8 @@
 ### @ 참조 가이드
 | 참조 | 용도 |
 |------|------|
-| @Image1 | 동물 캐릭터 참조 — 초기 상태 (모든 클립에 공통 사용) |
-| @Image2 | 동물 캐릭터 참조 — 회복 후 상태 (Scene 5-6용) |
+| @Image1 | 동물 캐릭터 참조 — 초기 상태 (Scene 1~4 공통) |
+| @Image2 | 동물 캐릭터 참조 — 회복 후 상태 (Scene 5~6용) |
 
 ---
 
@@ -32,27 +32,15 @@
 A photorealistic close-up photograph of an extremely emaciated medium mixed-breed stray dog lying on a gravel highway shoulder. The dog has short tan and brown fur that is heavily matted and patchy with visible bald spots on the flanks and back. Every single rib is sharply visible through the skin, hip bones jutting out prominently, spine ridge clearly defined along the back. The dog has large dark brown slightly sunken eyes looking directly at camera with a gentle hopeful expression despite the horrifying condition. Dry cracked nose. No collar. The dog's tail is slightly raised as if mid-wag. Overcast late afternoon light, grey sky. Gravel and dead grass beneath the dog. Shot on phone camera, slightly out of focus background, amateur quality. Photorealistic, not illustrated.
 ```
 
-> **한국어 해석:** 극심하게 마른 중형 믹스견이 고속도로 갓길 자갈 위에 누워 있는 실사 클로즈업 사진. 짧은 황갈색/갈색 털은 심하게 엉키고 군데군데 빠져서 옆구리와 등에 탈모 부위가 보임. 갈비뼈 하나하나가 피부를 통해 선명하게 보이고, 엉덩이 뼈가 뚜렷이 돌출, 등뼈가 산등성이처럼 선명. 크고 약간 움푹 들어간 짙은 갈색 눈으로 카메라를 바라보며 참담한 상태에도 불구하고 부드럽고 희망적인 표정. 건조하고 갈라진 코. 목줄 없음. 꼬리를 살짝 들어 흔드는 중. 흐린 늦은 오후 빛, 회색 하늘. 자갈과 마른 풀. 핸드폰 촬영 품질, 배경 약간 초점 나감. 실사풍, 일러스트 아님.
+> **한국어 해석:** 극심하게 마른 중형 믹스견이 고속도로 갓길 자갈 위에 누워 있는 실사 클로즈업 사진. 짧은 황갈색/갈색 털은 심하게 엉키고 군데군데 빠져서 옆구리와 등에 탈모 부위가 보임. 갈비뼈 하나하나가 피부를 통해 선명하게 보이고, 엉덩이 뼈가 뚜렷이 돌출, 등뼈가 산등성이처럼 선명. 크고 약간 움푹 들어간 짙은 갈색 눈으로 카메라를 바라보며 참담한 상태에도 부드럽고 희망적인 표정. 건조하고 갈라진 코. 목줄 없음. 꼬리를 살짝 들어 흔드는 중. 흐린 늦은 오후 빛, 회색 하늘. 자갈과 마른 풀. 핸드폰 촬영 품질. 실사풍.
 
 ### @Image2 — 유기견 (회복 후 상태: Scene 5~6용)
-
-> Scene 5-6에서 @Image2로 사용하여 회복된 모습의 시각적 일관성 확보.
 
 ```
 A photorealistic photograph of a healthy medium mixed-breed dog sitting on a wooden front porch at golden hour sunset. Same dog breed as reference — tan and brown short fur that is now glossy, smooth, and full with no bald spots. The dog is at a healthy weight of about 25kg, muscular and well-fed. No ribs visible. Bright clear dark brown eyes, alert and happy. Wet healthy nose. Wearing a new blue collar with a metal tag. Tail mid-wag. The dog has a relaxed happy expression with mouth slightly open. Warm golden sunset light illuminating the fur. American suburban house porch with wooden steps. Shot on phone camera, casual home video quality. Photorealistic, not illustrated.
 ```
 
-### @Image3 — 동물병원 장면 배경 (Scene 4용, 선택)
-
-```
-A photorealistic photograph of a veterinary clinic examination room. Steel examination table in center. IV drip stand with fluid bag hanging. Bright white fluorescent overhead lighting. Medical supplies on counter in background. Small stainless steel food bowl on the table. Clinical clean environment. Shot on phone camera, slightly overexposed from fluorescent lights. Amateur quality.
-```
-
-### @Image4 — 고속도로 갓길 배경 (Scene 1~3용, 선택)
-
-```
-A photorealistic photograph of a highway road shoulder in the Pacific Northwest, near Portland Oregon. Grey gravel shoulder with dead brown grass along the edge. Metal guard rail. Overcast grey sky, late afternoon flat light. A dark grey sedan parked on the shoulder with hazard lights on. Two-lane highway with occasional passing cars blurred in background. Slightly desaturated muted tones. Shot on phone camera from driver's perspective approaching on foot. Amateur quality.
-```
+> **한국어 해석:** 건강한 중형 믹스견이 골든아워 석양에 나무 현관에 앉아 있는 실사 사진. 같은 견종 — 이제 윤기나고 매끄럽고 풍성한 황갈색/갈색 짧은 털, 탈모 없음. 건강 체중 약 25kg, 근육질이고 잘 먹음. 갈비뼈 보이지 않음. 밝고 맑은 짙은 갈색 눈. 새 파란색 목줄에 금속 인식표. 꼬리 흔드는 중. 편안하고 행복한 표정. 따뜻한 황금빛 석양. 미국 교외 주택 현관. 핸드폰 촬영 품질. 실사풍.
 
 ---
 
@@ -66,34 +54,34 @@ A photorealistic photograph of a highway road shoulder in the Pacific Northwest,
 
 **Caption:**
 - (0-15s)
-  - EN: "I saw something on the side of the highway\nI wish I hadn't looked closer"
-  - KR: "고속도로 갓길에 뭔가 있었다\n가까이 가지 않았으면 좋았을 텐데"
+  - EN: "I pulled over because I thought it was a pile of rags\nIt wasn't"
+  - KR: "넝마 더미인 줄 알고 차를 세웠다\n아니었다"
 
 ### Seedance 2.0 Prompt
 
 ```
-// Story: Overall: Skeletal stray dog found on highway shoulder — barely alive but wags tail at humans — rescued — 3 months recovery — happy family.
-Previous: None (opening scene).
-This scene: Discovery — filmmaker pulls over and finds an extremely emaciated dog lying on the gravel shoulder. The shocking condition is revealed as camera approaches.
+// Story: Overall: Skeletal stray dog found on highway shoulder, barely alive but wags tail when human approaches — rescued — vet treatment — 3 months recovery — becomes happy family member.
+Previous: None (opening).
+This scene: Man pulls over thinking he sees trash on the shoulder. Walking closer, he realizes it's a dog — extremely emaciated, barely moving. The dog slowly lifts its head and begins wagging its tail.
 
 @Image1's medium mixed-breed dog as the subject.
 
-First person POV handheld phone footage. Shaky, unsteady, amateur footage.
+First person POV handheld phone footage. Shaky, unsteady, amateur footage. One continuous take, no cuts.
 
-Highway shoulder near Portland, Oregon. Late afternoon. Overcast sky. Gravel shoulder with dead grass. Guard rail. Passing cars in background.
+Highway shoulder near Portland, Oregon. Late afternoon. Overcast grey sky. Gravel shoulder with patches of dead grass. Metal guard rail. Cars passing occasionally in the background.
 
-Medium mixed-breed dog, male, about 15kg (severely underweight). Short tan/brown fur, heavily matted and patchy with visible bald spots. Every rib, hip bone, and spine clearly protruding through skin. Large dark brown eyes, slightly sunken. Dry cracked nose. Lying on gravel.
+Medium mixed-breed dog, male, about 15kg, severely underweight. Short tan/brown fur, matted and patchy with bald spots exposing pink skin. Every rib sharply visible, hip bones and spine protruding. Large sunken dark brown eyes. Dry cracked nose. Lying curled on gravel, almost motionless.
 
-Mid-30s white man's hands visible. Grey hoodie sleeves.
+Mid-30s white man's calloused hands visible. Grey hoodie sleeves.
 
-0-15s: Single continuous take. Camera filming from car window, shaky. Spots dark shape on gravel shoulder. Filmmaker gets out, camera bouncing with footsteps on gravel. Approaches the shape — reveals an extremely thin dog lying still on the ground. Camera gets closer, dog lifts head weakly, tail starts wagging slowly against the gravel despite the skeletal body. Camera shakes as filmmaker reacts.
+0-15s: Continuous single take. Opens IMMEDIATELY on an extreme close-up of a skeletal dog's ribcage — every bone sharply visible through stretched skin, rising and falling with shallow breaths. The camera is already on the ground, inches away. No buildup, no driving, no walking up. We are THERE. The camera pulls back unsteadily to reveal the full body — an impossibly thin dog lying on highway gravel, bald patches of pink skin between matted tan fur, hip bones jutting like fists under a blanket. The man's shaky breathing fills the audio. Camera continues pulling back to show the dog's face — sunken dark eyes staring up at the lens. And then it happens. The tail moves. One slow wag. Then another. Thump against the gravel. The most emaciated dog you've ever seen, and it's wagging its tail at the person filming it. The camera shakes hard — the man makes a choked sound.
 
-No background music. Highway traffic noise, gravel crunching under boots, wind, dog's tail thumping weakly on gravel, filmmaker's sharp intake of breath.
+No background music. The dog's shallow breathing, the rhythmic thump of tail on gravel, highway traffic in distance, wind, and the man's choked gasp.
 
-Amateur phone footage quality. Shaky. Harsh overcast natural light. Photorealistic. Raw, unedited feel.
+Amateur phone footage. Extremely shaky. Overcast flat light. Photorealistic. Visceral and raw.
 ```
 
-> **한국어 해석:** // 스토리: 전체: 고속도로 갓길에서 발견된 뼈만 남은 유기견 — 간신히 살아있지만 사람에게 꼬리를 흔듦 — 구조 — 3개월 회복 — 행복한 가족. 이전: 없음 (첫 장면). 이 장면: 발견 — 촬영자가 차를 세우고 갓길 자갈 위에 누워있는 극심하게 마른 개를 발견. 다가가면서 충격적인 상태가 드러남. / @Image1의 중형 믹스견을 주인공으로. / 1인칭 POV 핸드폰 촬영. 흔들리고 불안정한 아마추어 영상. / 포틀랜드 오레곤 근처 고속도로 갓길. 늦은 오후. 흐린 하늘. 자갈 갓길, 마른 풀. 가드레일. 뒤로 지나가는 차들. / 중형 믹스견, 수컷, 약 15kg (심각 저체중). 짧은 황갈색/갈색 털, 심하게 엉키고 군데군데 빠짐. 갈비뼈, 엉덩이뼈, 등뼈 모두 피부를 통해 선명. 크고 약간 움푹한 짙은 갈색 눈. 건조한 갈라진 코. 자갈 위에 누워 있음. / 30대 중반 백인 남성의 손. 회색 후디 소매. / 0-15초: 단일 연속 촬영. 차 창문에서 흔들리며 촬영. 갓길에 검은 형체 발견. 촬영자가 내려서 자갈 밟는 소리와 함께 접근. 형체에 다가가면 — 극심하게 마른 개가 땅에 누워있는 게 드러남. 카메라가 가까이 가자 개가 약하게 머리를 들고, 뼈만 남은 몸에도 불구하고 꼬리를 자갈 위에서 느리게 흔들기 시작. 촬영자 반응에 카메라 흔들림. / 배경음악 없음. 고속도로 교통 소음, 부츠 아래 자갈 부서지는 소리, 바람, 개 꼬리가 자갈에 약하게 부딪히는 소리, 촬영자의 날카로운 숨소리.
+> **한국어 해석:** 단일 연속 촬영. 즉시 시작 — 뼈만 남은 개의 갈비뼈 극단적 클로즈업. 늘어난 피부 아래로 모든 뼈가 선명하게 보이며, 얕은 호흡과 함께 오르내림. 카메라는 이미 바닥에, 몇 인치 거리에. 빌드업 없음, 운전 없음, 걸어가기 없음. 바로 거기에 있음. 카메라가 불안정하게 뒤로 빠지며 전신을 드러냄 — 고속도로 자갈 위에 누운 믿기 힘들 정도로 마른 개, 엉킨 황갈색 털 사이 분홍 피부의 탈모 부위, 담요 아래 주먹처럼 솟은 엉덩이뼈. 남자의 떨리는 숨소리가 오디오를 채움. 카메라가 계속 빠지며 개의 얼굴을 보여줌 — 움푹 꺼진 검은 눈이 렌즈를 올려봄. 그때 일어남. 꼬리가 움직임. 느린 한 번의 흔듦. 그리고 또. 자갈 위 쿵 소리. 당신이 본 가장 마른 개가, 촬영하는 사람에게 꼬리를 흔들고 있음. 카메라가 세게 흔들림 — 남자가 목 메인 소리를 냄.
 
 ---
 
@@ -101,60 +89,60 @@ Amateur phone footage quality. Shaky. Harsh overcast natural light. Photorealist
 
 - **Duration:** 15s
 - **is_hook:** false
-- **Emotion:** 가슴 아픔, 경이
+- **Emotion:** 경이, 가슴 아픔
 - **Camera:** First-person POV handheld
 - **Lighting:** Late afternoon overcast
 
 **Caption:**
 - (0-3s)
-  - EN: "Every single rib was showing"
-  - KR: "갈비뼈가 하나하나 다 보였다"
+  - EN: "Every bone in his body was showing"
+  - KR: "몸의 뼈라는 뼈가 다 보였다"
 - (3-6s)
-  - EN: "His spine was like a ridge"
-  - KR: "등뼈가 산등성이처럼 튀어나왔다"
+  - EN: "He could barely lift his head"
+  - KR: "머리를 겨우 들 수 있었다"
 - (6-9s)
   - EN: "But when I reached out my hand"
   - KR: "그런데 내가 손을 내밀자"
 - (9-12s)
-  - EN: "He tried to stand up for me"
-  - KR: "나를 위해 일어나려고 했다"
+  - EN: "He pushed himself up on shaking legs"
+  - KR: "떨리는 다리로 억지로 일어났다"
 - (12-15s)
-  - EN: "Wobbling... but wagging"
-  - KR: "비틀거리면서도 꼬리를 흔들며"
+  - EN: "And walked toward me"
+  - KR: "그리고 나에게 걸어왔다"
 
 ### Seedance 2.0 Prompt
 
 ```
-// Story: Overall: Skeletal stray dog found on highway shoulder — barely alive but wags tail at humans — rescued — 3 months recovery — happy family.
-Previous: Filmmaker pulled over on highway and found an extremely emaciated dog lying on the gravel shoulder. Dog lifted head and wagged tail weakly.
-This scene: Close-up reveals the horrifying extent of starvation. Despite the condition, the dog tries to stand and approach the human, still wagging.
+// Story: Overall: Skeletal stray dog found on highway shoulder — wags tail at humans — rescued — 3 months recovery — happy family.
+Previous: Man pulled over on highway, found an extremely emaciated dog lying on the gravel. Dog lifted its head and started wagging its tail weakly.
+This scene: The man sees the full extent of the starvation up close. He reaches out his hand — the dog flinches but doesn't flee. Then, incredibly, the dog pushes itself up on trembling legs and takes shaky steps toward the man.
 
 @Image1's medium mixed-breed dog as the subject.
 
-Edited amateur phone footage from multiple angles. Handheld, shaky.
+Edited amateur phone footage. Handheld, shaky, multiple angles cut together.
 
-Same highway shoulder near Portland, Oregon. Late afternoon. Overcast. Gravel. Guard rail.
+Same highway shoulder near Portland, Oregon. Late afternoon. Overcast. Gravel and dead grass. Guard rail.
 
-Medium mixed-breed dog, male, about 15kg (severely underweight). Short tan/brown fur, matted and patchy with bald spots. Every rib and hip bone protruding sharply. Spine visible as ridge along back. Sunken dark brown eyes showing slight hope. Tail wagging weakly.
+Medium mixed-breed dog, male, about 15kg. Severely emaciated — every rib casting shadow, hip bones like doorknobs under the skin. Matted patchy tan/brown fur with bald spots. Sunken dark brown eyes, now showing a flicker of something — hope, maybe. Tail continuing its slow wag.
 
-Mid-30s white man's hands visible. Grey hoodie sleeves. Calloused tanned hands.
+Mid-30s white man. Calloused tanned hands, grey hoodie sleeves visible.
 
-0-3s: Close-up on dog's torso from above. Every rib casting shadow under skin. Hip bones jutting out.
+0-3s: Close-up, camera looking down at the dog's torso. The ribs are like a xylophone under the skin. Each one distinct, casting its own small shadow. The hip bones jut out at sharp angles. The camera lingers — this is worse than it looked from a distance.
 — natural transition —
-3-6s: Close-up on dog's face. Sunken eyes looking up at camera. Dry cracked nose. Slight ear movement.
+3-6s: Close-up on the dog's face at ground level. Sunken eyes look up at the camera. The nose is dry and cracked. One ear twitches. The dog's jaw trembles slightly. But the tail keeps going — thump, thump, thump — against the gravel behind him.
 — natural transition —
-6-9s: Medium shot. Man's hand reaches toward dog slowly. Dog flinches slightly but doesn't pull away.
+6-9s: Medium shot. The man's hand enters the frame from below, reaching slowly toward the dog. The dog flinches — pulls back an inch. Freezes. Then leans its nose forward, sniffing the fingers. Its eyes close for a half-second as it smells the hand.
 — natural transition —
-9-12s: Medium shot. Dog pushes up on trembling front legs, trying to stand. Legs shaking badly. Almost collapses.
+9-12s: Medium shot. The dog plants its front paws and pushes. Its legs shake violently. It almost falls sideways. It catches itself. Pushes again. It's standing now — barely — swaying, legs trembling like they might buckle any second.
 — natural transition —
-12-15s: Low angle from ground level. Dog standing on shaky legs, tail wagging. Steps toward filmmaker's hand.
+12-15s: Low angle from ground. The skeletal dog takes one step, then another, toward the man's outstretched hand. Each step wobbly, uncertain. But the tail hasn't stopped. It reaches the hand and presses the top of its head into the man's palm.
 
-No background music. Highway traffic, wind, dog panting weakly, gravel shifting under paws, man breathing heavily.
+No background music. Wind, highway traffic in distance, dog's paws scraping on gravel, the man's shaky exhale, a quiet choked sound as the dog touches his hand.
 
-Amateur phone footage quality. Slightly shaky. Harsh overcast light. Photorealistic. Raw feel.
+Amateur phone footage. Shaky. Overcast light. Photorealistic. Emotionally raw.
 ```
 
-> **한국어 해석:** 클로즈업으로 기아의 참혹한 정도를 드러냄. 그럼에도 개는 일어서서 사람에게 다가가려 함. / 0-3초: 위에서 본 개의 몸통 클로즈업. 갈비뼈 하나하나가 피부 아래 그림자를 드리움. 엉덩이뼈 튀어나옴. / 3-6초: 개의 얼굴 클로즈업. 움푹 꺼진 눈이 카메라를 올려봄. 건조한 갈라진 코. 귀 살짝 움직임. / 6-9초: 미디엄샷. 남자의 손이 천천히 개에게 다가감. 개가 살짝 움찔하지만 물러서진 않음. / 9-12초: 미디엄샷. 개가 떨리는 앞다리로 밀어 올려 일어나려 함. 다리가 심하게 떨림. 거의 쓰러질 뻔함. / 12-15초: 지면 높이 로우앵글. 흔들리는 다리로 서 있는 개, 꼬리를 흔들며. 촬영자의 손 쪽으로 한 발짝.
+> **한국어 해석:** 0-3초: 카메라가 개의 몸통을 내려다보는 클로즈업. 갈비뼈가 실로폰처럼 피부 아래 보임. 하나하나가 각자의 그림자를 드리움. 엉덩이뼈가 뾰족하게 솟아 있음. 카메라가 머무름 — 멀리서 본 것보다 심각함. / 3-6초: 지면 높이에서 개의 얼굴 클로즈업. 움푹 꺼진 눈이 카메라를 올려봄. 코는 건조하고 갈라짐. 귀 하나가 까딱임. 턱이 약간 떨림. 하지만 꼬리는 계속 — 쿵, 쿵, 쿵 — 뒤에서 자갈을 침. / 6-9초: 미디엄샷. 남자의 손이 프레임 아래에서 들어옴, 천천히 개에게 다가감. 개가 움찔 — 1인치 뒤로. 멈춤. 그리고 코를 앞으로 내밀어 손가락 냄새를 맡음. 손 냄새를 맡으며 0.5초간 눈을 감음. / 9-12초: 미디엄샷. 개가 앞발을 딛고 밀어 올림. 다리가 심하게 떨림. 옆으로 넘어질 뻔함. 간신히 중심을 잡음. 다시 밀어 올림. 이제 서 있음 — 간신히 — 흔들리며, 언제든 무너질 듯한 다리. / 12-15초: 지면 로우앵글. 뼈만 남은 개가 한 발, 또 한 발, 남자의 뻗은 손을 향해 걸음. 비틀거리고 불확실한 발걸음. 하지만 꼬리는 멈추지 않음. 손에 닿자 머리 꼭대기를 남자의 손바닥에 밀어 넣음.
 
 ---
 
@@ -162,60 +150,60 @@ Amateur phone footage quality. Slightly shaky. Harsh overcast light. Photorealis
 
 - **Duration:** 15s
 - **is_hook:** false
-- **Emotion:** 보호 본능, 결심
-- **Camera:** Bystander angle + POV mix
+- **Emotion:** 보호 본능, 결심, 마음이 무너짐
+- **Camera:** Mixed — bystander + POV
 - **Lighting:** Late afternoon overcast
 
 **Caption:**
 - (0-3s)
-  - EN: "He weighed nothing"
-  - KR: "들어올리니 깃털처럼 가벼웠다"
+  - EN: "When I picked him up"
+  - KR: "안아 올렸을 때"
 - (3-6s)
-  - EN: "Just skin and bones"
-  - KR: "가죽과 뼈뿐이었다"
+  - EN: "He weighed nothing"
+  - KR: "아무 무게도 없었다"
 - (6-9s)
-  - EN: "He buried his face in my arm"
-  - KR: "내 팔에 얼굴을 파묻었다"
+  - EN: "He pushed his face into my chest"
+  - KR: "내 가슴에 얼굴을 파묻었다"
 - (9-12s)
-  - EN: "Like he'd been waiting for this"
-  - KR: "이 순간을 기다려온 것처럼"
+  - EN: "Like he'd been waiting his whole life"
+  - KR: "평생 이 순간을 기다린 것처럼"
 - (12-15s)
-  - EN: "I'm not leaving you here"
-  - KR: "여기 두고 가지 않을게"
+  - EN: "For someone to just hold him"
+  - KR: "누군가 그냥 안아주기만을"
 
 ### Seedance 2.0 Prompt
 
 ```
-// Story: Overall: Skeletal stray dog found on highway shoulder — barely alive but wags tail at humans — rescued — 3 months recovery — happy family.
-Previous: Saw the extent of starvation up close — every rib visible, spine protruding. Dog tried to stand on trembling legs and walked toward the man, still wagging.
-This scene: Man picks up the dog and carries him to the car. Dog is impossibly light. Dog presses face into man's arm — seeking warmth and contact.
+// Story: Overall: Skeletal stray dog found on highway — wags tail — rescued — recovery — happy family.
+Previous: Saw the starvation up close. Dog flinched when man reached out but then pressed its head into his palm. Pushed itself up on shaking legs and walked to him.
+This scene: The man slides his hands under the dog and lifts. The dog is shockingly light — like picking up an empty blanket. The dog immediately buries its face into the man's chest and goes still, breathing deeply. The man carries him to the car, and the dog's paw reaches for his hand when placed on the seat.
 
 @Image1's medium mixed-breed dog as the subject.
 
-Edited amateur phone footage. Shaky, handheld.
+Edited amateur phone footage. Shaky handheld. Emotional, unsteady.
 
-Highway shoulder near Portland, Oregon. Late afternoon. Overcast. Dark grey sedan parked on shoulder with hazard lights.
+Highway shoulder near Portland, Oregon. Late afternoon. Overcast. Dark grey sedan parked with hazard lights blinking.
 
-Medium mixed-breed dog, male, about 15kg. Matted patchy tan/brown fur. Ribs and bones protruding but body slightly curled — being held. Sunken eyes half-closed. Tail still moving weakly.
+Medium mixed-breed dog, male, about 15kg. Matted patchy tan/brown fur. Ribs and bones protruding — but now being held, body slightly curled into the man's chest. Sunken dark brown eyes half-closed. Tail hanging but still twitching.
 
-Mid-30s white man. Short brown hair. Grey hoodie. Dark jeans. Work boots. Carrying dog against chest.
+Mid-30s white man. Short brown hair. Grey hoodie. Dark jeans. Work boots. Carrying the dog against his chest with both arms.
 
-0-3s: Medium shot. Man crouches and slides hands under the dog's body. Lifts — dog is shockingly light.
+0-3s: Medium shot from side. The man slides both hands under the dog's body — carefully, gently. He lifts. The dog comes up so easily it looks wrong — like there's nothing inside the skin. The man's face changes. He wasn't ready for how light this dog is.
 — natural transition —
-3-6s: Medium shot from side. Man stands holding dog against chest. Dog's legs dangle, ribs visible against man's grey hoodie.
+3-6s: Close-up of the dog being held against the man's grey hoodie. The ribs press into the fabric like fingers. The dog's legs hang limp. But its nose is buried deep into the hoodie, breathing in the warmth, the smell of a person. Its eyes are closing.
 — natural transition —
-6-9s: Close-up on dog's face pressed into the crook of man's arm. Eyes half-closed. Nose tucked into fabric.
+6-9s: Close-up on the dog's face pressed into the crook of the man's arm. Eyes fully closed now. The nose tucks deeper into the fabric. One long, slow exhale — the kind of breath you let out when you finally feel safe. The dog's whole body softens.
 — natural transition —
-9-12s: Medium shot walking toward car. Man carries dog carefully. Dog's tail sways weakly against man's forearm.
+9-12s: Medium shot. Man walking toward the car, hazard lights clicking. He carries the dog like something fragile and precious. The dog's tail sways weakly against the man's forearm. The man murmurs something quiet and soothing, barely audible.
 — natural transition —
-12-15s: Close-up from inside car. Man places dog gently on passenger seat. Dog's paw reaches toward man's hand.
+12-15s: Shot from inside the car looking out. Man lowers the dog onto the passenger seat, wrapped in a hoodie he pulled off. As his hands pull away, the dog's front paw reaches out — stretches — and rests on the man's wrist. Holds on. The man freezes. His other hand comes back and rests on the dog's head.
 
-No background music. Footsteps on gravel, car hazard lights clicking, dog exhaling softly, hoodie fabric rustling, car door opening.
+No background music. Gravel footsteps, hazard lights clicking rhythmically, the dog's long exhale, hoodie fabric rustling, the man's quiet voice barely audible, car door opening.
 
-Amateur phone footage quality. Shaky. Overcast natural light. Photorealistic. Raw, unedited feel.
+Amateur phone footage. Unsteady. Overcast flat light. Photorealistic. Raw and emotionally heavy.
 ```
 
-> **한국어 해석:** 남자가 개를 안아 차로 옮김. 개는 믿기 힘들 정도로 가벼움. / 0-3초: 미디엄샷. 남자가 쪼그려 앉아 개의 몸 아래로 손을 밀어넣음. 들어올림 — 충격적으로 가벼움. / 3-6초: 옆에서 미디엄샷. 남자가 개를 가슴에 안고 섬. 개의 다리가 축 늘어지고, 회색 후디에 갈비뼈가 보임. / 6-9초: 개의 얼굴 클로즈업. 남자 팔 안쪽에 얼굴을 파묻음. 눈 반쯤 감김. 코를 옷감에 파묻음. / 9-12초: 차를 향해 걸어가는 미디엄샷. 남자가 조심스럽게 개를 안고 감. 개의 꼬리가 남자의 팔뚝에서 약하게 흔들림. / 12-15초: 차 안에서 찍은 클로즈업. 남자가 조수석에 개를 부드럽게 내려놓음. 개의 발이 남자의 손을 향해 뻗음.
+> **한국어 해석:** 0-3초: 옆에서 미디엄샷. 남자가 두 손을 개의 몸 아래로 조심스럽게 밀어 넣음. 들어 올림. 개가 너무 쉽게 올라옴 — 뭔가 잘못된 것처럼 — 가죽 안에 아무것도 없는 것 같음. 남자의 표정이 변함. 이 개가 이렇게 가벼울 줄 몰랐음. / 3-6초: 남자의 회색 후디에 안긴 개 클로즈업. 갈비뼈가 옷감에 손가락처럼 눌림. 개의 다리는 축 늘어짐. 하지만 코는 후디 깊숙이 파묻혀 따뜻함을, 사람 냄새를 들이마시고 있음. 눈이 감기고 있음. / 6-9초: 남자의 팔 안쪽에 파묻힌 개의 얼굴 클로즈업. 이제 눈이 완전히 감김. 코가 옷감 더 깊이 파고듦. 길고 느린 한 번의 숨 — 마침내 안전하다고 느낄 때 내쉬는 그런 숨. 개의 온 몸이 풀어짐. / 9-12초: 미디엄샷. 남자가 차를 향해 걸음, 비상등이 딱딱 소리. 무언가 깨지기 쉽고 소중한 것처럼 개를 안고 감. 개의 꼬리가 남자의 팔뚝에서 약하게 흔들림. 남자가 조용하고 달래는 무언가를 중얼거림, 거의 들리지 않게. / 12-15초: 차 안에서 밖을 보는 샷. 남자가 벗어놓은 후디에 싸서 개를 조수석에 내려놓음. 손을 빼려는 순간 개의 앞발이 뻗어나옴 — 뻗어서 — 남자의 손목 위에 올려놓음. 붙잡음. 남자가 멈춤. 다른 손이 돌아와 개의 머리 위에 올려짐.
 
 ---
 
@@ -223,60 +211,60 @@ Amateur phone footage quality. Shaky. Overcast natural light. Photorealistic. Ra
 
 - **Duration:** 15s
 - **is_hook:** false
-- **Emotion:** 안도, 희망의 시작
+- **Emotion:** 안도, 가슴 벅참, 희망의 시작
 - **Camera:** First-person POV handheld
 - **Lighting:** Bright fluorescent (vet clinic)
 
 **Caption:**
 - (0-3s)
-  - EN: "The vet said he was days away"
-  - KR: "수의사가 말했다, 며칠만 늦었으면"
+  - EN: "The vet said one more week"
+  - KR: "수의사가 말했다, 일주일만 더 늦었으면"
 - (3-6s)
-  - EN: "From not making it"
-  - KR: "살릴 수 없었을 거라고"
+  - EN: "And he wouldn't have made it"
+  - KR: "살리지 못했을 거라고"
 - (6-9s)
-  - EN: "IV drip, fluids, medication"
-  - KR: "수액, 링거, 약물 투여"
+  - EN: "They put him on an IV right away"
+  - KR: "바로 수액을 꽂았다"
 - (9-12s)
-  - EN: "Then they gave him food"
-  - KR: "그리고 밥을 줬다"
+  - EN: "Then they brought him food"
+  - KR: "그리고 밥을 가져왔다"
 - (12-15s)
-  - EN: "He ate like he'd forgotten how"
-  - KR: "먹는 법을 잊어버린 것처럼 먹었다"
+  - EN: "He didn't know how to eat anymore"
+  - KR: "먹는 법을 잊어버린 것 같았다"
 
 ### Seedance 2.0 Prompt
 
 ```
-// Story: Overall: Skeletal stray dog found on highway shoulder — barely alive but wags tail at humans — rescued — 3 months recovery — happy family.
-Previous: Man picked up the feather-light dog and carried him to the car. Dog pressed his face into man's arm seeking warmth.
-This scene: At the vet clinic. IV drip attached. Dog receives first real meal — eats slowly, almost confused by the food. Emotional turning point from crisis to hope.
+// Story: Overall: Skeletal stray dog found on highway — wags tail — rescued — recovery — happy family.
+Previous: Man picked up the feather-light dog and carried him to the car. Dog buried its face into his chest and exhaled like it finally felt safe. When placed on the seat, the dog's paw reached out and held the man's wrist.
+This scene: At the vet clinic. IV drip goes in. Then they bring food. The dog stares at it like he's forgotten what it is. He sniffs. Takes one cautious bite. Chews slowly, confused. Then something clicks — and he eats like he hasn't eaten in weeks. Because he hasn't.
 
 @Image1's medium mixed-breed dog as the subject.
 
-Edited amateur phone footage. Handheld, slightly shaky.
+Edited amateur phone footage. Slightly shaky one-handed filming. Clinical indoor setting.
 
-Animal hospital examination room in Portland, Oregon. Bright fluorescent overhead lights. Steel examination table. Medical equipment.
+Veterinary clinic examination room in Portland, Oregon. Bright fluorescent overhead lights. Steel examination table. IV stand with fluid bag. Medical supplies on counter. Small stainless steel food bowl.
 
-Medium mixed-breed dog, male, about 15kg. Matted patchy tan/brown fur — now slightly cleaned. Ribs still prominently visible but dog is more alert. IV line attached to front leg with medical tape. Dark brown eyes more open, more aware. Tail occasionally twitching.
+Medium mixed-breed dog, male, about 15kg. Matted tan/brown fur, slightly cleaner now — vet staff wiped him down. Ribs still prominently visible but eyes are more alert, more awake. IV line taped to front left leg. Lying on the steel table but head is up, watching everything.
 
-Mid-30s white man's hands visible. Grey hoodie sleeves pushed up. Holding phone with one hand.
+Mid-30s white man's hands visible. Grey t-shirt sleeves now (gave his hoodie to the dog).
 
-0-3s: Medium shot. Dog lying on steel table. IV bag hanging above. Vet's hands (gloved) checking heartbeat with stethoscope.
+0-3s: Medium shot. The dog lies on the steel table under harsh fluorescent light. A vet's gloved hands gently examine his torso — fingers pressing along the ribs, feeling. The vet's hands pause. They feel along the spine. The hands are careful, slow — this dog has been through enough.
 — natural transition —
-3-6s: Close-up on dog's front leg with IV line taped. Fluid slowly dripping through tube.
+3-6s: Close-up on the dog's front left leg. A vet tech carefully inserts the IV needle. The dog flinches but doesn't pull away. Medical tape wraps around the leg. The IV fluid begins to drip — slow, steady drops. The dog watches the drip with curious tired eyes.
 — natural transition —
-6-9s: Medium shot. Small metal bowl of wet food placed in front of dog. Dog lifts head, sniffs cautiously.
+6-9s: Medium shot. A small metal bowl of wet food is placed in front of the dog on the table. The dog lifts his head. Stares at the food. Sniffs once from a distance. Then sniffs again, closer. His nose almost touches it. He looks up at the man — as if asking permission, or as if he doesn't trust that this is real.
 — natural transition —
-9-12s: Close-up on dog's face. Takes first bite. Chews slowly, almost confused. Then eats faster.
+9-12s: Close-up on the dog's mouth. He takes one small, cautious bite. Chews slowly — almost mechanically, like his jaw forgot the motion. Swallows. Pauses. Takes another bite. This one faster. Then another. And another. Something unlocks. He starts eating with desperate focus — not fast, but steady, determined, like every bite matters.
 — natural transition —
-12-15s: Close-up on dog eating from bowl. Tail wagging against table surface. Man's hand resting gently on dog's back.
+12-15s: Close-up pulling back slightly. The dog is eating from the bowl, tail wagging against the steel table — a metallic tap-tap-tap. The man's hand rests gently on the dog's bony back, thumb moving slowly back and forth. The dog doesn't flinch at the touch anymore. He just keeps eating.
 
-No background music. Metal bowl scraping, dog eating sounds, IV drip, vet clinic ambient hum, man exhaling with relief.
+No background music. Metal bowl clinking, wet food sounds, IV fluid dripping, the metallic tap of the tail on the table, the man's quiet relieved exhale, vet clinic ambient hum.
 
-Amateur phone footage quality. Slightly shaky. Bright fluorescent clinical lighting. Photorealistic.
+Amateur phone footage. One-handed. Bright clinical fluorescent light. Photorealistic. Emotionally overwhelming.
 ```
 
-> **한국어 해석:** 동물병원에서 수액 맞으며 첫 진짜 식사. / 0-3초: 미디엄샷. 개가 스틸 테이블에 누워있음. 위에 수액 백 걸려있음. 수의사 손(장갑 낀)이 청진기로 심장 확인. / 3-6초: 개 앞다리에 테이프로 고정된 수액 라인 클로즈업. 수액이 천천히 떨어짐. / 6-9초: 미디엄샷. 작은 금속 그릇에 습식 사료가 개 앞에 놓임. 개가 머리를 들어 조심스럽게 냄새 맡음. / 9-12초: 개의 얼굴 클로즈업. 첫 한 입. 천천히 씹음, 거의 당황한 듯. 그리고 점점 빨리 먹음. / 12-15초: 그릇에서 먹는 개 클로즈업. 꼬리가 테이블에서 흔들림. 남자의 손이 개의 등에 부드럽게 올려져 있음.
+> **한국어 해석:** 0-3초: 미디엄샷. 형광등 아래 스틸 테이블에 누운 개. 수의사의 장갑 낀 손이 부드럽게 몸통을 진찰 — 갈비뼈를 따라 손가락으로 눌러봄. 손이 멈춤. 척추를 따라 만져봄. 조심스럽고 느린 손 — 이 개는 이미 충분히 겪었으니까. / 3-6초: 개의 왼쪽 앞다리 클로즈업. 수의사 보조가 조심스럽게 수액 바늘을 꽂음. 개가 움찔하지만 빼지 않음. 의료 테이프로 감쌈. 수액이 떨어지기 시작 — 느리고 꾸준한 방울. 개가 피곤하지만 호기심 어린 눈으로 점적을 바라봄. / 6-9초: 미디엄샷. 작은 금속 그릇에 습식 사료가 테이블 위 개 앞에 놓임. 개가 머리를 듦. 밥을 바라봄. 멀리서 한 번 냄새 맡음. 더 가까이 한 번 더. 코가 거의 닿을 듯함. 남자를 올려봄 — 허락을 구하는 듯, 아니면 이게 진짜인지 못 믿는 듯. / 9-12초: 개의 입 클로즈업. 작고 조심스러운 한 입. 천천히 씹음 — 거의 기계적으로, 턱이 그 동작을 잊은 것처럼. 삼킴. 멈춤. 한 입 더. 이번엔 빠르게. 또 한 입. 또. 뭔가가 풀림. 필사적인 집중으로 먹기 시작 — 빠르진 않지만 꾸준하고 결연하게, 한 입 한 입이 중요한 것처럼. / 12-15초: 약간 빠지는 클로즈업. 그릇에서 먹는 개, 꼬리가 스틸 테이블에서 흔들림 — 금속성의 탁탁탁 소리. 남자의 손이 개의 앙상한 등에 부드럽게 올려져 있고, 엄지가 천천히 왔다갔다. 개는 더 이상 손길에 움찔하지 않음. 그냥 계속 먹음.
 
 ---
 
@@ -284,65 +272,63 @@ Amateur phone footage quality. Slightly shaky. Bright fluorescent clinical light
 
 - **Duration:** 15s
 - **is_hook:** false
-- **Emotion:** 따뜻함, 성장, 기쁨
+- **Emotion:** 따뜻함, 성장, 놀라움
 - **Camera:** Home video style
-- **Lighting:** Warm indoor natural light
+- **Lighting:** Warm indoor natural light → outdoor sunlight
 
 **Caption:**
 - (0-3s)
-  - EN: "Week 1: He slept 20 hours a day"
-  - KR: "1주차: 하루 20시간을 잤다"
+  - EN: "Week 1 — He just slept"
+  - KR: "1주차 — 그냥 잤다"
 - (3-6s)
-  - EN: "Week 4: First time he played with a toy"
-  - KR: "4주차: 처음으로 장난감을 물었다"
+  - EN: "Week 3 — First toy he ever touched"
+  - KR: "3주차 — 생애 첫 장난감"
 - (6-9s)
-  - EN: "Week 8: You couldn't see his ribs anymore"
-  - KR: "8주차: 더 이상 갈비뼈가 보이지 않았다"
+  - EN: "Week 6 — I couldn't see his ribs anymore"
+  - KR: "6주차 — 갈비뼈가 사라졌다"
 - (9-12s)
-  - EN: "Week 12: He ran for the first time"
-  - KR: "12주차: 처음으로 뛰었다"
+  - EN: "Week 10 — He ran"
+  - KR: "10주차 — 뛰었다"
 - (12-15s)
-  - EN: "Same dog. I still can't believe it"
-  - KR: "같은 개라니 아직도 믿기지 않는다"
+  - EN: "Same dog"
+  - KR: "같은 개다"
 
 ### Seedance 2.0 Prompt
 
 ```
-// Story: Overall: Skeletal stray dog found on highway shoulder — barely alive but wags tail at humans — rescued — 3 months recovery — happy family.
-Previous: At the vet clinic, IV drip attached. Dog ate his first real meal — slowly at first, then eagerly. Turning point from crisis to recovery.
-This scene: Recovery montage over 3 months. Dog transforms from skeletal to healthy — gaining weight, growing fur, gaining energy. Each sub-shot is a different week showing dramatic progress.
+// Story: Overall: Skeletal stray dog found on highway — wags tail — rescued — recovery — happy family.
+Previous: At the vet, IV drip went in. Dog stared at food like he'd forgotten what it was. Then ate — slowly at first, then with desperate focus. Man's hand on the dog's back, and the dog didn't flinch anymore.
+This scene: Time-lapse recovery over 3 months. Each sub-shot is a different week, showing dramatic physical transformation. From sleeping 20 hours a day to running across the backyard in full health. Each moment captures a "first" — first sleep in a real bed, first toy, ribs disappearing, first run.
 
-@Image1's medium mixed-breed dog as the subject.
+@Image2's medium mixed-breed dog as the subject for the later sub-shots (healthy version).
 
-Home video style phone footage. Casual, one-handed filming. Various indoor locations.
+Home video style phone footage. Casual, warm, one-handed. Different rooms, different days, different light.
 
-American suburban house interior. Living room with couch and dog bed. Warm natural light through windows. Different times of day across sub-shots.
+American suburban house. Living room with couch and dog bed. Kitchen. Backyard with green grass and wooden fence. Various times of day, warm natural light throughout.
 
-Medium mixed-breed dog, male. PROGRESSIVE TRANSFORMATION across sub-shots:
-- (0-3s) About 17kg. Still very thin, ribs faintly visible. Clean short tan fur growing back. Curled on dog bed sleeping.
-- (3-6s) About 19kg. Filling out slightly. Fur growing in evenly. Playing with rubber toy on living room floor.
-- (6-9s) About 22kg. Noticeably healthier. Full tan/brown coat, no bald spots. Ribs no longer visible. Sitting alert, ears perked.
-- (9-12s) About 25kg. Healthy weight. Glossy smooth tan fur. Bright alert dark brown eyes. Running across a backyard.
-- (12-15s) Same dog, healthy and happy. Lying on couch, relaxed. Tail wagging fast.
+Medium mixed-breed dog, male — TRANSFORMING across sub-shots:
+Early: ~17kg, still thin, clean fur growing back, sleeping constantly.
+Mid: ~21kg, filling out, fur full and even, playful energy emerging.
+Late: ~25kg, healthy weight, glossy tan/brown coat, bright eyes, running and playing.
 
-Mid-30s white man visible in some shots. Grey hoodie or casual t-shirt.
+Mid-30s white man visible in some shots. Casual t-shirts, bare feet at home.
 
-0-3s: Medium shot. Thin dog curled tightly on a dog bed. Sleeping deeply. Ribs faintly showing through new fur.
+0-3s: Medium shot. Week 1. A brand-new dog bed next to the couch. The thin dog is curled up so tight he's almost a ball — making himself as small as possible. New clean fur is growing in, but ribs still faintly show. He sleeps so deeply his paws twitch in a dream. Warm afternoon light through curtains.
 — natural transition —
-3-6s: Medium shot. Dog on living room floor biting a rubber toy. Tail wagging. Slightly more filled out.
+3-6s: Medium shot. Week 3. Living room floor. The dog is lying on his belly with a rubber ball between his front paws. He noses it cautiously. It rolls. He startles. Noses it again. It rolls again. His tail starts wagging. He doesn't know what playing is yet — but he's learning.
 — natural transition —
-6-9s: Medium shot. Dog sitting by window. Sunlight on healthy growing fur. No more bald patches. Ears perked forward.
+6-9s: Medium shot. Week 6. Dog sitting by the kitchen window, morning light pouring in. His fur is full now — smooth, even tan/brown coat. No bald patches. And his ribs — gone. Covered in healthy flesh. He looks completely different. His ears are perked forward, alert, watching birds outside.
 — natural transition —
-9-12s: Wide shot. Backyard. Dog running across green grass. Full healthy body. Glossy coat catching sunlight.
+9-12s: Wide shot. Week 10. Backyard. The dog RUNS — full sprint across green grass, ears back, tongue out, legs pumping. This is an animal that could barely stand 10 weeks ago. He looks like pure joy in motion. He circles back and runs again.
 — natural transition —
-12-15s: Close-up. Dog on couch, head resting on cushion. Bright healthy eyes looking at camera. Tail wagging fast. Relaxed happy expression.
+12-15s: Close-up. The dog on the couch, belly up, legs splayed in every direction. Total trust. Total comfort. Bright clear eyes looking at the camera with a soft, content expression. Tail wagging lazily. This is the same dog from the highway. Unrecognizable.
 
-No background music. Dog panting happily, toy squeaking, paws on hardwood floor, paws on grass, tail thumping on couch.
+No background music. Paws tapping on hardwood, rubber ball rolling, birds outside the window, paws thundering on grass, happy panting, tail thumping on couch cushion.
 
-Home video quality. Casual one-handed phone footage. Warm natural indoor light. Photorealistic. Cozy feel.
+Home video footage. Warm. Natural light. Casual. Photorealistic. Joyful and healing.
 ```
 
-> **한국어 해석:** 3개월 회복 몽타주. 매 서브샷마다 다른 주차를 보여주며 극적인 변화. / 0-3초: 미디엄샷. 아직 매우 마른 개가 강아지 침대에서 꼭 웅크리고 잠듦. 갈비뼈가 새로 자란 털 사이로 희미하게 보임. / 3-6초: 미디엄샷. 거실 바닥에서 고무 장난감을 물고 있는 개. 꼬리 흔듦. 약간 더 살이 붙음. / 6-9초: 미디엄샷. 창가에 앉은 개. 건강하게 자란 털에 햇빛. 탈모 부위 없음. 귀를 앞으로 세움. / 9-12초: 와이드샷. 뒷마당. 푸른 잔디를 가로질러 달리는 개. 건강한 몸. 햇빛에 반짝이는 윤기나는 털. / 12-15초: 클로즈업. 소파에 누운 개, 쿠션에 머리. 밝고 건강한 눈으로 카메라를 봄. 꼬리 빠르게 흔듦. 편안하고 행복한 표정.
+> **한국어 해석:** 0-3초: 1주차. 소파 옆 새 강아지 침대. 마른 개가 거의 공처럼 꽉 웅크리고 있음 — 자기를 최대한 작게 만듦. 새 깨끗한 털이 자라나지만 갈비뼈는 희미하게 보임. 너무 깊이 자서 발이 꿈속에서 경련함. / 3-6초: 3주차. 거실 바닥. 개가 배를 깔고 누워 앞발 사이에 고무공. 조심스럽게 코로 밀어봄. 공이 구름. 놀람. 다시 코로 밀어봄. 또 구름. 꼬리가 흔들리기 시작. 놀이가 뭔지 아직 모름 — 하지만 배우고 있음. / 6-9초: 6주차. 부엌 창가에 앉은 개, 아침 햇살이 쏟아짐. 이제 털이 풍성 — 매끈하고 고른 황갈색/갈색. 탈모 없음. 갈비뼈 — 사라짐. 건강한 살로 덮임. 완전히 다른 개. 귀를 앞으로 세우고 바깥의 새를 보고 있음. / 9-12초: 10주차. 뒷마당 와이드샷. 개가 달림 — 푸른 잔디 위 전속력, 귀 젖혀지고 혀 내밀고 다리가 펌핑. 10주 전에는 서 있지도 못했던 동물. 움직이는 순수한 기쁨. 돌아와서 다시 달림. / 12-15초: 클로즈업. 소파 위의 개, 배를 보이고 다리를 사방으로 뻗음. 완전한 신뢰. 완전한 편안함. 밝고 맑은 눈으로 카메라를 보며 부드럽고 만족한 표정. 꼬리 느긋하게 흔듦. 고속도로의 그 개와 같은 개. 알아볼 수 없을 정도.
 
 ---
 
@@ -350,60 +336,60 @@ Home video quality. Casual one-handed phone footage. Warm natural indoor light. 
 
 - **Duration:** 15s
 - **is_hook:** false
-- **Emotion:** 감동, 행복, 여운
+- **Emotion:** 감동, 여운, 눈물
 - **Camera:** Home video style
 - **Lighting:** Warm golden hour sunset
 
 **Caption:**
 - (0-3s)
-  - EN: "They said he was a lost cause"
-  - KR: "다들 가망 없다고 했다"
+  - EN: "Everyone said he was too far gone"
+  - KR: "다들 이미 늦었다고 했다"
 - (3-6s)
-  - EN: "That no one would want him"
-  - KR: "아무도 원하지 않을 거라고"
+  - EN: "That he wouldn't make it"
+  - KR: "살리지 못할 거라고"
 - (6-9s)
-  - EN: "But he chose me that day"
-  - KR: "하지만 그날 나를 선택한 건 그 애였다"
+  - EN: "But he was never the one giving up"
+  - KR: "하지만 포기한 건 이 개가 아니었다"
 - (9-12s)
-  - EN: "On that highway shoulder"
-  - KR: "그 고속도로 갓길에서"
+  - EN: "He just needed one person"
+  - KR: "단 한 사람만 있으면 됐다"
 - (12-15s)
-  - EN: "He just needed someone to stop"
-  - KR: "누군가 멈춰주기만 하면 됐다"
+  - EN: "To stop"
+  - KR: "멈춰주는 한 사람"
 
 ### Seedance 2.0 Prompt
 
 ```
-// Story: Overall: Skeletal stray dog found on highway shoulder — barely alive but wags tail at humans — rescued — 3 months recovery — happy family.
-Previous: 3-month recovery montage — from skeletal to healthy. Dog gained weight, grew fur back, learned to play, and started running again.
-This scene: Final scene — the dog is now a completely healthy, happy family member. Man and dog together on porch at sunset. Dog rests head on man's lap. Lingering emotional closure.
+// Story: Overall: Skeletal stray dog found on highway — wags tail — rescued — recovery — happy family.
+Previous: 3-month recovery — from skeletal to healthy. Dog learned to play, gained weight, grew full coat, and ran for the first time. Transformed from a dying animal into a joyful, trusting companion.
+This scene: Final scene. Golden hour. The man and his now-healthy dog sit together on the front porch. The dog rests its head on the man's lap. The man strokes the dog's head. The dog's tail taps slowly on the wood. Then the dog lifts its head and licks the man's hand — once — gently. The same tail wag from the highway. But now it means something different.
 
-@Image1's medium mixed-breed dog as the subject.
+@Image2's medium mixed-breed dog as the subject.
 
-Home video style phone footage. Gentle, steady one-handed filming.
+Home video style phone footage. Gentle, warm, slightly steadier than before — the shaking hands have calmed too.
 
-American suburban house. Front porch with wooden steps. Backyard visible. Golden hour sunset. Warm orange light.
+American suburban house. Front porch with wooden steps. Backyard visible through railing. Golden hour sunset — warm orange and amber light flooding everything. Quiet evening neighborhood.
 
-Medium mixed-breed dog, male, about 25kg (healthy weight). Beautiful glossy tan/brown coat, full and smooth. Bright clear dark brown eyes. Healthy wet nose. Strong muscular body. Happy relaxed expression. New blue collar with tag.
+Medium mixed-breed dog, male, about 25kg. Healthy weight. Beautiful glossy tan/brown coat, full and smooth. Bright clear dark brown eyes — the same eyes from the highway, but alive now, filled with warmth. Healthy wet nose. Strong body. New blue collar with silver tag. Relaxed, completely at peace.
 
-Mid-30s white man. Short brown hair. Casual flannel shirt. Jeans. Sitting on porch steps.
+Mid-30s white man. Short brown hair. Flannel shirt with sleeves rolled up. Jeans. Sitting on the porch steps, legs stretched out.
 
-0-3s: Wide shot. Golden sunset light on front porch. Man sitting on wooden steps. Healthy dog lying next to him. Peaceful.
+0-3s: Wide shot. Golden light spilling across the front porch. The man sits on the wooden steps, legs out, leaning back on his hands. Next to him, the healthy dog lies on its side, fur glowing in the sunset. Neither is doing anything. They're just being there together. The kind of quiet that only comes from two beings who went through something together.
 — natural transition —
-3-6s: Medium shot. Dog rolls onto side, stretches legs out. Full healthy belly visible. Man's hand scratching dog's chest.
+3-6s: Medium shot. The dog rolls slightly, exposing its belly. Where ribs once jutted like a cage, there's just smooth, full, healthy fur over a well-fed body. The man's hand reaches down and scratches the dog's chest. The dog's back leg kicks once — an involuntary reflex of pure contentment.
 — natural transition —
-6-9s: Close-up on dog's face. Head resting on man's thigh. Eyes half-closed in contentment. New blue collar visible.
+6-9s: Close-up on the dog's face. Its head rests on the man's thigh. Eyes half-closed, eyelids heavy with peace. The new blue collar catches the golden light. The fur around its muzzle glows amber in the sunset. This is the same face from the gravel shoulder — sunken eyes, cracked nose. But you'd never know it now.
 — natural transition —
-9-12s: Close-up on man's hand stroking dog's head gently. Dog's ear flicks with each stroke. Tail wagging slowly on wooden porch.
+9-12s: Close-up on the man's hand resting on the dog's head. His thumb strokes behind the ear slowly. The dog's ear twitches with each stroke. Its tail taps the wooden porch — slow, steady, rhythmic. The same wag. The same rhythm. From the gravel shoulder to this porch. It never stopped.
 — natural transition —
-12-15s: Wide shot pulling back. Man and dog on porch. Sunset behind them. Dog lifts head, licks man's hand once, settles back down. Still.
+12-15s: Medium wide shot. The man and the dog on the porch. Sunset behind them. The dog lifts its head from the man's lap, looks up at him, and licks his hand — once, gently. Then settles back down. The man's hand stays on the dog's head. The tail keeps going. The sun keeps setting. Everything is still.
 
-No background music. Evening birds chirping, distant neighborhood sounds, dog sighing contentedly, tail tapping wood, gentle breeze.
+No background music. Evening birds, distant lawnmower, a neighbor's door closing far away, the dog's slow contented breathing, tail tapping wood — tap, tap, tap — and the quiet sound of a man who has nothing left to say because everything has already been said.
 
-Home video quality. Steady one-handed phone footage. Warm golden hour sunset light. Photorealistic. Peaceful, lingering feel.
+Home video footage. Warm. Golden hour light. Steady. Photorealistic. Peaceful. The kind of ending that stays with you.
 ```
 
-> **한국어 해석:** 마지막 장면 — 완전히 건강하고 행복한 가족이 된 개. / 0-3초: 와이드샷. 현관에 황금빛 석양. 남자가 나무 계단에 앉아 있고 건강한 개가 옆에 누워 있음. 평화로운. / 3-6초: 미디엄샷. 개가 옆으로 굴러 다리를 쭉 뻗음. 건강하고 가득 찬 배가 보임. 남자의 손이 개 가슴을 긁어줌. / 6-9초: 개의 얼굴 클로즈업. 남자의 허벅지에 머리를 기댐. 만족에 차 눈이 반쯤 감김. 새 파란색 목줄 보임. / 9-12초: 남자의 손이 부드럽게 개의 머리를 쓰다듬는 클로즈업. 쓸 때마다 개의 귀가 까딱임. 꼬리가 나무 현관에서 천천히 흔들림. / 12-15초: 뒤로 빠지는 와이드샷. 현관의 남자와 개. 뒤에 석양. 개가 머리를 들어 남자의 손을 한 번 핥고, 다시 내려놓음. 고요.
+> **한국어 해석:** 0-3초: 와이드샷. 현관에 쏟아지는 황금빛. 남자가 나무 계단에 앉아 다리를 뻗고 손을 뒤로 짚고 있음. 옆에 건강한 개가 옆으로 누워 있고 털이 석양에 빛남. 아무것도 하지 않음. 그냥 함께 있는 것. 무언가를 함께 겪은 두 존재만이 가질 수 있는 그런 고요함. / 3-6초: 미디엄샷. 개가 살짝 굴러 배를 보임. 한때 새장처럼 튀어나왔던 갈비뼈 자리에 매끄럽고 풍성한 건강한 털만. 남자의 손이 내려와 개의 가슴을 긁어줌. 개의 뒷다리가 한 번 까딱 — 순수한 만족의 무의식적 반사. / 6-9초: 개의 얼굴 클로즈업. 남자의 허벅지에 머리를 기댐. 눈이 반쯤 감기고, 평화로움에 눈꺼풀이 무거움. 새 파란 목줄이 황금빛을 받음. 주둥이 주변의 털이 석양에 호박색으로 빛남. 자갈 갓길에서 보았던 그 얼굴 — 움푹 꺼진 눈, 갈라진 코. 하지만 이제는 알아볼 수 없음. / 9-12초: 남자의 손이 개의 머리 위에 놓인 클로즈업. 엄지가 귀 뒤를 천천히 쓰다듬. 쓸 때마다 개의 귀가 까딱. 꼬리가 나무 현관을 침 — 느리고, 꾸준하고, 리듬감 있게. 같은 꼬리 흔듦. 같은 리듬. 자갈 갓길에서 이 현관까지. 멈춘 적이 없음. / 12-15초: 미디엄 와이드샷. 현관의 남자와 개. 뒤에 석양. 개가 남자 무릎에서 머리를 들고, 올려보고, 손을 한 번 핥음 — 부드럽게. 다시 내려놓음. 남자의 손은 개의 머리에 그대로. 꼬리는 계속. 해는 계속 지고. 모든 것이 고요.
 
 ---
 
@@ -412,21 +398,21 @@ Home video quality. Steady one-handed phone footage. Warm golden hour sunset lig
 **메인:** He Could Barely Stand, But His Tail Never Stopped Wagging
 
 - **YouTube:** He could barely stand but his tail never stopped wagging
-- **Instagram:** Found a skeleton on the highway. Then it wagged its tail 💔
+- **Instagram:** Found a skeleton on the highway. Then it wagged its tail
 - **TikTok:** I found him on the highway with every rib showing... #rescue #straydog #transformation
 
 ### 후킹 옵션
 - **감정형:** "His bones were showing but his heart was still full"
-- **호기심형:** "I pulled over for what I thought was trash on the highway"
+- **호기심형:** "I pulled over for what I thought was a pile of rags"
 - **결과형:** "From 15kg skeleton to 25kg of pure love — 3 months"
 
 ---
 
 ## 사용 방법
 
-1. 동물 캐릭터 참조 이미지를 준비 (@Image1용)
+1. @Image1, @Image2 이미지 프롬프트로 참조 이미지 생성
 2. 각 Scene의 Seedance 2.0 Prompt를 복사
-3. Seedance 2.0에 프롬프트 + @Image1 참조 이미지 입력
+3. Seedance 2.0에 프롬프트 + @Image 참조 이미지 입력
 4. 생성된 영상 다운로드
 5. 편집 소프트웨어에서 순서대로 배치
 6. 선택한 플랫폼 제목으로 업로드
