@@ -54,11 +54,11 @@ No background music. Refrigerator humming faintly from kitchen. Cat's tiny "mrrp
 
 ## Clip 2 — Siamese / kitchen / dumb
 
-**Caption (EN)**: "He thought the glass was open. It was not."
+**Caption (EN)**: "Glass: 1, Cat: 0"
 
 ```
 // Story: Compilation video — 8 stupid cats. Clip 2/8 — independent clip.
-// Caption (EN, 1 line): "He thought the glass was open. It was not."
+// Caption (EN, 1 line): "Glass: 1, Cat: 0"
 
 10-second single continuous shot.
 
@@ -77,7 +77,7 @@ No background music. Cat's sprint pattering on tile. Loud thud of cat hitting gl
 
 > **한국어 해석:**
 > // 스토리: 컴필레이션 영상 — 멍청한 고양이 8마리. 클립 2/8 — 독립 클립.
-> // 캡션 (영문, 1줄): "유리가 열린 줄 알았음. 아니었음."
+> // 캡션 (영문, 1줄): "유리: 1, 고양이: 0"
 >
 > 10초 단일 연속 컷.
 >
