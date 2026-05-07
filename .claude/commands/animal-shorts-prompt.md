@@ -44,6 +44,50 @@
 
 ---
 
+## 🔥 대사 + 사운드 + 행동 규칙 (Seedance 2.0 직접 명시형) — 2026-05-07
+
+**Seedance 2.0은 텍스트에 명시된 것만 생성한다. 간접 표현은 무시됨 — Sora2와 정반대.**
+
+### 영어 대사 (직접 발화)
+- ✅ **영어 대사는 따옴표 안에 구체적으로 작성** — Seedance가 그대로 발화함
+- ❌ **한국어 대사 금지** (글로벌 타겟)
+- ❌ **간접 가이드형은 발화 안 됨** — 모델이 무시하고 무음 처리
+
+```
+❌ Woman gasps as she notices the injury (무시됨, 무음)
+✅ Woman gasps and whispers, "Oh my god... she's hurt."
+
+❌ Man calls urgently toward the dog
+✅ Man yells, "Come here, buddy! Come on!"
+```
+
+### 동물 소리 + 행동 (반드시 결합)
+- ✅ **행동 + 소리를 함께 명시** — Seedance가 둘 다 생성
+- ❌ **추상적 형용사 단독 금지** (`scared`, `happy` 등)
+
+```
+❌ Dog whimpering softly (불충분)
+✅ Dog lowers its head, whimpers loudly, then licks its own paw.
+
+❌ Cat looks afraid
+✅ Cat flattens its ears, hisses once, then backs into the corner.
+```
+
+### 사운드 (행동과 인과로 연결)
+- ✅ 소리가 발생하는 가시적 원인을 함께 명시
+
+```
+❌ Tense atmosphere (추상 — 무시)
+✅ Both hold their breath. Only wind and a distant car horn.
+
+❌ Rain, dog whimpering
+✅ Heavy rain hitting the metal car roof. Dog whimpers and paws at the door.
+```
+
+**이유**: Seedance 2.0은 명시적 텍스트가 있어야 발화/행동/소리를 생성. 모호한 묘사("uneasy stillness", "soft speaking")는 그대로 무시되어 무음·무동작 클립이 나옴. Sora2 시절의 "indirect guidance only" 규칙은 더 이상 유효하지 않다.
+
+---
+
 ## Multi-Shot 프롬프트 구조 (6단계)
 
 ### 모든 프롬프트에 반드시 포함할 요소:
@@ -186,13 +230,13 @@ Suburban park in Seattle, Washington. Night. Heavy rain. Wooden bench. Street la
 
 Small white Maltese, about 3kg adult. White fur soaked and flattened by rain. Pink collar with bell. Large round brown eyes.
 
-0-5s: Extreme close-up. Puppy's eyes. Raindrops.
+0-5s: Extreme close-up. Puppy's eyes. Raindrops streaming down. Puppy whimpers softly.
 — natural transition —
-5-10s: Pull back to medium shot. Full body tied to bench leg.
+5-10s: Pull back to medium shot. Full body tied to bench leg by the rope. Puppy lowers its head and lets out a small cry.
 — natural transition —
-10-15s: Slow digital zoom in. Puppy lifts head slightly.
+10-15s: Slow digital zoom in. Puppy lifts head slightly toward the camera. Filmmaker whispers off-screen, "Oh no... oh no, what did they do to you?"
 
-No background music. Heavy rain, thunder, puppy breathing, collar bell clinking.
+No background music. Heavy rain hitting the wooden bench. Distant thunder rumbling. Puppy whimpering throughout. Collar bell clinking with each tremble. Filmmaker's quick shaky breathing.
 
 Amateur phone footage quality. Shaky. Phone flashlight only. Raw, unedited feel.
 ```
@@ -431,12 +475,18 @@ Yes: "Unsteady amateur footage, phone flashlight only"
 - **서브샷 시퀀스를 시간 분할 형태로 작성**
 - **모든 서브샷에 개별 자막 포함**
 - **프롬프트 끝에 스타일 수식어 추가**
+- **영어 대사를 따옴표 안에 직접 작성** (Seedance가 발화)
+- **동물 소리 + 행동을 결합해 직접 명시** (e.g. `dog whimpers and lowers head`)
+- **사운드를 가시적 원인과 함께 명시** (e.g. `rain hitting the metal roof`)
 - 구체적이고 시각적인 설명 사용
-- 자연스러운 소리 포함
 
 ### DON'T
 
 - 한국어로 프롬프트 작성 ❌
+- 한국어 대사 ❌ (글로벌 타겟)
+- 간접 가이드형 대사 ❌ (`woman gasps as she notices` → Seedance 무시)
+- 행동 없는 추상 사운드 ❌ (`tense atmosphere`, `soft mood`)
+- 행동 누락된 동물 소리 ❌ (`dog whimpering` 단독)
 - "Same character as before" 같은 참조 표현 ❌
 - "Continuing from previous scene" 같은 연결 표현 ❌
 - 15초 동안 단일 앵글/단일 액션만 묘사 ❌

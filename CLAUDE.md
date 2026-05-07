@@ -191,16 +191,18 @@ Step 6: 파일 저장 + git commit & push → 완료
 - ❌ `여러 앵글에서 편집` (주변인 촬영인데 여러 카메라)
 - ❌ `슬로우 모션`, `매치 컷`
 
-### 사운드 규칙 (중요!)
+### 사운드 규칙 (Seedance 2.0 직접 명시형) — 중요!
 - ❌ 배경음악(BGM)만 없앰: `No background music`
-- ✅ 자연스러운 소리는 반드시 포함:
-  - 동물 소리: fox crying, wolf growling 등
-  - 사람 소리: heavy breathing, footsteps, yelling
-  - 환경음: forest sounds, leaves crunching, tent fabric sounds
+- ✅ **자연스러운 소리는 반드시 + 동물 행동과 결합해 직접 명시**:
+  - 동물: 행동 + 소리 결합 (예: `puppy lowers head and whimpers loudly`, `dog barks twice and tugs at the leash`)
+  - 사람: 행동 + 소리 결합 (예: `woman gasps and steps back`, `man breathes heavily as he runs`)
+  - 환경: 구체적 (예: `rain hitting the metal roof`, `pine needles crunching under boots`)
+- **이유**: Seedance 2.0은 텍스트에 명시된 행동/소리만 생성한다. "happy mood" 같은 추상은 무시함.
 
 ```
 ❌ "No background music, no sounds"
-✅ "No background music, only fox crying, footsteps, heavy breathing"
+❌ "Dog whimpering softly" (불충분 — 행동 누락)
+✅ "No background music. Dog lowers head and whimpers loudly. Woman's heavy breathing. Rain hitting the metal car roof."
 ```
 
 ### 금지 표현 (영화적/비현실적)
@@ -211,20 +213,25 @@ Step 6: 파일 저장 + git commit & push → 완료
 - ❌ `devastating discovery moment`
 - ❌ 과장된 형용사, 문학적 표현
 
-### 대사 규칙 (영구 적용) — 간접 가이드형만 사용
-- ✅ **대사는 간접 가이드형으로만 작성** — 상황/톤/의도만 영어 지문으로 서술 (Seedance 2.0 자유도 확보)
-- ❌ **따옴표 안 구체 대사 금지** (영어·한글 불문): Seedance 2.0이 구체 문장을 어색하게 발화함
-- ⚠️ 예외: 1~2단어 짧은 영어 호명/감탄사만 허용 (예: 이름 `"Luna!"`). 문장형 대사는 금지.
-- **이유**: 구체 대사를 주면 AI가 정확히 발화하려다 립싱크/톤이 어색해짐. 상황만 주면 자연스럽게 생성됨.
+### 대사 규칙 (영구 적용) — Seedance 2.0 직접 명시형 (2026-05-07 전면 변경)
+- ✅ **영어 대사는 따옴표 안에 구체적으로 작성** — Seedance 2.0이 작성된 텍스트를 그대로 발화함
+- ✅ **동물 소리·행동도 구체·직접적으로 명시** — 행동과 소리를 결합 (예: `dog whines and paws at the door`)
+- ❌ **한국어 대사 금지** (글로벌 타겟)
+- ❌ **간접 가이드형 금지** — Seedance 2.0은 간접 표현을 발화/생성하지 않고 무시함 (Sora2와 정반대)
+- **이유**: Seedance 2.0은 명시적 텍스트가 있어야 발화/행동을 생성한다. 간접 가이드("woman gasps as she notices")만 주면 모델이 해당 행동을 표현하지 않는다. Sora2 시절 규칙은 더 이상 유효하지 않다.
 
 ```
-❌ "Woman whispers 'Oh my god… she's hurt'"
-✅ "Woman gasps, whispering as she notices the injury"
+❌ "Woman gasps, whispering as she notices the injury" (Seedance 무시)
+✅ Woman gasps and whispers, "Oh my god... she's hurt."
 
-❌ "Man shouts 'Come here!'"
-✅ "Man calls urgently toward the dog"
+❌ "Man calls urgently toward the dog" (불충분)
+✅ Man yells, "Come here, buddy! Come on!"
 
-⚠️ 예외 (1~2단어 호명만): "Woman calls 'Luna!' sharply"
+❌ "Dog whimpering softly" (행동/감정 누락)
+✅ Dog lowers its head, whimpers loudly, then licks its own paw.
+
+❌ "Tense silence" (추상 — 무시됨)
+✅ Both hold their breath. Only wind and a distant car horn.
 ```
 
 ### 올바른 예시

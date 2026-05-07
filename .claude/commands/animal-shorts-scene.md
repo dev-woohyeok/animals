@@ -25,6 +25,14 @@
 - 서브샷 간 전환 = 시간 경과 전환
 - **⚠️ Scene 1은 예외: 단일 연속 장면으로 연출 (서브샷 분할 금지!)**
 
+### 3. 서브샷 description은 직접 명시형 (Seedance 2.0 규칙 — 2026-05-07)
+
+- 각 서브샷의 `description`에 **구체적 행동 + 동물 소리 + 영어 대사(있으면 따옴표)** 를 직접 작성
+- ❌ 추상 표현 금지: `tense atmosphere`, `dog whimpering` (불충분), `woman reacts emotionally`
+- ✅ 구체 작성: `dog lowers head and whimpers loudly`, `woman gasps and whispers "Oh my god"`
+- **이유**: 다음 단계 `/animal-shorts-prompt` 에서 description을 그대로 활용 — 추상이면 Seedance 2.0이 무시함
+- 자세한 규칙은 `prompts/seedance2_system.md` Dialogue + Action Rules 섹션 참조
+
 ---
 
 ## 장면 분할 규칙
@@ -113,15 +121,15 @@ scenes:
       - beat: 1
         time: "0-5s"
         shot_type: "medium"
-        description: "여자가 벤치 쪽으로 다가간다"
+        description: "여자가 벤치 쪽으로 천천히 다가가 무릎을 굽힌다. 강아지가 한 발 뒤로 물러나며 작게 으르렁거린다(low growl). 여자가 부드럽게 \"It's okay, sweetie. I'm here.\""
       - beat: 2
         time: "5-10s"
         shot_type: "close-up"
-        description: "강아지 얼굴. 떨림. 줄에 묶인 모습"
+        description: "강아지 얼굴. 몸이 떨리고 코를 킁킁거리며 작게 낑낑거린다(whimpering). 줄이 벤치 다리에 팽팽하게 묶여 있고 비에 젖어 늘어짐."
       - beat: 3
         time: "10-15s"
         shot_type: "close-up (bridge)"
-        description: "여자의 손이 줄을 풀기 시작"
+        description: "여자의 손이 매듭을 풀기 시작한다. 줄이 삐걱거린다. 여자가 깊은 숨을 쉬며 \"Come on, come on...\" 강아지가 머리를 들어 올린다."
 
     camera:
       primary_movement: "handheld POV"

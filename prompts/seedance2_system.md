@@ -12,26 +12,53 @@ Convert scene descriptions (with sub-shots) into optimized Seedance 2.0 prompts 
 - 시스템 지시 및 코멘트 = **한국어**
 - 자막 캡션만 영문 + 한글 병기
 
-### Dialogue Rules (Permanent) — Indirect Guidance Only
+### Dialogue + Action Rules (Permanent) — Seedance 2.0 Direct-Explicit (changed 2026-05-07)
 
-**Core principle: No quoted dialogue. Describe situation/tone/intent only.**
+**Core principle: Seedance 2.0 only generates what is explicitly written. Indirect/implied descriptions are ignored.**
 
-- Camera/action/environment descriptions = **English**
-- Dialogue = **indirect guidance only** — describe what emotion, what purpose, what tone
-- No quoted dialogue in any language: `"Oh my god"`, `"Come here!"` etc.
-- Only exception: 1-2 word character name calls (e.g., `"Luna!"`)
+This is the OPPOSITE of Sora2. Seedance 2.0 will not infer dialogue, animal sounds, or specific actions — they must be stated directly in the prompt.
+
+#### English Dialogue
+- ✅ **Write English dialogue inside quotes** — Seedance 2.0 speaks the literal text
+- ❌ **No Korean dialogue** (global/North America target)
+- ❌ **No indirect guidance** — Seedance ignores it and produces silence
 
 ```
-No: Woman whispers "Oh my god... she's hurt"
-Yes: Woman gasps, whispering as she notices the injury
+No (Seedance ignores): Woman gasps, whispering as she notices the injury
+Yes: Woman gasps and whispers, "Oh my god... she's hurt."
 
-No: Man shouts "Come here!"
-Yes: Man calls urgently toward the dog
+No: Man calls urgently toward the dog
+Yes: Man yells, "Come here, buddy! Come on!"
 
-Exception (name only): Woman calls "Luna!" sharply
+No: Filmmaker's quiet, soothing voice
+Yes: Filmmaker says softly, "It's okay. You're safe now."
 ```
 
-**Why indirect**: Seedance 2.0 generates more natural speech when given situation context rather than exact lines.
+#### Animal Sounds + Actions (combine action + sound, not just adjectives)
+- ✅ **State the action AND the sound together** so Seedance generates both
+- ❌ **No abstract emotion words alone** (`scared`, `happy`) — pair with concrete action
+
+```
+No (insufficient): Dog whimpering softly
+Yes: Dog lowers its head, whimpers loudly, then licks its own paw.
+
+No: Cat looks scared
+Yes: Cat flattens its ears, hisses once, then backs into the corner.
+
+No: Fox crying
+Yes: Fox lets out a high-pitched cry, paws at the trap, then cries again.
+```
+
+#### Filmmaker / Bystander Reactions
+- ✅ Specify the audible reaction directly (gasps, sobs, says, "Luna!")
+- ❌ Don't write only mood
+
+```
+No: Filmmaker reacts emotionally
+Yes: Filmmaker gasps loudly, then says, "What... what happened to you?"
+```
+
+**Why direct**: Seedance 2.0 is text-driven. If a sound, line, or specific action is not in the prompt, it does not appear in the video. The Sora2-era "indirect guidance" rule does NOT apply here and produces silent/empty clips.
 
 ---
 
@@ -307,16 +334,22 @@ Seedance 2.0 **auto-generates** sound effects and background music. Guide the au
 | `tense silence` | Minimal sound design |
 | `gentle, warm atmosphere` | Mood-based audio |
 
-### Sound Design Rules
-```
-No: "No background music, no sounds" (too restrictive)
-Yes: "No background music. Natural ambient sound only — rain, dog whimpering, footsteps, heavy breathing."
+### Sound Design Rules — Direct-Explicit (Seedance 2.0)
+Seedance 2.0 only generates sounds that are explicitly named AND tied to a visible cause. Bare adjectives produce silence.
 
-Always include:
-- Animal sounds: whimpering, growling, barking, tail wagging
-- Human sounds: breathing, footsteps, soft speaking
-- Environment: rain, city noise, birds, wind
 ```
+No: "No background music, no sounds"  (too restrictive)
+No: "Tense atmosphere"                  (abstract — ignored)
+No: "Dog whimpering"                    (sound without action — weak result)
+
+Yes: "No background music. Dog lowers head and whimpers loudly. Woman breathes heavily. Rain hits the metal car roof. Pine needles crunch under boots."
+```
+
+**Always pair sound with the action that produces it:**
+- Animal: `dog barks twice and tugs the leash`, `cat hisses and arches its back`, `fox yelps and limps`
+- Human: `woman gasps and steps back`, `man shouts "Hey!" and runs forward`, `filmmaker sobs quietly`
+- Environment: `rain hitting the metal roof`, `wind pushing the tent fabric`, `gravel crunching under tires`
+- Object: `chain dragging on concrete`, `phone flashlight clicking on`, `car door slamming shut`
 
 ---
 
@@ -387,9 +420,9 @@ Small mixed-breed puppy, about 4kg, 4-5 months old. Short tan fur soaked in rain
 
 Late 20s white woman's hands visible. Yellow rain jacket sleeves.
 
-0-15s: One continuous take. Phone flashlight sweeps across dark park. Beam finds small puppy huddled under bench, soaked. Puppy looks up at camera, brown eyes reflecting flashlight. Camera shakes as filmmaker gasps.
+0-15s: One continuous take. Phone flashlight sweeps across dark park. Beam finds small puppy huddled under bench, soaked. Puppy looks up at camera and lets out a small whimper. Filmmaker gasps and whispers, "Oh no... what are you doing out here?"
 
-No background music. Heavy rain, thunder, puppy breathing, woman's footsteps on wet ground.
+No background music. Heavy rain hitting the wooden bench. Distant thunder. Puppy whimpers softly. Woman's footsteps splashing through wet ground. Woman's quick breathing.
 
 Amateur phone footage quality. Shaky. Phone flashlight only. Raw, unedited feel.
 ```
@@ -411,13 +444,13 @@ Small mixed-breed puppy, about 4kg, 4-5 months old. Short tan fur soaked and fla
 
 Late 20s white woman. Long brown hair in ponytail. Yellow rain jacket. Jeans.
 
-0-5s: Medium shot from low angle. Woman crouches near bench. Puppy flinches back.
+0-5s: Medium shot from low angle. Woman crouches near bench. Puppy flinches back and whimpers. Woman whispers, "It's okay. I'm not going to hurt you."
 — natural transition —
-5-10s: Close-up on woman's hands working to untie the collar rope from bench leg. Rain dripping.
+5-10s: Close-up on woman's hands working to untie the wet collar rope from the bench leg. Rope creaks. Woman exhales sharply, "Come on, come on..."
 — natural transition —
-10-15s: Close-up on puppy's face. Stops trembling. Looks up at woman.
+10-15s: Close-up on puppy's face. Trembling stops. Puppy looks up at woman and lets out a small soft whine. Woman says quietly, "There you go. Good girl."
 
-No background music. Rain, rope rustling, woman's heavy breathing, puppy whimpering softly.
+No background music. Heavy rain on wood. Wet rope creaking against bench leg. Woman's heavy breathing. Puppy whimpering softly throughout.
 
 Amateur phone footage quality. Shaky. Phone flashlight illumination. Raw feel.
 ```
@@ -498,7 +531,9 @@ After generating each prompt, verify:
 [ ] Sub-shots in time-segmented format (0-5s, 5-10s, 10-15s)?
 [ ] Max 3 sub-shots, each max 5 seconds?
 [ ] Sub-shots are individual mini-scenes (not continuous real-time)?
-[ ] Audio direction included (specific sounds, no BGM)?
+[ ] Audio direction included (specific sounds tied to visible actions, no BGM)?
+[ ] English dialogue (if any) written inside quotes for Seedance to speak?
+[ ] Animal sounds paired with concrete action (not just adjectives)?
 [ ] Style/quality modifiers at end of prompt?
 [ ] Scene 1 is single continuous take (no sub-shot splits)?
 [ ] No forbidden content policy words?
