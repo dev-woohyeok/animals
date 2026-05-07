@@ -1,4 +1,22 @@
 {
   "version": 1,
-  "entries": []
+  "entries": [
+    {
+      "timestamp": "2026-05-07T14:30:00",
+      "mood": "mixed",
+      "queries": [
+        "viral cute kitten tiktok trending moments 2026",
+        "stupid dumb cat compilation tiktok viral 2026 derp",
+        "annoying cats being assholes tiktok viral 2026 menace"
+      ],
+      "sources": [
+        "tiktok.com/discover/cat-trend-right-now",
+        "tiktok.com/discover/stupid-cat-videos",
+        "screenshot-media.com/culture/internet-culture/maxwell-the-cat-tiktok-bully",
+        "tiktok.com/@max2049"
+      ],
+      "added_clip_ids": ["cat_0021", "cat_0022", "cat_0023", "cat_0024", "cat_0025", "cat_0026", "cat_0027", "cat_0028", "cat_0029"],
+      "notes": "Reddit fetch blocked; relied on WebSearch trend insights. Top trends: Siberian crispy meows, senior+kitten dinner duo, cat stair fails, void-staring, Maxwell-style menace cats, pantry raids, tortie revenge."
+    }
+  ]
 }

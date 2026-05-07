@@ -1,0 +1,30 @@
+{
+  "video_id": "cat-mixed-20260507-001",
+  "mood": "mixed",
+  "clips_count": 8,
+  "total_length_seconds": 80,
+  "clip_ids": [
+    "cat_0001",
+    "cat_0007",
+    "cat_0021",
+    "cat_0011",
+    "cat_0014",
+    "cat_0024",
+    "cat_0018",
+    "cat_0027"
+  ],
+  "mood_distribution": {
+    "cute": 3,
+    "dumb": 3,
+    "annoying": 2
+  },
+  "diversity_check": {
+    "unique_breeds": 8,
+    "unique_locations": 8,
+    "unique_primary_tags": 8
+  },
+  "fresh_used": true,
+  "trend_clips_included": ["cat_0021", "cat_0024", "cat_0027"],
+  "created_at": "2026-05-07T14:35:00",
+  "title": "8 Cat Moments You Won't Believe Are Real #1"
+}
