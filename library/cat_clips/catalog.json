@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-07T14:30:00",
+  "last_updated": "2026-05-07T15:10:00",
   "clips": [
     {
       "id": "cat_0001",
@@ -436,6 +436,66 @@
       "trend_source": "tiktok 2026 - tortie revenge trend",
       "added_at": "2026-05-07",
       "popularity": 0.9
+    },
+    {
+      "id": "cat_0030",
+      "breed": "Selkirk Rex",
+      "breed_visual": "curly-coated Selkirk Rex, adult, plush curly cream-and-gray fur, round face, copper eyes, sheep-like appearance",
+      "age_stage": "adult",
+      "location": "Madison Wisconsin mudroom",
+      "location_category": "mudroom",
+      "location_visual": "tile floor, row of winter boots and shoes against wall, hanging coats, warm overhead light",
+      "situation": "Cat steps into a single tall winter boot to investigate, gets one front paw stuck inside, falls over with the boot still on its leg, lies on side staring at ceiling",
+      "point": "dumb",
+      "tags": ["shoe_stuck", "boot_paw", "fall_over", "ceiling_stare"],
+      "trend_source": "tiktok 2026 - cat stuck in shoe trend",
+      "added_at": "2026-05-07",
+      "popularity": 0.9
+    },
+    {
+      "id": "cat_0031",
+      "breed": "Tabby domestic shorthair",
+      "breed_visual": "classic brown tabby domestic shorthair, young adult, lean athletic build, mackerel stripes, yellow-green eyes",
+      "age_stage": "young",
+      "location": "Asheville North Carolina attic",
+      "location_category": "attic",
+      "location_visual": "exposed wooden roof beams, dusty boxes stacked below, single hanging bulb, slanted ceiling",
+      "situation": "Cat is sitting on a high wooden beam looking down, lets out a long anxious meow, walks back and forth on beam unable to figure out how to get down, meows again louder",
+      "point": "dumb",
+      "tags": ["beam_stuck", "high_perch_regret", "anxious_meow", "rescue_needed"],
+      "trend_source": "tiktok 2026 - cat fails compilation trend",
+      "added_at": "2026-05-07",
+      "popularity": 0.9
+    },
+    {
+      "id": "cat_0032",
+      "breed": "Cymric (longhair Manx)",
+      "breed_visual": "tailless longhaired Cymric cat, adult, fluffy gray-and-white coat, no tail, round face, large amber eyes",
+      "age_stage": "adult",
+      "location": "Charleston backyard deck",
+      "location_category": "deck",
+      "location_visual": "wooden plank deck with narrow gaps between boards, potted herbs in corner, bright midday sun",
+      "situation": "Cat tries to walk across deck planks, miscalculates, gets one back paw wedged into a gap between boards, freezes in place, looks at owner with betrayed expression",
+      "point": "dumb",
+      "tags": ["deck_gap_stuck", "betrayed_face", "freeze_in_place", "paw_wedged"],
+      "trend_source": "tiktok 2026 - cat stuck moments compilation",
+      "added_at": "2026-05-07",
+      "popularity": 0.85
+    },
+    {
+      "id": "cat_0033",
+      "breed": "Lykoi (werewolf cat)",
+      "breed_visual": "Lykoi werewolf cat, young adult, partial sparse coat with bald patches around face, gray-and-black coloring, gold eyes, eerie appearance",
+      "age_stage": "young",
+      "location": "Brooklyn townhouse foyer",
+      "location_category": "foyer",
+      "location_visual": "small entryway with hardwood floor, console table, small mirror, soft warm light",
+      "situation": "Cat suddenly starts spinning in tight rapid circles in place chasing nothing, spins five rotations, stops, stares blankly forward, spins again",
+      "point": "dumb",
+      "tags": ["spinning_oiiai", "rapid_circles", "blank_stare", "brainrot"],
+      "trend_source": "tiktok 2026 - OIIIAI spinning cat brainrot trend",
+      "added_at": "2026-05-07",
+      "popularity": 0.95
     }
   ]
 }
