@@ -158,6 +158,7 @@ Step 6: 파일 저장 + git commit & push → 완료
 13. **프롬프트 언어 = 한국어**: 사용자가 직접 읽고 수정 가능하도록 모든 프롬프트는 한국어로 작성
 14. **서브샷 간 전환 프롬프트**: 서브샷 사이에 `— natural transition —` 필수. 영화식 전환(cut, dissolve, fade) 금지
 15. **스타일 수식어**: 모든 프롬프트 끝에 `Amateur phone footage quality. Slightly shaky. Natural lighting. Photorealistic.` 등 품질/분위기 키워드 추가
+16. **캐릭터 이미지 자동 생성**: 최종 export 단계에서 prompts.md 의 `### @ImageN` 캐릭터 시트 프롬프트를 글로벌 CLIProxyAPI(`http://localhost:8317/v1/images/generations`, 모델 `gpt-image-2`, 키 `cpa-local-dev`)로 호출해 `projects/{slug}/characters/imageN_<name>.png`로 저장. prompts.md와 한 폴더에 묶음 출력
 
 ## 🔒 프롬프트 스타일 (영구 고정 - 절대 변경 금지)
 

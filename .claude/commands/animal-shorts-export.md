@@ -13,7 +13,12 @@
 ## 저장 위치
 
 ```
-projects/{slug}/prompts.md
+projects/{slug}/
+├── prompts.md             # 스토리/씬/Seedance 프롬프트 (필수)
+└── characters/            # @Image* 캐릭터 시트 PNG (자동 생성)
+    ├── image1_<name>.png
+    ├── image2_<name>.png
+    └── image3_<name>.png  # 캐릭터 수만큼
 ```
 
 **slug 생성 규칙**:
@@ -23,6 +28,59 @@ projects/{slug}/prompts.md
 - 날짜 추가 (YYYYMMDD)
 
 예: `hedgehog-family-20250107`
+
+---
+
+## 🖼️ 캐릭터 이미지 자동 생성 (영구 적용 — 2026-05-07)
+
+**prompts.md 저장 직후, prompts.md 안의 모든 `### @ImageN — <이름>` 캐릭터 시트 프롬프트를 추출해 `characters/` 폴더에 PNG로 자동 생성한다.**
+
+### 호출 방식
+
+로컬 CLIProxyAPI(글로벌 실행 중) → OpenAI 호환 엔드포인트:
+
+```bash
+curl -s -X POST http://localhost:8317/v1/images/generations \
+  -H "Authorization: Bearer cpa-local-dev" \
+  -H "Content-Type: application/json" \
+  --data-binary @<payload.json>
+```
+
+- 모델: **`gpt-image-2`** (Codex OAuth 백엔드로 라우팅됨)
+- size: `1024x1024` (캐릭터 시트 기본)
+- n: 1
+- 응답: `.data[0].b64_json` → base64 디코드 후 PNG 저장
+
+### 자동 생성 워크플로우
+
+1. prompts.md 의 `### @Image[0-9]+ — (.+)` 헤더와 그 아래 첫 ` ``` ... ``` ` 코드블록을 파싱
+2. 각각을 병렬로 호출 (백그라운드 프로세스 + `wait`)
+3. 파일명: `image{N}_{slug-of-name}.png` (이름 슬러그는 한글 → 영문 가능 시 영문, 아니면 한글 그대로 + 하이픈)
+4. 저장 직후 사이즈 검증 (>50KB면 정상으로 간주)
+5. 실패한 캐릭터만 콘솔에 경고하고 워크플로우는 멈추지 않음
+
+### 실행 셸 (참고 템플릿)
+
+```bash
+DIR="projects/{slug}/characters"
+mkdir -p "$DIR"
+
+# prompts.md 에서 캐릭터 프롬프트 추출 → JSON payload 만들기 → 병렬 호출
+# (실제 구현은 sed/awk/jq로 파싱)
+
+curl -s -X POST http://localhost:8317/v1/images/generations \
+  -H "Authorization: Bearer cpa-local-dev" \
+  -H "Content-Type: application/json" \
+  --data-binary @<payload.json> \
+| jq -r '.data[0].b64_json' \
+| base64 -d > "$DIR/image1_<name>.png"
+```
+
+### 안내
+
+- CLIProxyAPI가 꺼져 있으면(`curl: (7)`) 경고만 출력하고 prompts.md만 저장
+- 호출 실패 시: prompts.md에 한 줄 추가 → `> ⚠️ characters/imageN_*.png 생성 실패. cliproxyapi 상태 확인 후 재실행 필요.`
+- 성공 시: prompts.md 끝 「사용 방법」 섹션에 "캐릭터 이미지는 `characters/` 폴더에 생성됨" 한 줄 추가
 
 ---
 
@@ -154,10 +212,12 @@ projects/{slug}/prompts.md
 ```
 ✅ 파일이 저장되었습니다!
 
-📁 위치: projects/{slug}/prompts.md
+📁 위치: projects/{slug}/
+   ├── prompts.md
+   └── characters/  (이미지 N장 생성됨)
 
 📋 다음 단계:
-1. 동물 캐릭터 참조 이미지 준비 (@Image1)
+1. characters/ 폴더의 PNG들을 Seedance 2.0에 @Image1, @Image2, @Image3... 으로 업로드
 2. 각 Scene의 Seedance 2.0 Prompt를 복사
 3. Seedance 2.0에 프롬프트 + 참조 이미지 입력
 4. 생성된 영상을 편집하고 업로드
