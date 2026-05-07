@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_updated": "2026-05-07T15:10:00",
+  "last_updated": "2026-05-07T15:50:00",
   "clips": [
     {
       "id": "cat_0001",
@@ -496,6 +496,51 @@
       "trend_source": "tiktok 2026 - OIIIAI spinning cat brainrot trend",
       "added_at": "2026-05-07",
       "popularity": 0.95
+    },
+    {
+      "id": "cat_0034",
+      "breed": "Egyptian Mau",
+      "breed_visual": "spotted Egyptian Mau, adult, silver coat with natural spots, gooseberry green eyes, lean wild-looking body, dark M marking on forehead",
+      "age_stage": "adult",
+      "location": "Denver Colorado rooftop deck",
+      "location_category": "rooftop",
+      "location_visual": "urban rooftop deck overlooking neighborhood, low railing, evening dusk light, distant city skyline",
+      "situation": "Cat sits like a gargoyle on rooftop ledge surveying the entire neighborhood, slowly turns head toward camera with intense unblinking glare, low growl, lashes tail once, then leaps off ledge to chase something below",
+      "point": "annoying",
+      "tags": ["overlord_glare", "rooftop_throne", "neighborhood_menace", "villain_era"],
+      "trend_source": "tiktok 2026 - villain era cat / Maxwell-style menace evolution",
+      "added_at": "2026-05-07",
+      "popularity": 0.95
+    },
+    {
+      "id": "cat_0035",
+      "breed": "Chartreux",
+      "breed_visual": "stocky Chartreux cat, adult, blue-gray smiling face, copper-orange eyes, water-resistant double coat, muscular hunter build",
+      "age_stage": "adult",
+      "location": "Cincinnati suburban driveway",
+      "location_category": "driveway",
+      "location_visual": "concrete driveway, parked sedan with sunny hood, two-car garage in background, midday light",
+      "situation": "Cat sits possessively on warm car hood, owner approaches with keys saying excuse me, cat slow-blinks and lets out a single defiant meow, refuses to move, stretches one paw onto the windshield",
+      "point": "annoying",
+      "tags": ["car_hood_sit", "refuses_to_move", "defiant_meow", "morning_commute"],
+      "trend_source": "tiktok 2026 - cat blocking owner's car trend",
+      "added_at": "2026-05-07",
+      "popularity": 0.85
+    },
+    {
+      "id": "cat_0036",
+      "breed": "Singapura",
+      "breed_visual": "tiny Singapura cat, young adult, sepia-tipped brown coat, large hazel-green eyes, small lightweight body (one of smallest cat breeds)",
+      "age_stage": "young",
+      "location": "Tampa apartment bathtub",
+      "location_category": "bathtub",
+      "location_visual": "white empty porcelain bathtub, tiled bathroom walls, harsh bathroom overhead light",
+      "situation": "Cat is alone in dry empty bathtub, suddenly explodes into wild zoomies running in chaotic circles inside the tub, paws skidding loudly on porcelain, runs straight up one wall and crashes back down",
+      "point": "dumb",
+      "tags": ["dry_zoomies", "tub_chaos", "wall_run", "porcelain_skid"],
+      "trend_source": "tiktok 2026 - bathtub zoomies / cat chaos compilation trend",
+      "added_at": "2026-05-07",
+      "popularity": 0.9
     }
   ]
 }
