@@ -35,6 +35,16 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 ```
 → 90초 쇼츠 프롬프트 생성
 
+### 5. TikTok 컴필레이션 쇼츠 (NEW)
+```
+/animal-shorts-compilation [--mood MOOD] [--fresh] [--clips N]
+```
+→ 10초 독립 클립 8개 (총 80초) — 매 클립 다른 품종·장소·시추에이션
+→ `--mood`: `cute` / `dumb` / `annoying` / `mixed` (기본 mixed)
+→ `--fresh`: WebSearch + Reddit으로 트렌드 보강 후 픽
+→ 사용자가 후편집(CapCut 등)으로 이어 붙임
+→ 시리즈 전체 중복 방지 (`library/cat_clips/used.json` 누적)
+
 ### 예시
 ```
 # 바이럴 공식 (추천)
@@ -55,32 +65,39 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 ```
 animals/
 ├── .claude/commands/     # Claude Code 스킬
-│   ├── animal-shorts.md        # 메인 워크플로우
-│   ├── animal-shorts-viral.md    # 바이럴 공식 통합 진입점
-│   ├── animal-shorts-formula1.md # 서프라이즈 공식 (S티어)
-│   ├── animal-shorts-formula2.md # 분노+구조 공식 (A티어)
-│   ├── animal-shorts-research.md # 스토리 리서치 에이전트
-│   ├── animal-shorts-analyze.md  # 쇼츠 영상 분석
-│   ├── animal-shorts-story.md  # 스토리 생성
-│   ├── animal-shorts-scene.md  # 장면 분할
-│   ├── animal-shorts-prompt.md # Seedance 2.0 프롬프트
-│   ├── animal-shorts-title.md  # 제목 생성
-│   └── animal-shorts-export.md # 파일 출력
+│   ├── animal-shorts.md              # 메인 워크플로우 (감동물)
+│   ├── animal-shorts-viral.md          # 바이럴 공식 통합 진입점
+│   ├── animal-shorts-formula1.md       # 서프라이즈 공식 (S티어)
+│   ├── animal-shorts-formula2.md       # 분노+구조 공식 (A티어)
+│   ├── animal-shorts-compilation.md    # TikTok 컴필레이션 쇼츠 (10초×8)
+│   ├── animal-shorts-research.md       # 스토리 리서치 에이전트
+│   ├── animal-shorts-analyze.md        # 쇼츠 영상 분석
+│   ├── animal-shorts-story.md          # 스토리 생성
+│   ├── animal-shorts-scene.md          # 장면 분할
+│   ├── animal-shorts-prompt.md         # Seedance 2.0 프롬프트
+│   ├── animal-shorts-title.md          # 제목 생성
+│   └── animal-shorts-export.md         # 파일 출력
 │
 ├── prompts/              # 시스템 프롬프트 (스킬에서 참조)
 │   ├── research_system.md      # 리서치 에이전트 시스템
 │   ├── story_system.md
 │   ├── scene_system.md
-│   ├── seedance2_system.md     # Seedance 2.0 프롬프트 시스템
+│   ├── seedance2_system.md     # Seedance 2.0 프롬프트 시스템 (감동물)
+│   ├── compilation_system.md   # Seedance 2.0 컴필레이션 시스템 (NEW)
 │   ├── translation_system.md
 │   └── title_system.md
 │
 ├── library/              # 라이브러리
 │   ├── best_practices/   # Seedance 2.0 모범 사례
-│   └── templates/        # 스토리 템플릿
+│   ├── templates/        # 스토리 템플릿
+│   └── cat_clips/        # 컴필레이션 카탈로그 (NEW)
+│       ├── catalog.json      # 전체 클립 카탈로그
+│       ├── used.json         # 사용 추적 (시리즈 전체 중복 방지)
+│       └── search_log.json   # --fresh 검색 히스토리
 │
 ├── config/styles/        # 스타일 프리셋
 ├── output/               # 출력 예시
+├── docs/plans/           # 디자인 문서
 └── projects/             # 생성된 프로젝트 저장
 ```
 
@@ -267,6 +284,7 @@ Step 6: 파일 저장 + git commit & push → 완료
 | `story_system.md` | Key Concepts (스토리 관련) |
 | `title_system.md` | 제목 규칙 |
 | `caption_system.md` | Key Concepts (자막 관련) |
+| `compilation_system.md` | 사용법 5번 (컴필레이션 전용 룰: 10초 단일 / 캐릭터 시트 없음 / 영문 1줄 자막) |
 
 ## Git 규칙
 
