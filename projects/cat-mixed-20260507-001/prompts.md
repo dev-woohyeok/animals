@@ -54,11 +54,11 @@ No background music. Soft purring throughout. Faint distant traffic outside the 
 
 ## Clip 2 — Sphynx / home_office / cute
 
-**Caption (EN)**: "He uses my shoulder as his bed every WFH day"
+**Caption (EN)**: "He has not moved in 2 hours"
 
 ```
 // Story: Compilation video — 8 cat moments. Clip 2/8 — independent clip.
-// Caption (EN, 1 line): "He uses my shoulder as his bed every WFH day"
+// Caption (EN, 1 line): "He has not moved in 2 hours"
 
 10-second single continuous shot.
 
@@ -77,7 +77,7 @@ No background music. Soft snoring from cat. Quiet keyboard typing. Distant kitch
 
 > **한국어 해석:**
 > // 스토리: 컴필레이션 영상 — 고양이 모먼트 8개. 클립 2/8 — 독립 클립.
-> // 캡션 (영문, 1줄): "재택근무 날마다 내 어깨를 침대로 씀"
+> // 캡션 (영문, 1줄): "벌써 2시간째 안 움직임"
 >
 > 10초 단일 연속 컷.
 >
