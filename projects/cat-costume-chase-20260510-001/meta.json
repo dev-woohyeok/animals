@@ -1,0 +1,27 @@
+{
+  "video_id": "cat-costume-chase-20260510-001",
+  "format": "single_clip_15s",
+  "subshots": 3,
+  "subshot_duration_s": 5,
+  "total_duration_s": 15,
+  "model": "seedance_2",
+  "reference_url": "https://www.tiktok.com/@petflix07/video/7508026932664044807",
+  "reference_note": "TikTok blocked WebFetch; recreated from user-described 4-beat story",
+  "story_beats": [
+    "owner shows new costume to camera proudly",
+    "cat sees it and bolts",
+    "owner catches cat from under table",
+    "hard cut: cat now in costume staring grumpily"
+  ],
+  "subject": {
+    "animal": "orange tabby cat",
+    "name": "Mochi",
+    "build": "chunky adult, classic mackerel tabby"
+  },
+  "filmer": "late 20s white woman, denim jacket sleeves visible",
+  "location": "Suburban Seattle apartment living room",
+  "costume": "knitted red strawberry hoodie with green felt leaves",
+  "mood": "cute → chase → grumpy",
+  "captions_per_subshot": true,
+  "created": "2026-05-10"
+}
