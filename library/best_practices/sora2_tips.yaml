@@ -1,0 +1,130 @@
+# Sora2 Prompt Best Practices
+
+general_rules:
+  - rule: "구체적인 시각 디테일 포함"
+    description: "모호한 설명 대신 구체적인 시각적 특징 명시"
+    good: "fluffy cream-colored fur with golden undertones, large expressive brown eyes"
+    bad: "cute golden fur"
+    importance: high
+
+  - rule: "카메라 움직임 명시"
+    description: "카메라 동작을 구체적으로 지정"
+    good: "slow dolly shot moving toward the subject, ending in a close-up"
+    bad: "camera moves closer"
+    importance: high
+
+  - rule: "조명 조건 상세 지정"
+    description: "조명의 종류, 방향, 품질 명시"
+    good: "warm golden hour lighting with soft shadows, backlit silhouette"
+    bad: "good lighting"
+    importance: high
+
+  - rule: "분위기/감정 키워드 포함"
+    description: "원하는 감정적 톤을 명확히"
+    good: "melancholic, lonely atmosphere with subtle hope"
+    bad: "sad feeling"
+    importance: medium
+
+  - rule: "동작의 시간적 흐름 설명"
+    description: "15초 동안 일어나는 동작의 시퀀스"
+    good: "The puppy looks up hopefully, then slowly lowers its head as the person walks past"
+    bad: "puppy is sad"
+    importance: medium
+
+consistency_patterns:
+  character_reference:
+    description: "캐릭터 일관성을 위해 매 프롬프트에 동일한 설명 포함"
+    template: "[FULL_CHARACTER_DESC], [ACTION], [CAMERA], [LIGHTING], [MOOD]"
+    example: |
+      A golden retriever puppy with fluffy cream-colored fur,
+      large expressive brown eyes, slightly floppy ears, and
+      a white patch on chest...
+    tips:
+      - "첫 프롬프트에서 정의한 외형을 모든 프롬프트에 복사"
+      - "특징적인 마크(반점, 무늬 등) 반드시 포함"
+      - "크기/나이 관련 설명 일관되게 유지"
+
+  scene_transition:
+    description: "장면 간 부드러운 전환을 위한 패턴"
+    tips:
+      - "같은 배경 요소 유지 (같은 방, 같은 거리)"
+      - "조명 변화는 점진적으로"
+      - "캐릭터 포즈 연속성 고려"
+      - "시간의 흐름 명시 (moments later, the next morning)"
+
+  style_consistency:
+    description: "전체 영상의 스타일 통일"
+    tips:
+      - "첫 프롬프트에서 설정한 렌더링 스타일 유지"
+      - "색상 팔레트 일관성"
+      - "카메라 스타일 (다큐 vs 시네마틱) 통일"
+
+emotional_keywords:
+  sadness:
+    visual: ["muted colors", "grey tones", "overcast sky", "empty spaces"]
+    lighting: ["cold blue lighting", "dim", "shadows"]
+    camera: ["slow movement", "static shots", "wide angles showing isolation"]
+    atmosphere: ["melancholic", "lonely", "isolated", "desolate"]
+
+  hope:
+    visual: ["warm tones emerging", "light breaking through", "upward gaze"]
+    lighting: ["soft warm light", "golden highlights", "sun rays"]
+    camera: ["gentle push in", "upward tilts"]
+    atmosphere: ["hopeful", "anticipating", "yearning"]
+
+  joy:
+    visual: ["bright colors", "movement", "playful action"]
+    lighting: ["bright", "warm", "golden hour", "vibrant"]
+    camera: ["dynamic movement", "tracking shots", "energetic"]
+    atmosphere: ["joyful", "heartwarming", "vibrant", "alive"]
+
+  tension:
+    visual: ["high contrast", "sharp shadows", "close framing"]
+    lighting: ["dramatic", "harsh", "spotlighting"]
+    camera: ["quick cuts", "shallow depth of field", "close-ups"]
+    atmosphere: ["tense", "uncertain", "dramatic"]
+
+  peace:
+    visual: ["soft focus", "gentle movements", "comfortable spaces"]
+    lighting: ["soft diffused", "warm", "even"]
+    camera: ["slow, gentle movement", "wide establishing shots"]
+    atmosphere: ["peaceful", "serene", "content", "calm"]
+
+technical_tips:
+  duration:
+    description: "15초 영상에 적합한 콘텐츠 양"
+    tips:
+      - "하나의 주요 동작 + 미세한 보조 동작"
+      - "카메라 움직임은 1-2가지로 제한"
+      - "급격한 변화 피하기"
+
+  framing:
+    description: "효과적인 프레이밍"
+    tips:
+      - "주요 피사체는 화면의 1/3 지점에"
+      - "배경에 스토리 요소 배치"
+      - "여백 활용으로 감정 전달"
+
+  motion:
+    description: "자연스러운 동작"
+    tips:
+      - "동물 동작은 자연스럽게 (점프, 걷기, 고개 돌리기)"
+      - "인간 동작과의 상호작용 명시"
+      - "미세한 움직임 포함 (귀 움직임, 꼬리 흔들기)"
+
+prompt_structure:
+  recommended_order:
+    - subject_description    # 누가
+    - location_setting       # 어디서
+    - action_description     # 무엇을
+    - camera_movement        # 카메라
+    - lighting               # 조명
+    - atmosphere_mood        # 분위기
+
+  example: |
+    [Subject] A golden retriever puppy with fluffy cream-colored fur...
+    [Setting] sitting alone in a wet cardboard box on a rainy street corner
+    [Action] looks up hopefully at passing pedestrians who ignore it
+    [Camera] Slow dolly shot moving closer to the puppy's face
+    [Lighting] Cold blue-grey lighting with occasional warm streetlight
+    [Mood] Melancholic, lonely atmosphere

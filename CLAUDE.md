@@ -4,7 +4,7 @@ This file provides guidance to Claude Code when working with this repository.
 
 ## Project Overview
 
-**Animal Shorts Agent System** - 동물 관련 감동 쇼츠 영상 제작을 위한 Seedance 2.0 프롬프트 생성 시스템.
+**Animal Shorts Agent System** - 동물 관련 감동 쇼츠 영상 제작을 위한 Sora2 프롬프트 생성 시스템.
 Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 
 ## 사용법
@@ -35,16 +35,6 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 ```
 → 90초 쇼츠 프롬프트 생성
 
-### 5. TikTok 컴필레이션 쇼츠 (NEW)
-```
-/animal-shorts-compilation [--mood MOOD] [--fresh] [--clips N]
-```
-→ 10초 독립 클립 8개 (총 80초) — 매 클립 다른 품종·장소·시추에이션
-→ `--mood`: `cute` / `dumb` / `annoying` / `mixed` (기본 mixed)
-→ `--fresh`: WebSearch + Reddit으로 트렌드 보강 후 픽
-→ 사용자가 후편집(CapCut 등)으로 이어 붙임
-→ 시리즈 전체 중복 방지 (`library/cat_clips/used.json` 누적)
-
 ### 예시
 ```
 # 바이럴 공식 (추천)
@@ -65,39 +55,32 @@ Claude Code 스킬 기반으로 동작하며, Max 구독만으로 사용 가능.
 ```
 animals/
 ├── .claude/commands/     # Claude Code 스킬
-│   ├── animal-shorts.md              # 메인 워크플로우 (감동물)
-│   ├── animal-shorts-viral.md          # 바이럴 공식 통합 진입점
-│   ├── animal-shorts-formula1.md       # 서프라이즈 공식 (S티어)
-│   ├── animal-shorts-formula2.md       # 분노+구조 공식 (A티어)
-│   ├── animal-shorts-compilation.md    # TikTok 컴필레이션 쇼츠 (10초×8)
-│   ├── animal-shorts-research.md       # 스토리 리서치 에이전트
-│   ├── animal-shorts-analyze.md        # 쇼츠 영상 분석
-│   ├── animal-shorts-story.md          # 스토리 생성
-│   ├── animal-shorts-scene.md          # 장면 분할
-│   ├── animal-shorts-prompt.md         # Seedance 2.0 프롬프트
-│   ├── animal-shorts-title.md          # 제목 생성
-│   └── animal-shorts-export.md         # 파일 출력
+│   ├── animal-shorts.md        # 메인 워크플로우
+│   ├── animal-shorts-viral.md    # 바이럴 공식 통합 진입점
+│   ├── animal-shorts-formula1.md # 서프라이즈 공식 (S티어)
+│   ├── animal-shorts-formula2.md # 분노+구조 공식 (A티어)
+│   ├── animal-shorts-research.md # 스토리 리서치 에이전트
+│   ├── animal-shorts-analyze.md  # 쇼츠 영상 분석
+│   ├── animal-shorts-story.md  # 스토리 생성
+│   ├── animal-shorts-scene.md  # 장면 분할
+│   ├── animal-shorts-prompt.md # Sora2 프롬프트
+│   ├── animal-shorts-title.md  # 제목 생성
+│   └── animal-shorts-export.md # 파일 출력
 │
 ├── prompts/              # 시스템 프롬프트 (스킬에서 참조)
-│   ├── research_system.md      # 리서치 에이전트 시스템
+│   ├── research_system.md      # 리서치 에이전트 시스템 (NEW)
 │   ├── story_system.md
 │   ├── scene_system.md
-│   ├── seedance2_system.md     # Seedance 2.0 프롬프트 시스템 (감동물)
-│   ├── compilation_system.md   # Seedance 2.0 컴필레이션 시스템 (NEW)
+│   ├── sora2_system.md
 │   ├── translation_system.md
 │   └── title_system.md
 │
 ├── library/              # 라이브러리
-│   ├── best_practices/   # Seedance 2.0 모범 사례
-│   ├── templates/        # 스토리 템플릿
-│   └── cat_clips/        # 컴필레이션 카탈로그 (NEW)
-│       ├── catalog.json      # 전체 클립 카탈로그
-│       ├── used.json         # 사용 추적 (시리즈 전체 중복 방지)
-│       └── search_log.json   # --fresh 검색 히스토리
+│   ├── best_practices/   # Sora2 모범 사례
+│   └── templates/        # 스토리 템플릿
 │
 ├── config/styles/        # 스타일 프리셋
 ├── output/               # 출력 예시
-├── docs/plans/           # 디자인 문서
 └── projects/             # 생성된 프로젝트 저장
 ```
 
@@ -120,7 +103,7 @@ Step 2: 스토리 생성 → 자동 진행
           ↓
 Step 3: 장면 분할 → 자동 진행
           ↓
-Step 4: Seedance 2.0 프롬프트 → 자동 진행
+Step 4: Sora2 프롬프트 → 자동 진행
           ↓
 Step 5: 제목 생성 → 자동 진행
           ↓
@@ -148,8 +131,8 @@ Step 6: 파일 저장 + git commit & push → 완료
 
 ### 장소 설정 규칙
 - 모든 프롬프트의 장소는 **미국/북미** 기준
-- 예시: "Suburban Seattle", "Colorado mountains", "Portland, Oregon suburb"
-- 실내 장면: "American-style house", "US apartment" 사용
+- 예시: "미국 시애틀 교외", "미국 콜로라도 산악지역", "미국 교외 주택가"
+- 실내 장면: "미국식 주택", "미국 아파트" 사용
 - 절대로 "한국"이라는 단어 사용 금지
 
 ### 제목 규칙 (영구 고정)
@@ -161,21 +144,19 @@ Step 6: 파일 저장 + git commit & push → 완료
 ## Key Concepts
 
 1. **스킬 기반**: Claude Code 스킬로 워크플로우 실행
-2. **@ 참조 시스템**: `@Image1's [animal] as the subject` 로 캐릭터 시각적 일관성 확보. 텍스트 설명으로 씬별 상태 변화 표현
+2. **캐릭터 일관성**: 모든 프롬프트에 동일한 캐릭터 설명 유지
 3. **완전 자동화**: 스토리 선택 1회만 확인, 이후 전부 자동 진행
-4. **오디오 지시**: "No background music, natural ambient sound only" + 구체적 소리 명시. Seedance 2.0이 음향 자동 생성
+4. **배경음악 없음**: 모든 프롬프트에 "No background music, natural ambient sound only" 포함
 5. **자막 포함**: 각 장면의 **서브샷별로** 쇼츠용 캡션 (영문 + 한글) 생성. 씬 전체에 자막 1개 금지 — 서브샷마다 해당 장면에 맞는 자막 개별 작성. 반드시 2줄 줄바꿈. `...`(말줄임표) 사용 금지.
 6. **글로벌 타겟**: 모든 장소는 미국/북미 기준 (한국 절대 금지)
 7. **시간순 전개**: 모든 장면 시간순 배치 (과거 회상/플래시백 절대 금지)
-8. **멀티샷 (Scene 2~6)**: 최대 3개 서브샷 × 최대 5초씩 (5초 초과 절대 금지). **Scene 1은 예외: 단일 연속 장면 (서브샷 분할 금지!)**
+8. **멀티샷 (Scene 2~6)**: 최대 3개 서브샷 × 최대 5초씩 (5초 초과 절대 금지). **⚠️ Scene 1은 예외: 단일 연속 장면 (서브샷 분할 금지!)**
 9. **서브샷 = 개별 미니 씬**: 서브샷은 연속 실시간이 아님! 자연스럽게 연결되지만 시간이 경과해서 구별되는 개별 장면. 같은 순간의 다른 앵글 ❌
-10. **Seedance 2.0 자유도**: 카메라는 상세하게, 상황은 간결하게 (과도한 묘사 금지)
+10. **Sora2 자유도**: 카메라는 상세하게, 상황은 간결하게 (과도한 묘사 금지)
 11. **1인칭 POV 촬영자 = 등장인물**: 손, 옷소매, 목소리가 보이므로 매 프롬프트에 촬영자 캐릭터 설명 필수 (절대 생략 금지)
 12. **90초 이하**: 총 영상 길이 90초 이하. 장면 6개 × 15초 (고정)
-13. **프롬프트 언어 = 한국어**: 사용자가 직접 읽고 수정 가능하도록 모든 프롬프트는 한국어로 작성
-14. **서브샷 간 전환 프롬프트**: 서브샷 사이에 `— natural transition —` 필수. 영화식 전환(cut, dissolve, fade) 금지
-15. **스타일 수식어**: 모든 프롬프트 끝에 `Amateur phone footage quality. Slightly shaky. Natural lighting. Photorealistic.` 등 품질/분위기 키워드 추가
-16. **캐릭터 이미지 자동 생성**: 최종 export 단계에서 prompts.md 의 `### @ImageN` 캐릭터 시트 프롬프트를 글로벌 CLIProxyAPI(`http://localhost:8317/v1/images/generations`, 모델 `gpt-image-2`, 키 `cpa-local-dev`)로 호출해 `projects/{slug}/characters/imageN_<name>.png`로 저장. prompts.md와 한 폴더에 묶음 출력
+13. **참조 이미지 프레임 (0-1초)**: 모든 프롬프트 시작에 `(0-1초) 참조 이미지 프레임. — 1초에 빠른 화면 전환 —` 고정. Sora2가 참조 이미지 배경으로 시작하므로 0-1초는 비워두고 후편집에서 잘라냄
+14. **서브샷 간 전환 프롬프트**: 서브샷 사이에 `— 자연스러운 화면 전환 —` 필수. 영화식 전환(cut, dissolve, fade) 금지
 
 ## 🔒 프롬프트 스타일 (영구 고정 - 절대 변경 금지)
 
@@ -209,18 +190,16 @@ Step 6: 파일 저장 + git commit & push → 완료
 - ❌ `여러 앵글에서 편집` (주변인 촬영인데 여러 카메라)
 - ❌ `슬로우 모션`, `매치 컷`
 
-### 사운드 규칙 (Seedance 2.0 직접 명시형) — 중요!
+### 사운드 규칙 (중요!)
 - ❌ 배경음악(BGM)만 없앰: `No background music`
-- ✅ **자연스러운 소리는 반드시 + 동물 행동과 결합해 직접 명시**:
-  - 동물: 행동 + 소리 결합 (예: `puppy lowers head and whimpers loudly`, `dog barks twice and tugs at the leash`)
-  - 사람: 행동 + 소리 결합 (예: `woman gasps and steps back`, `man breathes heavily as he runs`)
-  - 환경: 구체적 (예: `rain hitting the metal roof`, `pine needles crunching under boots`)
-- **이유**: Seedance 2.0은 텍스트에 명시된 행동/소리만 생성한다. "happy mood" 같은 추상은 무시함.
+- ✅ 자연스러운 소리는 반드시 포함:
+  - 동물 소리: fox crying, wolf growling 등
+  - 사람 소리: heavy breathing, footsteps, yelling
+  - 환경음: forest sounds, leaves crunching, tent fabric sounds
 
 ```
 ❌ "No background music, no sounds"
-❌ "Dog whimpering softly" (불충분 — 행동 누락)
-✅ "No background music. Dog lowers head and whimpers loudly. Woman's heavy breathing. Rain hitting the metal car roof."
+✅ "No background music, only fox crying, footsteps, heavy breathing"
 ```
 
 ### 금지 표현 (영화적/비현실적)
@@ -231,26 +210,28 @@ Step 6: 파일 저장 + git commit & push → 완료
 - ❌ `devastating discovery moment`
 - ❌ 과장된 형용사, 문학적 표현
 
-### 대사 규칙 (영구 적용) — Seedance 2.0 직접 명시형 (2026-05-07 전면 변경)
-- ✅ **영어 대사는 따옴표 안에 구체적으로 작성** — Seedance 2.0이 작성된 텍스트를 그대로 발화함
-- ✅ **동물 소리·행동도 구체·직접적으로 명시** — 행동과 소리를 결합 (예: `dog whines and paws at the door`)
-- ❌ **한국어 대사 금지** (글로벌 타겟)
-- ❌ **간접 가이드형 금지** — Seedance 2.0은 간접 표현을 발화/생성하지 않고 무시함 (Sora2와 정반대)
-- **이유**: Seedance 2.0은 명시적 텍스트가 있어야 발화/행동을 생성한다. 간접 가이드("woman gasps as she notices")만 주면 모델이 해당 행동을 표현하지 않는다. Sora2 시절 규칙은 더 이상 유효하지 않다.
+### 대사 규칙 (영구 적용)
+- ✅ **대사는 반드시 영어로만 작성** (타겟이 미국/북미이므로 등장인물은 영어 사용)
+- ❌ **한글 대사 절대 금지**: `"세상에"`, `"엄마는 어디 갔지"`, `"루나야"` 등 금지
+- ✅ 과도한 구체 대사보다 대사 가이드 선호 (Sora2 자유도 확보)
+- ✅ 짧은 감탄사/호명 정도는 영어로 허용: `"Oh my god…"`, `"Luna!"`, `"Is that you…?"`
 
 ```
-❌ "Woman gasps, whispering as she notices the injury" (Seedance 무시)
-✅ Woman gasps and whispers, "Oh my god... she's hurt."
+❌ "여성이 '세상에… 다쳤어' 하고 속삭인다"
+✅ "여성이 'Oh my god… she's hurt' 하고 속삭인다"
+✅ "여성이 놀라 낮은 목소리로 속삭인다" (가이드형도 OK)
 
-❌ "Man calls urgently toward the dog" (불충분)
-✅ Man yells, "Come here, buddy! Come on!"
+❌ "여자가 '엄마는 어디 갔지' 하고 말한다"
+✅ "여자가 'Where's her mom…' 하고 말한다"
 
-❌ "Dog whimpering softly" (행동/감정 누락)
-✅ Dog lowers its head, whimpers loudly, then licks its own paw.
-
-❌ "Tense silence" (추상 — 무시됨)
-✅ Both hold their breath. Only wind and a distant car horn.
+❌ "소리치며 '저리 가!' 외침"
+✅ "yelling aggressively to scare it away" (가이드형)
+✅ "shouting 'Get away!' aggressively" (짧은 영어 대사 OK)
 ```
+
+**지문(내레이션) vs 대사 구분**:
+- 지문/묘사는 한국어 (프롬프트 본문)
+- 등장인물이 실제로 말하는 따옴표 안 대사는 영어만
 
 ### 올바른 예시
 ```
@@ -279,12 +260,11 @@ Step 6: 파일 저장 + git commit & push → 완료
 ### 동기화 대상
 | 시스템 프롬프트 | CLAUDE.md 섹션 |
 |---------------|---------------|
-| `seedance2_system.md` | 프롬프트 스타일, Key Concepts |
+| `sora2_system.md` | 프롬프트 스타일, Key Concepts |
 | `scene_system.md` | 프롬프트 스타일 (카메라 규칙) |
 | `story_system.md` | Key Concepts (스토리 관련) |
 | `title_system.md` | 제목 규칙 |
 | `caption_system.md` | Key Concepts (자막 관련) |
-| `compilation_system.md` | 사용법 5번 (컴필레이션 전용 룰: 10초 단일 / 캐릭터 시트 없음 / 영문 1줄 자막) |
 
 ## Git 규칙
 
